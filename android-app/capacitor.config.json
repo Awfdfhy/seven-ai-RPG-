@@ -1,0 +1,9 @@
+{
+  "appId": "com.sevenrpg.android",
+  "appName": "Seven RPG",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
