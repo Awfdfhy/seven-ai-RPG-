@@ -1,0 +1,17 @@
+{
+  "id": "example_tree",
+  "name": "Example Tree",
+  "description": "A test skill tree added by the example mod.",
+  "nodes": [
+    {
+      "id": "example.root",
+      "name": "Example Root",
+      "description": "The root of the example tree.",
+      "category": "combat",
+      "node_type": "root",
+      "max_rank": 1,
+      "point_cost": 0,
+      "parent_ids": []
+    }
+  ]
+}

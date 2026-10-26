@@ -1,0 +1,9 @@
+{
+  "id": "example_mod",
+  "name": "Example Mod",
+  "version": "1.0.0",
+  "description": "A demonstration mod that adds a new skill tree and ability.",
+  "author": "SevenRPG",
+  "enabled": true,
+  "data_files": ["abilities.json"]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "template_id": "gather_herbs",
+    "name_template": "Herb Gathering: {herb_name}",
+    "description": "Collect {required_count} {herb_name} for the local herbalist.",
+    "objectives": [
+      {
+        "id": "gather_{herb_slug}",
+        "description": "Gather {required_count} {herb_name}",
+        "required_count": 3,
+        "scale_per_level": 1,
+        "metadata": {"item": "{herb_slug}", "location": "wilderness"}
+      }
+    ],
+    "rewards": [
+      {"type": "gold", "amount": 40, "scale_per_level": 10},
+      {"type": "experience", "amount": 60, "scale_per_level": 15}
+    ],
+    "tags": ["gathering", "exploration"],
+    "metadata": {"prefix": "proc", "difficulty": "easy", "category": "side"}
+  },
+  {
+    "template_id": "clear_bandits",
+    "name_template": "Bandit Trouble on the {road_name}",
+    "description": "Bandits have been ambushing travelers on the {road_name}. Deal with them.",
+    "objectives": [
+      {
+        "id": "clear_{road_slug}_bandits",
+        "description": "Defeat {required_count} bandits near the {road_name}",
+        "required_count": 4,
+        "scale_per_level": 2,
+        "metadata": {"enemy_type": "bandit", "location": "{road_slug}"}
+      }
+    ],
+    "rewards": [
+      {"type": "gold", "amount": 80, "scale_per_level": 20},
+      {"type": "experience", "amount": 120, "scale_per_level": 25}
+    ],
+    "tags": ["combat", "escort"],
+    "metadata": {"prefix": "proc", "difficulty": "medium", "category": "side"}
+  }
+]

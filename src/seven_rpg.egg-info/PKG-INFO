@@ -1,0 +1,55 @@
+Metadata-Version: 2.4
+Name: seven-rpg
+Version: 0.1.0
+Summary: Seven RPG — modular text/mechanical RPG framework
+License: MIT
+Requires-Python: >=3.14
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: websockets>=12.0
+Provides-Extra: dev
+Requires-Dist: pytest>=9.1; extra == "dev"
+Requires-Dist: pytest-cov>=7.1; extra == "dev"
+Requires-Dist: coverage>=7.17; extra == "dev"
+Requires-Dist: ruff>=0.6; extra == "dev"
+Requires-Dist: mypy>=1.13; extra == "dev"
+Requires-Dist: pre-commit>=4.0; extra == "dev"
+Provides-Extra: qa
+Requires-Dist: pytest>=9.1; extra == "qa"
+Requires-Dist: pytest-cov>=7.1; extra == "qa"
+Requires-Dist: coverage>=7.17; extra == "qa"
+Requires-Dist: ruff>=0.6; extra == "qa"
+Requires-Dist: mypy>=1.13; extra == "qa"
+Requires-Dist: pre-commit>=4.0; extra == "qa"
+Requires-Dist: tox>=4.23; extra == "qa"
+Dynamic: license-file
+
+# Seven RPG
+
+A modular Python framework for text/mechanical role-playing games.
+
+## Features
+
+- Skill trees and progression systems
+- Combat, crafting, economy, and inventory
+- World map, travel, and NPC dialogue
+- Party companions and AI narration
+- Accessibility and difficulty settings
+- Multiplayer rooms, chat, and shared-state sync via WebSocket
+- Analytics, cloud sync, mod support, and community leaderboards
+
+## Installation
+
+```bash
+pip install -e ".[dev]"
+```
+
+## Development
+
+```bash
+python -m pytest
+```
+
+## License
+
+MIT

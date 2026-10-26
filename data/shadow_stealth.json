@@ -1,0 +1,76 @@
+{
+  "id": "shadow_stealth",
+  "name": "Shadow & Stealth",
+  "description": "Move unseen, strike from darkness. Evasion, backstab, and trapcraft.",
+  "nodes": [
+    {
+      "id": "stealth.root",
+      "name": "Shadow Step",
+      "description": "Begin moving through shadows, becoming harder to detect.",
+      "category": "stealth",
+      "node_type": "root",
+      "max_rank": 1,
+      "point_cost": 1,
+      "stat_costs": {"dexterity": 12},
+      "prerequisites": [],
+      "effects": {"stealth_bonus": 10, "movement_speed_stealth": 1.2},
+      "parent_ids": []
+    },
+    {
+      "id": "stealth.backstab",
+      "name": "Backstab",
+      "description": "Strike from stealth for critical damage.",
+      "category": "stealth",
+      "node_type": "branch",
+      "max_rank": 3,
+      "point_cost": 2,
+      "stat_costs": {"dexterity": 14, "agility": 10},
+      "prerequisites": [{"kind": "skill", "target": "stealth.root", "minimum": 1}],
+      "effects": {"critical_chance_bonus": 15, "critical_damage_bonus": 30, "requires_stealth": true},
+      "parent_ids": ["stealth.root"]
+    },
+    {
+      "id": "stealth.evasion",
+      "name": "Evasion",
+      "description": "Dodge attacks more effectively, especially while moving.",
+      "category": "stealth",
+      "node_type": "branch",
+      "max_rank": 2,
+      "point_cost": 2,
+      "stat_costs": {"dexterity": 16, "agility": 14},
+      "prerequisites": [{"kind": "skill", "target": "stealth.root", "minimum": 1}],
+      "effects": {"dodge_chance": 10, "dodge_while_moving_bonus": 5},
+      "parent_ids": ["stealth.root"]
+    },
+    {
+      "id": "stealth.assassinate",
+      "name": "Assassinate",
+      "description": "Instantly eliminate unaware targets below a health threshold.",
+      "category": "stealth",
+      "node_type": "capstone",
+      "max_rank": 1,
+      "point_cost": 5,
+      "stat_costs": {"dexterity": 20, "agility": 18},
+      "prerequisites": [
+        {"kind": "skill", "target": "stealth.backstab", "minimum": 3},
+        {"kind": "skill", "target": "stealth.evasion", "minimum": 2},
+        {"kind": "level", "target": "level", "minimum": 12}
+      ],
+      "effects": {"execute_threshold": 0.3, "execute_damage": 9999, "requires_stealth": true, "instant_kill": true},
+      "parent_ids": ["stealth.backstab", "stealth.evasion"]
+    },
+    {
+      "id": "stealth.traps",
+      "name": "Trapcraft",
+      "description": "Craft and deploy traps that hinder and damage enemies.",
+      "category": "stealth",
+      "node_type": "leaf",
+      "max_rank": 2,
+      "point_cost": 2,
+      "stat_costs": {"dexterity": 14, "intelligence": 10},
+      "prerequisites": [{"kind": "skill", "target": "stealth.evasion", "minimum": 1}],
+      "effects": {"trap_damage": 25, "trap_slow_duration": 4, "max_active_traps": 3},
+      "parent_ids": ["stealth.evasion"]
+    }
+  ]
+}

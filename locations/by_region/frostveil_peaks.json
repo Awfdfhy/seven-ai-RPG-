@@ -1,0 +1,29 @@
+[
+  {
+    "id": "frostveil_pass",
+    "name": "Frostveil Pass",
+    "region_id": "frostveil_peaks",
+    "description": "A treacherous icy pass leading into the high peaks.",
+    "location_type": "pass",
+    "x": 500,
+    "y": 80,
+    "danger_level": 5,
+    "connections": [
+      {"to": "northern_pass", "distance": 5, "travel_time_hours": 4},
+      {"to": "ancient_spire", "distance": 2, "travel_time_hours": 1}
+    ]
+  },
+  {
+    "id": "ancient_spire",
+    "name": "Ancient Spire",
+    "region_id": "frostveil_peaks",
+    "description": "A crumbling spire of unknown origin, shrouded in perpetual frost.",
+    "location_type": "dungeon",
+    "x": 520,
+    "y": 40,
+    "danger_level": 7,
+    "connections": [
+      {"to": "frostveil_pass", "distance": 2, "travel_time_hours": 1}
+    ]
+  }
+]

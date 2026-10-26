@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ashfall_entrance",
+    "name": "Ashfall Entrance",
+    "region_id": "ashfall_wastelands",
+    "description": "The border of the volcanic wasteland. A lone outpost stands against the burning wind.",
+    "location_type": "outpost",
+    "x": 700,
+    "y": 250,
+    "danger_level": 5,
+    "connections": [
+      {"to": "ember_mine", "distance": 3, "travel_time_hours": 2}
+    ]
+  },
+  {
+    "id": "ember_mine",
+    "name": "Ember Mine",
+    "region_id": "ashfall_wastelands",
+    "description": "An active volcanic mine yielding rare fire minerals.",
+    "location_type": "dungeon",
+    "x": 740,
+    "y": 200,
+    "danger_level": 6,
+    "connections": [
+      {"to": "ashfall_entrance", "distance": 3, "travel_time_hours": 2}
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "tracks": {
+    "ambient": {
+      "default": [
+        {"name": "Silence", "file_path": "", "default_volume": 0.0, "loop": false, "tags": ["none"]},
+        {"name": "Forest Day", "file_path": "audio/ambient/forest_day.ogg", "default_volume": 0.6, "loop": true, "tags": ["forest", "day"]},
+        {"name": "Forest Night", "file_path": "audio/ambient/forest_night.ogg", "default_volume": 0.6, "loop": true, "tags": ["forest", "night"]},
+        {"name": "Rain", "file_path": "audio/ambient/rain.ogg", "default_volume": 0.5, "loop": true, "tags": ["rain"]},
+        {"name": "Wind", "file_path": "audio/ambient/wind.ogg", "default_volume": 0.4, "loop": true, "tags": ["wind"]},
+        {"name": "Drip Cave", "file_path": "audio/ambient/drip_cave.ogg", "default_volume": 0.5, "loop": true, "tags": ["cave", "dungeon"]},
+        {"name": "Fire Crackle", "file_path": "audio/ambient/fire_crackle.ogg", "default_volume": 0.4, "loop": true, "tags": ["fire", "camp"]}
+      ]
+    },
+    "exploration": {
+      "default": [
+        {"name": "Peaceful Meadow", "file_path": "audio/exploration/peaceful_meadow.ogg", "default_volume": 0.7, "loop": true, "tags": ["plains", "day"]},
+        {"name": "Mountain Trail", "file_path": "audio/exploration/mountain_trail.ogg", "default_volume": 0.7, "loop": true, "tags": ["mountain", "pass"]},
+        {"name": "Wasteland", "file_path": "audio/exploration/wasteland.ogg", "default_volume": 0.7, "loop": true, "tags": ["wasteland", "volcanic"]},
+        {"name": "Snowfield", "file_path": "audio/exploration/snowfield.ogg", "default_volume": 0.7, "loop": true, "tags": ["snow", "ice"]}
+      ]
+    },
+    "battle": {
+      "default": [
+        {"name": "Encounter Low", "file_path": "audio/battle/encounter_low.ogg", "default_volume": 0.8, "loop": true, "tags": ["random", "low"]},
+        {"name": "Encounter Medium", "file_path": "audio/battle/encounter_medium.ogg", "default_volume": 0.8, "loop": true, "tags": ["random", "medium"]},
+        {"name": "Encounter High", "file_path": "audio/battle/encounter_high.ogg", "default_volume": 0.8, "loop": true, "tags": ["random", "high"]},
+        {"name": "Boss Low", "file_path": "audio/battle/boss_low.ogg", "default_volume": 0.9, "loop": true, "tags": ["boss", "low"]},
+        {"name": "Boss Medium", "file_path": "audio/battle/boss_medium.ogg", "default_volume": 0.9, "loop": true, "tags": ["boss", "medium"]},
+        {"name": "Boss High", "file_path": "audio/battle/boss_high.ogg", "default_volume": 0.9, "loop": true, "tags": ["boss", "high"]}
+      ]
+    },
+    "town": {
+      "default": [
+        {"name": "Village Day", "file_path": "audio/town/village_day.ogg", "default_volume": 0.6, "loop": true, "tags": ["village", "day"]},
+        {"name": "Village Evening", "file_path": "audio/town/village_evening.ogg", "default_volume": 0.6, "loop": true, "tags": ["village", "evening"]},
+        {"name": "Outpost", "file_path": "audio/town/outpost.ogg", "default_volume": 0.6, "loop": true, "tags": ["outpost"]}
+      ]
+    },
+    "dungeon": {
+      "default": [
+        {"name": "Cave Low", "file_path": "audio/dungeon/cave_low.ogg", "default_volume": 0.7, "loop": true, "tags": ["cave", "low"]},
+        {"name": "Cave Medium", "file_path": "audio/dungeon/cave_medium.ogg", "default_volume": 0.7, "loop": true, "tags": ["cave", "medium"]},
+        {"name": "Ruins High", "file_path": "audio/dungeon/ruins_high.ogg", "default_volume": 0.75, "loop": true, "tags": ["ruins", "high"]}
+      ]
+    },
+    "cutscene": {
+      "default": [
+        {"name": "Tension", "file_path": "audio/cutscene/tension.ogg", "default_volume": 0.8, "loop": true, "tags": ["tension"]},
+        {"name": "Tragedy", "file_path": "audio/cutscene/tragedy.ogg", "default_volume": 0.8, "loop": true, "tags": ["tragedy"]},
+        {"name": "Triumph", "file_path": "audio/cutscene/triumph.ogg", "default_volume": 0.8, "loop": true, "tags": ["triumph"]}
+      ]
+    },
+    "ui": {
+      "default": [
+        {"name": "Menu", "file_path": "audio/ui/menu.ogg", "default_volume": 0.5, "loop": true, "tags": ["menu"]},
+        {"name": "Click", "file_path": "audio/ui/click.ogg", "default_volume": 0.6, "loop": false, "tags": ["click"]},
+        {"name": "Notification", "file_path": "audio/ui/notification.ogg", "default_volume": 0.6, "loop": false, "tags": ["notification"]}
+      ]
+    }
+  },
+  "layers": {
+    "battle": [
+      {"layer_id": "battle.layer.low", "category": "battle", "track_id": "battle.default.encounter_low", "intensity": "low", "volume": 0.8, "fade_ms": 2000},
+      {"layer_id": "battle.layer.medium", "category": "battle", "track_id": "battle.default.encounter_medium", "intensity": "medium", "volume": 0.8, "fade_ms": 1000},
+      {"layer_id": "battle.layer.high", "category": "battle", "track_id": "battle.default.encounter_high", "intensity": "high", "volume": 0.8, "fade_ms": 1000}
+    ],
+    "dungeon": [
+      {"layer_id": "dungeon.layer.low", "category": "dungeon", "track_id": "dungeon.default.cave_low", "intensity": "low", "volume": 0.7, "fade_ms": 2000},
+      {"layer_id": "dungeon.layer.medium", "category": "dungeon", "track_id": "dungeon.default.cave_medium", "intensity": "medium", "volume": 0.7, "fade_ms": 1000},
+      {"layer_id": "dungeon.layer.high", "category": "dungeon", "track_id": "dungeon.default.ruins_high", "intensity": "high", "volume": 0.7, "fade_ms": 1000}
+    ]
+  }
+}

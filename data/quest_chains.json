@@ -1,0 +1,21 @@
+[
+  {
+    "chain_id": "oakhaven_rising",
+    "name": "Oakhaven Rising",
+    "description": "A three-stage chain to secure Oakhaven and deal with escalating threats.",
+    "quests": ["village_guard", "lost_artifact", "dragon_threat"],
+    "branches": {
+      "lost_artifact": ["dark_cult", "ancient_curse"]
+    },
+    "auto_progression": true,
+    "metadata": {"region": "oakhaven", "difficulty": "escalating"}
+  },
+  {
+    "chain_id": "merchant_troubles",
+    "name": "Merchant Troubles",
+    "description": "Help a merchant deal with supply-line disruptions.",
+    "quests": ["escort_caravan", "recover_goods"],
+    "auto_progression": true,
+    "metadata": {"region": "trade_route", "difficulty": "easy"}
+  }
+]

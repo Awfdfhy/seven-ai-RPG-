@@ -1,0 +1,48 @@
+{
+  "merchants": [
+    {
+      "id": "blacksmith_01",
+      "name": "Grimjaw Smithy",
+      "merchant_type": "blacksmith",
+      "region_id": "oakhaven_region",
+      "location_id": "oakhaven",
+      "description": "A sturdy smithy.",
+      "buy_markup": 1.2,
+      "sell_discount": 0.4
+    },
+    {
+      "id": "alchemist_01",
+      "name": "Whispering Vials",
+      "merchant_type": "alchemist",
+      "region_id": "oakhaven_region",
+      "location_id": "oakhaven",
+      "description": "An alchemical shop.",
+      "buy_markup": 1.1,
+      "sell_discount": 0.5
+    },
+    {
+      "id": "general_01",
+      "name": "Traveling Merchant",
+      "merchant_type": "general",
+      "region_id": "frostveil_peaks",
+      "location_id": "frostveil_pass",
+      "description": "A wandering trader.",
+      "buy_markup": 1.3,
+      "sell_discount": 0.3
+    }
+  ],
+  "price_rules": {
+    "blacksmith_01": [
+      { "item_id": "iron_sword", "base_price": 50, "min_price": 20, "max_price": 200 },
+      { "item_id": "iron_ingot", "base_price": 10, "min_price": 2, "max_price": 50 }
+    ],
+    "alchemist_01": [
+      { "item_id": "healing_potion", "base_price": 25, "min_price": 5, "max_price": 100 },
+      { "item_id": "mana_potion", "base_price": 30, "min_price": 5, "max_price": 100 }
+    ],
+    "general_01": [
+      { "item_id": "rope", "base_price": 5, "min_price": 1, "max_price": 20 },
+      { "item_id": "torch", "base_price": 2, "min_price": 1, "max_price": 10 }
+    ]
+  }
+}

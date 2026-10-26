@@ -1,0 +1,79 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seven-rpg"
+version = "0.1.0"
+description = "Seven RPG — modular text/mechanical RPG framework"
+readme = "README.md"
+requires-python = ">=3.14"
+license = { text = "MIT" }
+dependencies = [
+    "websockets>=12.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=9.1",
+    "pytest-cov>=7.1",
+    "coverage>=7.17",
+    "ruff>=0.6",
+    "mypy>=1.13",
+    "pre-commit>=4.0",
+]
+qa = [
+    "pytest>=9.1",
+    "pytest-cov>=7.1",
+    "coverage>=7.17",
+    "ruff>=0.6",
+    "mypy>=1.13",
+    "pre-commit>=4.0",
+    "tox>=4.23",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short -ra"
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as integration tests",
+    "data: marks tests as data-integrity checks",
+]
+
+[tool.coverage.run]
+source = ["src"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "if settings.DEBUG",
+    "raise AssertionError",
+    "raise NotImplementedError",
+]
+fail_under = 80
+
+[tool.ruff]
+line-length = 100
+target-version = "py314"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501", "B008"]
+
+[tool.mypy]
+python_version = "3.14"
+ignore_missing_imports = true
+strict = false

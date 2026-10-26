@@ -1,0 +1,199 @@
+[
+  {
+    "id": "merchant_caravan",
+    "name": "Merchant Caravan",
+    "description": "A traveling merchant caravan passes through, offering rare goods and news from distant lands.",
+    "category": "random",
+    "triggers": [
+      {"type": "random_chance", "weight": 1.0, "min_level": 1},
+      {"type": "location", "location_types": ["village", "town", "crossroads"]}
+    ],
+    "narration": "A colorful merchant caravan rolls into {location_name}. The merchants unpack exotic wares and share tales of distant lands.",
+    "effects": [
+      {"type": "merchant_restock", "duration_hours": 12},
+      {"type": "gold_bonus", "amount": 25}
+    ],
+    "follow_up_events": [],
+    "duration_hours": 8,
+    "metadata": {"rarity": "common", "min_level": 1}
+  },
+  {
+    "id": "wolf_pack_hunt",
+    "name": "Wolf Pack on the Hunt",
+    "description": "A hungry wolf pack stalks the roads, threatening travelers and livestock.",
+    "category": "random",
+    "triggers": [
+      {"type": "random_chance", "weight": 0.7},
+      {"type": "time_of_day", "hours": [18, 19, 20, 21, 22, 23, 0, 1, 2]},
+      {"type": "location", "location_ids": ["oakhaven_outskirts", "northern_pass", "frostveil_pass"]}
+    ],
+    "narration": "Howls pierce the night around {location_name}. A wolf pack hunts the roads, their eyes glinting in the darkness.",
+    "effects": [
+      {"type": "danger_increase", "location_id": "{trigger_location}", "amount": 2, "duration_hours": 6},
+      {"type": "npc_dialogue_override", "target": "locals", "dialogue": "afraid"}
+    ],
+    "follow_up_events": ["wolf_alpha_appears"],
+    "duration_hours": 6,
+    "metadata": {"rarity": "common", "min_level": 2}
+  },
+  {
+    "id": "wolf_alpha_appears",
+    "name": "The Alpha Rises",
+    "description": "The largest wolf of the pack steps forward, challenging intruders to single combat.",
+    "category": "story",
+    "triggers": [
+      {"type": "after_event", "event_id": "wolf_pack_hunt", "probability": 0.4}
+    ],
+    "narration": "From the shadows, a massive wolf steps forward — the alpha. It locks eyes with you, a silent challenge hanging in the cold air.",
+    "effects": [
+      {"type": "spawn_enemy", "enemy_type": "wolf_alpha", "location_id": "{trigger_location}", "count": 1},
+      {"type": "danger_increase", "location_id": "{trigger_location}", "amount": 1, "duration_hours": 3}
+    ],
+    "follow_up_events": [],
+    "duration_hours": 3,
+    "metadata": {"rarity": "uncommon", "min_level": 3}
+  },
+  {
+    "id": "traveling_bard",
+    "name": "Traveling Bard",
+    "description": "A wandering bard arrives, performing songs and spreading news and rumors.",
+    "category": "ambient",
+    "triggers": [
+      {"type": "random_chance", "weight": 0.6},
+      {"type": "location", "location_types": ["village", "town", "inn"]}
+    ],
+    "narration": "A lute's melody drifts through {location_name}. A traveling bard has arrived, and with them, news from across the realm.",
+    "effects": [
+      {"type": "rumor_spread", "rumor": "A dragon has been spotted in the northern peaks."},
+      {"type": "npc_reaction_modifier", "target": "locals", "modifier": 5, "duration_hours": 12}
+    ],
+    "follow_up_events": ["mysterious_stranger"],
+    "duration_hours": 10,
+    "metadata": {"rarity": "common", "min_level": 1}
+  },
+  {
+    "id": "mysterious_stranger",
+    "name": "Mysterious Stranger",
+    "description": "A cloaked figure in the corner of the tavern seems interested in the party's exploits.",
+    "category": "story",
+    "triggers": [
+      {"type": "after_event", "event_id": "traveling_bard", "probability": 0.3}
+    ],
+    "narration": "In the corner of the tavern, a cloaked stranger watches you. When your eyes meet, they nod subtly and vanish into the crowd.",
+    "effects": [
+      {"type": "quest_hint", "quest_id": "lost_artifact", "hint": "The stranger left a cryptic map fragment on your table."}
+    ],
+    "follow_up_events": [],
+    "duration_hours": 2,
+    "metadata": {"rarity": "uncommon", "min_level": 3}
+  },
+  {
+    "id": "festival_night",
+    "name": "Village Festival",
+    "description": "The village is holding a festival tonight — music, food, and competitions!",
+    "category": "world",
+    "triggers": [
+      {"type": "random_chance", "weight": 0.3},
+      {"type": "location", "location_types": ["village"]},
+      {"type": "time_of_day", "hours": [17, 18, 19, 20, 21, 22]}
+    ],
+    "narration": "Lanterns strung between every building cast a warm glow over {location_name}. Tonight is the annual harvest festival — music, dancing, and feasting await.",
+    "effects": [
+      {"type": "npc_dialogue_override", "target": "locals", "dialogue": "festive"},
+      {"type": "merchant_discount", "amount": 0.2, "duration_hours": 6},
+      {"type": "gold_bonus", "amount": 50}
+    ],
+    "follow_up_events": ["festival_competition"],
+    "duration_hours": 6,
+    "metadata": {"rarity": "uncommon", "min_level": 1}
+  },
+  {
+    "id": "festival_competition",
+    "name": "Festival Competition",
+    "description": "A friendly competition at the festival rewards skill and luck.",
+    "category": "story",
+    "triggers": [
+      {"type": "after_event", "event_id": "festival_night", "probability": 0.5}
+    ],
+    "narration": "The festival organizer announces a competition — archery, wrestling, or the riddling contest. Victory brings glory and a prize.",
+    "effects": [
+      {"type": "spawn_minigame", "minigame": "festival_challenge", "location_id": "{trigger_location}"}
+    ],
+    "follow_up_events": [],
+    "duration_hours": 2,
+    "metadata": {"rarity": "uncommon", "min_level": 1}
+  },
+  {
+    "id": "ash_storm",
+    "name": "Ash Storm",
+    "description": "Winds from the Ashfall Wastelands carry a choking cloud of ash across the land.",
+    "category": "weather",
+    "triggers": [
+      {"type": "random_chance", "weight": 0.4},
+      {"type": "weather", "condition": "windy", "min_intensity": "moderate"},
+      {"type": "region", "region_ids": ["ashfall_region", "oakhaven_region"]}
+    ],
+    "narration": "A grey wall of ash rolls in from the east. The air turns thick and bitter. You must cover your mouth and find shelter.",
+    "effects": [
+      {"type": "weather_override", "condition": "haze", "intensity": "heavy", "duration_hours": 4},
+      {"type": "travel_speed_multiplier", "multiplier": 0.3, "duration_hours": 4},
+      {"type": "health_risk", "risk": "ash_inhalation", "duration_hours": 4}
+    ],
+    "follow_up_events": [],
+    "duration_hours": 4,
+    "metadata": {"rarity": "uncommon", "min_level": 4}
+  },
+  {
+    "id": "hermit_warning",
+    "name": "Hermit's Warning",
+    "description": "A reclusive hermit emerges from the wilderness with a dire warning about ancient ruins.",
+    "category": "story",
+    "triggers": [
+      {"type": "random_chance", "weight": 0.35},
+      {"type": "location", "location_ids": ["whispering_caves", "ancient_spire"]}
+    ],
+    "narration": "From the shadows of {location_name}, an old hermit stumbles toward you. 'Turn back,' they rasp. 'The old stones remember... and they are waking.'",
+    "effects": [
+      {"type": "world_flag", "flag": "hermit_warning_given", "value": true},
+      {"type": "quest_hint", "quest_id": "lost_artifact", "hint": "The hermut mentioned a hidden chamber beneath the caves."}
+    ],
+    "follow_up_events": ["cave_earthquake"],
+    "duration_hours": 0,
+    "metadata": {"rarity": "rare", "min_level": 5}
+  },
+  {
+    "id": "cave_earthquake",
+    "name": "Cave Earthquake",
+    "description": "The ancient ruins tremble as something deep below shifts.",
+    "category": "world",
+    "triggers": [
+      {"type": "after_event", "event_id": "hermit_warning", "probability": 0.5}
+    ],
+    "narration": "The ground lurches beneath your feet. Dust and stone rain from the ceiling of {location_name}. The ancient ruins are settling — or something within them is stirring.",
+    "effects": [
+      {"type": "location_lock", "location_id": "{trigger_location}", "locked": true, "duration_hours": 1},
+      {"type": "spawn_enemy", "enemy_type": "cave_collapser", "location_id": "{trigger_location}", "count": 2}
+    ],
+    "follow_up_events": [],
+    "duration_hours": 1,
+    "metadata": {"rarity": "rare", "min_level": 5}
+  },
+  {
+    "id": "starry_omen",
+    "name": "Starry Omen",
+    "description": "An unusual celestial alignment catches everyone's eye, sparking prophecies and unease.",
+    "category": "ambient",
+    "triggers": [
+      {"type": "random_chance", "weight": 0.25},
+      {"type": "time_of_day", "hours": [21, 22, 23, 0, 1, 2, 3]}
+    ],
+    "narration": "The stars wheel into an unnatural alignment above {location_name}. Three blood-red points of light trace a triangle in the sky. The villagers whisper of old prophecies.",
+    "effects": [
+      {"type": "world_flag", "flag": "starry_omen_seen", "value": true},
+      {"type": "npc_reaction_modifier", "target": "locals", "modifier": -5, "duration_hours": 24}
+    ],
+    "follow_up_events": [],
+    "duration_hours": 4,
+    "metadata": {"rarity": "rare", "min_level": 1}
+  }
+]

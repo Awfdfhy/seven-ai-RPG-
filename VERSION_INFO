@@ -1,0 +1,25 @@
+Seven RPG — Version Information
+================================
+
+Version:       0.1.0
+Codename:      First Light
+Release Date:  2026-10-26
+Description:   Early-access pre-release build
+Author:        Seven RPG Team
+License:       MIT
+Python:        >=3.14
+
+Build Metadata
+--------------
+Build Timestamp: 2026-10-26T10:09:00+03:00
+Git Commit:      N/A (no repository)
+
+Source Modules:  81
+Data Files:      33 JSON
+Test Modules:    62
+
+Package
+-------
+Manifest:  release/seven-rpg-v0.1.0-manifest.json
+Archive:   release/seven-rpg-v0.1.0-release.zip
+Checksums: release/seven-rpg-v0.1.0-SHA256SUMS.txt

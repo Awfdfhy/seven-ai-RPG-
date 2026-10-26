@@ -1,0 +1,130 @@
+[
+  {
+    "id": "onboarding_basics",
+    "name": "First Steps",
+    "description": "Learn the basics of movement, inventory, and combat.",
+    "prerequisites": [],
+    "steps": [
+      {
+        "id": "basics_01",
+        "name": "Open Your Inventory",
+        "description": "Open your inventory to see the items you carry.",
+        "hint": "Press the inventory key or click the inventory button on the HUD.",
+        "actions": [
+          {"action_type": "open_inventory", "target": "inventory", "description": "Open the inventory panel"}
+        ],
+        "prerequisites": []
+      },
+      {
+        "id": "basics_02",
+        "name": "Travel to the Village Square",
+        "description": "Move to the Village Square to meet the locals.",
+        "hint": "Use the world map or walk towards the marked location.",
+        "actions": [
+          {"action_type": "travel", "target": "village_square", "description": "Travel to the Village Square"}
+        ],
+        "prerequisites": ["basics_01"]
+      },
+      {
+        "id": "basics_03",
+        "name": "Check Your Equipment",
+        "description": "Open the equipment panel and review your current gear.",
+        "hint": "Your equipment slots are shown in the character panel.",
+        "actions": [
+          {"action_type": "open_equipment", "target": "equipment", "description": "Open the equipment panel"}
+        ],
+        "prerequisites": ["basics_02"]
+      },
+      {
+        "id": "basics_04",
+        "name": "Use Your First Ability",
+        "description": "Try using a basic ability in a safe area.",
+        "hint": "Select an ability from your skill bar and activate it.",
+        "actions": [
+          {"action_type": "use_ability", "target": "strike", "description": "Use the Strike ability"}
+        ],
+        "prerequisites": ["basics_03"]
+      }
+    ],
+    "metadata": {"difficulty": "easy", "recommended_level": 1}
+  },
+  {
+    "id": "onboarding_combat",
+    "name": "Combat Basics",
+    "description": "Learn how to fight enemies and survive encounters.",
+    "prerequisites": ["onboarding_basics"],
+    "steps": [
+      {
+        "id": "combat_01",
+        "name": "Find a Training Dummy",
+        "description": "Locate the training dummy near the village square.",
+        "hint": "Training dummies are marked with a white sword icon on the map.",
+        "actions": [
+          {"action_type": "travel", "target": "training_grounds", "description": "Travel to the Training Grounds"}
+        ],
+        "prerequisites": []
+      },
+      {
+        "id": "combat_02",
+        "name": "Perform a Light Attack",
+        "description": "Use a light attack against the training dummy.",
+        "hint": "Left-click or press the light attack key.",
+        "actions": [
+          {"action_type": "use_ability", "target": "light_attack", "description": "Use Light Attack"}
+        ],
+        "prerequisites": ["combat_01"]
+      },
+      {
+        "id": "combat_03",
+        "name": "Perform a Heavy Attack",
+        "description": "Use a heavy attack to deal more damage.",
+        "hint": "Hold the attack button or use the heavy attack keybind.",
+        "actions": [
+          {"action_type": "use_ability", "target": "heavy_attack", "description": "Use Heavy Attack"}
+        ],
+        "prerequisites": ["combat_02"]
+      }
+    ],
+    "metadata": {"difficulty": "easy", "recommended_level": 2}
+  },
+  {
+    "id": "onboarding_crafting",
+    "name": "Crafting Fundamentals",
+    "description": "Learn to gather materials and craft basic items.",
+    "prerequisites": ["onboarding_combat"],
+    "steps": [
+      {
+        "id": "craft_01",
+        "name": "Gather Materials",
+        "description": "Gather wood and stone from resource nodes.",
+        "hint": "Look for glowing nodes in the forest area.",
+        "actions": [
+          {"action_type": "gather", "target": "wood", "description": "Gather wood"},
+          {"action_type": "gather", "target": "stone", "description": "Gather stone"}
+        ],
+        "prerequisites": []
+      },
+      {
+        "id": "craft_02",
+        "name": "Open the Crafting Menu",
+        "description": "Access the crafting interface to view recipes.",
+        "hint": "Press the crafting key or select it from the menu.",
+        "actions": [
+          {"action_type": "open_crafting", "target": "crafting", "description": "Open the crafting menu"}
+        ],
+        "prerequisites": ["craft_01"]
+      },
+      {
+        "id": "craft_03",
+        "name": "Craft Your First Item",
+        "description": "Craft a wooden practice sword using the gathered materials.",
+        "hint": "Select the recipe and confirm the craft.",
+        "actions": [
+          {"action_type": "craft_item", "target": "wooden_practice_sword", "description": "Craft a Wooden Practice Sword"}
+        ],
+        "prerequisites": ["craft_02"]
+      }
+    ],
+    "metadata": {"difficulty": "easy", "recommended_level": 3}
+  }
+]

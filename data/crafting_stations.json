@@ -1,0 +1,39 @@
+{
+  "stations": [
+    {
+      "id": "stone_forge",
+      "name": "Stone Forge",
+      "description": "A basic forge for smelting ore and shaping metal.",
+      "allowed_categories": ["forge"],
+      "level_required": 1
+    },
+    {
+      "id": "alchemy_bench",
+      "name": "Alchemy Bench",
+      "description": "A cluttered workbench for mixing potions and tinctures.",
+      "allowed_categories": ["alchemy"],
+      "level_required": 1
+    },
+    {
+      "id": "campfire",
+      "name": "Campfire",
+      "description": "A simple outdoor fire for cooking and warmth.",
+      "allowed_categories": ["cooking"],
+      "level_required": 1
+    },
+    {
+      "id": "sewing_kit",
+      "name": "Sewing Kit",
+      "description": "Needle, thread, and measuring tape for tailoring.",
+      "allowed_categories": ["tailoring"],
+      "level_required": 1
+    },
+    {
+      "id": "carpenter_bench",
+      "name": "Carpenter's Bench",
+      "description": "A sturdy bench for woodworking and furniture-making.",
+      "allowed_categories": ["workbench"],
+      "level_required": 1
+    }
+  ]
+}

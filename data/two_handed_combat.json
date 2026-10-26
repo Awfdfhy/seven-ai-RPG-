@@ -1,0 +1,170 @@
+{
+  "id": "two_handed_combat",
+  "name": "Two-Handed Combat",
+  "description": "Master the art of heavy weapons. Slow but devastating strikes that cleave through armor.",
+  "nodes": [
+    {
+      "id": "thc.root",
+      "name": "Heavy Weapons Training",
+      "description": "Learn to wield two-handed weapons effectively.",
+      "category": "combat",
+      "node_type": "root",
+      "max_rank": 1,
+      "point_cost": 1,
+      "stat_costs": {
+        "strength": 8
+      },
+      "prerequisites": [],
+      "effects": {
+        "weapon_damage_bonus": 5,
+        "weapon_type": "two_handed"
+      },
+      "parent_ids": []
+    },
+    {
+      "id": "thc.cleave",
+      "name": "Cleave",
+      "description": "Your heavy strikes can hit multiple targets in front of you.",
+      "category": "combat",
+      "node_type": "branch",
+      "max_rank": 3,
+      "point_cost": 2,
+      "stat_costs": {
+        "strength": 12
+      },
+      "prerequisites": [
+        {
+          "kind": "skill",
+          "target": "thc.root",
+          "minimum": 1
+        }
+      ],
+      "effects": {
+        "extra_targets": 1,
+        "damage_falloff_per_target": 20
+      },
+      "parent_ids": [
+        "thc.root"
+      ]
+    },
+    {
+      "id": "thc.execute",
+      "name": "Execute",
+      "description": "Deal massive bonus damage to low-health targets.",
+      "category": "combat",
+      "node_type": "branch",
+      "max_rank": 1,
+      "point_cost": 2,
+      "stat_costs": {
+        "strength": 14
+      },
+      "prerequisites": [
+        {
+          "kind": "skill",
+          "target": "thc.root",
+          "minimum": 1
+        }
+      ],
+      "effects": {
+        "execute_threshold": 0.25,
+        "execute_damage_bonus": 50
+      },
+      "parent_ids": [
+        "thc.root"
+      ]
+    },
+    {
+      "id": "thc.whirlwind",
+      "name": "Whirlwind",
+      "description": "Spin and strike all enemies around you in a wide arc.",
+      "category": "combat",
+      "node_type": "branch",
+      "max_rank": 1,
+      "point_cost": 3,
+      "stat_costs": {
+        "strength": 16,
+        "dexterity": 8
+      },
+      "prerequisites": [
+        {
+          "kind": "skill",
+          "target": "thc.cleave",
+          "minimum": 2
+        },
+        {
+          "kind": "skill",
+          "target": "thc.execute",
+          "minimum": 1
+        }
+      ],
+      "effects": {
+        "aoe_radius": 3.0,
+        "hits_all_enemies": true,
+        "damage_multiplier": 0.8
+      },
+      "parent_ids": [
+        "thc.cleave",
+        "thc.execute"
+      ]
+    },
+    {
+      "id": "thc.mighty_blow",
+      "name": "Mighty Blow",
+      "description": "A single, bone-crushing strike that ignores a portion of armor.",
+      "category": "combat",
+      "node_type": "capstone",
+      "max_rank": 1,
+      "point_cost": 4,
+      "stat_costs": {
+        "strength": 18
+      },
+      "prerequisites": [
+        {
+          "kind": "skill",
+          "target": "thc.cleave",
+          "minimum": 3
+        },
+        {
+          "kind": "level",
+          "target": "level",
+          "minimum": 10
+        }
+      ],
+      "effects": {
+        "armor_penetration": 40,
+        "damage_multiplier": 2.0,
+        "stun_chance": 0.3
+      },
+      "parent_ids": [
+        "thc.cleave",
+        "thc.execute"
+      ]
+    },
+    {
+      "id": "thc.sunder",
+      "name": "Sunder Armor",
+      "description": "Rending blows permanently reduce enemy armor for the duration of combat.",
+      "category": "combat",
+      "node_type": "leaf",
+      "max_rank": 2,
+      "point_cost": 2,
+      "stat_costs": {
+        "strength": 15
+      },
+      "prerequisites": [
+        {
+          "kind": "skill",
+          "target": "thc.execute",
+          "minimum": 1
+        }
+      ],
+      "effects": {
+        "armor_reduction": 15,
+        "stack_duration_seconds": 30
+      },
+      "parent_ids": [
+        "thc.execute"
+      ]
+    }
+  ]
+}

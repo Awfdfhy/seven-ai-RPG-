@@ -1,0 +1,956 @@
+{
+  "project": "Seven RPG",
+  "version": "0.1.0",
+  "release_date": "2026-10-26",
+  "generated_at": "2026-10-26T07:22:40.287754+00:00",
+  "package": "seven-rpg-v0.1.0-release.zip",
+  "package_size": 474090,
+  "file_count": 189,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1071,
+      "sha256": "9412a2d8fb147a3c"
+    },
+    {
+      "path": "Makefile",
+      "size": 1087,
+      "sha256": "54a6950d013a9762"
+    },
+    {
+      "path": "README.md",
+      "size": 534,
+      "sha256": "866b6ec6b84fe673"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "size": 5510,
+      "sha256": "9fb8d7cfea08fdd4"
+    },
+    {
+      "path": "data/abilities.json",
+      "size": 6063,
+      "sha256": "25ed40e76194d2dd"
+    },
+    {
+      "path": "data/advanced_ai.json",
+      "size": 6919,
+      "sha256": "c360c4d867aa06db"
+    },
+    {
+      "path": "data/character_customization.json",
+      "size": 6187,
+      "sha256": "aba3eb0b2779d0a0"
+    },
+    {
+      "path": "data/character_stats.json",
+      "size": 2925,
+      "sha256": "15518593aac6993d"
+    },
+    {
+      "path": "data/community.json",
+      "size": 897,
+      "sha256": "5cb1d8e3d45b7ad0"
+    },
+    {
+      "path": "data/companions.json",
+      "size": 1955,
+      "sha256": "55e1aa3cc2f19a22"
+    },
+    {
+      "path": "data/crafting_items.json",
+      "size": 2974,
+      "sha256": "f93a458af71e4707"
+    },
+    {
+      "path": "data/crafting_materials.json",
+      "size": 2047,
+      "sha256": "72633ef5fa627078"
+    },
+    {
+      "path": "data/crafting_recipes.json",
+      "size": 4707,
+      "sha256": "9e94ef3909e2b43e"
+    },
+    {
+      "path": "data/crafting_stations.json",
+      "size": 1086,
+      "sha256": "c66e5e47a7abd595"
+    },
+    {
+      "path": "data/dynamic_objectives.json",
+      "size": 1084,
+      "sha256": "ba8811d1655f8888"
+    },
+    {
+      "path": "data/economy.json",
+      "size": 1477,
+      "sha256": "1b6b5055922e8f03"
+    },
+    {
+      "path": "data/ecosystems.json",
+      "size": 9332,
+      "sha256": "e07150af26e22aad"
+    },
+    {
+      "path": "data/endgame_content.json",
+      "size": 2163,
+      "sha256": "39e102535b5a550c"
+    },
+    {
+      "path": "data/fire_magic.json",
+      "size": 2972,
+      "sha256": "7e575c0dd7a24ffa"
+    },
+    {
+      "path": "data/graphics_effects.json",
+      "size": 12774,
+      "sha256": "37fc664cf2d11a10"
+    },
+    {
+      "path": "data/loot_tables.json",
+      "size": 2426,
+      "sha256": "c562b6e0019701ce"
+    },
+    {
+      "path": "data/milestones.json",
+      "size": 3471,
+      "sha256": "a7c2373730b0be53"
+    },
+    {
+      "path": "data/npc_dialogues.json",
+      "size": 4008,
+      "sha256": "41cc143a30d5ec2a"
+    },
+    {
+      "path": "data/npc_schedules.json",
+      "size": 1901,
+      "sha256": "e6e55170c325526b"
+    },
+    {
+      "path": "data/onboarding.json",
+      "size": 4937,
+      "sha256": "ebdf4c1e19be183a"
+    },
+    {
+      "path": "data/procedural_quests.json",
+      "size": 1483,
+      "sha256": "d466ece3411c5bf6"
+    },
+    {
+      "path": "data/quest_chains.json",
+      "size": 713,
+      "sha256": "d911e5aa66c7a03a"
+    },
+    {
+      "path": "data/quests.json",
+      "size": 3165,
+      "sha256": "1b927e5121dd5b06"
+    },
+    {
+      "path": "data/shadow_stealth.json",
+      "size": 2842,
+      "sha256": "4099cdd1abb48f72"
+    },
+    {
+      "path": "data/soundtrack.json",
+      "size": 5384,
+      "sha256": "08425cdddcf811e1"
+    },
+    {
+      "path": "data/status_conditions.json",
+      "size": 5983,
+      "sha256": "b85ebf19f81d6d91"
+    },
+    {
+      "path": "data/titles.json",
+      "size": 3504,
+      "sha256": "2ebecadda91c957b"
+    },
+    {
+      "path": "data/tutorials.json",
+      "size": 4937,
+      "sha256": "ebdf4c1e19be183a"
+    },
+    {
+      "path": "data/two_handed_combat.json",
+      "size": 4092,
+      "sha256": "c73a8fbaa1b7ffe8"
+    },
+    {
+      "path": "data/world_events.json",
+      "size": 9075,
+      "sha256": "4f14430966567263"
+    },
+    {
+      "path": "data/world_locations.json",
+      "size": 3422,
+      "sha256": "b8bfa40f3cbcd91a"
+    },
+    {
+      "path": "data/world_map.json",
+      "size": 947,
+      "sha256": "eed7706dc7268c60"
+    },
+    {
+      "path": "locations/README.md",
+      "size": 703,
+      "sha256": "09b0ddf98bce1621"
+    },
+    {
+      "path": "locations/by_region/ashfall_wastelands.json",
+      "size": 752,
+      "sha256": "c3855684653c62be"
+    },
+    {
+      "path": "locations/by_region/frostveil_peaks.json",
+      "size": 793,
+      "sha256": "e14189b62c685385"
+    },
+    {
+      "path": "locations/by_region/northern_pass.json",
+      "size": 539,
+      "sha256": "b40cd5964b82d80e"
+    },
+    {
+      "path": "locations/by_region/oakhaven_region.json",
+      "size": 1883,
+      "sha256": "6a5f8f70f71f48df"
+    },
+    {
+      "path": "locations/world_locations.json",
+      "size": 2306,
+      "sha256": "ef8aa1eb6052819a"
+    },
+    {
+      "path": "mods/example_mod/data/skill_tree.json",
+      "size": 381,
+      "sha256": "18a8982b43f01163"
+    },
+    {
+      "path": "mods/example_mod/mod.json",
+      "size": 232,
+      "sha256": "4241254db2da1475"
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1593,
+      "sha256": "4b17f4e26ed76783"
+    },
+    {
+      "path": "qa/__main__.py",
+      "size": 2909,
+      "sha256": "deff15d32b768f76"
+    },
+    {
+      "path": "run_qa.py",
+      "size": 1975,
+      "sha256": "92c684485e8b5495"
+    },
+    {
+      "path": "src/__init__.py",
+      "size": 10484,
+      "sha256": "8f04a660cdd0ba88"
+    },
+    {
+      "path": "src/__main__.py",
+      "size": 329,
+      "sha256": "7de2cbef29eb1dbe"
+    },
+    {
+      "path": "src/ability.py",
+      "size": 17970,
+      "sha256": "e1695b6018fbcab1"
+    },
+    {
+      "path": "src/ability_manager.py",
+      "size": 9245,
+      "sha256": "6b395b8d673b6d3e"
+    },
+    {
+      "path": "src/accessibility.py",
+      "size": 12109,
+      "sha256": "e053b94c2ead8716"
+    },
+    {
+      "path": "src/advanced_ai.py",
+      "size": 31295,
+      "sha256": "19d602221a6e6bc2"
+    },
+    {
+      "path": "src/advanced_quest_system.py",
+      "size": 32100,
+      "sha256": "98a1cd49db4390df"
+    },
+    {
+      "path": "src/ai_narration.py",
+      "size": 27513,
+      "sha256": "649d3461c829b18f"
+    },
+    {
+      "path": "src/analytics.py",
+      "size": 22011,
+      "sha256": "4d23e79d0c61dce4"
+    },
+    {
+      "path": "src/character_customization.py",
+      "size": 19331,
+      "sha256": "a75beaa0c8266b21"
+    },
+    {
+      "path": "src/character_sheet.py",
+      "size": 2617,
+      "sha256": "5f8ed8d6b0f8cea1"
+    },
+    {
+      "path": "src/character_stats.py",
+      "size": 15738,
+      "sha256": "6f5453f494a9505d"
+    },
+    {
+      "path": "src/cloud_gaming.py",
+      "size": 22683,
+      "sha256": "c874bc7b2c7b7e31"
+    },
+    {
+      "path": "src/cloud_gaming_streaming.py",
+      "size": 17306,
+      "sha256": "f9a906453bfc839c"
+    },
+    {
+      "path": "src/cloud_sync.py",
+      "size": 8137,
+      "sha256": "526dbdc636634349"
+    },
+    {
+      "path": "src/combat.py",
+      "size": 47332,
+      "sha256": "36d199e9227ba48f"
+    },
+    {
+      "path": "src/combat_ui.py",
+      "size": 16511,
+      "sha256": "178c806472f8990e"
+    },
+    {
+      "path": "src/community.py",
+      "size": 13131,
+      "sha256": "90c50c7a3b89b4d5"
+    },
+    {
+      "path": "src/cooldowns.py",
+      "size": 6878,
+      "sha256": "d54582ca3473cd1a"
+    },
+    {
+      "path": "src/crafting.py",
+      "size": 6927,
+      "sha256": "d7d2c37024d8df09"
+    },
+    {
+      "path": "src/crafting_manager.py",
+      "size": 7319,
+      "sha256": "8d7fa7c2f3bc36be"
+    },
+    {
+      "path": "src/crafting_ui.py",
+      "size": 17473,
+      "sha256": "d69df22f92ddb340"
+    },
+    {
+      "path": "src/difficulty_integration.py",
+      "size": 4851,
+      "sha256": "78c4c3cdb2693a46"
+    },
+    {
+      "path": "src/difficulty_settings.py",
+      "size": 10586,
+      "sha256": "1b1176dae81c1923"
+    },
+    {
+      "path": "src/economy.py",
+      "size": 25463,
+      "sha256": "940f0478284aebd0"
+    },
+    {
+      "path": "src/endgame.py",
+      "size": 26082,
+      "sha256": "e106d7fa0e1b099f"
+    },
+    {
+      "path": "src/equipment_ui.py",
+      "size": 13861,
+      "sha256": "cf25a37b721ef132"
+    },
+    {
+      "path": "src/graphics_effects.py",
+      "size": 34478,
+      "sha256": "4942f79d37ac17f2"
+    },
+    {
+      "path": "src/inventory.py",
+      "size": 27482,
+      "sha256": "a9ba2efdf240adfa"
+    },
+    {
+      "path": "src/inventory_ui.py",
+      "size": 11442,
+      "sha256": "2406b00834f1d9c2"
+    },
+    {
+      "path": "src/locations/__init__.py",
+      "size": 8147,
+      "sha256": "82531d56c9dde400"
+    },
+    {
+      "path": "src/loot.py",
+      "size": 16294,
+      "sha256": "a2142ebd2b642aed"
+    },
+    {
+      "path": "src/main_menu_ui.py",
+      "size": 18261,
+      "sha256": "497e31e0cf2019da"
+    },
+    {
+      "path": "src/milestone.py",
+      "size": 13630,
+      "sha256": "d05102750b90ae3b"
+    },
+    {
+      "path": "src/mini_games.py",
+      "size": 36945,
+      "sha256": "047be8f5cb0e673c"
+    },
+    {
+      "path": "src/mod_integration.py",
+      "size": 8274,
+      "sha256": "254d1df86e936e76"
+    },
+    {
+      "path": "src/mod_manager.py",
+      "size": 6410,
+      "sha256": "57a14aa7d3049be7"
+    },
+    {
+      "path": "src/modding_tools.py",
+      "size": 15001,
+      "sha256": "72f14fb2d3526b16"
+    },
+    {
+      "path": "src/multiplayer.py",
+      "size": 20682,
+      "sha256": "8f60fab46d776abe"
+    },
+    {
+      "path": "src/multiplayer_network.py",
+      "size": 14140,
+      "sha256": "d4c73a842b4f0e10"
+    },
+    {
+      "path": "src/new_game_plus.py",
+      "size": 7591,
+      "sha256": "b34cd719d6a777f4"
+    },
+    {
+      "path": "src/npc_dialogue.py",
+      "size": 19674,
+      "sha256": "eade4eff8f300c92"
+    },
+    {
+      "path": "src/npc_reaction.py",
+      "size": 4454,
+      "sha256": "f7116926c2b72531"
+    },
+    {
+      "path": "src/offline_mode.py",
+      "size": 8448,
+      "sha256": "df2d9167f40cc0ae"
+    },
+    {
+      "path": "src/onboarding.py",
+      "size": 10142,
+      "sha256": "1c3c11671b44fd8f"
+    },
+    {
+      "path": "src/party.py",
+      "size": 24142,
+      "sha256": "ac4d52c0f8357235"
+    },
+    {
+      "path": "src/performance_optimizer.py",
+      "size": 23598,
+      "sha256": "cbcd3b18fd5ab29d"
+    },
+    {
+      "path": "src/platform_utils.py",
+      "size": 4385,
+      "sha256": "b3576de6f08f2a90"
+    },
+    {
+      "path": "src/procedural_generation.py",
+      "size": 26301,
+      "sha256": "e42e05bdc8f18390"
+    },
+    {
+      "path": "src/progression.py",
+      "size": 7060,
+      "sha256": "ac84460f5eb9ebbb"
+    },
+    {
+      "path": "src/progression_manager.py",
+      "size": 6803,
+      "sha256": "543a453039994996"
+    },
+    {
+      "path": "src/quest_journal.py",
+      "size": 12344,
+      "sha256": "193ebd8503d17ea3"
+    },
+    {
+      "path": "src/quest_tracker.py",
+      "size": 19071,
+      "sha256": "88924cf0518eb421"
+    },
+    {
+      "path": "src/rpg_13_09_advanced_npc_ai.py",
+      "size": 31110,
+      "sha256": "fc60487b2417b895"
+    },
+    {
+      "path": "src/session_branch.py",
+      "size": 6028,
+      "sha256": "7e182d6f213e8759"
+    },
+    {
+      "path": "src/session_timeline.py",
+      "size": 10783,
+      "sha256": "25ef41b974f05bbc"
+    },
+    {
+      "path": "src/settings_ui.py",
+      "size": 23946,
+      "sha256": "78f6bee8b033b912"
+    },
+    {
+      "path": "src/skill_check.py",
+      "size": 10113,
+      "sha256": "2e4e7ebf924c2e2e"
+    },
+    {
+      "path": "src/skill_tree.py",
+      "size": 12847,
+      "sha256": "0d97ae7bd3c700d0"
+    },
+    {
+      "path": "src/skill_tree_builder.py",
+      "size": 2968,
+      "sha256": "dff51c9911775c29"
+    },
+    {
+      "path": "src/skill_tree_manager.py",
+      "size": 4903,
+      "sha256": "6dc3d1bece1f49ff"
+    },
+    {
+      "path": "src/soundtrack.py",
+      "size": 27477,
+      "sha256": "7f73a39901fec85c"
+    },
+    {
+      "path": "src/status_conditions.py",
+      "size": 5795,
+      "sha256": "9fabf532728f0822"
+    },
+    {
+      "path": "src/status_manager.py",
+      "size": 10463,
+      "sha256": "b91b1d97f9840b06"
+    },
+    {
+      "path": "src/title_system.py",
+      "size": 11466,
+      "sha256": "565e7ca0994d6d1c"
+    },
+    {
+      "path": "src/travel_ledger.py",
+      "size": 16455,
+      "sha256": "fe2c344d1054eb2f"
+    },
+    {
+      "path": "src/tutorial.py",
+      "size": 20409,
+      "sha256": "a1fc466eb6900506"
+    },
+    {
+      "path": "src/tutorial_manager.py",
+      "size": 1209,
+      "sha256": "91281b2759050eef"
+    },
+    {
+      "path": "src/update_system.py",
+      "size": 20603,
+      "sha256": "50ec43b2e04e96dc"
+    },
+    {
+      "path": "src/vr_ar.py",
+      "size": 17208,
+      "sha256": "309cc861584c8e43"
+    },
+    {
+      "path": "src/weather_fiction.py",
+      "size": 27888,
+      "sha256": "5046008bba1e6a57"
+    },
+    {
+      "path": "src/world_bridge.py",
+      "size": 9357,
+      "sha256": "cea82565b6858358"
+    },
+    {
+      "path": "src/world_events.py",
+      "size": 27167,
+      "sha256": "878ca2e878ffdc1c"
+    },
+    {
+      "path": "src/world_library.py",
+      "size": 4432,
+      "sha256": "c89da539eab428c2"
+    },
+    {
+      "path": "src/world_map.py",
+      "size": 22680,
+      "sha256": "4f1256584554e728"
+    },
+    {
+      "path": "src/world_map_ui.py",
+      "size": 14930,
+      "sha256": "58568047b2ceb9c2"
+    },
+    {
+      "path": "src/world_persistence.py",
+      "size": 5172,
+      "sha256": "29511b61cb3fda03"
+    },
+    {
+      "path": "src/world_session.py",
+      "size": 3792,
+      "sha256": "d8352ee01f8d6e1d"
+    },
+    {
+      "path": "src/world_simulation.py",
+      "size": 16321,
+      "sha256": "6020f6717849b3a8"
+    },
+    {
+      "path": "tests/conftest.py",
+      "size": 2752,
+      "sha256": "0386ab878f4a04b8"
+    },
+    {
+      "path": "tests/test_abilities.py",
+      "size": 16896,
+      "sha256": "ad5ddab2ce701df0"
+    },
+    {
+      "path": "tests/test_accessibility.py",
+      "size": 11036,
+      "sha256": "f7f3e1121feb1778"
+    },
+    {
+      "path": "tests/test_advanced_ai.py",
+      "size": 15980,
+      "sha256": "3ce9ec99d81c6e2a"
+    },
+    {
+      "path": "tests/test_advanced_quest_system.py",
+      "size": 17064,
+      "sha256": "45ffc26c600313b1"
+    },
+    {
+      "path": "tests/test_ai_narration.py",
+      "size": 12150,
+      "sha256": "387887f43967d054"
+    },
+    {
+      "path": "tests/test_analytics.py",
+      "size": 5672,
+      "sha256": "5e280d1b2ca35776"
+    },
+    {
+      "path": "tests/test_character_customization.py",
+      "size": 15381,
+      "sha256": "62cf6caf7f944b79"
+    },
+    {
+      "path": "tests/test_character_stats.py",
+      "size": 14369,
+      "sha256": "4236ba423002fddf"
+    },
+    {
+      "path": "tests/test_cloud_gaming.py",
+      "size": 9473,
+      "sha256": "0f7ab289ca7cdb9c"
+    },
+    {
+      "path": "tests/test_cloud_gaming_streaming.py",
+      "size": 10449,
+      "sha256": "56596e8f1d5c89c9"
+    },
+    {
+      "path": "tests/test_cloud_sync.py",
+      "size": 7072,
+      "sha256": "8df01818fd7ac73d"
+    },
+    {
+      "path": "tests/test_combat.py",
+      "size": 21882,
+      "sha256": "c0a619971c8dfdff"
+    },
+    {
+      "path": "tests/test_combat_ui.py",
+      "size": 8124,
+      "sha256": "0512587653e3aea3"
+    },
+    {
+      "path": "tests/test_community.py",
+      "size": 8709,
+      "sha256": "dbf89d857a3d7214"
+    },
+    {
+      "path": "tests/test_cooldowns.py",
+      "size": 8801,
+      "sha256": "400fbd7bd2a7fa51"
+    },
+    {
+      "path": "tests/test_crafting.py",
+      "size": 8863,
+      "sha256": "db93185613101fe4"
+    },
+    {
+      "path": "tests/test_crafting_ui.py",
+      "size": 8927,
+      "sha256": "2a2812a1093d4ebb"
+    },
+    {
+      "path": "tests/test_data_integrity.py",
+      "size": 7359,
+      "sha256": "75cdee7cf89bf48b"
+    },
+    {
+      "path": "tests/test_difficulty_settings.py",
+      "size": 21784,
+      "sha256": "609e0155fd102bb5"
+    },
+    {
+      "path": "tests/test_economy.py",
+      "size": 18925,
+      "sha256": "68030910eade8eb3"
+    },
+    {
+      "path": "tests/test_endgame.py",
+      "size": 25361,
+      "sha256": "9fd0c6ccea783e85"
+    },
+    {
+      "path": "tests/test_equipment.py",
+      "size": 17041,
+      "sha256": "5a5ae246bad6a31d"
+    },
+    {
+      "path": "tests/test_equipment_ui.py",
+      "size": 12018,
+      "sha256": "1c16f8ac1dc330e7"
+    },
+    {
+      "path": "tests/test_graphics_effects.py",
+      "size": 16147,
+      "sha256": "1321620559d574bd"
+    },
+    {
+      "path": "tests/test_inventory.py",
+      "size": 19727,
+      "sha256": "a49201c85f0c4f1a"
+    },
+    {
+      "path": "tests/test_locations.py",
+      "size": 9616,
+      "sha256": "b641f29542e5065a"
+    },
+    {
+      "path": "tests/test_loot.py",
+      "size": 15525,
+      "sha256": "e4af1bf882de3f0f"
+    },
+    {
+      "path": "tests/test_main_menu_ui.py",
+      "size": 10811,
+      "sha256": "9e95f889c41e9d20"
+    },
+    {
+      "path": "tests/test_milestones.py",
+      "size": 16352,
+      "sha256": "bc75bac46a66bdf6"
+    },
+    {
+      "path": "tests/test_mini_games.py",
+      "size": 15866,
+      "sha256": "59f6656d1943a587"
+    },
+    {
+      "path": "tests/test_mod_support.py",
+      "size": 9746,
+      "sha256": "9a1c68d5e6bc8f41"
+    },
+    {
+      "path": "tests/test_multiplayer.py",
+      "size": 15780,
+      "sha256": "06bc24ff0f3d2d74"
+    },
+    {
+      "path": "tests/test_multiplayer_network.py",
+      "size": 6375,
+      "sha256": "92bb122a1fc0c1c6"
+    },
+    {
+      "path": "tests/test_npc_dialogue.py",
+      "size": 32361,
+      "sha256": "1a8abe00416b02ec"
+    },
+    {
+      "path": "tests/test_offline_mode.py",
+      "size": 8093,
+      "sha256": "1a6c5c6115d77b22"
+    },
+    {
+      "path": "tests/test_onboarding.py",
+      "size": 13117,
+      "sha256": "a486f8b2c7860fc2"
+    },
+    {
+      "path": "tests/test_party.py",
+      "size": 12518,
+      "sha256": "7b0ef9bc6fe95f8b"
+    },
+    {
+      "path": "tests/test_performance_optimizer.py",
+      "size": 11991,
+      "sha256": "6103555ac9a7fb29"
+    },
+    {
+      "path": "tests/test_procedural_generation.py",
+      "size": 13109,
+      "sha256": "0c404fb3f9b98fa3"
+    },
+    {
+      "path": "tests/test_progression.py",
+      "size": 9802,
+      "sha256": "ab1ed42aa480461f"
+    },
+    {
+      "path": "tests/test_quest_journal.py",
+      "size": 7738,
+      "sha256": "c9d212bdc17d6643"
+    },
+    {
+      "path": "tests/test_quest_tracker.py",
+      "size": 12010,
+      "sha256": "b0f96950e844ae0d"
+    },
+    {
+      "path": "tests/test_rpg_13_09_advanced_npc_ai.py",
+      "size": 17469,
+      "sha256": "456c98065e4be515"
+    },
+    {
+      "path": "tests/test_session_timeline.py",
+      "size": 7330,
+      "sha256": "20d56f16f40e2ba8"
+    },
+    {
+      "path": "tests/test_settings_ui.py",
+      "size": 13452,
+      "sha256": "cb7d6162dec95bb3"
+    },
+    {
+      "path": "tests/test_skill_check.py",
+      "size": 11461,
+      "sha256": "f442bf3a20333f95"
+    },
+    {
+      "path": "tests/test_skill_tree.py",
+      "size": 15486,
+      "sha256": "20d062ecb22336a5"
+    },
+    {
+      "path": "tests/test_soundtrack.py",
+      "size": 12553,
+      "sha256": "5373080ecf2596b3"
+    },
+    {
+      "path": "tests/test_status_conditions.py",
+      "size": 12267,
+      "sha256": "7997f68507550477"
+    },
+    {
+      "path": "tests/test_title_system.py",
+      "size": 10859,
+      "sha256": "368b9005a1b12df5"
+    },
+    {
+      "path": "tests/test_travel_ledger.py",
+      "size": 11902,
+      "sha256": "ad069fb8a19e59bc"
+    },
+    {
+      "path": "tests/test_tutorial.py",
+      "size": 16338,
+      "sha256": "526bfe3d17c57099"
+    },
+    {
+      "path": "tests/test_update_system.py",
+      "size": 11239,
+      "sha256": "55ab4c9ff41290e6"
+    },
+    {
+      "path": "tests/test_vr_ar.py",
+      "size": 9233,
+      "sha256": "d2d4474c152f95c2"
+    },
+    {
+      "path": "tests/test_weather_fiction.py",
+      "size": 11417,
+      "sha256": "a3d038bbaad7623d"
+    },
+    {
+      "path": "tests/test_world_events.py",
+      "size": 23320,
+      "sha256": "3ff1e60f6263eeab"
+    },
+    {
+      "path": "tests/test_world_management.py",
+      "size": 11049,
+      "sha256": "fb163f6346c317f3"
+    },
+    {
+      "path": "tests/test_world_map.py",
+      "size": 12993,
+      "sha256": "ffb63149ca435e4b"
+    },
+    {
+      "path": "tests/test_world_map_ui.py",
+      "size": 8513,
+      "sha256": "16dfdc98e2a223f8"
+    },
+    {
+      "path": "tests/test_world_persistence.py",
+      "size": 7903,
+      "sha256": "a62c1fcf4aaa43f0"
+    },
+    {
+      "path": "tests/test_world_simulation.py",
+      "size": 8716,
+      "sha256": "048cb1d1b99d4721"
+    }
+  ]
+}

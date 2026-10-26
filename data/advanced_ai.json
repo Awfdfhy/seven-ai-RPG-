@@ -1,0 +1,280 @@
+[
+  {
+    "npc_id": "elder_mira_advanced",
+    "name": "Elder Mira",
+    "behavior_state": "idle",
+    "personality": {
+      "openness": 0.8,
+      "conscientiousness": 0.9,
+      "extraversion": 0.6,
+      "agreeableness": 0.85,
+      "neuroticism": 0.2,
+      "courage": 0.7,
+      "loyalty": 0.9,
+      "morality": 0.95
+    },
+    "transitions": [
+      {
+        "transition_id": "mira_work_start",
+        "from_state": "idle",
+        "to_state": "work",
+        "weight": 2.0,
+        "cooldown_ticks": 0
+      },
+      {
+        "transition_id": "mira_rest_break",
+        "from_state": "work",
+        "to_state": "rest",
+        "weight": 1.5,
+        "cooldown_ticks": 3
+      },
+      {
+        "transition_id": "mira_sleep_night",
+        "from_state": "rest",
+        "to_state": "sleep",
+        "weight": 1.0,
+        "cooldown_ticks": 0
+      },
+      {
+        "transition_id": "mira_flee_danger",
+        "from_state": "idle",
+        "to_state": "flee",
+        "weight": 5.0,
+        "cooldown_ticks": 5
+      },
+      {
+        "transition_id": "mira_combat_defend",
+        "from_state": "rest",
+        "to_state": "combat",
+        "weight": 3.0,
+        "cooldown_ticks": 0
+      }
+    ],
+    "goals": [
+      {
+        "goal_id": "mira_goal_peace",
+        "name": "maintain_peace",
+        "priority": 4.0,
+        "satisfaction": 0.0,
+        "decay_per_tick": 0.02
+      },
+      {
+        "goal_id": "mira_goal_knowledge",
+        "name": "gather_knowledge",
+        "priority": 3.0,
+        "satisfaction": 0.0,
+        "decay_per_tick": 0.01
+      }
+    ],
+    "learning_profiles": {
+      "player": {
+        "axes": {
+          "trust": 1.0,
+          "respect": 2.0
+        },
+        "observations": 5
+      }
+    },
+    "memories": [
+      {
+        "memory_id": "mira_mem_001",
+        "memory_type": "player_action",
+        "timestamp": "2024-01-15T10:00:00+00:00",
+        "subject_id": "player",
+        "target_id": "elder_mira_advanced",
+        "location_id": "oakhaven",
+        "intensity": 2.0,
+        "decay_rate": 0.005,
+        "strength": 0.95,
+        "details": {"action": "helped_repair_shrine", "keywords": ["help", "repair", "shrine"]}
+      },
+      {
+        "memory_id": "mira_mem_002",
+        "memory_type": "dialogue",
+        "timestamp": "2024-01-14T14:00:00+00:00",
+        "subject_id": "player",
+        "target_id": "elder_mira_advanced",
+        "location_id": "oakhaven",
+        "intensity": 1.0,
+        "decay_rate": 0.01,
+        "strength": 0.8,
+        "details": {"topic": "ancient_lore", "keywords": ["talk", "lore", "ancient"]}
+      }
+    ]
+  },
+  {
+    "npc_id": "sentry_aldric_advanced",
+    "name": "Sentry Aldric",
+    "behavior_state": "patrol",
+    "personality": {
+      "openness": 0.3,
+      "conscientiousness": 0.9,
+      "extraversion": 0.4,
+      "agreeableness": 0.5,
+      "neuroticism": 0.6,
+      "courage": 0.8,
+      "loyalty": 0.95,
+      "morality": 0.7
+    },
+    "transitions": [
+      {
+        "transition_id": "aldric_patrol_loop",
+        "from_state": "idle",
+        "to_state": "patrol",
+        "weight": 2.0,
+        "cooldown_ticks": 0
+      },
+      {
+        "transition_id": "aldric_alert_danger",
+        "from_state": "patrol",
+        "to_state": "investigate",
+        "weight": 3.0,
+        "cooldown_ticks": 2
+      },
+      {
+        "transition_id": "aldric_combat_engage",
+        "from_state": "investigate",
+        "to_state": "combat",
+        "weight": 4.0,
+        "cooldown_ticks": 0
+      },
+      {
+        "transition_id": "aldric_flee_overwhelmed",
+        "from_state": "combat",
+        "to_state": "flee",
+        "weight": 2.0,
+        "cooldown_ticks": 8
+      },
+      {
+        "transition_id": "aldric_rest_recover",
+        "from_state": "flee",
+        "to_state": "rest",
+        "weight": 1.5,
+        "cooldown_ticks": 4
+      }
+    ],
+    "goals": [
+      {
+        "goal_id": "aldric_goal_protect",
+        "name": "protect_village",
+        "priority": 5.0,
+        "satisfaction": 0.0,
+        "decay_per_tick": 0.05
+      },
+      {
+        "goal_id": "aldric_goal_patrol",
+        "name": "patrol_route",
+        "priority": 3.0,
+        "satisfaction": 0.0,
+        "decay_per_tick": 0.03
+      }
+    ],
+    "learning_profiles": {
+      "player": {
+        "axes": {
+          "trust": 0.5,
+          "fear": -0.2
+        },
+        "observations": 3
+      }
+    },
+    "memories": [
+      {
+        "memory_id": "aldric_mem_001",
+        "memory_type": "player_action",
+        "timestamp": "2024-01-16T08:00:00+00:00",
+        "subject_id": "player",
+        "target_id": "sentry_aldric_advanced",
+        "location_id": "oakhaven_outskirts",
+        "intensity": 1.5,
+        "decay_rate": 0.008,
+        "strength": 0.9,
+        "details": {"action": "helped_fight_bandits", "keywords": ["fight", "bandits", "help"]}
+      }
+    ]
+  },
+  {
+    "npc_id": "miner_grom_advanced",
+    "name": "Miner Grom",
+    "behavior_state": "work",
+    "personality": {
+      "openness": 0.4,
+      "conscientiousness": 0.7,
+      "extraversion": 0.5,
+      "agreeableness": 0.6,
+      "neuroticism": 0.7,
+      "courage": 0.5,
+      "loyalty": 0.6,
+      "morality": 0.5
+    },
+    "transitions": [
+      {
+        "transition_id": "grom_work_start",
+        "from_state": "idle",
+        "to_state": "work",
+        "weight": 2.0,
+        "cooldown_ticks": 0
+      },
+      {
+        "transition_id": "grom_rest_break",
+        "from_state": "work",
+        "to_state": "rest",
+        "weight": 1.5,
+        "cooldown_ticks": 3
+      },
+      {
+        "transition_id": "grom_flee_cave_in",
+        "from_state": "work",
+        "to_state": "flee",
+        "weight": 5.0,
+        "cooldown_ticks": 6
+      },
+      {
+        "transition_id": "grom_socialize_tavern",
+        "from_state": "rest",
+        "to_state": "socialize",
+        "weight": 1.2,
+        "cooldown_ticks": 4
+      }
+    ],
+    "goals": [
+      {
+        "goal_id": "grom_goal_wealth",
+        "name": "earn_wealth",
+        "priority": 3.0,
+        "satisfaction": 0.0,
+        "decay_per_tick": 0.01
+      },
+      {
+        "goal_id": "grom_goal_survive",
+        "name": "survive_shifts",
+        "priority": 5.0,
+        "satisfaction": 0.0,
+        "decay_per_tick": 0.04
+      }
+    ],
+    "learning_profiles": {
+      "player": {
+        "axes": {
+          "trust": 0.2,
+          "respect": 0.8
+        },
+        "observations": 2
+      }
+    },
+    "memories": [
+      {
+        "memory_id": "grom_mem_001",
+        "memory_type": "trade",
+        "timestamp": "2024-01-17T11:00:00+00:00",
+        "subject_id": "player",
+        "target_id": "miner_grom_advanced",
+        "location_id": "ember_mine",
+        "intensity": 1.0,
+        "decay_rate": 0.01,
+        "strength": 0.85,
+        "details": {"action": "bought_ore", "keywords": ["trade", "buy", "ore"]}
+      }
+    ]
+  }
+]

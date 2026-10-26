@@ -1,0 +1,92 @@
+[
+  {
+    "id": "village_guard",
+    "name": "Village Guard",
+    "description": "The village of Oakhaven needs help dealing with wolf packs roaming the outskirts.",
+    "prerequisites": [],
+    "objectives": [
+      {
+        "id": "kill_wolves",
+        "description": "Defeat 5 wolves near Oakhaven",
+        "required_count": 5,
+        "metadata": {"location": "oakhaven_outskirts", "enemy_type": "wolf"}
+      },
+      {
+        "id": "return_sentry",
+        "description": "Return to Sentry Aldric",
+        "required_count": 1,
+        "metadata": {"npc": "sentry_aldric"}
+      }
+    ],
+    "rewards": [
+      {"type": "gold", "amount": 150, "metadata": {"currency": "gold_coins"}},
+      {"type": "experience", "amount": 300, "metadata": {}},
+      {"type": "item", "item_id": "leather_vest", "amount": 1, "metadata": {"rarity": "common"}}
+    ],
+    "metadata": {"difficulty": "easy", "recommended_level": 2}
+  },
+  {
+    "id": "lost_artifact",
+    "name": "The Lost Artifact",
+    "description": "An ancient artifact was lost in the Whispering Caves. Retrieve it for the scholars of Oakhaven.",
+    "prerequisites": ["village_guard"],
+    "objectives": [
+      {
+        "id": "enter_caves",
+        "description": "Enter the Whispering Caves",
+        "required_count": 1,
+        "metadata": {"location": "whispering_caves"}
+      },
+      {
+        "id": "find_artifact",
+        "description": "Locate the ancient artifact",
+        "required_count": 1,
+        "metadata": {"item": "ancient_artifact"}
+      },
+      {
+        "id": "escape_caves",
+        "description": "Escape the collapsing caves",
+        "required_count": 1,
+        "metadata": {"event": "cave_collapse"}
+      }
+    ],
+    "rewards": [
+      {"type": "gold", "amount": 500, "metadata": {"currency": "gold_coins"}},
+      {"type": "experience", "amount": 800, "metadata": {}},
+      {"type": "item", "item_id": "ancient_amulet", "amount": 1, "metadata": {"rarity": "rare"}}
+    ],
+    "metadata": {"difficulty": "medium", "recommended_level": 5}
+  },
+  {
+    "id": "dragon_threat",
+    "name": "Dragon Threat",
+    "description": "A dragon has been spotted near the northern pass. Investigate before it attacks the trade route.",
+    "prerequisites": ["lost_artifact"],
+    "objectives": [
+      {
+        "id": "reach_pass",
+        "description": "Reach the Northern Pass",
+        "required_count": 1,
+        "metadata": {"location": "northern_pass"}
+      },
+      {
+        "id": "scout_dragon",
+        "description": "Scout the dragon's location",
+        "required_count": 1,
+        "metadata": {"event": "dragon_scout"}
+      },
+      {
+        "id": "survive_encounter",
+        "description": "Survive the dragon encounter",
+        "required_count": 1,
+        "metadata": {"event": "dragon_survival"}
+      }
+    ],
+    "rewards": [
+      {"type": "gold", "amount": 2000, "metadata": {"currency": "gold_coins"}},
+      {"type": "experience", "amount": 3000, "metadata": {}},
+      {"type": "item", "item_id": "dragon_scale_armor", "amount": 1, "metadata": {"rarity": "legendary"}}
+    ],
+    "metadata": {"difficulty": "hard", "recommended_level": 10}
+  }
+]

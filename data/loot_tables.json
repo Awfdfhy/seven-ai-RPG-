@@ -1,0 +1,58 @@
+[
+  {
+    "id": "goblin_pouch",
+    "name": "Goblin Loot Pouch",
+    "description": "Common drops found on goblins and their camps.",
+    "entries": [
+      {"item_id": "copper_coin", "rarity": "common", "weight": 60, "min_quantity": 2, "max_quantity": 5},
+      {"item_id": "iron_dagger", "rarity": "common", "weight": 30, "min_quantity": 1, "max_quantity": 1},
+      {"item_id": "healing_salve", "rarity": "uncommon", "weight": 10, "min_quantity": 1, "max_quantity": 1}
+    ],
+    "min_drops": 1,
+    "max_drops": 2,
+    "allow_duplicates": false,
+    "metadata": {"source": "goblin", "recommended_level": 1}
+  },
+  {
+    "id": "dragon_hoard",
+    "name": "Dragon Hoard",
+    "description": "Prestigious loot from an ancient dragon's lair.",
+    "entries": [
+      {"item_id": "gold_bar", "rarity": "rare", "weight": 40, "min_quantity": 1, "max_quantity": 3},
+      {"item_id": "dragon_scale", "rarity": "epic", "weight": 25, "min_quantity": 1, "max_quantity": 2},
+      {"item_id": "ancient_crown", "rarity": "legendary", "weight": 5, "min_quantity": 1, "max_quantity": 1}
+    ],
+    "min_drops": 2,
+    "max_drops": 3,
+    "allow_duplicates": false,
+    "metadata": {"source": "dragon", "recommended_level": 10}
+  },
+  {
+    "id": "common_chest",
+    "name": "Common Chest",
+    "description": "A basic wooden treasure chest.",
+    "entries": [
+      {"item_id": "gold_coin", "rarity": "common", "weight": 80, "min_quantity": 1, "max_quantity": 10},
+      {"item_id": "rusty_sword", "rarity": "common", "weight": 20, "min_quantity": 1, "max_quantity": 1}
+    ],
+    "min_drops": 1,
+    "max_drops": 1,
+    "allow_duplicates": true,
+    "metadata": {"source": "chest", "recommended_level": 1}
+  },
+  {
+    "id": "shadow_cache",
+    "name": "Shadow Cache",
+    "description": "Hidden loot in shadowy corners of the world.",
+    "entries": [
+      {"item_id": "shadow_dagger", "rarity": "rare", "weight": 35, "min_quantity": 1, "max_quantity": 1},
+      {"item_id": "smoke_bomb", "rarity": "uncommon", "weight": 45, "min_quantity": 1, "max_quantity": 3},
+      {"item_id": "night_vision_potion", "rarity": "epic", "weight": 10, "min_quantity": 1, "max_quantity": 1},
+      {"item_id": "cloak_of_shadows", "rarity": "legendary", "weight": 2, "min_quantity": 1, "max_quantity": 1}
+    ],
+    "min_drops": 1,
+    "max_drops": 2,
+    "allow_duplicates": false,
+    "metadata": {"source": "stealth", "recommended_level": 5}
+  }
+]

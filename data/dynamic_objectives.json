@@ -1,0 +1,40 @@
+[
+  {
+    "template_id": "dynamic_kill",
+    "objective_type": "kill",
+    "base_id": "kill_{enemy_slug}",
+    "base_description": "Defeat {required_count} {enemy_name}",
+    "scale_rules": {
+      "base_count": 3,
+      "scale_per_level": 0,
+      "difficulty_multipliers": {"easy": 0.75, "medium": 1.0, "hard": 1.5},
+      "min_count": 1,
+      "max_count": 20
+    },
+    "conditions": {
+      "required_world_flags": [],
+      "excluded_world_flags": ["peaceful_mode"],
+      "required_tags": ["combat"]
+    },
+    "metadata": {"enemy_type": "{enemy_slug}"}
+  },
+  {
+    "template_id": "dynamic_explore",
+    "objective_type": "explore",
+    "base_id": "explore_{location_slug}",
+    "base_description": "Explore the {location_name}",
+    "scale_rules": {
+      "base_count": 1,
+      "scale_per_level": 0,
+      "difficulty_multipliers": {},
+      "min_count": 1,
+      "max_count": 5
+    },
+    "conditions": {
+      "required_world_flags": [],
+      "excluded_world_flags": [],
+      "required_tags": ["exploration"]
+    },
+    "metadata": {"location": "{location_slug}"}
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "oakhaven_region",
+    "name": "Oakhaven Valley",
+    "description": "A peaceful valley centered around the village of Oakhaven. Rolling hills, dense forests, and the Whispering Caves to the north.",
+    "color": "#4caf50",
+    "x": 200,
+    "y": 300,
+    "locations": ["oakhaven", "whispering_caves", "oakhaven_outskirts", "northern_pass"]
+  },
+  {
+    "id": "ashfall_region",
+    "name": "Ashfall Wastelands",
+    "description": "A volcanic wasteland in the east. The air is thick with ash and danger, but rare minerals can be found here.",
+    "color": "#ff7043",
+    "x": 700,
+    "y": 250,
+    "locations": ["ashfall_entrance", "ember_mine"]
+  },
+  {
+    "id": "frostveil_region",
+    "name": "Frostveil Peaks",
+    "description": "Snow-capped mountains in the far north. Home to isolated clans and ancient ruins.",
+    "color": "#64b5f6",
+    "x": 500,
+    "y": 80,
+    "locations": ["frostveil_pass", "ancient_spire"]
+  }
+]

@@ -1,0 +1,419 @@
+{
+  "biomes": {
+    "village": {
+      "base_temperature_celsius": 10,
+      "resource_nodes": [
+        "herbs",
+        "vegetables",
+        "water"
+      ],
+      "wildlife": [
+        "sparrow",
+        "cat",
+        "dog"
+      ],
+      "flora": [
+        "wheat",
+        "apple_tree",
+        "flower"
+      ],
+      "weather_preferences": {
+        "clear": 0.5,
+        "partly_cloudy": 0.3,
+        "overcast": 0.15,
+        "rain": 0.05
+      }
+    },
+    "forest": {
+      "base_temperature_celsius": 8,
+      "resource_nodes": [
+        "herbs",
+        "wood",
+        "berries",
+        "mushroom"
+      ],
+      "wildlife": [
+        "deer",
+        "wolf",
+        "rabbit",
+        "owl"
+      ],
+      "flora": [
+        "oak",
+        "pine",
+        "birch",
+        "fern"
+      ],
+      "weather_preferences": {
+        "clear": 0.35,
+        "partly_cloudy": 0.25,
+        "overcast": 0.2,
+        "rain": 0.15,
+        "fog": 0.05
+      }
+    },
+    "wilderness": {
+      "base_temperature_celsius": 7,
+      "resource_nodes": [
+        "herbs",
+        "wood",
+        "berries",
+        "hide"
+      ],
+      "wildlife": [
+        "deer",
+        "wolf",
+        "rabbit",
+        "fox"
+      ],
+      "flora": [
+        "oak",
+        "pine",
+        "berry_bush",
+        "root"
+      ],
+      "weather_preferences": {
+        "clear": 0.3,
+        "partly_cloudy": 0.2,
+        "overcast": 0.2,
+        "rain": 0.2,
+        "fog": 0.1
+      }
+    },
+    "dungeon": {
+      "base_temperature_celsius": 5,
+      "resource_nodes": [
+        "ore",
+        "crystal",
+        "relic"
+      ],
+      "wildlife": [
+        "bat",
+        "spider",
+        "rat"
+      ],
+      "flora": [
+        "moss",
+        "fungus",
+        "lichen"
+      ],
+      "weather_preferences": {
+        "clear": 0.6,
+        "overcast": 0.3,
+        "fog": 0.1
+      }
+    },
+    "pass": {
+      "base_temperature_celsius": -2,
+      "resource_nodes": [
+        "ore",
+        "ice_shard",
+        "hide"
+      ],
+      "wildlife": [
+        "mountain_goat",
+        "eagle",
+        "wolf"
+      ],
+      "flora": [
+        "pine",
+        "moss",
+        "lichen"
+      ],
+      "weather_preferences": {
+        "clear": 0.25,
+        "partly_cloudy": 0.2,
+        "overcast": 0.2,
+        "snow": 0.2,
+        "windy": 0.15
+      }
+    },
+    "outpost": {
+      "base_temperature_celsius": 15,
+      "resource_nodes": [
+        "ore",
+        "water",
+        "vegetables"
+      ],
+      "wildlife": [
+        "sparrow",
+        "lizard",
+        "scorpion"
+      ],
+      "flora": [
+        "cactus",
+        "shrub",
+        "ash_tree"
+      ],
+      "weather_preferences": {
+        "clear": 0.4,
+        "haze": 0.3,
+        "windy": 0.2,
+        "overcast": 0.1
+      }
+    }
+  },
+  "location_biomes": {
+    "oakhaven": "village",
+    "oakhaven_outskirts": "wilderness",
+    "whispering_caves": "dungeon",
+    "northern_pass": "pass",
+    "ashfall_entrance": "outpost",
+    "ember_mine": "dungeon",
+    "frostveil_pass": "pass",
+    "ancient_spire": "dungeon"
+  },
+  "seasonal_modifiers": {
+    "spring": {
+      "temperature_delta": 8,
+      "resource_multiplier": 1.4,
+      "wildlife_activity": 1.3,
+      "description": "Life returns to the land. Flora blooms and wildlife is active."
+    },
+    "summer": {
+      "temperature_delta": 15,
+      "resource_multiplier": 1.2,
+      "wildlife_activity": 1.1,
+      "description": "The land thrives under the hot sun. Resources are abundant but heat is a risk."
+    },
+    "autumn": {
+      "temperature_delta": 3,
+      "resource_multiplier": 1.3,
+      "wildlife_activity": 0.9,
+      "description": "Harvest time. Animals prepare for winter; resources are plentiful."
+    },
+    "winter": {
+      "temperature_delta": -12,
+      "resource_multiplier": 0.6,
+      "wildlife_activity": 0.4,
+      "description": "The cold grips the land. Resources are scarce and wildlife shelters."
+    }
+  },
+  "species": {
+    "deer": {
+      "biomes": [
+        "forest",
+        "wilderness"
+      ],
+      "base_population": 40,
+      "reproduction_rate": 0.04,
+      "predators": [
+        "wolf"
+      ],
+      "weather_effects": {
+        "clear": 0.01,
+        "rain": -0.01,
+        "blizzard": -0.08,
+        "fog": -0.02
+      },
+      "description": "Graceful herbivores that graze in meadows and forests."
+    },
+    "wolf": {
+      "biomes": [
+        "forest",
+        "wilderness",
+        "pass"
+      ],
+      "base_population": 12,
+      "reproduction_rate": 0.03,
+      "predators": [],
+      "prey": [
+        "deer",
+        "rabbit"
+      ],
+      "weather_effects": {
+        "clear": 0.005,
+        "snow": 0.02,
+        "blizzard": -0.05
+      },
+      "description": "Pack hunters that roam the wilder regions."
+    },
+    "rabbit": {
+      "biomes": [
+        "forest",
+        "wilderness",
+        "plains"
+      ],
+      "base_population": 60,
+      "reproduction_rate": 0.06,
+      "predators": [
+        "wolf",
+        "fox",
+        "owl"
+      ],
+      "weather_effects": {
+        "clear": 0.02,
+        "rain": -0.01,
+        "snow": -0.03
+      },
+      "description": "Small, quick herbivores found in nearly every temperate biome."
+    },
+    "owl": {
+      "biomes": [
+        "forest",
+        "wilderness"
+      ],
+      "base_population": 8,
+      "reproduction_rate": 0.02,
+      "predators": [],
+      "prey": [
+        "rabbit",
+        "rat"
+      ],
+      "weather_effects": {
+        "clear": 0.01,
+        "windy": -0.02,
+        "rain": -0.01
+      },
+      "description": "Nocturnal hunters that nest in tall trees."
+    },
+    "bat": {
+      "biomes": [
+        "dungeon"
+      ],
+      "base_population": 30,
+      "reproduction_rate": 0.05,
+      "predators": [],
+      "weather_effects": {
+        "clear": 0.01,
+        "overcast": 0.01
+      },
+      "description": "Cave-dwelling creatures that emerge at dusk."
+    },
+    "spider": {
+      "biomes": [
+        "dungeon"
+      ],
+      "base_population": 25,
+      "reproduction_rate": 0.04,
+      "predators": [],
+      "weather_effects": {
+        "clear": 0.01,
+        "overcast": 0.01
+      },
+      "description": "Arachnids that weave webs in dark corners."
+    },
+    "mountain_goat": {
+      "biomes": [
+        "pass",
+        "mountains"
+      ],
+      "base_population": 15,
+      "reproduction_rate": 0.02,
+      "predators": [
+        "wolf"
+      ],
+      "weather_effects": {
+        "clear": 0.01,
+        "snow": 0.01,
+        "blizzard": -0.06
+      },
+      "description": "Sure-footed climbers adapted to high altitudes."
+    },
+    "sparrow": {
+      "biomes": [
+        "village",
+        "forest",
+        "plains"
+      ],
+      "base_population": 50,
+      "reproduction_rate": 0.07,
+      "predators": [
+        "cat",
+        "owl"
+      ],
+      "weather_effects": {
+        "clear": 0.02,
+        "rain": -0.01,
+        "windy": -0.03
+      },
+      "description": "Small songbirds common near settlements."
+    }
+  },
+  "weather_transitions": {
+    "clear": {
+      "partly_cloudy": 0.25,
+      "overcast": 0.15,
+      "haze": 0.05
+    },
+    "partly_cloudy": {
+      "clear": 0.3,
+      "overcast": 0.3,
+      "windy": 0.1
+    },
+    "overcast": {
+      "partly_cloudy": 0.15,
+      "rain": 0.2,
+      "drizzle": 0.15,
+      "fog": 0.1
+    },
+    "drizzle": {
+      "rain": 0.4,
+      "overcast": 0.3,
+      "fog": 0.1
+    },
+    "rain": {
+      "heavy_rain": 0.25,
+      "overcast": 0.2,
+      "drizzle": 0.2,
+      "thunderstorm": 0.1
+    },
+    "heavy_rain": {
+      "rain": 0.35,
+      "thunderstorm": 0.2,
+      "overcast": 0.2
+    },
+    "thunderstorm": {
+      "rain": 0.4,
+      "heavy_rain": 0.25,
+      "overcast": 0.2
+    },
+    "snow": {
+      "blizzard": 0.15,
+      "overcast": 0.35,
+      "fog": 0.1
+    },
+    "blizzard": {
+      "snow": 0.4,
+      "overcast": 0.3,
+      "windy": 0.15
+    },
+    "fog": {
+      "overcast": 0.35,
+      "drizzle": 0.15,
+      "clear": 0.1
+    },
+    "haze": {
+      "clear": 0.3,
+      "overcast": 0.25,
+      "windy": 0.2
+    },
+    "windy": {
+      "clear": 0.3,
+      "partly_cloudy": 0.2,
+      "overcast": 0.2
+    }
+  },
+  "day_night_narration": {
+    "dawn": [
+      "The horizon blushes as the first light breaks.",
+      "Shadows retreat before the morning sun.",
+      "A cool dawn breeze stirs the waking world."
+    ],
+    "day": [
+      "The sun climbs high, flooding the land with light.",
+      "Midday warmth settles over the world.",
+      "The day is bright and full of promise."
+    ],
+    "dusk": [
+      "The sun sinks low, painting the sky in amber.",
+      "Long shadows stretch across the land as evening falls.",
+      "The sky burns orange and purple at the edge of day."
+    ],
+    "night": [
+      "Stars spill across the dark sky.",
+      "The world is quiet under a blanket of night.",
+      "Moonlight silvered the path ahead."
+    ]
+  }
+}

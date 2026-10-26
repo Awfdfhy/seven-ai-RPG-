@@ -1,0 +1,102 @@
+[
+  {
+    "id": "village_guard_completed",
+    "name": "Oakhaven Secured",
+    "description": "The village of Oakhaven has been secured from the wolf threat.",
+    "category": "story",
+    "prerequisites": [],
+    "world_effects": [
+      {"type": "npc_reaction_modifier", "target": "oakhaven_villagers", "modifier": 10},
+      {"type": "unlock_region", "region": "oakhaven_outskirts"}
+    ],
+    "narration_hooks": [
+      {
+        "scope": "region",
+        "target": "oakhaven",
+        "template": "The people of Oakhaven breathe easier now that the wolves have been driven off."
+      }
+    ],
+    "metadata": {"difficulty": "easy", "recommended_level": 2}
+  },
+  {
+    "id": "artifact_retrieved",
+    "name": "Ancient Knowledge Restored",
+    "description": "The ancient artifact has been recovered from the Whispering Caves.",
+    "category": "story",
+    "prerequisites": ["village_guard_completed"],
+    "world_effects": [
+      {"type": "unlock_region", "region": "whispering_caves"},
+      {"type": "unlock_quest", "quest_id": "dragon_threat"}
+    ],
+    "narration_hooks": [
+      {
+        "scope": "global",
+        "target": "world",
+        "template": "Scholars pore over the ancient artifact, revealing secrets of the old world."
+      }
+    ],
+    "metadata": {"difficulty": "medium", "recommended_level": 5}
+  },
+  {
+    "id": "dragon_defeated",
+    "name": "The Dragon's Fall",
+    "description": "The dragon threatening the Northern Pass has been slain.",
+    "category": "story",
+    "prerequisites": ["artifact_retrieved"],
+    "world_effects": [
+      {"type": "npc_reaction_modifier", "target": "northern_traders", "modifier": 20},
+      {"type": "unlock_region", "region": "dragon_lair"},
+      {"type": "world_flag", "flag": "dragon_threat_ended", "value": true}
+    ],
+    "narration_hooks": [
+      {
+        "scope": "region",
+        "target": "northern_pass",
+        "template": "Trade resumes along the Northern Pass as the dragon's reign of terror ends."
+      },
+      {
+        "scope": "region",
+        "target": "oakhaven",
+        "template": "News of the dragon's defeat spreads far and wide, bringing hope to all who heard it."
+      }
+    ],
+    "metadata": {"difficulty": "hard", "recommended_level": 10}
+  },
+  {
+    "id": "shadow_mastery",
+    "name": "Master of Shadows",
+    "description": "The hero has mastered the art of stealth and shadow.",
+    "category": "character",
+    "prerequisites": [],
+    "world_effects": [
+      {"type": "character_buff", "stat": "stealth", "value": 15}
+    ],
+    "narration_hooks": [
+      {
+        "scope": "region",
+        "target": "world",
+        "template": "You move like a phantom, unseen and unheard."
+      }
+    ],
+    "metadata": {"difficulty": "hard", "recommended_level": 8}
+  },
+  {
+    "id": "faction_alliance",
+    "name": "Alliance of the Free Peoples",
+    "description": "An alliance has been forged between the major factions.",
+    "category": "faction",
+    "prerequisites": ["village_guard_completed", "artifact_retrieved"],
+    "world_effects": [
+      {"type": "npc_reaction_modifier", "target": "all_factions", "modifier": 15},
+      {"type": "unlock_faction", "faction": "alliance_council"}
+    ],
+    "narration_hooks": [
+      {
+        "scope": "global",
+        "target": "world",
+        "template": "The banners of the alliance fly over every major settlement."
+      }
+    ],
+    "metadata": {"difficulty": "medium", "recommended_level": 6}
+  }
+]

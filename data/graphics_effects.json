@@ -1,0 +1,419 @@
+{
+  "particle_emitters": [
+    {
+      "id": "fire_burst",
+      "shape": "sphere",
+      "position": [0.0, 0.0, 0.0],
+      "direction": [0.0, 1.0, 0.0],
+      "spread_degrees": 20.0,
+      "rate_per_second": 40.0,
+      "particle_lifetime": 0.6,
+      "particle_size": [0.3, 0.8],
+      "start_color": [1.0, 0.6, 0.1, 1.0],
+      "end_color": [1.0, 0.1, 0.0, 0.0],
+      "start_velocity": 3.0,
+      "end_velocity": 0.5,
+      "blend_mode": "additive",
+      "duration_seconds": 1.5,
+      "max_particles": 80,
+      "extra": {
+        "radius": 0.5,
+        "acceleration": [0.0, 1.5, 0.0]
+      }
+    },
+    {
+      "id": "ice_ring",
+      "shape": "disc",
+      "position": [0.0, 0.0, 0.0],
+      "direction": [0.0, 1.0, 0.0],
+      "spread_degrees": 5.0,
+      "rate_per_second": 30.0,
+      "particle_lifetime": 1.2,
+      "particle_size": [0.2, 0.5],
+      "start_color": [0.7, 0.9, 1.0, 0.9],
+      "end_color": [0.3, 0.6, 1.0, 0.0],
+      "start_velocity": 2.0,
+      "end_velocity": 0.2,
+      "blend_mode": "additive",
+      "duration_seconds": 1.0,
+      "max_particles": 60,
+      "extra": {
+        "radius": 1.5,
+        "acceleration": [0.0, 0.5, 0.0]
+      }
+    },
+    {
+      "id": "heal_sparkle",
+      "shape": "point",
+      "position": [0.0, 0.0, 0.0],
+      "direction": [0.0, 1.0, 0.0],
+      "spread_degrees": 360.0,
+      "rate_per_second": 20.0,
+      "particle_lifetime": 0.8,
+      "particle_size": [0.1, 0.3],
+      "start_color": [1.0, 1.0, 0.8, 1.0],
+      "end_color": [1.0, 1.0, 1.0, 0.0],
+      "start_velocity": 1.5,
+      "end_velocity": 0.0,
+      "blend_mode": "additive",
+      "duration_seconds": 1.2,
+      "max_particles": 40,
+      "extra": {}
+    },
+    {
+      "id": "shadow_stealth",
+      "shape": "box",
+      "position": [0.0, 0.0, 0.0],
+      "direction": [0.0, 0.0, 1.0],
+      "spread_degrees": 10.0,
+      "rate_per_second": 15.0,
+      "particle_lifetime": 2.0,
+      "particle_size": [0.5, 1.2],
+      "start_color": [0.2, 0.2, 0.3, 0.4],
+      "end_color": [0.1, 0.1, 0.15, 0.0],
+      "start_velocity": 0.5,
+      "end_velocity": 0.1,
+      "blend_mode": "alpha",
+      "duration_seconds": 5.0,
+      "max_particles": 100,
+      "extra": {
+        "half_extents": [0.8, 0.3, 0.8],
+        "acceleration": [0.0, 0.1, 0.0]
+      }
+    },
+    {
+      "id": "lightning_arc",
+      "shape": "cone",
+      "position": [0.0, 0.0, 0.0],
+      "direction": [1.0, 0.0, 0.0],
+      "spread_degrees": 15.0,
+      "rate_per_second": 50.0,
+      "particle_lifetime": 0.3,
+      "particle_size": [0.1, 0.4],
+      "start_color": [0.6, 0.8, 1.0, 1.0],
+      "end_color": [0.9, 0.95, 1.0, 0.0],
+      "start_velocity": 8.0,
+      "end_velocity": 2.0,
+      "blend_mode": "additive",
+      "duration_seconds": 0.8,
+      "max_particles": 50,
+      "extra": {
+        "radius": 0.3,
+        "acceleration": [0.0, -2.0, 0.0]
+      }
+    },
+    {
+      "id": "blood_splatter",
+      "shape": "cone",
+      "position": [0.0, 0.0, 0.0],
+      "direction": [1.0, 0.0, 0.0],
+      "spread_degrees": 40.0,
+      "rate_per_second": 25.0,
+      "particle_lifetime": 0.5,
+      "particle_size": [0.15, 0.4],
+      "start_color": [0.6, 0.05, 0.05, 1.0],
+      "end_color": [0.3, 0.0, 0.0, 0.0],
+      "start_velocity": 4.0,
+      "end_velocity": 0.8,
+      "blend_mode": "alpha",
+      "duration_seconds": 0.4,
+      "max_particles": 30,
+      "extra": {
+        "radius": 0.2,
+        "acceleration": [0.0, -3.0, 0.0]
+      }
+    },
+    {
+      "id": "dust_puff",
+      "shape": "sphere",
+      "position": [0.0, 0.0, 0.0],
+      "direction": [0.0, 1.0, 0.0],
+      "spread_degrees": 60.0,
+      "rate_per_second": 12.0,
+      "particle_lifetime": 1.5,
+      "particle_size": [0.4, 1.0],
+      "start_color": [0.8, 0.7, 0.5, 0.6],
+      "end_color": [0.6, 0.5, 0.4, 0.0],
+      "start_velocity": 1.0,
+      "end_velocity": 0.2,
+      "blend_mode": "alpha",
+      "duration_seconds": 0.8,
+      "max_particles": 40,
+      "extra": {
+        "radius": 0.6,
+        "acceleration": [0.0, 0.3, 0.0]
+      }
+    },
+    {
+      "id": "magic_circle",
+      "shape": "disc",
+      "position": [0.0, 0.0, 0.0],
+      "direction": [0.0, 1.0, 0.0],
+      "spread_degrees": 3.0,
+      "rate_per_second": 35.0,
+      "particle_lifetime": 0.9,
+      "particle_size": [0.05, 0.15],
+      "start_color": [0.4, 0.2, 0.9, 0.9],
+      "end_color": [0.8, 0.5, 1.0, 0.0],
+      "start_velocity": 1.0,
+      "end_velocity": 0.5,
+      "blend_mode": "additive",
+      "duration_seconds": 2.5,
+      "max_particles": 90,
+      "extra": {
+        "radius": 2.0,
+        "acceleration": [0.0, 0.0, 0.0]
+      }
+    }
+  ],
+  "shaders": [
+    {
+      "id": "fire_distortion",
+      "name": "Fire Distortion",
+      "category": "combat",
+      "vertex_source": "attribute vec3 position; varying vec2 uv; void main() { uv = position.xy * 0.5 + 0.5; gl_Position = vec4(position, 1.0); }",
+      "fragment_source": "precision mediump float; varying vec2 uv; uniform float time; uniform float intensity; void main() { float d = sin(uv.y * 10.0 + time * 5.0) * intensity * 0.02; gl_FragColor = vec4(1.0, 0.4 + d, 0.1, 0.8); }",
+      "parameters": [
+        {
+          "name": "time",
+          "type": "float",
+          "default_value": 0.0,
+          "description": "Elapsed time in seconds"
+        },
+        {
+          "name": "intensity",
+          "type": "float",
+          "default_value": 1.0,
+          "min_value": 0.0,
+          "max_value": 2.0,
+          "description": "Distortion strength"
+        }
+      ],
+      "tags": ["fire", "combat", "distortion"],
+      "min_quality": "medium"
+    },
+    {
+      "id": "frost_outline",
+      "name": "Frost Outline",
+      "category": "combat",
+      "vertex_source": "attribute vec3 position; varying vec3 world_pos; void main() { world_pos = position; gl_Position = vec4(position, 1.0); }",
+      "fragment_source": "precision mediump float; varying vec3 world_pos; uniform vec3 outline_color; void main() { float d = length(world_pos.xy) - 0.48; float a = smoothstep(0.02, 0.0, d); gl_FragColor = vec4(outline_color, a * 0.8); }",
+      "parameters": [
+        {
+          "name": "outline_color",
+          "type": "vec3",
+          "default_value": [0.6, 0.85, 1.0],
+          "description": "Tint for frozen outline"
+        }
+      ],
+      "tags": ["ice", "combat", "outline"],
+      "min_quality": "low"
+    },
+    {
+      "id": "hit_flash",
+      "name": "Hit Flash",
+      "category": "combat",
+      "vertex_source": "attribute vec3 position; varying vec2 uv; void main() { uv = position.xy * 0.5 + 0.5; gl_Position = vec4(position, 1.0); }",
+      "fragment_source": "precision mediump float; varying vec2 uv; uniform float flash; void main() { float v = flash * (1.0 - length(uv - 0.5) * 1.4); gl_FragColor = vec4(1.0, 1.0, 1.0, clamp(v, 0.0, 1.0)); }",
+      "parameters": [
+        {
+          "name": "flash",
+          "type": "float",
+          "default_value": 1.0,
+          "min_value": 0.0,
+          "max_value": 1.0,
+          "description": "0..1 flash intensity"
+        }
+      ],
+      "tags": ["combat", "flash", "hit"],
+      "min_quality": "low"
+    },
+    {
+      "id": "vignette_screen",
+      "name": "Vignette Screen",
+      "category": "postprocess",
+      "vertex_source": "attribute vec3 position; varying vec2 uv; void main() { uv = position.xy * 0.5 + 0.5; gl_Position = vec4(position, 1.0); }",
+      "fragment_source": "precision mediump float; varying vec2 uv; uniform float intensity; uniform float radius; uniform vec3 color; void main() { float d = distance(uv, vec2(0.5)); float v = smoothstep(radius, radius + 0.3, d) * intensity; gl_FragColor = vec4(color, v); }",
+      "parameters": [
+        {
+          "name": "intensity",
+          "type": "float",
+          "default_value": 0.3,
+          "min_value": 0.0,
+          "max_value": 1.0,
+          "description": "Edge darkening strength"
+        },
+        {
+          "name": "radius",
+          "type": "float",
+          "default_value": 0.5,
+          "min_value": 0.0,
+          "max_value": 1.0,
+          "description": "Inner edge of vignette"
+        },
+        {
+          "name": "color",
+          "type": "vec3",
+          "default_value": [0.0, 0.0, 0.0],
+          "description": "Vignette tint"
+        }
+      ],
+      "tags": ["postprocess", "vignette"],
+      "min_quality": "low"
+    },
+    {
+      "id": "chromatic_aberration",
+      "name": "Chromatic Aberration",
+      "category": "postprocess",
+      "vertex_source": "attribute vec3 position; varying vec2 uv; void main() { uv = position.xy * 0.5 + 0.5; gl_Position = vec4(position, 1.0); }",
+      "fragment_source": "precision mediump float; varying vec2 uv; uniform float amount; uniform vec2 direction; void main() { float r = texture2D(u_texture, uv + direction * amount).r; float g = texture2D(u_texture, uv).g; float b = texture2D(u_texture, uv - direction * amount).b; gl_FragColor = vec4(r, g, b, 1.0); }",
+      "parameters": [
+        {
+          "name": "amount",
+          "type": "float",
+          "default_value": 0.005,
+          "min_value": 0.0,
+          "max_value": 0.05,
+          "description": "Separation strength"
+        },
+        {
+          "name": "direction",
+          "type": "vec2",
+          "default_value": [1.0, 0.0],
+          "description": "Aberration direction"
+        }
+      ],
+      "tags": ["postprocess", "chromatic", "aberration"],
+      "min_quality": "medium"
+    },
+    {
+      "id": "pixelate",
+      "name": "Pixelate",
+      "category": "postprocess",
+      "vertex_source": "attribute vec3 position; varying vec2 uv; void main() { uv = position.xy * 0.5 + 0.5; gl_Position = vec4(position, 1.0); }",
+      "fragment_source": "precision mediump float; varying vec2 uv; uniform float pixel_size; uniform vec2 resolution; void main() { vec2 coord = floor(uv * resolution / pixel_size) * pixel_size / resolution; gl_FragColor = texture2D(u_texture, coord); }",
+      "parameters": [
+        {
+          "name": "pixel_size",
+          "type": "float",
+          "default_value": 4.0,
+          "min_value": 1.0,
+          "max_value": 32.0,
+          "description": "Pixel block size"
+        },
+        {
+          "name": "resolution",
+          "type": "vec2",
+          "default_value": [800.0, 600.0],
+          "description": "Screen resolution"
+        }
+      ],
+      "tags": ["postprocess", "pixelate", "retro"],
+      "min_quality": "low"
+    }
+  ],
+  "post_process": {
+    "bloom": {
+      "layer": "pre_tonemap",
+      "intensity": 0.5,
+      "default_parameters": {
+        "threshold": 1.0,
+        "radius": 4.0,
+        "tint": [1.0, 1.0, 1.0]
+      }
+    },
+    "motion_blur": {
+      "layer": "post_tonemap",
+      "intensity": 0.6,
+      "default_parameters": {
+        "velocity_scale": 1.0,
+        "max_blur": 8.0,
+        "samples": 16
+      }
+    },
+    "color_grading_warm": {
+      "layer": "post_tonemap",
+      "intensity": 0.4,
+      "default_parameters": {
+        "saturation": 1.1,
+        "contrast": 1.05,
+        "brightness": 0.02,
+        "tint": [1.05, 0.95, 0.85]
+      }
+    },
+    "color_grading_cold": {
+      "layer": "post_tonemap",
+      "intensity": 0.4,
+      "default_parameters": {
+        "saturation": 0.95,
+        "contrast": 1.05,
+        "brightness": -0.02,
+        "tint": [0.85, 0.9, 1.05]
+      }
+    },
+    "vignette_dark": {
+      "layer": "overlay",
+      "intensity": 0.35,
+      "default_parameters": {
+        "radius": 0.5,
+        "softness": 0.3,
+        "color": [0.0, 0.0, 0.0]
+      }
+    },
+    "vignette_red": {
+      "layer": "overlay",
+      "intensity": 0.3,
+      "default_parameters": {
+        "radius": 0.55,
+        "softness": 0.25,
+        "color": [0.4, 0.0, 0.0]
+      }
+    },
+    "depth_of_field": {
+      "layer": "pre_tonemap",
+      "intensity": 0.7,
+      "default_parameters": {
+        "focal_distance": 10.0,
+        "focal_range": 5.0,
+        "blur_near": 2.0,
+        "blur_far": 4.0,
+        "max_blur": 8.0
+      }
+    },
+    "screen_shake": {
+      "layer": "overlay",
+      "intensity": 1.0,
+      "default_parameters": {
+        "amplitude": 0.5,
+        "frequency": 20.0,
+        "decay": 2.0
+      }
+    },
+    "hit_stop": {
+      "layer": "overlay",
+      "intensity": 1.0,
+      "default_parameters": {
+        "duration": 0.08,
+        "time_scale": 0.1
+      }
+    },
+    "flash_white": {
+      "layer": "overlay",
+      "intensity": 1.0,
+      "default_parameters": {
+        "duration": 0.15,
+        "peak": 1.0
+      }
+    },
+    "low_health_pulse": {
+      "layer": "overlay",
+      "intensity": 0.6,
+      "default_parameters": {
+        "pulse_speed": 2.0,
+        "tint": [0.5, 0.0, 0.0],
+        "min_alpha": 0.1,
+        "max_alpha": 0.4
+      }
+    }
+  }
+}

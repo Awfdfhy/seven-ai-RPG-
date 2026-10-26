@@ -1,0 +1,50 @@
+[
+  {
+    "id": "sentry_aldric",
+    "name": "Sentry Aldric",
+    "location_id": "oakhaven",
+    "schedule": [
+      {"hour": 6, "activity": "patrol", "location_id": "oakhaven_outskirts"},
+      {"hour": 10, "activity": "rest", "location_id": "oakhaven"},
+      {"hour": 14, "activity": "patrol", "location_id": "oakhaven_outskirts"},
+      {"hour": 18, "activity": "sleep", "location_id": "oakhaven"},
+      {"hour": 22, "activity": "sleep", "location_id": "oakhaven"}
+    ]
+  },
+  {
+    "id": "elder_mira",
+    "name": "Elder Mira",
+    "location_id": "oakhaven",
+    "schedule": [
+      {"hour": 8, "activity": "work", "location_id": "oakhaven"},
+      {"hour": 12, "activity": "rest", "location_id": "oakhaven"},
+      {"hour": 14, "activity": "work", "location_id": "oakhaven"},
+      {"hour": 18, "activity": "rest", "location_id": "oakhaven"},
+      {"hour": 22, "activity": "sleep", "location_id": "oakhaven"}
+    ]
+  },
+  {
+    "id": "miner_grom",
+    "name": "Miner Grom",
+    "location_id": "ember_mine",
+    "schedule": [
+      {"hour": 6, "activity": "work", "location_id": "ember_mine"},
+      {"hour": 12, "activity": "rest", "location_id": "ember_mine"},
+      {"hour": 14, "activity": "work", "location_id": "ember_mine"},
+      {"hour": 18, "activity": "rest", "location_id": "ashfall_entrance"},
+      {"hour": 22, "activity": "sleep", "location_id": "ashfall_entrance"}
+    ]
+  },
+  {
+    "id": "frostwarden_kara",
+    "name": "Frostwarden Kara",
+    "location_id": "frostveil_pass",
+    "schedule": [
+      {"hour": 6, "activity": "patrol", "location_id": "frostveil_pass"},
+      {"hour": 10, "activity": "rest", "location_id": "frostveil_pass"},
+      {"hour": 14, "activity": "patrol", "location_id": "ancient_spire"},
+      {"hour": 18, "activity": "rest", "location_id": "frostveil_pass"},
+      {"hour": 22, "activity": "sleep", "location_id": "frostveil_pass"}
+    ]
+  }
+]

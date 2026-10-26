@@ -1,0 +1,39 @@
+{
+  "categories": [
+    {
+      "id": "level",
+      "name": "Level",
+      "description": "Highest character level",
+      "metric": "level",
+      "higher_is_better": true
+    },
+    {
+      "id": "prestige",
+      "name": "Prestige",
+      "description": "Most prestige points earned",
+      "metric": "prestige_points",
+      "higher_is_better": true
+    },
+    {
+      "id": "total_xp",
+      "name": "Total XP",
+      "description": "Most total experience earned",
+      "metric": "total_xp",
+      "higher_is_better": true
+    },
+    {
+      "id": "quests",
+      "name": "Quests Completed",
+      "description": "Most quests completed",
+      "metric": "quests_completed",
+      "higher_is_better": true
+    },
+    {
+      "id": "titles",
+      "name": "Titles Earned",
+      "description": "Most titles earned",
+      "metric": "titles_earned",
+      "higher_is_better": true
+    }
+  ]
+}

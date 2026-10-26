@@ -1,0 +1,107 @@
+{
+  "items": [
+    {
+      "id": "iron_sword",
+      "name": "Iron Sword",
+      "description": "A reliable one-handed iron sword.",
+      "item_type": "weapon",
+      "rarity": "uncommon",
+      "stackable": false,
+      "max_stack": 1,
+      "stats": {"attack_power": 12},
+      "effects": {"on_hit": {"bleed_chance": 0.05}},
+      "durability": 50,
+      "max_durability": 50
+    },
+    {
+      "id": "iron_axe",
+      "name": "Iron Axe",
+      "description": "A sturdy iron axe for chopping wood and fighting.",
+      "item_type": "weapon",
+      "rarity": "uncommon",
+      "stackable": false,
+      "max_stack": 1,
+      "stats": {"attack_power": 10},
+      "effects": {"gathering_bonus": {"wood": 2}},
+      "durability": 40,
+      "max_durability": 40
+    },
+    {
+      "id": "iron_plate",
+      "name": "Iron Plate Armor",
+      "description": "Heavy iron plating for maximum protection.",
+      "item_type": "armor",
+      "rarity": "rare",
+      "stackable": false,
+      "max_stack": 1,
+      "stats": {"defense": 18},
+      "effects": {"damage_reduction": 0.15},
+      "durability": 80,
+      "max_durability": 80
+    },
+    {
+      "id": "leather_armor",
+      "name": "Leather Armor",
+      "description": "Light and flexible leather protection.",
+      "item_type": "armor",
+      "rarity": "common",
+      "stackable": false,
+      "max_stack": 1,
+      "stats": {"defense": 6},
+      "effects": {"dodge_bonus": 0.05},
+      "durability": 30,
+      "max_durability": 30
+    },
+    {
+      "id": "minor_healing_potion",
+      "name": "Minor Healing Potion",
+      "description": "Restores a small amount of health when consumed.",
+      "item_type": "potion",
+      "rarity": "common",
+      "stackable": true,
+      "max_stack": 99,
+      "effects": {"heal_amount": 25}
+    },
+    {
+      "id": "minor_mana_potion",
+      "name": "Minor Mana Potion",
+      "description": "Restores a small amount of mana when consumed.",
+      "item_type": "potion",
+      "rarity": "common",
+      "stackable": true,
+      "max_stack": 99,
+      "effects": {"mana_restore": 20}
+    },
+    {
+      "id": "cooked_meat",
+      "name": "Cooked Meat",
+      "description": "A hearty portion of cooked meat.",
+      "item_type": "food",
+      "rarity": "common",
+      "stackable": true,
+      "max_stack": 99,
+      "effects": {"hunger_restore": 30, "health_regen_per_tick": 2}
+    },
+    {
+      "id": "oak_table",
+      "name": "Oak Table",
+      "description": "A sturdy wooden table for a home or workshop.",
+      "item_type": "tool",
+      "rarity": "common",
+      "stackable": false,
+      "max_stack": 1,
+      "effects": {"furniture_quality": 5}
+    },
+    {
+      "id": "wool_cloak",
+      "name": "Wool Cloak",
+      "description": "A warm wool cloak with a simple hood.",
+      "item_type": "accessory",
+      "rarity": "common",
+      "stackable": false,
+      "max_stack": 1,
+      "stats": {"warmth": 10},
+      "effects": {"cold_resistance": 0.1}
+    }
+  ]
+}

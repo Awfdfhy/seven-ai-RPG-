@@ -1,0 +1,79 @@
+[
+  {
+    "id": "void_raid",
+    "name": "Void Raid",
+    "description": "A high-stakes raid in the void dimension.",
+    "category": "raid",
+    "difficulty": "hard",
+    "min_level": 50,
+    "prerequisites": [],
+    "rewards": [
+      { "type": "legendary_item", "item_id": "void_blade" }
+    ],
+    "world_effects": [
+      { "type": "unlock_region", "region": "void_temple" }
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "shadow_challenge",
+    "name": "Shadow Trial",
+    "description": "A solo challenge in the shadow realm.",
+    "category": "challenge",
+    "difficulty": "medium",
+    "min_level": 30,
+    "prerequisites": ["void_raid"],
+    "rewards": [
+      { "type": "currency", "amount": 500 }
+    ],
+    "world_effects": [],
+    "metadata": {}
+  },
+  {
+    "id": "eternal_bounties",
+    "name": "Eternal Bounties",
+    "description": "Endless bounty board for veteran adventurers.",
+    "category": "bounties",
+    "difficulty": "easy",
+    "min_level": 10,
+    "prerequisites": [],
+    "rewards": [
+      { "type": "currency", "amount": 100 }
+    ],
+    "world_effects": [],
+    "metadata": {}
+  },
+  {
+    "id": "cosmic_dungeon",
+    "name": "Cosmic Dungeon",
+    "description": "An ever-shifting dungeon at the edge of reality.",
+    "category": "challenge",
+    "difficulty": "nightmare",
+    "min_level": 60,
+    "prerequisites": ["void_raid", "shadow_challenge"],
+    "rewards": [
+      { "type": "legendary_item", "item_id": "cosmic_crown" },
+      { "type": "currency", "amount": 2000 }
+    ],
+    "world_effects": [
+      { "type": "unlock_region", "region": "cosmic_nexus" },
+      { "type": "global_buff", "stat": "xp_gain", "value": 10 }
+    ],
+    "metadata": { "repeatable": true, "seed_based": true }
+  },
+  {
+    "id": "champion_arena",
+    "name": "Champion Arena",
+    "description": "PvP-style endurance trials against elite champions.",
+    "category": "raid",
+    "difficulty": "hard",
+    "min_level": 45,
+    "prerequisites": [],
+    "rewards": [
+      { "type": "title", "title_id": "arena_champion" },
+      { "type": "currency", "amount": 750 }
+    ],
+    "world_effects": [],
+    "metadata": { "repeatable": true }
+  }
+]

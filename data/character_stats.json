@@ -1,0 +1,120 @@
+{
+  "base_stats": [
+    {
+      "id": "strength",
+      "name": "Strength",
+      "abbreviation": "STR",
+      "description": "Physical power and carrying capacity.",
+      "min": 1,
+      "max": 100,
+      "default": 10
+    },
+    {
+      "id": "dexterity",
+      "name": "Dexterity",
+      "abbreviation": "DEX",
+      "description": "Agility, reflexes, and precision.",
+      "min": 1,
+      "max": 100,
+      "default": 10
+    },
+    {
+      "id": "intelligence",
+      "name": "Intelligence",
+      "abbreviation": "INT",
+      "description": "Arcane aptitude and problem-solving.",
+      "min": 1,
+      "max": 100,
+      "default": 10
+    },
+    {
+      "id": "vitality",
+      "name": "Vitality",
+      "abbreviation": "VIT",
+      "description": "Endurance and overall health.",
+      "min": 1,
+      "max": 100,
+      "default": 10
+    },
+    {
+      "id": "charisma",
+      "name": "Charisma",
+      "abbreviation": "CHA",
+      "description": "Force of personality and social influence.",
+      "min": 1,
+      "max": 100,
+      "default": 10
+    },
+    {
+      "id": "luck",
+      "name": "Luck",
+      "abbreviation": "LCK",
+      "description": "Fortune and serendipity.",
+      "min": 1,
+      "max": 100,
+      "default": 10
+    }
+  ],
+  "derived_stats": [
+    {
+      "id": "max_hp",
+      "name": "Maximum HP",
+      "formula": "vitality * 10 + strength * 2",
+      "description": "Total health points."
+    },
+    {
+      "id": "max_mp",
+      "name": "Maximum MP",
+      "formula": "intelligence * 8",
+      "description": "Total mana points."
+    },
+    {
+      "id": "max_stamina",
+      "name": "Maximum Stamina",
+      "formula": "vitality * 5 + dexterity * 3",
+      "description": "Total stamina points."
+    },
+    {
+      "id": "physical_power",
+      "name": "Physical Power",
+      "formula": "strength * 2",
+      "description": "Raw melee damage output."
+    },
+    {
+      "id": "magic_power",
+      "name": "Magic Power",
+      "formula": "intelligence * 2",
+      "description": "Raw spell damage output."
+    },
+    {
+      "id": "physical_defense",
+      "name": "Physical Defense",
+      "formula": "vitality * 1.5 + strength * 0.5",
+      "description": "Resistance to physical damage."
+    },
+    {
+      "id": "magic_defense",
+      "name": "Magic Defense",
+      "formula": "intelligence * 1 + vitality * 1",
+      "description": "Resistance to magical damage."
+    },
+    {
+      "id": "accuracy",
+      "name": "Accuracy",
+      "formula": "dexterity * 2 + luck * 0.5",
+      "description": "Hit chance modifier."
+    },
+    {
+      "id": "critical_chance",
+      "name": "Critical Chance",
+      "formula": "dexterity * 0.3 + luck * 0.5",
+      "description": "Percentage chance for a critical hit."
+    },
+    {
+      "id": "carry_weight",
+      "name": "Carry Weight",
+      "formula": "strength * 5",
+      "description": "Maximum encumbrance in arbitrary units."
+    }
+  ]
+}

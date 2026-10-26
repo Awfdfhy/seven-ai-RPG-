@@ -1,0 +1,72 @@
+[
+  {
+    "id": "oakhaven",
+    "name": "Oakhaven",
+    "region_id": "oakhaven_region",
+    "description": "A small village nestled in the valley. Home to farmers, traders, and the village guard.",
+    "location_type": "town",
+    "x": 200,
+    "y": 300,
+    "danger_level": 1,
+    "connections": [
+      { "to": "oakhaven_outskirts", "distance": 2, "travel_time_hours": 1 },
+      { "to": "whispering_caves", "distance": 3, "travel_time_hours": 2 },
+      { "to": "northern_pass", "distance": 4, "travel_time_hours": 3 }
+    ]
+  },
+  {
+    "id": "oakhaven_outskirts",
+    "name": "Oakhaven Outskirts",
+    "region_id": "oakhaven_region",
+    "description": "The forested outskirts of Oakhaven. Wolf packs roam the woods at dusk.",
+    "location_type": "wilderness",
+    "x": 240,
+    "y": 340,
+    "danger_level": 2,
+    "connections": [
+      { "to": "oakhaven", "distance": 2, "travel_time_hours": 1 },
+      { "to": "northern_pass", "distance": 3, "travel_time_hours": 2 }
+    ]
+  },
+  {
+    "id": "whispering_caves",
+    "name": "Whispering Caves",
+    "region_id": "oakhaven_region",
+    "description": "Ancient caves filled with echoing whispers and hidden treasures.",
+    "location_type": "dungeon",
+    "x": 160,
+    "y": 260,
+    "danger_level": 3,
+    "connections": [
+      { "to": "oakhaven", "distance": 3, "travel_time_hours": 2 }
+    ]
+  },
+  {
+    "id": "northern_pass",
+    "name": "Northern Pass",
+    "region_id": "oakhaven_region",
+    "description": "A mountain pass connecting the valley to the Frostveil Peaks. A trade route plagued by dragons.",
+    "location_type": "pass",
+    "x": 280,
+    "y": 180,
+    "danger_level": 4,
+    "connections": [
+      { "to": "oakhaven", "distance": 4, "travel_time_hours": 3 },
+      { "to": "oakhaven_outskirts", "distance": 3, "travel_time_hours": 2 },
+      { "to": "frostveil_pass", "distance": 5, "travel_time_hours": 4 }
+    ]
+  },
+  {
+    "id": "frostveil_pass",
+    "name": "Frostveil Pass",
+    "region_id": "oakhaven_region",
+    "description": "A treacherous icy pass through the northern peaks. Blizzards reduce visibility and travel to a crawl.",
+    "location_type": "pass",
+    "x": 320,
+    "y": 120,
+    "danger_level": 7,
+    "connections": [
+      { "to": "northern_pass", "distance": 5, "travel_time_hours": 4 }
+    ]
+  }
+]

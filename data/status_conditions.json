@@ -1,0 +1,248 @@
+{
+  "conditions": [
+    {
+      "id": "poison",
+      "name": "Poison",
+      "condition_type": "poison",
+      "description": "Takes damage over time.",
+      "duration_seconds": 10.0,
+      "max_stacks": 5,
+      "effects": [
+        {
+          "stat": "health",
+          "value": -3.0,
+          "operator": "add",
+          "tick_value": -3.0
+        }
+      ],
+      "tick_interval_seconds": 1.0,
+      "can_be_cleansed": true,
+      "prevents_actions": false
+    },
+    {
+      "id": "stun",
+      "name": "Stun",
+      "condition_type": "stun",
+      "description": "Cannot act.",
+      "duration_seconds": 3.0,
+      "max_stacks": 1,
+      "effects": [],
+      "tick_interval_seconds": 0.0,
+      "can_be_cleansed": false,
+      "prevents_actions": true
+    },
+    {
+      "id": "burn",
+      "name": "Burn",
+      "condition_type": "burn",
+      "description": "Takes fire damage over time.",
+      "duration_seconds": 6.0,
+      "max_stacks": 3,
+      "effects": [
+        {
+          "stat": "health",
+          "value": -2.0,
+          "operator": "add",
+          "tick_value": -2.0
+        }
+      ],
+      "tick_interval_seconds": 1.0,
+      "can_be_cleansed": true,
+      "prevents_actions": false
+    },
+    {
+      "id": "freeze",
+      "name": "Freeze",
+      "condition_type": "freeze",
+      "description": "Movement and actions are slowed.",
+      "duration_seconds": 4.0,
+      "max_stacks": 1,
+      "effects": [
+        {
+          "stat": "speed",
+          "value": -0.5,
+          "operator": "multiply",
+          "tick_value": 0.0
+        }
+      ],
+      "tick_interval_seconds": 0.0,
+      "can_be_cleansed": true,
+      "prevents_actions": true
+    },
+    {
+      "id": "paralyze",
+      "name": "Paralyze",
+      "condition_type": "paralyze",
+      "description": "Cannot move or act.",
+      "duration_seconds": 2.0,
+      "max_stacks": 1,
+      "effects": [],
+      "tick_interval_seconds": 0.0,
+      "can_be_cleansed": false,
+      "prevents_actions": true
+    },
+    {
+      "id": "regen",
+      "name": "Regeneration",
+      "condition_type": "heal_over_time",
+      "description": "Heals over time.",
+      "duration_seconds": 8.0,
+      "max_stacks": 3,
+      "effects": [
+        {
+          "stat": "health",
+          "value": 2.0,
+          "operator": "add",
+          "tick_value": 2.0
+        }
+      ],
+      "tick_interval_seconds": 2.0,
+      "can_be_cleansed": true,
+      "prevents_actions": false
+    },
+    {
+      "id": "strength_buff",
+      "name": "Strength Buff",
+      "condition_type": "buff",
+      "description": "Increases strength.",
+      "duration_seconds": 30.0,
+      "max_stacks": 1,
+      "effects": [
+        {
+          "stat": "strength",
+          "value": 5.0,
+          "operator": "add",
+          "tick_value": 0.0
+        }
+      ],
+      "tick_interval_seconds": 0.0,
+      "can_be_cleansed": false,
+      "prevents_actions": false
+    },
+    {
+      "id": "weakness",
+      "name": "Weakness",
+      "condition_type": "debuff",
+      "description": "Decreases all stats.",
+      "duration_seconds": 15.0,
+      "max_stacks": 2,
+      "effects": [
+        {
+          "stat": "strength",
+          "value": -3.0,
+          "operator": "add",
+          "tick_value": 0.0
+        },
+        {
+          "stat": "dexterity",
+          "value": -3.0,
+          "operator": "add",
+          "tick_value": 0.0
+        }
+      ],
+      "tick_interval_seconds": 0.0,
+      "can_be_cleansed": true,
+      "prevents_actions": false
+    },
+    {
+      "id": "shield",
+      "name": "Shield",
+      "condition_type": "shield",
+      "description": "Absorbs damage.",
+      "duration_seconds": 20.0,
+      "max_stacks": 1,
+      "effects": [
+        {
+          "stat": "shield_health",
+          "value": 50.0,
+          "operator": "set",
+          "tick_value": 0.0
+        }
+      ],
+      "tick_interval_seconds": 0.0,
+      "can_be_cleansed": false,
+      "prevents_actions": false
+    },
+    {
+      "id": "root",
+      "name": "Root",
+      "condition_type": "root",
+      "description": "Cannot move.",
+      "duration_seconds": 5.0,
+      "max_stacks": 1,
+      "effects": [],
+      "tick_interval_seconds": 0.0,
+      "can_be_cleansed": true,
+      "prevents_actions": true
+    },
+    {
+      "id": "silence",
+      "name": "Silence",
+      "condition_type": "silence",
+      "description": "Cannot cast spells.",
+      "duration_seconds": 4.0,
+      "max_stacks": 1,
+      "effects": [],
+      "tick_interval_seconds": 0.0,
+      "can_be_cleansed": true,
+      "prevents_actions": true
+    },
+    {
+      "id": "invisible",
+      "name": "Invisible",
+      "condition_type": "invisible",
+      "description": "Cannot be seen by enemies.",
+      "duration_seconds": 10.0,
+      "max_stacks": 1,
+      "effects": [
+        {
+          "stat": "stealth",
+          "value": 100.0,
+          "operator": "set",
+          "tick_value": 0.0
+        }
+      ],
+      "tick_interval_seconds": 0.0,
+      "can_be_cleansed": false,
+      "prevents_actions": false
+    },
+    {
+      "id": "blind",
+      "name": "Blind",
+      "condition_type": "blind",
+      "description": "Attacks have reduced accuracy.",
+      "duration_seconds": 6.0,
+      "max_stacks": 1,
+      "effects": [
+        {
+          "stat": "accuracy",
+          "value": -0.75,
+          "operator": "multiply",
+          "tick_value": 0.0
+        }
+      ],
+      "tick_interval_seconds": 0.0,
+      "can_be_cleansed": true,
+      "prevents_actions": true
+    },
+    {
+      "id": "bleed",
+      "name": "Bleed",
+      "condition_type": "damage_over_time",
+      "description": "Takes physical damage over time.",
+      "duration_seconds": 8.0,
+      "max_stacks": 4,
+      "effects": [
+        {
+          "stat": "health",
+          "value": -1.5,
+          "operator": "add",
+          "tick_value": -1.5
+        }
+      ],
+      "tick_interval_seconds": 1.0,
+      "can_be_cleansed": true,
+      "prevents_actions": false
+    }
+  ]
+}

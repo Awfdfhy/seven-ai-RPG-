@@ -1,0 +1,84 @@
+{
+  "materials": [
+    {
+      "id": "iron_ore",
+      "name": "Iron Ore",
+      "description": "A chunk of raw iron ore mined from the earth.",
+      "rarity": "common",
+      "stackable": true,
+      "max_stack": 99
+    },
+    {
+      "id": "iron_ingot",
+      "name": "Iron Ingot",
+      "description": "Smelted iron bar ready for forging.",
+      "rarity": "common",
+      "stackable": true,
+      "max_stack": 99
+    },
+    {
+      "id": "oak_log",
+      "name": "Oak Log",
+      "description": "Sturdy oak wood suitable for carpentry.",
+      "rarity": "common",
+      "stackable": true,
+      "max_stack": 99
+    },
+    {
+      "id": "oak_plank",
+      "name": "Oak Plank",
+      "description": "Planed oak board used in construction.",
+      "rarity": "common",
+      "stackable": true,
+      "max_stack": 99
+    },
+    {
+      "id": "healing_herb",
+      "name": "Healing Herb",
+      "description": "A leafy green herb with restorative properties.",
+      "rarity": "uncommon",
+      "stackable": true,
+      "max_stack": 99
+    },
+    {
+      "id": "mana_flower",
+      "name": "Mana Flower",
+      "description": "A glowing blue flower that pulses with magical energy.",
+      "rarity": "uncommon",
+      "stackable": true,
+      "max_stack": 99
+    },
+    {
+      "id": "thread",
+      "name": "Thread",
+      "description": "Basic woven thread for sewing.",
+      "rarity": "common",
+      "stackable": true,
+      "max_stack": 99
+    },
+    {
+      "id": "leather_hide",
+      "name": "Leather Hide",
+      "description": "Tanned hide suitable for light armor.",
+      "rarity": "common",
+      "stackable": true,
+      "max_stack": 99
+    },
+    {
+      "id": "coal",
+      "name": "Coal",
+      "description": "Fuel for smelting ore into ingots.",
+      "rarity": "common",
+      "stackable": true,
+      "max_stack": 99
+    },
+    {
+      "id": "water_flask",
+      "name": "Water Flask",
+      "description": "A sealed flask of clean water.",
+      "rarity": "common",
+      "stackable": true,
+      "max_stack": 99
+    }
+  ]
+}

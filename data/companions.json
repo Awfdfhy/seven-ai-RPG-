@@ -1,0 +1,82 @@
+[
+  {
+    "id": "lyra",
+    "name": "Lyra the Swift",
+    "description": "A nimble rogue with a sharp tongue and sharper daggers. Prefers shadows and flanking strikes.",
+    "role": "rogue",
+    "base_stats": {
+      "dexterity": 16,
+      "strength": 8,
+      "intelligence": 12,
+      "vitality": 10
+    },
+    "preferred_skills": [
+      "shadow_stealth.backstab",
+      "shadow_stealth.shadow_step",
+      "shadow_stealth.evasion"
+    ],
+    "default_stance": "aggressive",
+    "personality": {
+      "courage": 6,
+      "loyalty": 7,
+      "caution": 4
+    },
+    "availability": {
+      "min_character_level": 3,
+      "reputation_required": "neutral"
+    }
+  },
+  {
+    "id": "garrick",
+    "name": "Garrick Ironvein",
+    "description": "A dwarven tank with immense strength and unyielding defense. His shield is his oath.",
+    "role": "tank",
+    "base_stats": {
+      "strength": 14,
+      "vitality": 16,
+      "dexterity": 6,
+      "intelligence": 6
+    },
+    "preferred_skills": [
+      "two_handed_combat.shield_bash",
+      "two_handed_combat.defensive_stance"
+    ],
+    "default_stance": "defensive",
+    "personality": {
+      "courage": 9,
+      "loyalty": 10,
+      "caution": 7
+    },
+    "availability": {
+      "min_character_level": 1,
+      "reputation_required": "friendly"
+    }
+  },
+  {
+    "id": "elara",
+    "name": "Elara Moonshadow",
+    "description": "An elven mage who weaves fire and frost. She values magical research over brute force.",
+    "role": "mage",
+    "base_stats": {
+      "intelligence": 18,
+      "dexterity": 10,
+      "vitality": 8,
+      "strength": 6
+    },
+    "preferred_skills": [
+      "fire_magic.fireball",
+      "fire_magic.inferno",
+      "fire_magic.meteor"
+    ],
+    "default_stance": "support",
+    "personality": {
+      "courage": 5,
+      "loyalty": 6,
+      "caution": 8
+    },
+    "availability": {
+      "min_character_level": 5,
+      "reputation_required": "honored"
+    }
+  }
+]

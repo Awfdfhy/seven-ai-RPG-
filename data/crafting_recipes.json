@@ -1,0 +1,151 @@
+{
+  "recipes": [
+    {
+      "id": "smelt_iron_ingot",
+      "name": "Smelt Iron Ingot",
+      "description": "Smelt iron ore into a usable ingot using coal.",
+      "station_id": "stone_forge",
+      "category": "forge",
+      "result_item_id": "iron_ingot",
+      "result_quantity": 1,
+      "ingredients": [
+        {"material_id": "iron_ore", "quantity": 2},
+        {"material_id": "coal", "quantity": 1}
+      ],
+      "skill_requirements": {"mining": 1},
+      "level_required": 1
+    },
+    {
+      "id": "craft_iron_sword",
+      "name": "Craft Iron Sword",
+      "description": "Forge a simple iron sword.",
+      "station_id": "stone_forge",
+      "category": "forge",
+      "result_item_id": "iron_sword",
+      "result_quantity": 1,
+      "ingredients": [
+        {"material_id": "iron_ingot", "quantity": 3}
+      ],
+      "skill_requirements": {"weaponsmithing": 2},
+      "level_required": 2
+    },
+    {
+      "id": "craft_iron_axe",
+      "name": "Craft Iron Axe",
+      "description": "Forge a basic iron axe.",
+      "station_id": "stone_forge",
+      "category": "forge",
+      "result_item_id": "iron_axe",
+      "result_quantity": 1,
+      "ingredients": [
+        {"material_id": "iron_ingot", "quantity": 2},
+        {"material_id": "oak_log", "quantity": 1}
+      ],
+      "skill_requirements": {"weaponsmithing": 1},
+      "level_required": 2
+    },
+    {
+      "id": "craft_iron_plate",
+      "name": "Craft Iron Plate Armor",
+      "description": "Heavy plating forged from iron for protection.",
+      "station_id": "stone_forge",
+      "category": "forge",
+      "result_item_id": "iron_plate",
+      "result_quantity": 1,
+      "ingredients": [
+        {"material_id": "iron_ingot", "quantity": 5}
+      ],
+      "skill_requirements": {"armorsmithing": 3},
+      "level_required": 4
+    },
+    {
+      "id": "craft_leather_armor",
+      "name": "Craft Leather Armor",
+      "description": "Light armor stitched from tanned leather.",
+      "station_id": "sewing_kit",
+      "category": "tailoring",
+      "result_item_id": "leather_armor",
+      "result_quantity": 1,
+      "ingredients": [
+        {"material_id": "leather_hide", "quantity": 3},
+        {"material_id": "thread", "quantity": 2}
+      ],
+      "skill_requirements": {"leatherworking": 1},
+      "level_required": 1
+    },
+    {
+      "id": "brew_minor_healing",
+      "name": "Brew Minor Healing Potion",
+      "description": "Mix a basic restorative draught.",
+      "station_id": "alchemy_bench",
+      "category": "alchemy",
+      "result_item_id": "minor_healing_potion",
+      "result_quantity": 2,
+      "ingredients": [
+        {"material_id": "healing_herb", "quantity": 1},
+        {"material_id": "water_flask", "quantity": 1}
+      ],
+      "skill_requirements": {"alchemy": 1},
+      "level_required": 1
+    },
+    {
+      "id": "brew_minor_mana",
+      "name": "Brew Minor Mana Potion",
+      "description": "Brew a simple mana-restoring tonic.",
+      "station_id": "alchemy_bench",
+      "category": "alchemy",
+      "result_item_id": "minor_mana_potion",
+      "result_quantity": 2,
+      "ingredients": [
+        {"material_id": "mana_flower", "quantity": 1},
+        {"material_id": "water_flask", "quantity": 1}
+      ],
+      "skill_requirements": {"alchemy": 1},
+      "level_required": 1
+    },
+    {
+      "id": "cook_meat",
+      "name": "Cook Meat",
+      "description": "Cook raw meat over a fire for a nourishing meal.",
+      "station_id": "campfire",
+      "category": "cooking",
+      "result_item_id": "cooked_meat",
+      "result_quantity": 1,
+      "ingredients": [
+        {"material_id": "healing_herb", "quantity": 1}
+      ],
+      "skill_requirements": {"cooking": 1},
+      "level_required": 1
+    },
+    {
+      "id": "build_oak_table",
+      "name": "Build Oak Table",
+      "description": "Assemble a simple wooden table.",
+      "station_id": "carpenter_bench",
+      "category": "workbench",
+      "result_item_id": "oak_table",
+      "result_quantity": 1,
+      "ingredients": [
+        {"material_id": "oak_plank", "quantity": 4},
+        {"material_id": "iron_ingot", "quantity": 1}
+      ],
+      "skill_requirements": {"carpentry": 2},
+      "level_required": 2
+    },
+    {
+      "id": "craft_wool_cloak",
+      "name": "Craft Wool Cloak",
+      "description": "Tailor a warm cloak from wool and thread.",
+      "station_id": "sewing_kit",
+      "category": "tailoring",
+      "result_item_id": "wool_cloak",
+      "result_quantity": 1,
+      "ingredients": [
+        {"material_id": "thread", "quantity": 3},
+        {"material_id": "leather_hide", "quantity": 1}
+      ],
+      "skill_requirements": {"tailoring": 1},
+      "level_required": 1
+    }
+  ]
+}

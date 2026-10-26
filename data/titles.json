@@ -1,0 +1,107 @@
+{
+  "titles": [
+    {
+      "id": "novice_adventurer",
+      "name": "Novice Adventurer",
+      "description": "Awarded for completing the first quest.",
+      "title_type": "title",
+      "requirements": {"quests_completed": 1},
+      "effects": {"npc_reaction_modifier": 0},
+      "display_format": "{name} the {title}"
+    },
+    {
+      "id": "veteran_explorer",
+      "name": "Veteran Explorer",
+      "description": "Awarded for discovering 10 unique locations.",
+      "title_type": "title",
+      "requirements": {"locations_discovered": 10},
+      "effects": {"npc_reaction_modifier": 1},
+      "display_format": "{name} the {title}"
+    },
+    {
+      "id": "master_combatant",
+      "name": "Master Combatant",
+      "description": "Awarded for defeating 100 enemies.",
+      "title_type": "title",
+      "requirements": {"enemies_defeated": 100},
+      "effects": {"npc_reaction_modifier": 2},
+      "display_format": "{name} the {title}"
+    }
+  ],
+  "prestige_ranks": [
+    {
+      "id": "bronze",
+      "name": "Bronze",
+      "description": "Entry-level prestige rank.",
+      "title_type": "prestige",
+      "requirements": {"prestige_points": 10},
+      "effects": {"npc_reaction_modifier": 1},
+      "display_format": "{name}, Bronze Rank"
+    },
+    {
+      "id": "silver",
+      "name": "Silver",
+      "description": "Mid-tier prestige rank.",
+      "title_type": "prestige",
+      "requirements": {"prestige_points": 50},
+      "effects": {"npc_reaction_modifier": 2},
+      "display_format": "{name}, Silver Rank"
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "description": "Elite prestige rank.",
+      "title_type": "prestige",
+      "requirements": {"prestige_points": 150},
+      "effects": {"npc_reaction_modifier": 3},
+      "display_format": "{name}, Gold Rank"
+    },
+    {
+      "id": "platinum",
+      "name": "Platinum",
+      "description": "Top-tier prestige rank.",
+      "title_type": "prestige",
+      "requirements": {"prestige_points": 500},
+      "effects": {"npc_reaction_modifier": 5},
+      "display_format": "{name}, Platinum Rank"
+    }
+  ],
+  "honorifics": [
+    {
+      "id": "sir",
+      "name": "Sir",
+      "description": "Formal honorific for knights and nobles.",
+      "title_type": "honorific",
+      "requirements": {"reputation": 100, "alignment": "lawful"},
+      "effects": {"npc_reaction_modifier": 2, "dialogue_tone": "respectful"},
+      "display_format": "Sir {name}"
+    },
+    {
+      "id": "lord",
+      "name": "Lord",
+      "description": "Honorific for those who own land or hold court.",
+      "title_type": "honorific",
+      "requirements": {"reputation": 500, "gold_earned": 10000},
+      "effects": {"npc_reaction_modifier": 3, "dialogue_tone": "deferential"},
+      "display_format": "Lord {name}"
+    },
+    {
+      "id": "archmage",
+      "name": "Archmage",
+      "description": "Honorific for the most powerful magic users.",
+      "title_type": "honorific",
+      "requirements": {"reputation": 300, "magic_mastery": 5},
+      "effects": {"npc_reaction_modifier": 3, "dialogue_tone": "reverent"},
+      "display_format": "Archmage {name}"
+    },
+    {
+      "id": "shadowlord",
+      "name": "Shadowlord",
+      "description": "Honorific for masters of stealth and darkness.",
+      "title_type": "honorific",
+      "requirements": {"reputation": 250, "stealth_mastery": 5},
+      "effects": {"npc_reaction_modifier": 2, "dialogue_tone": "fearful"},
+      "display_format": "Shadowlord {name}"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "abilities": [
+    {
+      "id": "fire.fireball",
+      "name": "Fireball",
+      "description": "Launch a searing ball of flame that explodes on impact.",
+      "category": "magic",
+      "target_type": "aoe",
+      "mana_cost": 25,
+      "cooldown_seconds": 8.0,
+      "cooldown_group": "fire",
+      "effects": [
+        {
+          "effect_type": "damage",
+          "value": 35,
+          "chance": 1.0
+        },
+        {
+          "effect_type": "dot",
+          "value": 8,
+          "duration_seconds": 5.0,
+          "chance": 0.75
+        }
+      ],
+      "skill_tree_ids": ["fire.fireball"]
+    },
+    {
+      "id": "fire.inferno",
+      "name": "Inferno",
+      "description": "Channel a stream of continuous fire, burning everything in its path.",
+      "category": "magic",
+      "target_type": "cone",
+      "mana_cost": 45,
+      "cooldown_seconds": 18.0,
+      "cooldown_group": "fire",
+      "effects": [
+        {
+          "effect_type": "damage",
+          "value": 20,
+          "duration_seconds": 5.0,
+          "chance": 1.0
+        },
+        {
+          "effect_type": "dot",
+          "value": 12,
+          "duration_seconds": 6.0,
+          "chance": 0.9
+        }
+      ],
+      "skill_tree_ids": ["fire.inferno"]
+    },
+    {
+      "id": "fire.meteor",
+      "name": "Meteor",
+      "description": "Call down a devastating meteor from the sky.",
+      "category": "magic",
+      "target_type": "ground_targeted",
+      "mana_cost": 80,
+      "cooldown_seconds": 45.0,
+      "cooldown_group": "fire",
+      "effects": [
+        {
+          "effect_type": "damage",
+          "value": 150,
+          "chance": 1.0
+        },
+        {
+          "effect_type": "stun",
+          "value": 2,
+          "duration_seconds": 2.0,
+          "chance": 0.8
+        }
+      ],
+      "skill_tree_ids": ["fire.meteor"]
+    },
+    {
+      "id": "thc.cleave_ability",
+      "name": "Cleaving Strike",
+      "description": "Strike multiple targets in front of you.",
+      "category": "combat",
+      "target_type": "aoe",
+      "mana_cost": 10,
+      "cooldown_seconds": 6.0,
+      "effects": [
+        {
+          "effect_type": "damage",
+          "value": 25,
+          "chance": 1.0
+        }
+      ],
+      "skill_tree_ids": ["thc.cleave"]
+    },
+    {
+      "id": "st.shadow_step",
+      "name": "Shadow Step",
+      "description": "Vanish into shadow and reappear behind your target.",
+      "category": "stealth",
+      "target_type": "self",
+      "mana_cost": 15,
+      "cooldown_seconds": 12.0,
+      "cooldown_group": "stealth",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "value": 50,
+          "duration_seconds": 3.0,
+          "chance": 1.0,
+          "extra": {"stat": "critical_chance", "amount": 50}
+        }
+      ],
+      "skill_tree_ids": ["st.root"]
+    }
+  ],
+  "trees": [
+    {
+      "id": "fire_magic_abilities",
+      "name": "Fire Magic Abilities",
+      "description": "Spell abilities granted by the Fire Magic skill tree.",
+      "nodes": [
+        {
+          "id": "fire_ability.root",
+          "name": "Spark",
+          "description": "Ignite the basics of fire magic with a small burst.",
+          "ability_id": "fire.fireball",
+          "category": "magic",
+          "node_type": "root",
+          "max_rank": 1,
+          "point_cost": 1,
+          "stat_costs": {"intelligence": 10},
+          "prerequisites": [],
+          "parent_ids": []
+        },
+        {
+          "id": "fire_ability.inferno",
+          "name": "Inferno Channel",
+          "description": "Unlock the ability to channel a cone of flame.",
+          "ability_id": "fire.inferno",
+          "category": "magic",
+          "node_type": "branch",
+          "max_rank": 1,
+          "point_cost": 2,
+          "stat_costs": {"intelligence": 16},
+          "prerequisites": [
+            {"kind": "skill", "target": "fire.fireball", "minimum": 2}
+          ],
+          "parent_ids": ["fire_ability.root"]
+        },
+        {
+          "id": "fire_ability.meteor",
+          "name": "Meteor Call",
+          "description": "Call down a devastating meteor.",
+          "ability_id": "fire.meteor",
+          "category": "magic",
+          "node_type": "capstone",
+          "max_rank": 1,
+          "point_cost": 4,
+          "stat_costs": {"intelligence": 22},
+          "prerequisites": [
+            {"kind": "skill", "target": "fire.fireball", "minimum": 3},
+            {"kind": "skill", "target": "fire.inferno", "minimum": 1},
+            {"kind": "level", "target": "level", "minimum": 15}
+          ],
+          "parent_ids": ["fire_ability.root", "fire_ability.inferno"]
+        }
+      ]
+    },
+    {
+      "id": "combat_abilities",
+      "name": "Combat Abilities",
+      "description": "Active abilities unlocked through combat skill trees.",
+      "nodes": [
+        {
+          "id": "combat_ability.cleave",
+          "name": "Cleaving Strike",
+          "description": "Strike multiple targets in front of you.",
+          "ability_id": "thc.cleave_ability",
+          "category": "combat",
+          "node_type": "branch",
+          "max_rank": 1,
+          "point_cost": 2,
+          "stat_costs": {"strength": 12},
+          "prerequisites": [
+            {"kind": "skill", "target": "thc.cleave", "minimum": 2}
+          ],
+          "parent_ids": []
+        }
+      ]
+    },
+    {
+      "id": "stealth_abilities",
+      "name": "Stealth Abilities",
+      "description": "Active abilities granted by stealth skill trees.",
+      "nodes": [
+        {
+          "id": "stealth_ability.shadow_step",
+          "name": "Shadow Step",
+          "description": "Vanish into shadow and reappear behind your target.",
+          "ability_id": "st.shadow_step",
+          "category": "stealth",
+          "node_type": "branch",
+          "max_rank": 1,
+          "point_cost": 2,
+          "stat_costs": {"dexterity": 14},
+          "prerequisites": [
+            {"kind": "skill", "target": "st.root", "minimum": 1}
+          ],
+          "parent_ids": []
+        }
+      ]
+    }
+  ]
+}

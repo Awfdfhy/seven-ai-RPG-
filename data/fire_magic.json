@@ -1,0 +1,79 @@
+{
+  "id": "fire_magic",
+  "name": "Fire Magic",
+  "description": "Harness destructive flame magic. High burst damage at the cost of mana sustainability.",
+  "nodes": [
+    {
+      "id": "fire.root",
+      "name": "Spark",
+      "description": "Ignite the basics of fire magic with a small burst of flame.",
+      "category": "magic",
+      "node_type": "root",
+      "max_rank": 1,
+      "point_cost": 1,
+      "stat_costs": {"intelligence": 10, "wisdom": 6},
+      "prerequisites": [],
+      "effects": {"spell_damage_bonus": 5, "element": "fire", "mana_cost_reduction": 3},
+      "parent_ids": []
+    },
+    {
+      "id": "fire.fireball",
+      "name": "Fireball",
+      "description": "Launch a ball of searing flame that explodes on impact.",
+      "category": "magic",
+      "node_type": "branch",
+      "max_rank": 3,
+      "point_cost": 2,
+      "stat_costs": {"intelligence": 14},
+      "prerequisites": [{"kind": "skill", "target": "fire.root", "minimum": 1}],
+      "effects": {"spell_damage_bonus": 15, "aoe_radius": 2.0, "mana_cost": 25},
+      "parent_ids": ["fire.root"]
+    },
+    {
+      "id": "fire.inferno",
+      "name": "Inferno",
+      "description": "Channel a stream of continuous fire in a cone, burning everything in its path.",
+      "category": "magic",
+      "node_type": "branch",
+      "max_rank": 1,
+      "point_cost": 3,
+      "stat_costs": {"intelligence": 18, "wisdom": 12},
+      "prerequisites": [
+        {"kind": "skill", "target": "fire.fireball", "minimum": 2},
+        {"kind": "skill", "target": "fire.root", "minimum": 1}
+      ],
+      "effects": {"cone_angle": 45, "duration_seconds": 5, "damage_per_tick": 20, "applies_burning": true},
+      "parent_ids": ["fire.root", "fire.fireball"]
+    },
+    {
+      "id": "fire.meteor",
+      "name": "Meteor",
+      "description": "Call down a devastating meteor from the sky, dealing massive area damage.",
+      "category": "magic",
+      "node_type": "capstone",
+      "max_rank": 1,
+      "point_cost": 5,
+      "stat_costs": {"intelligence": 22, "wisdom": 16},
+      "prerequisites": [
+        {"kind": "skill", "target": "fire.fireball", "minimum": 3},
+        {"kind": "skill", "target": "fire.inferno", "minimum": 1},
+        {"kind": "level", "target": "level", "minimum": 15}
+      ],
+      "effects": {"aoe_radius": 6.0, "damage_multiplier": 5.0, "stun_duration_seconds": 2, "applies_burning": true},
+      "parent_ids": ["fire.fireball", "fire.inferno"]
+    },
+    {
+      "id": "fire.ignite",
+      "name": "Ignite",
+      "description": "Your fire spells set targets ablaze, dealing damage over time.",
+      "category": "magic",
+      "node_type": "leaf",
+      "max_rank": 2,
+      "point_cost": 2,
+      "stat_costs": {"intelligence": 16},
+      "prerequisites": [{"kind": "skill", "target": "fire.fireball", "minimum": 1}],
+      "effects": {"dot_damage_per_tick": 8, "dot_duration_seconds": 10, "stackable": true},
+      "parent_ids": ["fire.fireball"]
+    }
+  ]
+}

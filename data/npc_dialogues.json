@@ -1,0 +1,139 @@
+[
+  {
+    "id": "sentry_aldric_intro",
+    "npc_id": "sentry_aldric",
+    "start_node_id": "greeting",
+    "nodes": [
+      {
+        "id": "greeting",
+        "speaker": "sentry_aldric",
+        "text": "Halt, traveler. These roads are not safe after dark. Have you come to help with the wolf problem?",
+        "choices": [
+          {
+            "id": "ask_about_wolves",
+            "text": "Tell me about the wolves.",
+            "next_node_id": "wolf_warning"
+          },
+          {
+            "id": "ask_about_village",
+            "text": "What can you tell me about Oakhaven?",
+            "next_node_id": "village_info"
+          },
+          {
+            "id": "leave",
+            "text": "I don't have time for this. Farewell.",
+            "next_node_id": "end"
+          }
+        ]
+      },
+      {
+        "id": "wolf_warning",
+        "speaker": "sentry_aldric",
+        "text": "Wolf packs have been roaming the outskirts. We've lost livestock and a few villagers. The elder is offering a reward to anyone who can thin their numbers.",
+        "choices": [
+          {
+            "id": "offer_help",
+            "text": "I'll deal with the wolves.",
+            "next_node_id": "quest_offer",
+            "effects": [
+              {"type": "start_quest", "quest_id": "village_guard"}
+            ]
+          },
+          {
+            "id": "ask_reward",
+            "text": "What's the reward?",
+            "next_node_id": "reward_details"
+          },
+          {
+            "id": "go_back",
+            "text": "I'll think about it.",
+            "next_node_id": "greeting"
+          }
+        ]
+      },
+      {
+        "id": "village_info",
+        "speaker": "sentry_aldric",
+        "text": "Oakhaven is a small farming village. We've got a tavern, a blacksmith, and Elder Mira's cottage. Not much, but it's home.",
+        "choices": [
+          {
+            "id": "return",
+            "text": "Thanks for the information.",
+            "next_node_id": "greeting"
+          }
+        ]
+      },
+      {
+        "id": "quest_offer",
+        "speaker": "sentry_aldric",
+        "text": "If you can defeat five wolves near the outskirts and return to me, Elder Mira will reward you with gold and experience.",
+        "choices": [
+          {
+            "id": "accept",
+            "text": "I accept.",
+            "next_node_id": "accepted"
+          },
+          {
+            "id": "decline",
+            "text": "Maybe later.",
+            "next_node_id": "declined"
+          }
+        ]
+      },
+      {
+        "id": "reward_details",
+        "speaker": "sentry_aldric",
+        "text": "150 gold coins, a leather vest, and the gratitude of Oakhaven. Not bad for hunting a few wolves, eh?",
+        "choices": [
+          {
+            "id": "accept",
+            "text": "I'll do it.",
+            "next_node_id": "accepted",
+            "effects": [
+              {"type": "start_quest", "quest_id": "village_guard"}
+            ]
+          },
+          {
+            "id": "decline",
+            "text": "Not interested.",
+            "next_node_id": "declined"
+          }
+        ]
+      },
+      {
+        "id": "accepted",
+        "speaker": "narrator",
+        "text": "You have accepted the Village Guard quest. Head to the outskirts and hunt five wolves.",
+        "choices": [
+          {
+            "id": "leave_accepted",
+            "text": "I'll get started.",
+            "next_node_id": "end"
+          }
+        ]
+      },
+      {
+        "id": "declined",
+        "speaker": "narrator",
+        "text": "You declined the quest. Perhaps another time.",
+        "choices": [
+          {
+            "id": "leave_declined",
+            "text": "Goodbye.",
+            "next_node_id": "end"
+          }
+        ]
+      },
+      {
+        "id": "end",
+        "speaker": "narrator",
+        "text": "The conversation ends.",
+        "choices": []
+      }
+    ],
+    "metadata": {
+      "difficulty": "easy",
+      "recommended_level": 2
+    }
+  }
+]
