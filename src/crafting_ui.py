@@ -28,6 +28,27 @@ _MAGENTA = "\033[35m"
 _CYAN = "\033[36m"
 _WHITE = "\033[37m"
 
+def _red(text: str) -> str:
+    return f"{_RED}{text}{_RESET}"
+
+def _green(text: str) -> str:
+    return f"{_GREEN}{text}{_RESET}"
+
+def _yellow(text: str) -> str:
+    return f"{_YELLOW}{text}{_RESET}"
+
+def _blue(text: str) -> str:
+    return f"{_BLUE}{text}{_RESET}"
+
+def _magenta(text: str) -> str:
+    return f"{_MAGENTA}{text}{_RESET}"
+
+def _cyan(text: str) -> str:
+    return f"{_CYAN}{text}{_RESET}"
+
+def _white(text: str) -> str:
+    return f"{_WHITE}{text}{_RESET}"
+
 _RARITY_COLORS: dict[str, str] = {
     "common": _WHITE,
     "uncommon": _GREEN,

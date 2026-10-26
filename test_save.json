@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "worlds": {
+    "worlds": {}
+  },
+  "sessions": [],
+  "milestones": {
+    "events": {}
+  },
+  "tutorials": {
+    "instances": {}
+  },
+  "world_events": {
+    "events": {},
+    "cooldowns": {}
+  },
+  "world_simulation": {
+    "day_night": {},
+    "ecosystems": {}
+  }
+}

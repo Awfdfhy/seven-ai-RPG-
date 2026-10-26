@@ -410,6 +410,45 @@ class CharacterCustomizationManager:
 
     # --- Full customization flow -------------------------------------------
 
+    def create_character(
+        self,
+        character_id: str,
+        name: str = "",
+        class_id: str = "",
+        background_id: str = "",
+        appearance: dict[str, Any] | None = None,
+    ) -> CharacterCustomizationState:
+        """
+        High-level helper: create and return a new CharacterCustomizationState,
+        optionally pre-selecting class and background.
+        """
+        state = CharacterCustomizationState(
+            character_id=character_id,
+            name=name,
+            class_id=class_id,
+            background_id=background_id,
+        )
+        if appearance:
+            for key, value in appearance.items():
+                if hasattr(state.appearance, key):
+                    setattr(state.appearance, key, value)
+        if class_id:
+            cls = self.get_class(class_id)
+            if cls:
+                combined: dict[str, int] = {}
+                for stat, val in cls.base_stats.items():
+                    combined[stat] = val
+                for stat, bonus in cls.stat_bonuses.items():
+                    combined[stat] = combined.get(stat, 0) + bonus
+                state.stats = combined
+        if background_id:
+            bg = self.get_background(background_id)
+            if bg:
+                for stat, bonus in bg.stat_bonuses.items():
+                    state.stats[stat] = state.stats.get(stat, 0) + bonus
+        self.character_states[character_id] = state
+        return state
+
     def mark_customized(self, character_id: str) -> dict[str, Any]:
         """
         Mark a character as fully customized once all choices are made.

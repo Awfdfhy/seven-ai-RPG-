@@ -178,6 +178,10 @@ class WorldSimulationManager:
             self._ecosystems[world_id] = {}
         return self.get_world_snapshot(world_id)
 
+    def get_or_create_state(self, world_id: str) -> dict[str, Any]:
+        """Alias for ensure_world (test convenience)."""
+        return self.ensure_world(world_id)
+
     # ------------------------------------------------------------------
     # Time advancement
     # ------------------------------------------------------------------

@@ -388,6 +388,15 @@ class WorldMapManager:
         state = self.get_world_state(world_id)
         return state
 
+    def load_locations(self, locations: list[Location]) -> None:
+        """Replace the world map's locations with the provided list."""
+        self.world_map._locations = {loc.id: loc for loc in locations}
+        for loc in locations:
+            if loc.region_id:
+                region = self.world_map._regions.get(loc.region_id)
+                if region and loc.id not in region.location_ids:
+                    region.location_ids.append(loc.id)
+
     def get_world_state(self, world_id: str) -> dict[str, Any]:
         state = self._world_state.get(world_id)
         if not state:

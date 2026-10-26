@@ -99,6 +99,15 @@ class AbilityManager:
         state = self.get_character_state(character_id)
         state.available_points += points
 
+    def grant_ability(self, character_id: str, ability_id: str) -> dict[str, Any]:
+        """Grant an ability to a character if it is registered."""
+        if ability_id not in self.abilities:
+            return {"success": False, "reason": f"Ability '{ability_id}' not found."}
+        state = self.get_character_state(character_id)
+        state.unlocked_ability_nodes[ability_id] = 1
+        state.ability_ranks[ability_id] = 1
+        return {"success": True, "ability_id": ability_id}
+
     def set_mana(self, character_id: str, mana: int, max_mana: int) -> None:
         state = self.get_character_state(character_id)
         state.mana = mana

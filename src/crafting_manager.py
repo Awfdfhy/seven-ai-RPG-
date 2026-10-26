@@ -96,6 +96,10 @@ class CraftingManager:
             )
         return self.character_states[character_id]
 
+    def register_recipe(self, recipe: Recipe) -> None:
+        """Register a recipe definition directly."""
+        self.recipes[recipe.id] = recipe
+
     def grant_recipe(self, character_id: str, recipe_id: str) -> dict[str, Any]:
         state = self.get_character_state(character_id)
         state.known_recipes.add(recipe_id)

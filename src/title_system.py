@@ -80,6 +80,7 @@ class CharacterTitleState:
     active_honorific: str | None = None
     # Tracked stats used for title requirements
     stats: dict[str, int] = field(default_factory=dict)
+    earned_titles: list[str] = field(default_factory=list)
 
     def get_title_rank(self, title_id: str) -> int:
         return self.title_ranks.get(title_id, 0)
@@ -153,6 +154,15 @@ class TitleManager:
         for entry in data.get("honorifics", []):
             t = TitleDefinition.from_dict(entry)
             self.honorifics[t.id] = t
+
+    def register_definition(self, title: TitleDefinition) -> None:
+        """Register a title definition directly."""
+        if title.title_type == TitleType.PRESTIGE:
+            self.prestige_ranks[title.id] = title
+        elif title.title_type == TitleType.HONORIFIC:
+            self.honorifics[title.id] = title
+        else:
+            self.titles[title.id] = title
 
     def get_title(self, title_id: str) -> TitleDefinition | None:
         return self.titles.get(title_id)

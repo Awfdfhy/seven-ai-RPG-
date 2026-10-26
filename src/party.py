@@ -342,6 +342,24 @@ class PartyManager:
     def register_archetype(self, archetype: CompanionArchetype) -> None:
         self._archetypes[archetype.id] = archetype
 
+    def add_companion(
+        self,
+        character_id: str,
+        archetype_id: str,
+        name: str | None = None,
+    ) -> dict[str, Any]:
+        """Create a default party for the character and recruit a companion."""
+        party_id = f"party_{character_id}"
+        if party_id not in self._parties:
+            result = self.create_party(leader_id=character_id, party_id=party_id)
+            if not result.get("success"):
+                return result
+        return self.recruit_companion(
+            party_id=party_id,
+            archetype_id=archetype_id,
+            companion_id=None,
+        )
+
     def register_formation(self, formation: PartyFormation) -> None:
         self._formations[formation.formation_id] = formation
 

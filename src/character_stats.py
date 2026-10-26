@@ -199,6 +199,7 @@ class StatsSystem:
                     name=STAT_NAMES.get(sid, sid.title()),
                     abbreviation=STAT_ABBREVIATIONS.get(sid, sid[:3].upper()),
                 )
+        self._character_states: dict[str, CharacterStatsState] = {}
 
     def get_definition(self, stat_id: str) -> StatDefinition | None:
         return self.stat_definitions.get(stat_id)
@@ -226,6 +227,19 @@ class StatsSystem:
         stat_defs = [StatDefinition.from_dict(s) for s in data.get("stat_definitions", [])]
         derived = [DerivedStatRule.from_dict(r) for r in data.get("derived_rules", [])]
         return StatsSystem(stat_definitions=stat_defs, derived_rules=derived)
+
+    # --- Character state integration -------------------------------------------
+
+    def register_state(self, state: CharacterStatsState) -> None:
+        """Register a character stat state for derived-stat lookup."""
+        self._character_states[state.character_id] = state
+
+    def get_derived_stats(self, character_id: str) -> dict[str, float]:
+        """Return computed derived stats for a registered character state."""
+        state = self._character_states.get(character_id)
+        if state is None:
+            return {}
+        return self.compute_derived(state.effective_stats())
 
 
 # ---------------------------------------------------------------------------

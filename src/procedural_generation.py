@@ -12,7 +12,7 @@ import random
 from dataclasses import dataclass, field
 from typing import Any
 
-from locations import LocationDirectoryEntry
+from locations import LocationDirectory, LocationDirectoryEntry
 from loot import LootEntry, LootTable
 from world_map import Location, TravelRoute
 

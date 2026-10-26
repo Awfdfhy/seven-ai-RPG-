@@ -336,6 +336,17 @@ class EconomyManager:
         max_stock = merchant.max_stock if merchant else 99
         stock.stock[item_id] = min(max_stock, current + quantity)
 
+    def load_stock(self, merchant_id: str, items: list[Any]) -> None:
+        """Load multiple stock entries at once (test convenience)."""
+        for entry in items:
+            if hasattr(entry, "item_id"):
+                item_id, quantity = entry.item_id, entry.quantity
+            elif isinstance(entry, dict):
+                item_id, quantity = entry["item_id"], entry["quantity"]
+            else:
+                continue
+            self.set_stock(merchant_id, item_id, quantity)
+
     def remove_stock(self, merchant_id: str, item_id: str, quantity: int) -> dict[str, Any]:
         stock = self._merchant_stock.get(merchant_id)
         if stock is None:
@@ -525,6 +536,11 @@ class EconomyManager:
             "total_price": total,
             "remaining_stock": stock.stock.get(item_id, 0),
         }
+
+    def buy_from_merchant(self, merchant_id: str, character_id: str, item_id: str, quantity: int = 1, region_id: str = "") -> dict[str, Any]:
+        """Alias for `buy` requiring a world context (defaults to `merchant_id`)."""
+        world_id = merchant_id
+        return self.buy(world_id, merchant_id, character_id, item_id, quantity, region_id)
 
     def sell(
         self,

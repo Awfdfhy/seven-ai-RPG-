@@ -11,6 +11,7 @@ import sys
 import unittest
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
+from typing import Any
 
 from multiplayer import MultiplayerManager
 from multiplayer_network import MultiplayerClient, MultiplayerServer, NetworkMessage

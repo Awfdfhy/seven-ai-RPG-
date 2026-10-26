@@ -513,6 +513,19 @@ class TacticalPositioning:
         if custom_modifiers:
             self.modifiers.update(custom_modifiers)
 
+    def register_modifier(self, position: CombatPosition, attack_bonus: float = 0.0, defense_bonus: float = 0.0, crit_chance_bonus: float = 0.0, dodge_chance_bonus: float = 0.0, damage_taken_multiplier: float = 1.0, range_bonus: float = 0.0, extra: dict[str, Any] | None = None) -> None:
+        """Register or update a position modifier."""
+        self.modifiers[position] = PositionModifier(
+            position=position,
+            attack_bonus=attack_bonus,
+            defense_bonus=defense_bonus,
+            crit_chance_bonus=crit_chance_bonus,
+            dodge_chance_bonus=dodge_chance_bonus,
+            damage_taken_multiplier=damage_taken_multiplier,
+            range_bonus=range_bonus,
+            extra=extra or {},
+        )
+
     def get_modifier(self, position: CombatPosition) -> PositionModifier:
         return self.modifiers.get(position, PositionModifier(position=position))
 
@@ -824,6 +837,20 @@ class CombatEncounter:
             self.round_number += 1
             self.encounter_log.append(f"Round {self.round_number} begins.")
         return self.get_combatant(turn_combatant_id)
+
+    def perform_ability(
+        self,
+        attacker_id: str,
+        target_id: str,
+        ability: Ability,
+        current_time: float | None = None,
+    ) -> CombatActionResult:
+        """Convenience wrapper around `resolve_action` using combatant IDs."""
+        if current_time is None:
+            current_time = time.time()
+        attacker = self.get_combatant(attacker_id)
+        target = self.get_combatant(target_id)
+        return self.resolve_action(attacker, ability, target, current_time)
 
     def resolve_action(
         self,

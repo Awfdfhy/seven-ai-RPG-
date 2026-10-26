@@ -4,7 +4,7 @@ __version__ = "0.1.0"
 __author__ = "Seven RPG Team"
 __license__ = "MIT"
 
-from version_info import get_version, get_version_info, info, VersionInfo
+from version_info import info, VersionInfo
 
 from ai_narration import (
     NarrationContext,

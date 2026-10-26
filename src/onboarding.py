@@ -14,7 +14,7 @@ import os
 from dataclasses import dataclass, field
 from typing import Any
 
-from tutorial import TutorialDefinition, TutorialInstance, TutorialManager
+from tutorial import TutorialDefinition, TutorialInstance, TutorialManager, TutorialStepDefinition
 
 
 @dataclass

@@ -207,7 +207,7 @@ class TestVRARManager:
         mgr.start_session(world_id="w1", device_id="hololens")
         try:
             mgr.set_vr_mode("w1", VRMode.FULL_VR)
-            assert False, "Expected ValueError"
+            raise AssertionError("Expected ValueError")
         except ValueError:
             pass
 
@@ -222,7 +222,7 @@ class TestVRARManager:
         mgr.start_session(world_id="w1", device_id="index")
         try:
             mgr.set_ar_mode("w1", ARMode.PASSTHROUGH)
-            assert False, "Expected ValueError"
+            raise AssertionError("Expected ValueError")
         except ValueError:
             pass
 

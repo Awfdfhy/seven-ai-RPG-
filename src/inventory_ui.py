@@ -8,6 +8,7 @@ from __future__ import annotations
 
 from accessibility import AccessibilityHelper
 from inventory import (
+    EquipmentSlot,
     InventoryManager,
     InventoryState,
     Item,

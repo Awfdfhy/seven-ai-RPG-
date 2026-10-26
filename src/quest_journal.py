@@ -179,6 +179,10 @@ class QuestJournalManager:
     def register_definition(self, definition: QuestDefinition) -> None:
         self._definitions[definition.id] = definition
 
+    def register_quest(self, quest: QuestDefinition) -> None:
+        """Alias for register_definition (test convenience)."""
+        self.register_definition(quest)
+
     def load_definitions(self, definitions: list[QuestDefinition]) -> None:
         for d in definitions:
             self.register_definition(d)

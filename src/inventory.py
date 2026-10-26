@@ -334,9 +334,12 @@ class InventoryManager:
     stack merging, and persistence for a character.
     """
 
-    def __init__(self) -> None:
+    def __init__(self, character_id: str | None = None, max_slots: int = 24) -> None:
         self._inventories: dict[str, InventoryState] = {}
         self._equipment_sets: dict[str, EquipmentSet] = {}
+        self._character_id = character_id
+        if character_id is not None:
+            self._inventories[character_id] = InventoryState(character_id=character_id, capacity=max_slots)
 
     def register_equipment_set(self, eq_set: EquipmentSet) -> None:
         """Register an equipment set definition."""
@@ -353,9 +356,12 @@ class InventoryManager:
             self._inventories[character_id] = InventoryState(character_id=character_id)
         return self._inventories[character_id]
 
-    def add_item(self, character_id: str, item: Item, quantity: int = 1) -> dict[str, Any]:
+    def add_item(self, character_id: str | None = None, item: Item | None = None, quantity: int = 1) -> dict[str, Any]:
         """Add an item to the character's inventory, stacking where possible."""
-        inv = self.get_inventory(character_id)
+        cid = character_id or self._character_id
+        if cid is None:
+            return {"success": False, "reason": "character_id is required"}
+        inv = self.get_inventory(cid)
 
         if item.stackable:
             for slot in inv.slots:
@@ -402,9 +408,12 @@ class InventoryManager:
 
         return {"success": True, "removed": quantity, "remaining": 0}
 
-    def equip_item(self, character_id: str, item_id: str, slot_index: int) -> dict[str, Any]:
+    def equip_item(self, character_id: str | None = None, item_id: str = "", slot_index: int = -1) -> dict[str, Any]:
         """Move an item from bag to an equipment slot."""
-        inv = self.get_inventory(character_id)
+        cid = character_id or self._character_id
+        if cid is None:
+            return {"success": False, "reason": "character_id is required"}
+        inv = self.get_inventory(cid)
         slot = inv.slots[slot_index]
         if slot.is_empty() or slot.item.id != item_id:
             for s in inv.slots:
@@ -437,9 +446,12 @@ class InventoryManager:
         )
         return {"success": True, "slot": equip_type.value, "item_id": item.id}
 
-    def unequip_item(self, character_id: str, slot_type: str) -> dict[str, Any]:
+    def unequip_item(self, character_id: str | None = None, slot_type: str = "") -> dict[str, Any]:
         """Move an equipped item back to the bag."""
-        inv = self.get_inventory(character_id)
+        cid = character_id or self._character_id
+        if cid is None:
+            return {"success": False, "reason": "character_id is required"}
+        inv = self.get_inventory(cid)
         try:
             equip_slot = inv.equipment[slot_type]
         except KeyError:
@@ -721,6 +733,28 @@ class InventoryManager:
             ItemCategory.BELT: EquipmentSlotType.ACCESSORY,
         }
         return mapping.get(item.item_type)
+
+    def list_items(self, character_id: str | None = None) -> list[ItemSlot]:
+        """Return all non-empty inventory slots for a character."""
+        cid = character_id or self._character_id
+        if cid is None:
+            return []
+        inv = self.get_inventory(cid)
+        return [slot for slot in inv.slots if not slot.is_empty()]
+
+    def get_equipped_item(self, character_id: str | None = None, slot_type: str | None = None) -> EquipmentSlot | None:
+        """Return the equipped item in a given slot for a character."""
+        cid = character_id or self._character_id
+        if cid is None:
+            return None
+        inv = self.get_inventory(cid)
+        if slot_type is not None:
+            return inv.equipment.get(slot_type)
+        # return first non-empty equipment slot
+        for slot in inv.equipment.values():
+            if not slot.is_empty():
+                return slot
+        return None
 
     def to_dict(self) -> dict[str, Any]:
         return {cid: inv.to_dict() for cid, inv in self._inventories.items()}

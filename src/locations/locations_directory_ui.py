@@ -21,7 +21,6 @@ from typing import Any
 from accessibility import AccessibilityHelper
 from locations import (
     LocationDirectory,
-    LocationDirectoryEntry,
     load_locations_from_data_dir,
 )
 

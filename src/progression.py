@@ -139,6 +139,7 @@ class ProgressionSystem:
         self.skill_points_per_level = skill_points_per_level
         self.ability_points_per_level = ability_points_per_level
         self.stat_points_per_level = stat_points_per_level
+        self._character_states: dict[str, CharacterProgressionState] = {}
 
     def xp_for_level(self, level: int) -> int:
         """
@@ -171,6 +172,34 @@ class ProgressionSystem:
 
     def add_level_unlock(self, unlock: LevelUnlock) -> None:
         self.level_unlocks.setdefault(unlock.level, []).append(unlock)
+
+    def get_or_create_state(self, character_id: str) -> CharacterProgressionState:
+        if character_id not in self._character_states:
+            self._character_states[character_id] = CharacterProgressionState(character_id=character_id)
+        return self._character_states[character_id]
+
+    def process_xp(self, character_id: str, added_xp: int) -> list[dict[str, Any]]:
+        """Add XP and process level-ups. Returns list of level-up reports."""
+        state = self.get_or_create_state(character_id)
+        state.experience += added_xp
+        levelups: list[dict[str, Any]] = []
+        while True:
+            next_level = state.level + 1
+            needed = self.xp_for_level(next_level)
+            if state.experience < needed:
+                break
+            state.experience -= needed
+            state.level += 1
+            state.unspent_skill_points += self.skill_points_per_level
+            state.unspent_ability_points += self.ability_points_per_level
+            state.unspent_stat_points += self.stat_points_per_level
+            levelups.append({
+                "new_level": state.level,
+                "skill_points_gained": self.skill_points_per_level,
+                "ability_points_gained": self.ability_points_per_level,
+                "stat_points_gained": self.stat_points_per_level,
+            })
+        return levelups
 
     def to_dict(self) -> dict[str, Any]:
         return {

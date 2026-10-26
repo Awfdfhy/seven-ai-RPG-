@@ -9,8 +9,10 @@ from __future__ import annotations
 import os
 import sys
 import unittest
+import uuid
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
+from typing import Any
 
 from advanced_ai import (
     AdvancedAIManager,

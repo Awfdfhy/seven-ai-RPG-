@@ -20,14 +20,25 @@ from __future__ import annotations
 import uuid
 from dataclasses import dataclass, field
 from datetime import UTC, datetime
-from enum import Enum
+from enum import StrEnum
 from typing import Any
+
+__all__ = [
+    "ARMode",
+    "ComfortLevel",
+    "ComfortSettings",
+    "MovementType",
+    "VRARManager",
+    "VRDeviceProfile",
+    "VRMode",
+    "VRSessionState",
+]
 
 # ---------------------------------------------------------------------------
 # Enums
 # ---------------------------------------------------------------------------
 
-class VRMode(str, Enum):
+class VRMode(StrEnum):
     """Rendering mode for VR headsets."""
     OFF = "off"
     FULL_VR = "full_vr"
@@ -35,7 +46,7 @@ class VRMode(str, Enum):
     SPATIAL_UI = "spatial_ui"
 
 
-class ARMode(str, Enum):
+class ARMode(StrEnum):
     """Rendering mode for AR headsets and passthrough devices."""
     OFF = "off"
     OVERLAY = "overlay"
@@ -43,7 +54,7 @@ class ARMode(str, Enum):
     SPATIAL_ANCHOR = "spatial_anchor"
 
 
-class MovementType(str, Enum):
+class MovementType(StrEnum):
     """Supported locomotion / navigation schemes."""
     TELEPORT = "teleport"
     SMOOTH = "smooth"
@@ -51,7 +62,7 @@ class MovementType(str, Enum):
     CONTINUOUS_TURN = "continuous_turn"
 
 
-class ComfortLevel(str, Enum):
+class ComfortLevel(StrEnum):
     """User comfort bucket for motion-sickness mitigation."""
     HIGH = "high"
     MEDIUM = "medium"
@@ -313,6 +324,10 @@ class VRARManager:
         """Return a device profile by id, or None."""
         return self._devices.get(device_id)
 
+    def remove_device(self, device_id: str) -> None:
+        """Remove a device profile by id."""
+        self._devices.pop(device_id, None)
+
     def list_devices(self) -> list[str]:
         """Return all registered device ids."""
         return list(self._devices.keys())
@@ -335,6 +350,10 @@ class VRARManager:
 
         If a session for this world already exists, it is replaced.
         """
+        if not world_id:
+            raise ValueError("world_id must not be empty")
+        if not device_id:
+            raise ValueError("device_id must not be empty")
         if device_id not in self._devices:
             raise KeyError(f"Unknown device: {device_id}")
 
@@ -395,6 +414,14 @@ class VRARManager:
     def get_session(self, world_id: str) -> VRSessionState | None:
         """Return the session for a world, or None."""
         return self._sessions.get(world_id)
+
+    def has_session(self, world_id: str) -> bool:
+        """Return True if a session exists for the given world."""
+        return world_id in self._sessions
+
+    def list_sessions(self) -> list[str]:
+        """Return all world ids with active or ended sessions."""
+        return list(self._sessions.keys())
 
     def get_active_session(self) -> VRSessionState | None:
         """Return the session for the current active world, or None."""

@@ -246,14 +246,15 @@ class ParticleEmitter:
         vx = speed * (dx * __import__("math").cos(theta) + __import__("math").cos(phi) * __import__("math").sin(theta))
         vy = speed * (dy * __import__("math").cos(theta) + __import__("math").sin(phi) * __import__("math").sin(theta))
         vz = speed * (dz * __import__("math").cos(theta) + __import__("math").sin(theta))
+        particle_life = self.particle_lifetime * random.uniform(0.8, 1.2)
         return Particle(
             position=pos,
             velocity=(vx, vy, vz),
             acceleration=self.extra.get("acceleration", (0.0, 0.0, 0.0)),
             color=self.start_color,
             size=random.uniform(self.particle_size[0], self.particle_size[1]),
-            max_life=self.particle_lifetime * random.uniform(0.8, 1.2),
-            life=self.particle_lifetime * random.uniform(0.8, 1.2),
+            max_life=particle_life,
+            life=particle_life,
             extra=self.extra.get("particle_extra", {}),
         )
 
