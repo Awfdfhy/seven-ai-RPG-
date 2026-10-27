@@ -1,0 +1,7202 @@
+[
+  {
+    "id": "quest_0000",
+    "title": "Quest 0: The Adventure",
+    "title_kr": "퀘스트 0: 모험",
+    "title_ar": "مهمة 0: المغامرة",
+    "description": "Detailed description for quest 0 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 1,
+    "rewards": {
+      "xp": 50,
+      "gold": 10,
+      "items": [
+        "item_0000"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_0_1",
+        "type": "kill",
+        "target": "enemy_0",
+        "count": 1
+      },
+      {
+        "id": "obj_0_2",
+        "type": "collect",
+        "target": "item_0000",
+        "count": 1
+      },
+      {
+        "id": "obj_0_3",
+        "type": "explore",
+        "target": "location_0",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0001",
+    "title": "Quest 1: The Adventure",
+    "title_kr": "퀘스트 1: 모험",
+    "title_ar": "مهمة 1: المغامرة",
+    "description": "Detailed description for quest 1 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 2,
+    "rewards": {
+      "xp": 100,
+      "gold": 20,
+      "items": [
+        "item_0003"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_1_1",
+        "type": "kill",
+        "target": "enemy_2",
+        "count": 2
+      },
+      {
+        "id": "obj_1_2",
+        "type": "collect",
+        "target": "item_0005",
+        "count": 2
+      },
+      {
+        "id": "obj_1_3",
+        "type": "explore",
+        "target": "location_7",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0002",
+    "title": "Quest 2: The Adventure",
+    "title_kr": "퀘스트 2: 모험",
+    "title_ar": "مهمة 2: المغامرة",
+    "description": "Detailed description for quest 2 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 3,
+    "rewards": {
+      "xp": 150,
+      "gold": 30,
+      "items": [
+        "item_0006"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_2_1",
+        "type": "kill",
+        "target": "enemy_4",
+        "count": 3
+      },
+      {
+        "id": "obj_2_2",
+        "type": "collect",
+        "target": "item_0010",
+        "count": 3
+      },
+      {
+        "id": "obj_2_3",
+        "type": "explore",
+        "target": "location_14",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0003",
+    "title": "Quest 3: The Adventure",
+    "title_kr": "퀘스트 3: 모험",
+    "title_ar": "مهمة 3: المغامرة",
+    "description": "Detailed description for quest 3 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 4,
+    "rewards": {
+      "xp": 200,
+      "gold": 40,
+      "items": [
+        "item_0009"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_3_1",
+        "type": "kill",
+        "target": "enemy_6",
+        "count": 4
+      },
+      {
+        "id": "obj_3_2",
+        "type": "collect",
+        "target": "item_0015",
+        "count": 4
+      },
+      {
+        "id": "obj_3_3",
+        "type": "explore",
+        "target": "location_21",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0004",
+    "title": "Quest 4: The Adventure",
+    "title_kr": "퀘스트 4: 모험",
+    "title_ar": "مهمة 4: المغامرة",
+    "description": "Detailed description for quest 4 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 5,
+    "rewards": {
+      "xp": 250,
+      "gold": 50,
+      "items": [
+        "item_0012"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_4_1",
+        "type": "kill",
+        "target": "enemy_8",
+        "count": 5
+      },
+      {
+        "id": "obj_4_2",
+        "type": "collect",
+        "target": "item_0020",
+        "count": 5
+      },
+      {
+        "id": "obj_4_3",
+        "type": "explore",
+        "target": "location_28",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0005",
+    "title": "Quest 5: The Adventure",
+    "title_kr": "퀘스트 5: 모험",
+    "title_ar": "مهمة 5: المغامرة",
+    "description": "Detailed description for quest 5 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 6,
+    "rewards": {
+      "xp": 300,
+      "gold": 60,
+      "items": [
+        "item_0015"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_5_1",
+        "type": "kill",
+        "target": "enemy_10",
+        "count": 6
+      },
+      {
+        "id": "obj_5_2",
+        "type": "collect",
+        "target": "item_0025",
+        "count": 1
+      },
+      {
+        "id": "obj_5_3",
+        "type": "explore",
+        "target": "location_35",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0006",
+    "title": "Quest 6: The Adventure",
+    "title_kr": "퀘스트 6: 모험",
+    "title_ar": "مهمة 6: المغامرة",
+    "description": "Detailed description for quest 6 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 7,
+    "rewards": {
+      "xp": 350,
+      "gold": 70,
+      "items": [
+        "item_0018"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_6_1",
+        "type": "kill",
+        "target": "enemy_12",
+        "count": 7
+      },
+      {
+        "id": "obj_6_2",
+        "type": "collect",
+        "target": "item_0030",
+        "count": 2
+      },
+      {
+        "id": "obj_6_3",
+        "type": "explore",
+        "target": "location_42",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0007",
+    "title": "Quest 7: The Adventure",
+    "title_kr": "퀘스트 7: 모험",
+    "title_ar": "مهمة 7: المغامرة",
+    "description": "Detailed description for quest 7 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 8,
+    "rewards": {
+      "xp": 400,
+      "gold": 80,
+      "items": [
+        "item_0021"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_7_1",
+        "type": "kill",
+        "target": "enemy_14",
+        "count": 8
+      },
+      {
+        "id": "obj_7_2",
+        "type": "collect",
+        "target": "item_0035",
+        "count": 3
+      },
+      {
+        "id": "obj_7_3",
+        "type": "explore",
+        "target": "location_49",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0008",
+    "title": "Quest 8: The Adventure",
+    "title_kr": "퀘스트 8: 모험",
+    "title_ar": "مهمة 8: المغامرة",
+    "description": "Detailed description for quest 8 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 9,
+    "rewards": {
+      "xp": 450,
+      "gold": 90,
+      "items": [
+        "item_0024"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_8_1",
+        "type": "kill",
+        "target": "enemy_16",
+        "count": 9
+      },
+      {
+        "id": "obj_8_2",
+        "type": "collect",
+        "target": "item_0040",
+        "count": 4
+      },
+      {
+        "id": "obj_8_3",
+        "type": "explore",
+        "target": "location_56",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0009",
+    "title": "Quest 9: The Adventure",
+    "title_kr": "퀘스트 9: 모험",
+    "title_ar": "مهمة 9: المغامرة",
+    "description": "Detailed description for quest 9 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 10,
+    "rewards": {
+      "xp": 500,
+      "gold": 100,
+      "items": [
+        "item_0027"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_9_1",
+        "type": "kill",
+        "target": "enemy_18",
+        "count": 10
+      },
+      {
+        "id": "obj_9_2",
+        "type": "collect",
+        "target": "item_0045",
+        "count": 5
+      },
+      {
+        "id": "obj_9_3",
+        "type": "explore",
+        "target": "location_63",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0010",
+    "title": "Quest 10: The Adventure",
+    "title_kr": "퀘스트 10: 모험",
+    "title_ar": "مهمة 10: المغامرة",
+    "description": "Detailed description for quest 10 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 11,
+    "rewards": {
+      "xp": 550,
+      "gold": 110,
+      "items": [
+        "item_0030"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_10_1",
+        "type": "kill",
+        "target": "enemy_20",
+        "count": 1
+      },
+      {
+        "id": "obj_10_2",
+        "type": "collect",
+        "target": "item_0050",
+        "count": 1
+      },
+      {
+        "id": "obj_10_3",
+        "type": "explore",
+        "target": "location_70",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0011",
+    "title": "Quest 11: The Adventure",
+    "title_kr": "퀘스트 11: 모험",
+    "title_ar": "مهمة 11: المغامرة",
+    "description": "Detailed description for quest 11 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 12,
+    "rewards": {
+      "xp": 600,
+      "gold": 120,
+      "items": [
+        "item_0033"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_11_1",
+        "type": "kill",
+        "target": "enemy_22",
+        "count": 2
+      },
+      {
+        "id": "obj_11_2",
+        "type": "collect",
+        "target": "item_0055",
+        "count": 2
+      },
+      {
+        "id": "obj_11_3",
+        "type": "explore",
+        "target": "location_77",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0012",
+    "title": "Quest 12: The Adventure",
+    "title_kr": "퀘스트 12: 모험",
+    "title_ar": "مهمة 12: المغامرة",
+    "description": "Detailed description for quest 12 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 13,
+    "rewards": {
+      "xp": 650,
+      "gold": 130,
+      "items": [
+        "item_0036"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_12_1",
+        "type": "kill",
+        "target": "enemy_24",
+        "count": 3
+      },
+      {
+        "id": "obj_12_2",
+        "type": "collect",
+        "target": "item_0060",
+        "count": 3
+      },
+      {
+        "id": "obj_12_3",
+        "type": "explore",
+        "target": "location_84",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0013",
+    "title": "Quest 13: The Adventure",
+    "title_kr": "퀘스트 13: 모험",
+    "title_ar": "مهمة 13: المغامرة",
+    "description": "Detailed description for quest 13 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 14,
+    "rewards": {
+      "xp": 700,
+      "gold": 140,
+      "items": [
+        "item_0039"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_13_1",
+        "type": "kill",
+        "target": "enemy_26",
+        "count": 4
+      },
+      {
+        "id": "obj_13_2",
+        "type": "collect",
+        "target": "item_0065",
+        "count": 4
+      },
+      {
+        "id": "obj_13_3",
+        "type": "explore",
+        "target": "location_91",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0014",
+    "title": "Quest 14: The Adventure",
+    "title_kr": "퀘스트 14: 모험",
+    "title_ar": "مهمة 14: المغامرة",
+    "description": "Detailed description for quest 14 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 15,
+    "rewards": {
+      "xp": 750,
+      "gold": 150,
+      "items": [
+        "item_0042"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_14_1",
+        "type": "kill",
+        "target": "enemy_28",
+        "count": 5
+      },
+      {
+        "id": "obj_14_2",
+        "type": "collect",
+        "target": "item_0070",
+        "count": 5
+      },
+      {
+        "id": "obj_14_3",
+        "type": "explore",
+        "target": "location_98",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0015",
+    "title": "Quest 15: The Adventure",
+    "title_kr": "퀘스트 15: 모험",
+    "title_ar": "مهمة 15: المغامرة",
+    "description": "Detailed description for quest 15 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 16,
+    "rewards": {
+      "xp": 800,
+      "gold": 160,
+      "items": [
+        "item_0045"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_15_1",
+        "type": "kill",
+        "target": "enemy_30",
+        "count": 6
+      },
+      {
+        "id": "obj_15_2",
+        "type": "collect",
+        "target": "item_0075",
+        "count": 1
+      },
+      {
+        "id": "obj_15_3",
+        "type": "explore",
+        "target": "location_5",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0016",
+    "title": "Quest 16: The Adventure",
+    "title_kr": "퀘스트 16: 모험",
+    "title_ar": "مهمة 16: المغامرة",
+    "description": "Detailed description for quest 16 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 17,
+    "rewards": {
+      "xp": 850,
+      "gold": 170,
+      "items": [
+        "item_0048"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_16_1",
+        "type": "kill",
+        "target": "enemy_32",
+        "count": 7
+      },
+      {
+        "id": "obj_16_2",
+        "type": "collect",
+        "target": "item_0080",
+        "count": 2
+      },
+      {
+        "id": "obj_16_3",
+        "type": "explore",
+        "target": "location_12",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0017",
+    "title": "Quest 17: The Adventure",
+    "title_kr": "퀘스트 17: 모험",
+    "title_ar": "مهمة 17: المغامرة",
+    "description": "Detailed description for quest 17 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 18,
+    "rewards": {
+      "xp": 900,
+      "gold": 180,
+      "items": [
+        "item_0051"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_17_1",
+        "type": "kill",
+        "target": "enemy_34",
+        "count": 8
+      },
+      {
+        "id": "obj_17_2",
+        "type": "collect",
+        "target": "item_0085",
+        "count": 3
+      },
+      {
+        "id": "obj_17_3",
+        "type": "explore",
+        "target": "location_19",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0018",
+    "title": "Quest 18: The Adventure",
+    "title_kr": "퀘스트 18: 모험",
+    "title_ar": "مهمة 18: المغامرة",
+    "description": "Detailed description for quest 18 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 19,
+    "rewards": {
+      "xp": 950,
+      "gold": 190,
+      "items": [
+        "item_0054"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_18_1",
+        "type": "kill",
+        "target": "enemy_36",
+        "count": 9
+      },
+      {
+        "id": "obj_18_2",
+        "type": "collect",
+        "target": "item_0090",
+        "count": 4
+      },
+      {
+        "id": "obj_18_3",
+        "type": "explore",
+        "target": "location_26",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0019",
+    "title": "Quest 19: The Adventure",
+    "title_kr": "퀘스트 19: 모험",
+    "title_ar": "مهمة 19: المغامرة",
+    "description": "Detailed description for quest 19 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 20,
+    "rewards": {
+      "xp": 1000,
+      "gold": 200,
+      "items": [
+        "item_0057"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_19_1",
+        "type": "kill",
+        "target": "enemy_38",
+        "count": 10
+      },
+      {
+        "id": "obj_19_2",
+        "type": "collect",
+        "target": "item_0095",
+        "count": 5
+      },
+      {
+        "id": "obj_19_3",
+        "type": "explore",
+        "target": "location_33",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0020",
+    "title": "Quest 20: The Adventure",
+    "title_kr": "퀘스트 20: 모험",
+    "title_ar": "مهمة 20: المغامرة",
+    "description": "Detailed description for quest 20 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 21,
+    "rewards": {
+      "xp": 1050,
+      "gold": 210,
+      "items": [
+        "item_0060"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_20_1",
+        "type": "kill",
+        "target": "enemy_40",
+        "count": 1
+      },
+      {
+        "id": "obj_20_2",
+        "type": "collect",
+        "target": "item_0100",
+        "count": 1
+      },
+      {
+        "id": "obj_20_3",
+        "type": "explore",
+        "target": "location_40",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0021",
+    "title": "Quest 21: The Adventure",
+    "title_kr": "퀘스트 21: 모험",
+    "title_ar": "مهمة 21: المغامرة",
+    "description": "Detailed description for quest 21 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 22,
+    "rewards": {
+      "xp": 1100,
+      "gold": 220,
+      "items": [
+        "item_0063"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_21_1",
+        "type": "kill",
+        "target": "enemy_42",
+        "count": 2
+      },
+      {
+        "id": "obj_21_2",
+        "type": "collect",
+        "target": "item_0105",
+        "count": 2
+      },
+      {
+        "id": "obj_21_3",
+        "type": "explore",
+        "target": "location_47",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0022",
+    "title": "Quest 22: The Adventure",
+    "title_kr": "퀘스트 22: 모험",
+    "title_ar": "مهمة 22: المغامرة",
+    "description": "Detailed description for quest 22 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 23,
+    "rewards": {
+      "xp": 1150,
+      "gold": 230,
+      "items": [
+        "item_0066"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_22_1",
+        "type": "kill",
+        "target": "enemy_44",
+        "count": 3
+      },
+      {
+        "id": "obj_22_2",
+        "type": "collect",
+        "target": "item_0110",
+        "count": 3
+      },
+      {
+        "id": "obj_22_3",
+        "type": "explore",
+        "target": "location_54",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0023",
+    "title": "Quest 23: The Adventure",
+    "title_kr": "퀘스트 23: 모험",
+    "title_ar": "مهمة 23: المغامرة",
+    "description": "Detailed description for quest 23 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 24,
+    "rewards": {
+      "xp": 1200,
+      "gold": 240,
+      "items": [
+        "item_0069"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_23_1",
+        "type": "kill",
+        "target": "enemy_46",
+        "count": 4
+      },
+      {
+        "id": "obj_23_2",
+        "type": "collect",
+        "target": "item_0115",
+        "count": 4
+      },
+      {
+        "id": "obj_23_3",
+        "type": "explore",
+        "target": "location_61",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0024",
+    "title": "Quest 24: The Adventure",
+    "title_kr": "퀘스트 24: 모험",
+    "title_ar": "مهمة 24: المغامرة",
+    "description": "Detailed description for quest 24 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 25,
+    "rewards": {
+      "xp": 1250,
+      "gold": 250,
+      "items": [
+        "item_0072"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_24_1",
+        "type": "kill",
+        "target": "enemy_48",
+        "count": 5
+      },
+      {
+        "id": "obj_24_2",
+        "type": "collect",
+        "target": "item_0120",
+        "count": 5
+      },
+      {
+        "id": "obj_24_3",
+        "type": "explore",
+        "target": "location_68",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0025",
+    "title": "Quest 25: The Adventure",
+    "title_kr": "퀘스트 25: 모험",
+    "title_ar": "مهمة 25: المغامرة",
+    "description": "Detailed description for quest 25 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 26,
+    "rewards": {
+      "xp": 1300,
+      "gold": 260,
+      "items": [
+        "item_0075"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_25_1",
+        "type": "kill",
+        "target": "enemy_0",
+        "count": 6
+      },
+      {
+        "id": "obj_25_2",
+        "type": "collect",
+        "target": "item_0125",
+        "count": 1
+      },
+      {
+        "id": "obj_25_3",
+        "type": "explore",
+        "target": "location_75",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0026",
+    "title": "Quest 26: The Adventure",
+    "title_kr": "퀘스트 26: 모험",
+    "title_ar": "مهمة 26: المغامرة",
+    "description": "Detailed description for quest 26 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 27,
+    "rewards": {
+      "xp": 1350,
+      "gold": 270,
+      "items": [
+        "item_0078"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_26_1",
+        "type": "kill",
+        "target": "enemy_2",
+        "count": 7
+      },
+      {
+        "id": "obj_26_2",
+        "type": "collect",
+        "target": "item_0130",
+        "count": 2
+      },
+      {
+        "id": "obj_26_3",
+        "type": "explore",
+        "target": "location_82",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0027",
+    "title": "Quest 27: The Adventure",
+    "title_kr": "퀘스트 27: 모험",
+    "title_ar": "مهمة 27: المغامرة",
+    "description": "Detailed description for quest 27 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 28,
+    "rewards": {
+      "xp": 1400,
+      "gold": 280,
+      "items": [
+        "item_0081"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_27_1",
+        "type": "kill",
+        "target": "enemy_4",
+        "count": 8
+      },
+      {
+        "id": "obj_27_2",
+        "type": "collect",
+        "target": "item_0135",
+        "count": 3
+      },
+      {
+        "id": "obj_27_3",
+        "type": "explore",
+        "target": "location_89",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0028",
+    "title": "Quest 28: The Adventure",
+    "title_kr": "퀘스트 28: 모험",
+    "title_ar": "مهمة 28: المغامرة",
+    "description": "Detailed description for quest 28 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 29,
+    "rewards": {
+      "xp": 1450,
+      "gold": 290,
+      "items": [
+        "item_0084"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_28_1",
+        "type": "kill",
+        "target": "enemy_6",
+        "count": 9
+      },
+      {
+        "id": "obj_28_2",
+        "type": "collect",
+        "target": "item_0140",
+        "count": 4
+      },
+      {
+        "id": "obj_28_3",
+        "type": "explore",
+        "target": "location_96",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0029",
+    "title": "Quest 29: The Adventure",
+    "title_kr": "퀘스트 29: 모험",
+    "title_ar": "مهمة 29: المغامرة",
+    "description": "Detailed description for quest 29 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 30,
+    "rewards": {
+      "xp": 1500,
+      "gold": 300,
+      "items": [
+        "item_0087"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_29_1",
+        "type": "kill",
+        "target": "enemy_8",
+        "count": 10
+      },
+      {
+        "id": "obj_29_2",
+        "type": "collect",
+        "target": "item_0145",
+        "count": 5
+      },
+      {
+        "id": "obj_29_3",
+        "type": "explore",
+        "target": "location_3",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0030",
+    "title": "Quest 30: The Adventure",
+    "title_kr": "퀘스트 30: 모험",
+    "title_ar": "مهمة 30: المغامرة",
+    "description": "Detailed description for quest 30 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 31,
+    "rewards": {
+      "xp": 1550,
+      "gold": 310,
+      "items": [
+        "item_0090"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_30_1",
+        "type": "kill",
+        "target": "enemy_10",
+        "count": 1
+      },
+      {
+        "id": "obj_30_2",
+        "type": "collect",
+        "target": "item_0150",
+        "count": 1
+      },
+      {
+        "id": "obj_30_3",
+        "type": "explore",
+        "target": "location_10",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0031",
+    "title": "Quest 31: The Adventure",
+    "title_kr": "퀘스트 31: 모험",
+    "title_ar": "مهمة 31: المغامرة",
+    "description": "Detailed description for quest 31 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 32,
+    "rewards": {
+      "xp": 1600,
+      "gold": 320,
+      "items": [
+        "item_0093"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_31_1",
+        "type": "kill",
+        "target": "enemy_12",
+        "count": 2
+      },
+      {
+        "id": "obj_31_2",
+        "type": "collect",
+        "target": "item_0155",
+        "count": 2
+      },
+      {
+        "id": "obj_31_3",
+        "type": "explore",
+        "target": "location_17",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0032",
+    "title": "Quest 32: The Adventure",
+    "title_kr": "퀘스트 32: 모험",
+    "title_ar": "مهمة 32: المغامرة",
+    "description": "Detailed description for quest 32 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 33,
+    "rewards": {
+      "xp": 1650,
+      "gold": 330,
+      "items": [
+        "item_0096"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_32_1",
+        "type": "kill",
+        "target": "enemy_14",
+        "count": 3
+      },
+      {
+        "id": "obj_32_2",
+        "type": "collect",
+        "target": "item_0160",
+        "count": 3
+      },
+      {
+        "id": "obj_32_3",
+        "type": "explore",
+        "target": "location_24",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0033",
+    "title": "Quest 33: The Adventure",
+    "title_kr": "퀘스트 33: 모험",
+    "title_ar": "مهمة 33: المغامرة",
+    "description": "Detailed description for quest 33 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 34,
+    "rewards": {
+      "xp": 1700,
+      "gold": 340,
+      "items": [
+        "item_0099"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_33_1",
+        "type": "kill",
+        "target": "enemy_16",
+        "count": 4
+      },
+      {
+        "id": "obj_33_2",
+        "type": "collect",
+        "target": "item_0165",
+        "count": 4
+      },
+      {
+        "id": "obj_33_3",
+        "type": "explore",
+        "target": "location_31",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0034",
+    "title": "Quest 34: The Adventure",
+    "title_kr": "퀘스트 34: 모험",
+    "title_ar": "مهمة 34: المغامرة",
+    "description": "Detailed description for quest 34 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 35,
+    "rewards": {
+      "xp": 1750,
+      "gold": 350,
+      "items": [
+        "item_0102"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_34_1",
+        "type": "kill",
+        "target": "enemy_18",
+        "count": 5
+      },
+      {
+        "id": "obj_34_2",
+        "type": "collect",
+        "target": "item_0170",
+        "count": 5
+      },
+      {
+        "id": "obj_34_3",
+        "type": "explore",
+        "target": "location_38",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0035",
+    "title": "Quest 35: The Adventure",
+    "title_kr": "퀘스트 35: 모험",
+    "title_ar": "مهمة 35: المغامرة",
+    "description": "Detailed description for quest 35 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 36,
+    "rewards": {
+      "xp": 1800,
+      "gold": 360,
+      "items": [
+        "item_0105"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_35_1",
+        "type": "kill",
+        "target": "enemy_20",
+        "count": 6
+      },
+      {
+        "id": "obj_35_2",
+        "type": "collect",
+        "target": "item_0175",
+        "count": 1
+      },
+      {
+        "id": "obj_35_3",
+        "type": "explore",
+        "target": "location_45",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0036",
+    "title": "Quest 36: The Adventure",
+    "title_kr": "퀘스트 36: 모험",
+    "title_ar": "مهمة 36: المغامرة",
+    "description": "Detailed description for quest 36 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 37,
+    "rewards": {
+      "xp": 1850,
+      "gold": 370,
+      "items": [
+        "item_0108"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_36_1",
+        "type": "kill",
+        "target": "enemy_22",
+        "count": 7
+      },
+      {
+        "id": "obj_36_2",
+        "type": "collect",
+        "target": "item_0180",
+        "count": 2
+      },
+      {
+        "id": "obj_36_3",
+        "type": "explore",
+        "target": "location_52",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0037",
+    "title": "Quest 37: The Adventure",
+    "title_kr": "퀘스트 37: 모험",
+    "title_ar": "مهمة 37: المغامرة",
+    "description": "Detailed description for quest 37 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 38,
+    "rewards": {
+      "xp": 1900,
+      "gold": 380,
+      "items": [
+        "item_0111"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_37_1",
+        "type": "kill",
+        "target": "enemy_24",
+        "count": 8
+      },
+      {
+        "id": "obj_37_2",
+        "type": "collect",
+        "target": "item_0185",
+        "count": 3
+      },
+      {
+        "id": "obj_37_3",
+        "type": "explore",
+        "target": "location_59",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0038",
+    "title": "Quest 38: The Adventure",
+    "title_kr": "퀘스트 38: 모험",
+    "title_ar": "مهمة 38: المغامرة",
+    "description": "Detailed description for quest 38 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 39,
+    "rewards": {
+      "xp": 1950,
+      "gold": 390,
+      "items": [
+        "item_0114"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_38_1",
+        "type": "kill",
+        "target": "enemy_26",
+        "count": 9
+      },
+      {
+        "id": "obj_38_2",
+        "type": "collect",
+        "target": "item_0190",
+        "count": 4
+      },
+      {
+        "id": "obj_38_3",
+        "type": "explore",
+        "target": "location_66",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0039",
+    "title": "Quest 39: The Adventure",
+    "title_kr": "퀘스트 39: 모험",
+    "title_ar": "مهمة 39: المغامرة",
+    "description": "Detailed description for quest 39 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 40,
+    "rewards": {
+      "xp": 2000,
+      "gold": 400,
+      "items": [
+        "item_0117"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_39_1",
+        "type": "kill",
+        "target": "enemy_28",
+        "count": 10
+      },
+      {
+        "id": "obj_39_2",
+        "type": "collect",
+        "target": "item_0195",
+        "count": 5
+      },
+      {
+        "id": "obj_39_3",
+        "type": "explore",
+        "target": "location_73",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0040",
+    "title": "Quest 40: The Adventure",
+    "title_kr": "퀘스트 40: 모험",
+    "title_ar": "مهمة 40: المغامرة",
+    "description": "Detailed description for quest 40 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 41,
+    "rewards": {
+      "xp": 2050,
+      "gold": 410,
+      "items": [
+        "item_0120"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_40_1",
+        "type": "kill",
+        "target": "enemy_30",
+        "count": 1
+      },
+      {
+        "id": "obj_40_2",
+        "type": "collect",
+        "target": "item_0200",
+        "count": 1
+      },
+      {
+        "id": "obj_40_3",
+        "type": "explore",
+        "target": "location_80",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0041",
+    "title": "Quest 41: The Adventure",
+    "title_kr": "퀘스트 41: 모험",
+    "title_ar": "مهمة 41: المغامرة",
+    "description": "Detailed description for quest 41 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 42,
+    "rewards": {
+      "xp": 2100,
+      "gold": 420,
+      "items": [
+        "item_0123"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_41_1",
+        "type": "kill",
+        "target": "enemy_32",
+        "count": 2
+      },
+      {
+        "id": "obj_41_2",
+        "type": "collect",
+        "target": "item_0205",
+        "count": 2
+      },
+      {
+        "id": "obj_41_3",
+        "type": "explore",
+        "target": "location_87",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0042",
+    "title": "Quest 42: The Adventure",
+    "title_kr": "퀘스트 42: 모험",
+    "title_ar": "مهمة 42: المغامرة",
+    "description": "Detailed description for quest 42 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 43,
+    "rewards": {
+      "xp": 2150,
+      "gold": 430,
+      "items": [
+        "item_0126"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_42_1",
+        "type": "kill",
+        "target": "enemy_34",
+        "count": 3
+      },
+      {
+        "id": "obj_42_2",
+        "type": "collect",
+        "target": "item_0210",
+        "count": 3
+      },
+      {
+        "id": "obj_42_3",
+        "type": "explore",
+        "target": "location_94",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0043",
+    "title": "Quest 43: The Adventure",
+    "title_kr": "퀘스트 43: 모험",
+    "title_ar": "مهمة 43: المغامرة",
+    "description": "Detailed description for quest 43 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 44,
+    "rewards": {
+      "xp": 2200,
+      "gold": 440,
+      "items": [
+        "item_0129"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_43_1",
+        "type": "kill",
+        "target": "enemy_36",
+        "count": 4
+      },
+      {
+        "id": "obj_43_2",
+        "type": "collect",
+        "target": "item_0215",
+        "count": 4
+      },
+      {
+        "id": "obj_43_3",
+        "type": "explore",
+        "target": "location_1",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0044",
+    "title": "Quest 44: The Adventure",
+    "title_kr": "퀘스트 44: 모험",
+    "title_ar": "مهمة 44: المغامرة",
+    "description": "Detailed description for quest 44 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 45,
+    "rewards": {
+      "xp": 2250,
+      "gold": 450,
+      "items": [
+        "item_0132"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_44_1",
+        "type": "kill",
+        "target": "enemy_38",
+        "count": 5
+      },
+      {
+        "id": "obj_44_2",
+        "type": "collect",
+        "target": "item_0220",
+        "count": 5
+      },
+      {
+        "id": "obj_44_3",
+        "type": "explore",
+        "target": "location_8",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0045",
+    "title": "Quest 45: The Adventure",
+    "title_kr": "퀘스트 45: 모험",
+    "title_ar": "مهمة 45: المغامرة",
+    "description": "Detailed description for quest 45 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 46,
+    "rewards": {
+      "xp": 2300,
+      "gold": 460,
+      "items": [
+        "item_0135"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_45_1",
+        "type": "kill",
+        "target": "enemy_40",
+        "count": 6
+      },
+      {
+        "id": "obj_45_2",
+        "type": "collect",
+        "target": "item_0225",
+        "count": 1
+      },
+      {
+        "id": "obj_45_3",
+        "type": "explore",
+        "target": "location_15",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0046",
+    "title": "Quest 46: The Adventure",
+    "title_kr": "퀘스트 46: 모험",
+    "title_ar": "مهمة 46: المغامرة",
+    "description": "Detailed description for quest 46 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 47,
+    "rewards": {
+      "xp": 2350,
+      "gold": 470,
+      "items": [
+        "item_0138"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_46_1",
+        "type": "kill",
+        "target": "enemy_42",
+        "count": 7
+      },
+      {
+        "id": "obj_46_2",
+        "type": "collect",
+        "target": "item_0230",
+        "count": 2
+      },
+      {
+        "id": "obj_46_3",
+        "type": "explore",
+        "target": "location_22",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0047",
+    "title": "Quest 47: The Adventure",
+    "title_kr": "퀘스트 47: 모험",
+    "title_ar": "مهمة 47: المغامرة",
+    "description": "Detailed description for quest 47 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 48,
+    "rewards": {
+      "xp": 2400,
+      "gold": 480,
+      "items": [
+        "item_0141"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_47_1",
+        "type": "kill",
+        "target": "enemy_44",
+        "count": 8
+      },
+      {
+        "id": "obj_47_2",
+        "type": "collect",
+        "target": "item_0235",
+        "count": 3
+      },
+      {
+        "id": "obj_47_3",
+        "type": "explore",
+        "target": "location_29",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0048",
+    "title": "Quest 48: The Adventure",
+    "title_kr": "퀘스트 48: 모험",
+    "title_ar": "مهمة 48: المغامرة",
+    "description": "Detailed description for quest 48 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 49,
+    "rewards": {
+      "xp": 2450,
+      "gold": 490,
+      "items": [
+        "item_0144"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_48_1",
+        "type": "kill",
+        "target": "enemy_46",
+        "count": 9
+      },
+      {
+        "id": "obj_48_2",
+        "type": "collect",
+        "target": "item_0240",
+        "count": 4
+      },
+      {
+        "id": "obj_48_3",
+        "type": "explore",
+        "target": "location_36",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0049",
+    "title": "Quest 49: The Adventure",
+    "title_kr": "퀘스트 49: 모험",
+    "title_ar": "مهمة 49: المغامرة",
+    "description": "Detailed description for quest 49 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 50,
+    "rewards": {
+      "xp": 2500,
+      "gold": 500,
+      "items": [
+        "item_0147"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_49_1",
+        "type": "kill",
+        "target": "enemy_48",
+        "count": 10
+      },
+      {
+        "id": "obj_49_2",
+        "type": "collect",
+        "target": "item_0245",
+        "count": 5
+      },
+      {
+        "id": "obj_49_3",
+        "type": "explore",
+        "target": "location_43",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0050",
+    "title": "Quest 50: The Adventure",
+    "title_kr": "퀘스트 50: 모험",
+    "title_ar": "مهمة 50: المغامرة",
+    "description": "Detailed description for quest 50 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 1,
+    "rewards": {
+      "xp": 2550,
+      "gold": 510,
+      "items": [
+        "item_0150"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_50_1",
+        "type": "kill",
+        "target": "enemy_0",
+        "count": 1
+      },
+      {
+        "id": "obj_50_2",
+        "type": "collect",
+        "target": "item_0250",
+        "count": 1
+      },
+      {
+        "id": "obj_50_3",
+        "type": "explore",
+        "target": "location_50",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0051",
+    "title": "Quest 51: The Adventure",
+    "title_kr": "퀘스트 51: 모험",
+    "title_ar": "مهمة 51: المغامرة",
+    "description": "Detailed description for quest 51 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 2,
+    "rewards": {
+      "xp": 2600,
+      "gold": 520,
+      "items": [
+        "item_0153"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_51_1",
+        "type": "kill",
+        "target": "enemy_2",
+        "count": 2
+      },
+      {
+        "id": "obj_51_2",
+        "type": "collect",
+        "target": "item_0255",
+        "count": 2
+      },
+      {
+        "id": "obj_51_3",
+        "type": "explore",
+        "target": "location_57",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0052",
+    "title": "Quest 52: The Adventure",
+    "title_kr": "퀘스트 52: 모험",
+    "title_ar": "مهمة 52: المغامرة",
+    "description": "Detailed description for quest 52 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 3,
+    "rewards": {
+      "xp": 2650,
+      "gold": 530,
+      "items": [
+        "item_0156"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_52_1",
+        "type": "kill",
+        "target": "enemy_4",
+        "count": 3
+      },
+      {
+        "id": "obj_52_2",
+        "type": "collect",
+        "target": "item_0260",
+        "count": 3
+      },
+      {
+        "id": "obj_52_3",
+        "type": "explore",
+        "target": "location_64",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0053",
+    "title": "Quest 53: The Adventure",
+    "title_kr": "퀘스트 53: 모험",
+    "title_ar": "مهمة 53: المغامرة",
+    "description": "Detailed description for quest 53 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 4,
+    "rewards": {
+      "xp": 2700,
+      "gold": 540,
+      "items": [
+        "item_0159"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_53_1",
+        "type": "kill",
+        "target": "enemy_6",
+        "count": 4
+      },
+      {
+        "id": "obj_53_2",
+        "type": "collect",
+        "target": "item_0265",
+        "count": 4
+      },
+      {
+        "id": "obj_53_3",
+        "type": "explore",
+        "target": "location_71",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0054",
+    "title": "Quest 54: The Adventure",
+    "title_kr": "퀘스트 54: 모험",
+    "title_ar": "مهمة 54: المغامرة",
+    "description": "Detailed description for quest 54 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 5,
+    "rewards": {
+      "xp": 2750,
+      "gold": 550,
+      "items": [
+        "item_0162"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_54_1",
+        "type": "kill",
+        "target": "enemy_8",
+        "count": 5
+      },
+      {
+        "id": "obj_54_2",
+        "type": "collect",
+        "target": "item_0270",
+        "count": 5
+      },
+      {
+        "id": "obj_54_3",
+        "type": "explore",
+        "target": "location_78",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0055",
+    "title": "Quest 55: The Adventure",
+    "title_kr": "퀘스트 55: 모험",
+    "title_ar": "مهمة 55: المغامرة",
+    "description": "Detailed description for quest 55 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 6,
+    "rewards": {
+      "xp": 2800,
+      "gold": 560,
+      "items": [
+        "item_0165"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_55_1",
+        "type": "kill",
+        "target": "enemy_10",
+        "count": 6
+      },
+      {
+        "id": "obj_55_2",
+        "type": "collect",
+        "target": "item_0275",
+        "count": 1
+      },
+      {
+        "id": "obj_55_3",
+        "type": "explore",
+        "target": "location_85",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0056",
+    "title": "Quest 56: The Adventure",
+    "title_kr": "퀘스트 56: 모험",
+    "title_ar": "مهمة 56: المغامرة",
+    "description": "Detailed description for quest 56 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 7,
+    "rewards": {
+      "xp": 2850,
+      "gold": 570,
+      "items": [
+        "item_0168"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_56_1",
+        "type": "kill",
+        "target": "enemy_12",
+        "count": 7
+      },
+      {
+        "id": "obj_56_2",
+        "type": "collect",
+        "target": "item_0280",
+        "count": 2
+      },
+      {
+        "id": "obj_56_3",
+        "type": "explore",
+        "target": "location_92",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0057",
+    "title": "Quest 57: The Adventure",
+    "title_kr": "퀘스트 57: 모험",
+    "title_ar": "مهمة 57: المغامرة",
+    "description": "Detailed description for quest 57 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 8,
+    "rewards": {
+      "xp": 2900,
+      "gold": 580,
+      "items": [
+        "item_0171"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_57_1",
+        "type": "kill",
+        "target": "enemy_14",
+        "count": 8
+      },
+      {
+        "id": "obj_57_2",
+        "type": "collect",
+        "target": "item_0285",
+        "count": 3
+      },
+      {
+        "id": "obj_57_3",
+        "type": "explore",
+        "target": "location_99",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0058",
+    "title": "Quest 58: The Adventure",
+    "title_kr": "퀘스트 58: 모험",
+    "title_ar": "مهمة 58: المغامرة",
+    "description": "Detailed description for quest 58 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 9,
+    "rewards": {
+      "xp": 2950,
+      "gold": 590,
+      "items": [
+        "item_0174"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_58_1",
+        "type": "kill",
+        "target": "enemy_16",
+        "count": 9
+      },
+      {
+        "id": "obj_58_2",
+        "type": "collect",
+        "target": "item_0290",
+        "count": 4
+      },
+      {
+        "id": "obj_58_3",
+        "type": "explore",
+        "target": "location_6",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0059",
+    "title": "Quest 59: The Adventure",
+    "title_kr": "퀘스트 59: 모험",
+    "title_ar": "مهمة 59: المغامرة",
+    "description": "Detailed description for quest 59 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 10,
+    "rewards": {
+      "xp": 3000,
+      "gold": 600,
+      "items": [
+        "item_0177"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_59_1",
+        "type": "kill",
+        "target": "enemy_18",
+        "count": 10
+      },
+      {
+        "id": "obj_59_2",
+        "type": "collect",
+        "target": "item_0295",
+        "count": 5
+      },
+      {
+        "id": "obj_59_3",
+        "type": "explore",
+        "target": "location_13",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0060",
+    "title": "Quest 60: The Adventure",
+    "title_kr": "퀘스트 60: 모험",
+    "title_ar": "مهمة 60: المغامرة",
+    "description": "Detailed description for quest 60 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 11,
+    "rewards": {
+      "xp": 3050,
+      "gold": 610,
+      "items": [
+        "item_0180"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_60_1",
+        "type": "kill",
+        "target": "enemy_20",
+        "count": 1
+      },
+      {
+        "id": "obj_60_2",
+        "type": "collect",
+        "target": "item_0300",
+        "count": 1
+      },
+      {
+        "id": "obj_60_3",
+        "type": "explore",
+        "target": "location_20",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0061",
+    "title": "Quest 61: The Adventure",
+    "title_kr": "퀘스트 61: 모험",
+    "title_ar": "مهمة 61: المغامرة",
+    "description": "Detailed description for quest 61 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 12,
+    "rewards": {
+      "xp": 3100,
+      "gold": 620,
+      "items": [
+        "item_0183"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_61_1",
+        "type": "kill",
+        "target": "enemy_22",
+        "count": 2
+      },
+      {
+        "id": "obj_61_2",
+        "type": "collect",
+        "target": "item_0305",
+        "count": 2
+      },
+      {
+        "id": "obj_61_3",
+        "type": "explore",
+        "target": "location_27",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0062",
+    "title": "Quest 62: The Adventure",
+    "title_kr": "퀘스트 62: 모험",
+    "title_ar": "مهمة 62: المغامرة",
+    "description": "Detailed description for quest 62 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 13,
+    "rewards": {
+      "xp": 3150,
+      "gold": 630,
+      "items": [
+        "item_0186"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_62_1",
+        "type": "kill",
+        "target": "enemy_24",
+        "count": 3
+      },
+      {
+        "id": "obj_62_2",
+        "type": "collect",
+        "target": "item_0310",
+        "count": 3
+      },
+      {
+        "id": "obj_62_3",
+        "type": "explore",
+        "target": "location_34",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0063",
+    "title": "Quest 63: The Adventure",
+    "title_kr": "퀘스트 63: 모험",
+    "title_ar": "مهمة 63: المغامرة",
+    "description": "Detailed description for quest 63 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 14,
+    "rewards": {
+      "xp": 3200,
+      "gold": 640,
+      "items": [
+        "item_0189"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_63_1",
+        "type": "kill",
+        "target": "enemy_26",
+        "count": 4
+      },
+      {
+        "id": "obj_63_2",
+        "type": "collect",
+        "target": "item_0315",
+        "count": 4
+      },
+      {
+        "id": "obj_63_3",
+        "type": "explore",
+        "target": "location_41",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0064",
+    "title": "Quest 64: The Adventure",
+    "title_kr": "퀘스트 64: 모험",
+    "title_ar": "مهمة 64: المغامرة",
+    "description": "Detailed description for quest 64 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 15,
+    "rewards": {
+      "xp": 3250,
+      "gold": 650,
+      "items": [
+        "item_0192"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_64_1",
+        "type": "kill",
+        "target": "enemy_28",
+        "count": 5
+      },
+      {
+        "id": "obj_64_2",
+        "type": "collect",
+        "target": "item_0320",
+        "count": 5
+      },
+      {
+        "id": "obj_64_3",
+        "type": "explore",
+        "target": "location_48",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0065",
+    "title": "Quest 65: The Adventure",
+    "title_kr": "퀘스트 65: 모험",
+    "title_ar": "مهمة 65: المغامرة",
+    "description": "Detailed description for quest 65 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 16,
+    "rewards": {
+      "xp": 3300,
+      "gold": 660,
+      "items": [
+        "item_0195"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_65_1",
+        "type": "kill",
+        "target": "enemy_30",
+        "count": 6
+      },
+      {
+        "id": "obj_65_2",
+        "type": "collect",
+        "target": "item_0325",
+        "count": 1
+      },
+      {
+        "id": "obj_65_3",
+        "type": "explore",
+        "target": "location_55",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0066",
+    "title": "Quest 66: The Adventure",
+    "title_kr": "퀘스트 66: 모험",
+    "title_ar": "مهمة 66: المغامرة",
+    "description": "Detailed description for quest 66 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 17,
+    "rewards": {
+      "xp": 3350,
+      "gold": 670,
+      "items": [
+        "item_0198"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_66_1",
+        "type": "kill",
+        "target": "enemy_32",
+        "count": 7
+      },
+      {
+        "id": "obj_66_2",
+        "type": "collect",
+        "target": "item_0330",
+        "count": 2
+      },
+      {
+        "id": "obj_66_3",
+        "type": "explore",
+        "target": "location_62",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0067",
+    "title": "Quest 67: The Adventure",
+    "title_kr": "퀘스트 67: 모험",
+    "title_ar": "مهمة 67: المغامرة",
+    "description": "Detailed description for quest 67 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 18,
+    "rewards": {
+      "xp": 3400,
+      "gold": 680,
+      "items": [
+        "item_0201"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_67_1",
+        "type": "kill",
+        "target": "enemy_34",
+        "count": 8
+      },
+      {
+        "id": "obj_67_2",
+        "type": "collect",
+        "target": "item_0335",
+        "count": 3
+      },
+      {
+        "id": "obj_67_3",
+        "type": "explore",
+        "target": "location_69",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0068",
+    "title": "Quest 68: The Adventure",
+    "title_kr": "퀘스트 68: 모험",
+    "title_ar": "مهمة 68: المغامرة",
+    "description": "Detailed description for quest 68 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 19,
+    "rewards": {
+      "xp": 3450,
+      "gold": 690,
+      "items": [
+        "item_0204"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_68_1",
+        "type": "kill",
+        "target": "enemy_36",
+        "count": 9
+      },
+      {
+        "id": "obj_68_2",
+        "type": "collect",
+        "target": "item_0340",
+        "count": 4
+      },
+      {
+        "id": "obj_68_3",
+        "type": "explore",
+        "target": "location_76",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0069",
+    "title": "Quest 69: The Adventure",
+    "title_kr": "퀘스트 69: 모험",
+    "title_ar": "مهمة 69: المغامرة",
+    "description": "Detailed description for quest 69 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 20,
+    "rewards": {
+      "xp": 3500,
+      "gold": 700,
+      "items": [
+        "item_0207"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_69_1",
+        "type": "kill",
+        "target": "enemy_38",
+        "count": 10
+      },
+      {
+        "id": "obj_69_2",
+        "type": "collect",
+        "target": "item_0345",
+        "count": 5
+      },
+      {
+        "id": "obj_69_3",
+        "type": "explore",
+        "target": "location_83",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0070",
+    "title": "Quest 70: The Adventure",
+    "title_kr": "퀘스트 70: 모험",
+    "title_ar": "مهمة 70: المغامرة",
+    "description": "Detailed description for quest 70 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 21,
+    "rewards": {
+      "xp": 3550,
+      "gold": 710,
+      "items": [
+        "item_0210"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_70_1",
+        "type": "kill",
+        "target": "enemy_40",
+        "count": 1
+      },
+      {
+        "id": "obj_70_2",
+        "type": "collect",
+        "target": "item_0350",
+        "count": 1
+      },
+      {
+        "id": "obj_70_3",
+        "type": "explore",
+        "target": "location_90",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0071",
+    "title": "Quest 71: The Adventure",
+    "title_kr": "퀘스트 71: 모험",
+    "title_ar": "مهمة 71: المغامرة",
+    "description": "Detailed description for quest 71 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 22,
+    "rewards": {
+      "xp": 3600,
+      "gold": 720,
+      "items": [
+        "item_0213"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_71_1",
+        "type": "kill",
+        "target": "enemy_42",
+        "count": 2
+      },
+      {
+        "id": "obj_71_2",
+        "type": "collect",
+        "target": "item_0355",
+        "count": 2
+      },
+      {
+        "id": "obj_71_3",
+        "type": "explore",
+        "target": "location_97",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0072",
+    "title": "Quest 72: The Adventure",
+    "title_kr": "퀘스트 72: 모험",
+    "title_ar": "مهمة 72: المغامرة",
+    "description": "Detailed description for quest 72 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 23,
+    "rewards": {
+      "xp": 3650,
+      "gold": 730,
+      "items": [
+        "item_0216"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_72_1",
+        "type": "kill",
+        "target": "enemy_44",
+        "count": 3
+      },
+      {
+        "id": "obj_72_2",
+        "type": "collect",
+        "target": "item_0360",
+        "count": 3
+      },
+      {
+        "id": "obj_72_3",
+        "type": "explore",
+        "target": "location_4",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0073",
+    "title": "Quest 73: The Adventure",
+    "title_kr": "퀘스트 73: 모험",
+    "title_ar": "مهمة 73: المغامرة",
+    "description": "Detailed description for quest 73 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 24,
+    "rewards": {
+      "xp": 3700,
+      "gold": 740,
+      "items": [
+        "item_0219"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_73_1",
+        "type": "kill",
+        "target": "enemy_46",
+        "count": 4
+      },
+      {
+        "id": "obj_73_2",
+        "type": "collect",
+        "target": "item_0365",
+        "count": 4
+      },
+      {
+        "id": "obj_73_3",
+        "type": "explore",
+        "target": "location_11",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0074",
+    "title": "Quest 74: The Adventure",
+    "title_kr": "퀘스트 74: 모험",
+    "title_ar": "مهمة 74: المغامرة",
+    "description": "Detailed description for quest 74 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 25,
+    "rewards": {
+      "xp": 3750,
+      "gold": 750,
+      "items": [
+        "item_0222"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_74_1",
+        "type": "kill",
+        "target": "enemy_48",
+        "count": 5
+      },
+      {
+        "id": "obj_74_2",
+        "type": "collect",
+        "target": "item_0370",
+        "count": 5
+      },
+      {
+        "id": "obj_74_3",
+        "type": "explore",
+        "target": "location_18",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0075",
+    "title": "Quest 75: The Adventure",
+    "title_kr": "퀘스트 75: 모험",
+    "title_ar": "مهمة 75: المغامرة",
+    "description": "Detailed description for quest 75 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 26,
+    "rewards": {
+      "xp": 3800,
+      "gold": 760,
+      "items": [
+        "item_0225"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_75_1",
+        "type": "kill",
+        "target": "enemy_0",
+        "count": 6
+      },
+      {
+        "id": "obj_75_2",
+        "type": "collect",
+        "target": "item_0375",
+        "count": 1
+      },
+      {
+        "id": "obj_75_3",
+        "type": "explore",
+        "target": "location_25",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0076",
+    "title": "Quest 76: The Adventure",
+    "title_kr": "퀘스트 76: 모험",
+    "title_ar": "مهمة 76: المغامرة",
+    "description": "Detailed description for quest 76 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 27,
+    "rewards": {
+      "xp": 3850,
+      "gold": 770,
+      "items": [
+        "item_0228"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_76_1",
+        "type": "kill",
+        "target": "enemy_2",
+        "count": 7
+      },
+      {
+        "id": "obj_76_2",
+        "type": "collect",
+        "target": "item_0380",
+        "count": 2
+      },
+      {
+        "id": "obj_76_3",
+        "type": "explore",
+        "target": "location_32",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0077",
+    "title": "Quest 77: The Adventure",
+    "title_kr": "퀘스트 77: 모험",
+    "title_ar": "مهمة 77: المغامرة",
+    "description": "Detailed description for quest 77 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 28,
+    "rewards": {
+      "xp": 3900,
+      "gold": 780,
+      "items": [
+        "item_0231"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_77_1",
+        "type": "kill",
+        "target": "enemy_4",
+        "count": 8
+      },
+      {
+        "id": "obj_77_2",
+        "type": "collect",
+        "target": "item_0385",
+        "count": 3
+      },
+      {
+        "id": "obj_77_3",
+        "type": "explore",
+        "target": "location_39",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0078",
+    "title": "Quest 78: The Adventure",
+    "title_kr": "퀘스트 78: 모험",
+    "title_ar": "مهمة 78: المغامرة",
+    "description": "Detailed description for quest 78 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 29,
+    "rewards": {
+      "xp": 3950,
+      "gold": 790,
+      "items": [
+        "item_0234"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_78_1",
+        "type": "kill",
+        "target": "enemy_6",
+        "count": 9
+      },
+      {
+        "id": "obj_78_2",
+        "type": "collect",
+        "target": "item_0390",
+        "count": 4
+      },
+      {
+        "id": "obj_78_3",
+        "type": "explore",
+        "target": "location_46",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0079",
+    "title": "Quest 79: The Adventure",
+    "title_kr": "퀘스트 79: 모험",
+    "title_ar": "مهمة 79: المغامرة",
+    "description": "Detailed description for quest 79 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 30,
+    "rewards": {
+      "xp": 4000,
+      "gold": 800,
+      "items": [
+        "item_0237"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_79_1",
+        "type": "kill",
+        "target": "enemy_8",
+        "count": 10
+      },
+      {
+        "id": "obj_79_2",
+        "type": "collect",
+        "target": "item_0395",
+        "count": 5
+      },
+      {
+        "id": "obj_79_3",
+        "type": "explore",
+        "target": "location_53",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0080",
+    "title": "Quest 80: The Adventure",
+    "title_kr": "퀘스트 80: 모험",
+    "title_ar": "مهمة 80: المغامرة",
+    "description": "Detailed description for quest 80 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 31,
+    "rewards": {
+      "xp": 4050,
+      "gold": 810,
+      "items": [
+        "item_0240"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_80_1",
+        "type": "kill",
+        "target": "enemy_10",
+        "count": 1
+      },
+      {
+        "id": "obj_80_2",
+        "type": "collect",
+        "target": "item_0400",
+        "count": 1
+      },
+      {
+        "id": "obj_80_3",
+        "type": "explore",
+        "target": "location_60",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0081",
+    "title": "Quest 81: The Adventure",
+    "title_kr": "퀘스트 81: 모험",
+    "title_ar": "مهمة 81: المغامرة",
+    "description": "Detailed description for quest 81 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 32,
+    "rewards": {
+      "xp": 4100,
+      "gold": 820,
+      "items": [
+        "item_0243"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_81_1",
+        "type": "kill",
+        "target": "enemy_12",
+        "count": 2
+      },
+      {
+        "id": "obj_81_2",
+        "type": "collect",
+        "target": "item_0405",
+        "count": 2
+      },
+      {
+        "id": "obj_81_3",
+        "type": "explore",
+        "target": "location_67",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0082",
+    "title": "Quest 82: The Adventure",
+    "title_kr": "퀘스트 82: 모험",
+    "title_ar": "مهمة 82: المغامرة",
+    "description": "Detailed description for quest 82 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 33,
+    "rewards": {
+      "xp": 4150,
+      "gold": 830,
+      "items": [
+        "item_0246"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_82_1",
+        "type": "kill",
+        "target": "enemy_14",
+        "count": 3
+      },
+      {
+        "id": "obj_82_2",
+        "type": "collect",
+        "target": "item_0410",
+        "count": 3
+      },
+      {
+        "id": "obj_82_3",
+        "type": "explore",
+        "target": "location_74",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0083",
+    "title": "Quest 83: The Adventure",
+    "title_kr": "퀘스트 83: 모험",
+    "title_ar": "مهمة 83: المغامرة",
+    "description": "Detailed description for quest 83 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 34,
+    "rewards": {
+      "xp": 4200,
+      "gold": 840,
+      "items": [
+        "item_0249"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_83_1",
+        "type": "kill",
+        "target": "enemy_16",
+        "count": 4
+      },
+      {
+        "id": "obj_83_2",
+        "type": "collect",
+        "target": "item_0415",
+        "count": 4
+      },
+      {
+        "id": "obj_83_3",
+        "type": "explore",
+        "target": "location_81",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0084",
+    "title": "Quest 84: The Adventure",
+    "title_kr": "퀘스트 84: 모험",
+    "title_ar": "مهمة 84: المغامرة",
+    "description": "Detailed description for quest 84 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 35,
+    "rewards": {
+      "xp": 4250,
+      "gold": 850,
+      "items": [
+        "item_0252"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_84_1",
+        "type": "kill",
+        "target": "enemy_18",
+        "count": 5
+      },
+      {
+        "id": "obj_84_2",
+        "type": "collect",
+        "target": "item_0420",
+        "count": 5
+      },
+      {
+        "id": "obj_84_3",
+        "type": "explore",
+        "target": "location_88",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0085",
+    "title": "Quest 85: The Adventure",
+    "title_kr": "퀘스트 85: 모험",
+    "title_ar": "مهمة 85: المغامرة",
+    "description": "Detailed description for quest 85 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 36,
+    "rewards": {
+      "xp": 4300,
+      "gold": 860,
+      "items": [
+        "item_0255"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_85_1",
+        "type": "kill",
+        "target": "enemy_20",
+        "count": 6
+      },
+      {
+        "id": "obj_85_2",
+        "type": "collect",
+        "target": "item_0425",
+        "count": 1
+      },
+      {
+        "id": "obj_85_3",
+        "type": "explore",
+        "target": "location_95",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0086",
+    "title": "Quest 86: The Adventure",
+    "title_kr": "퀘스트 86: 모험",
+    "title_ar": "مهمة 86: المغامرة",
+    "description": "Detailed description for quest 86 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 37,
+    "rewards": {
+      "xp": 4350,
+      "gold": 870,
+      "items": [
+        "item_0258"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_86_1",
+        "type": "kill",
+        "target": "enemy_22",
+        "count": 7
+      },
+      {
+        "id": "obj_86_2",
+        "type": "collect",
+        "target": "item_0430",
+        "count": 2
+      },
+      {
+        "id": "obj_86_3",
+        "type": "explore",
+        "target": "location_2",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0087",
+    "title": "Quest 87: The Adventure",
+    "title_kr": "퀘스트 87: 모험",
+    "title_ar": "مهمة 87: المغامرة",
+    "description": "Detailed description for quest 87 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 38,
+    "rewards": {
+      "xp": 4400,
+      "gold": 880,
+      "items": [
+        "item_0261"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_87_1",
+        "type": "kill",
+        "target": "enemy_24",
+        "count": 8
+      },
+      {
+        "id": "obj_87_2",
+        "type": "collect",
+        "target": "item_0435",
+        "count": 3
+      },
+      {
+        "id": "obj_87_3",
+        "type": "explore",
+        "target": "location_9",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0088",
+    "title": "Quest 88: The Adventure",
+    "title_kr": "퀘스트 88: 모험",
+    "title_ar": "مهمة 88: المغامرة",
+    "description": "Detailed description for quest 88 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 39,
+    "rewards": {
+      "xp": 4450,
+      "gold": 890,
+      "items": [
+        "item_0264"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_88_1",
+        "type": "kill",
+        "target": "enemy_26",
+        "count": 9
+      },
+      {
+        "id": "obj_88_2",
+        "type": "collect",
+        "target": "item_0440",
+        "count": 4
+      },
+      {
+        "id": "obj_88_3",
+        "type": "explore",
+        "target": "location_16",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0089",
+    "title": "Quest 89: The Adventure",
+    "title_kr": "퀘스트 89: 모험",
+    "title_ar": "مهمة 89: المغامرة",
+    "description": "Detailed description for quest 89 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 40,
+    "rewards": {
+      "xp": 4500,
+      "gold": 900,
+      "items": [
+        "item_0267"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_89_1",
+        "type": "kill",
+        "target": "enemy_28",
+        "count": 10
+      },
+      {
+        "id": "obj_89_2",
+        "type": "collect",
+        "target": "item_0445",
+        "count": 5
+      },
+      {
+        "id": "obj_89_3",
+        "type": "explore",
+        "target": "location_23",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0090",
+    "title": "Quest 90: The Adventure",
+    "title_kr": "퀘스트 90: 모험",
+    "title_ar": "مهمة 90: المغامرة",
+    "description": "Detailed description for quest 90 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 41,
+    "rewards": {
+      "xp": 4550,
+      "gold": 910,
+      "items": [
+        "item_0270"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_90_1",
+        "type": "kill",
+        "target": "enemy_30",
+        "count": 1
+      },
+      {
+        "id": "obj_90_2",
+        "type": "collect",
+        "target": "item_0450",
+        "count": 1
+      },
+      {
+        "id": "obj_90_3",
+        "type": "explore",
+        "target": "location_30",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0091",
+    "title": "Quest 91: The Adventure",
+    "title_kr": "퀘스트 91: 모험",
+    "title_ar": "مهمة 91: المغامرة",
+    "description": "Detailed description for quest 91 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 42,
+    "rewards": {
+      "xp": 4600,
+      "gold": 920,
+      "items": [
+        "item_0273"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_91_1",
+        "type": "kill",
+        "target": "enemy_32",
+        "count": 2
+      },
+      {
+        "id": "obj_91_2",
+        "type": "collect",
+        "target": "item_0455",
+        "count": 2
+      },
+      {
+        "id": "obj_91_3",
+        "type": "explore",
+        "target": "location_37",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0092",
+    "title": "Quest 92: The Adventure",
+    "title_kr": "퀘스트 92: 모험",
+    "title_ar": "مهمة 92: المغامرة",
+    "description": "Detailed description for quest 92 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 43,
+    "rewards": {
+      "xp": 4650,
+      "gold": 930,
+      "items": [
+        "item_0276"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_92_1",
+        "type": "kill",
+        "target": "enemy_34",
+        "count": 3
+      },
+      {
+        "id": "obj_92_2",
+        "type": "collect",
+        "target": "item_0460",
+        "count": 3
+      },
+      {
+        "id": "obj_92_3",
+        "type": "explore",
+        "target": "location_44",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0093",
+    "title": "Quest 93: The Adventure",
+    "title_kr": "퀘스트 93: 모험",
+    "title_ar": "مهمة 93: المغامرة",
+    "description": "Detailed description for quest 93 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 44,
+    "rewards": {
+      "xp": 4700,
+      "gold": 940,
+      "items": [
+        "item_0279"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_93_1",
+        "type": "kill",
+        "target": "enemy_36",
+        "count": 4
+      },
+      {
+        "id": "obj_93_2",
+        "type": "collect",
+        "target": "item_0465",
+        "count": 4
+      },
+      {
+        "id": "obj_93_3",
+        "type": "explore",
+        "target": "location_51",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0094",
+    "title": "Quest 94: The Adventure",
+    "title_kr": "퀘스트 94: 모험",
+    "title_ar": "مهمة 94: المغامرة",
+    "description": "Detailed description for quest 94 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 45,
+    "rewards": {
+      "xp": 4750,
+      "gold": 950,
+      "items": [
+        "item_0282"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_94_1",
+        "type": "kill",
+        "target": "enemy_38",
+        "count": 5
+      },
+      {
+        "id": "obj_94_2",
+        "type": "collect",
+        "target": "item_0470",
+        "count": 5
+      },
+      {
+        "id": "obj_94_3",
+        "type": "explore",
+        "target": "location_58",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0095",
+    "title": "Quest 95: The Adventure",
+    "title_kr": "퀘스트 95: 모험",
+    "title_ar": "مهمة 95: المغامرة",
+    "description": "Detailed description for quest 95 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 46,
+    "rewards": {
+      "xp": 4800,
+      "gold": 960,
+      "items": [
+        "item_0285"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_95_1",
+        "type": "kill",
+        "target": "enemy_40",
+        "count": 6
+      },
+      {
+        "id": "obj_95_2",
+        "type": "collect",
+        "target": "item_0475",
+        "count": 1
+      },
+      {
+        "id": "obj_95_3",
+        "type": "explore",
+        "target": "location_65",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0096",
+    "title": "Quest 96: The Adventure",
+    "title_kr": "퀘스트 96: 모험",
+    "title_ar": "مهمة 96: المغامرة",
+    "description": "Detailed description for quest 96 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 47,
+    "rewards": {
+      "xp": 4850,
+      "gold": 970,
+      "items": [
+        "item_0288"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_96_1",
+        "type": "kill",
+        "target": "enemy_42",
+        "count": 7
+      },
+      {
+        "id": "obj_96_2",
+        "type": "collect",
+        "target": "item_0480",
+        "count": 2
+      },
+      {
+        "id": "obj_96_3",
+        "type": "explore",
+        "target": "location_72",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0097",
+    "title": "Quest 97: The Adventure",
+    "title_kr": "퀘스트 97: 모험",
+    "title_ar": "مهمة 97: المغامرة",
+    "description": "Detailed description for quest 97 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 48,
+    "rewards": {
+      "xp": 4900,
+      "gold": 980,
+      "items": [
+        "item_0291"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_97_1",
+        "type": "kill",
+        "target": "enemy_44",
+        "count": 8
+      },
+      {
+        "id": "obj_97_2",
+        "type": "collect",
+        "target": "item_0485",
+        "count": 3
+      },
+      {
+        "id": "obj_97_3",
+        "type": "explore",
+        "target": "location_79",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0098",
+    "title": "Quest 98: The Adventure",
+    "title_kr": "퀘스트 98: 모험",
+    "title_ar": "مهمة 98: المغامرة",
+    "description": "Detailed description for quest 98 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 49,
+    "rewards": {
+      "xp": 4950,
+      "gold": 990,
+      "items": [
+        "item_0294"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_98_1",
+        "type": "kill",
+        "target": "enemy_46",
+        "count": 9
+      },
+      {
+        "id": "obj_98_2",
+        "type": "collect",
+        "target": "item_0490",
+        "count": 4
+      },
+      {
+        "id": "obj_98_3",
+        "type": "explore",
+        "target": "location_86",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0099",
+    "title": "Quest 99: The Adventure",
+    "title_kr": "퀘스트 99: 모험",
+    "title_ar": "مهمة 99: المغامرة",
+    "description": "Detailed description for quest 99 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 50,
+    "rewards": {
+      "xp": 5000,
+      "gold": 1000,
+      "items": [
+        "item_0297"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_99_1",
+        "type": "kill",
+        "target": "enemy_48",
+        "count": 10
+      },
+      {
+        "id": "obj_99_2",
+        "type": "collect",
+        "target": "item_0495",
+        "count": 5
+      },
+      {
+        "id": "obj_99_3",
+        "type": "explore",
+        "target": "location_93",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0100",
+    "title": "Quest 100: The Adventure",
+    "title_kr": "퀘스트 100: 모험",
+    "title_ar": "مهمة 100: المغامرة",
+    "description": "Detailed description for quest 100 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 1,
+    "rewards": {
+      "xp": 5050,
+      "gold": 1010,
+      "items": [
+        "item_0300"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_100_1",
+        "type": "kill",
+        "target": "enemy_0",
+        "count": 1
+      },
+      {
+        "id": "obj_100_2",
+        "type": "collect",
+        "target": "item_0000",
+        "count": 1
+      },
+      {
+        "id": "obj_100_3",
+        "type": "explore",
+        "target": "location_0",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0101",
+    "title": "Quest 101: The Adventure",
+    "title_kr": "퀘스트 101: 모험",
+    "title_ar": "مهمة 101: المغامرة",
+    "description": "Detailed description for quest 101 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 2,
+    "rewards": {
+      "xp": 5100,
+      "gold": 1020,
+      "items": [
+        "item_0303"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_101_1",
+        "type": "kill",
+        "target": "enemy_2",
+        "count": 2
+      },
+      {
+        "id": "obj_101_2",
+        "type": "collect",
+        "target": "item_0005",
+        "count": 2
+      },
+      {
+        "id": "obj_101_3",
+        "type": "explore",
+        "target": "location_7",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0102",
+    "title": "Quest 102: The Adventure",
+    "title_kr": "퀘스트 102: 모험",
+    "title_ar": "مهمة 102: المغامرة",
+    "description": "Detailed description for quest 102 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 3,
+    "rewards": {
+      "xp": 5150,
+      "gold": 1030,
+      "items": [
+        "item_0306"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_102_1",
+        "type": "kill",
+        "target": "enemy_4",
+        "count": 3
+      },
+      {
+        "id": "obj_102_2",
+        "type": "collect",
+        "target": "item_0010",
+        "count": 3
+      },
+      {
+        "id": "obj_102_3",
+        "type": "explore",
+        "target": "location_14",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0103",
+    "title": "Quest 103: The Adventure",
+    "title_kr": "퀘스트 103: 모험",
+    "title_ar": "مهمة 103: المغامرة",
+    "description": "Detailed description for quest 103 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 4,
+    "rewards": {
+      "xp": 5200,
+      "gold": 1040,
+      "items": [
+        "item_0309"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_103_1",
+        "type": "kill",
+        "target": "enemy_6",
+        "count": 4
+      },
+      {
+        "id": "obj_103_2",
+        "type": "collect",
+        "target": "item_0015",
+        "count": 4
+      },
+      {
+        "id": "obj_103_3",
+        "type": "explore",
+        "target": "location_21",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0104",
+    "title": "Quest 104: The Adventure",
+    "title_kr": "퀘스트 104: 모험",
+    "title_ar": "مهمة 104: المغامرة",
+    "description": "Detailed description for quest 104 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 5,
+    "rewards": {
+      "xp": 5250,
+      "gold": 1050,
+      "items": [
+        "item_0312"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_104_1",
+        "type": "kill",
+        "target": "enemy_8",
+        "count": 5
+      },
+      {
+        "id": "obj_104_2",
+        "type": "collect",
+        "target": "item_0020",
+        "count": 5
+      },
+      {
+        "id": "obj_104_3",
+        "type": "explore",
+        "target": "location_28",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0105",
+    "title": "Quest 105: The Adventure",
+    "title_kr": "퀘스트 105: 모험",
+    "title_ar": "مهمة 105: المغامرة",
+    "description": "Detailed description for quest 105 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 6,
+    "rewards": {
+      "xp": 5300,
+      "gold": 1060,
+      "items": [
+        "item_0315"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_105_1",
+        "type": "kill",
+        "target": "enemy_10",
+        "count": 6
+      },
+      {
+        "id": "obj_105_2",
+        "type": "collect",
+        "target": "item_0025",
+        "count": 1
+      },
+      {
+        "id": "obj_105_3",
+        "type": "explore",
+        "target": "location_35",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0106",
+    "title": "Quest 106: The Adventure",
+    "title_kr": "퀘스트 106: 모험",
+    "title_ar": "مهمة 106: المغامرة",
+    "description": "Detailed description for quest 106 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 7,
+    "rewards": {
+      "xp": 5350,
+      "gold": 1070,
+      "items": [
+        "item_0318"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_106_1",
+        "type": "kill",
+        "target": "enemy_12",
+        "count": 7
+      },
+      {
+        "id": "obj_106_2",
+        "type": "collect",
+        "target": "item_0030",
+        "count": 2
+      },
+      {
+        "id": "obj_106_3",
+        "type": "explore",
+        "target": "location_42",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0107",
+    "title": "Quest 107: The Adventure",
+    "title_kr": "퀘스트 107: 모험",
+    "title_ar": "مهمة 107: المغامرة",
+    "description": "Detailed description for quest 107 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 8,
+    "rewards": {
+      "xp": 5400,
+      "gold": 1080,
+      "items": [
+        "item_0321"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_107_1",
+        "type": "kill",
+        "target": "enemy_14",
+        "count": 8
+      },
+      {
+        "id": "obj_107_2",
+        "type": "collect",
+        "target": "item_0035",
+        "count": 3
+      },
+      {
+        "id": "obj_107_3",
+        "type": "explore",
+        "target": "location_49",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0108",
+    "title": "Quest 108: The Adventure",
+    "title_kr": "퀘스트 108: 모험",
+    "title_ar": "مهمة 108: المغامرة",
+    "description": "Detailed description for quest 108 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 9,
+    "rewards": {
+      "xp": 5450,
+      "gold": 1090,
+      "items": [
+        "item_0324"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_108_1",
+        "type": "kill",
+        "target": "enemy_16",
+        "count": 9
+      },
+      {
+        "id": "obj_108_2",
+        "type": "collect",
+        "target": "item_0040",
+        "count": 4
+      },
+      {
+        "id": "obj_108_3",
+        "type": "explore",
+        "target": "location_56",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0109",
+    "title": "Quest 109: The Adventure",
+    "title_kr": "퀘스트 109: 모험",
+    "title_ar": "مهمة 109: المغامرة",
+    "description": "Detailed description for quest 109 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 10,
+    "rewards": {
+      "xp": 5500,
+      "gold": 1100,
+      "items": [
+        "item_0327"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_109_1",
+        "type": "kill",
+        "target": "enemy_18",
+        "count": 10
+      },
+      {
+        "id": "obj_109_2",
+        "type": "collect",
+        "target": "item_0045",
+        "count": 5
+      },
+      {
+        "id": "obj_109_3",
+        "type": "explore",
+        "target": "location_63",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0110",
+    "title": "Quest 110: The Adventure",
+    "title_kr": "퀘스트 110: 모험",
+    "title_ar": "مهمة 110: المغامرة",
+    "description": "Detailed description for quest 110 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 11,
+    "rewards": {
+      "xp": 5550,
+      "gold": 1110,
+      "items": [
+        "item_0330"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_110_1",
+        "type": "kill",
+        "target": "enemy_20",
+        "count": 1
+      },
+      {
+        "id": "obj_110_2",
+        "type": "collect",
+        "target": "item_0050",
+        "count": 1
+      },
+      {
+        "id": "obj_110_3",
+        "type": "explore",
+        "target": "location_70",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0111",
+    "title": "Quest 111: The Adventure",
+    "title_kr": "퀘스트 111: 모험",
+    "title_ar": "مهمة 111: المغامرة",
+    "description": "Detailed description for quest 111 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 12,
+    "rewards": {
+      "xp": 5600,
+      "gold": 1120,
+      "items": [
+        "item_0333"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_111_1",
+        "type": "kill",
+        "target": "enemy_22",
+        "count": 2
+      },
+      {
+        "id": "obj_111_2",
+        "type": "collect",
+        "target": "item_0055",
+        "count": 2
+      },
+      {
+        "id": "obj_111_3",
+        "type": "explore",
+        "target": "location_77",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0112",
+    "title": "Quest 112: The Adventure",
+    "title_kr": "퀘스트 112: 모험",
+    "title_ar": "مهمة 112: المغامرة",
+    "description": "Detailed description for quest 112 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 13,
+    "rewards": {
+      "xp": 5650,
+      "gold": 1130,
+      "items": [
+        "item_0336"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_112_1",
+        "type": "kill",
+        "target": "enemy_24",
+        "count": 3
+      },
+      {
+        "id": "obj_112_2",
+        "type": "collect",
+        "target": "item_0060",
+        "count": 3
+      },
+      {
+        "id": "obj_112_3",
+        "type": "explore",
+        "target": "location_84",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0113",
+    "title": "Quest 113: The Adventure",
+    "title_kr": "퀘스트 113: 모험",
+    "title_ar": "مهمة 113: المغامرة",
+    "description": "Detailed description for quest 113 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 14,
+    "rewards": {
+      "xp": 5700,
+      "gold": 1140,
+      "items": [
+        "item_0339"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_113_1",
+        "type": "kill",
+        "target": "enemy_26",
+        "count": 4
+      },
+      {
+        "id": "obj_113_2",
+        "type": "collect",
+        "target": "item_0065",
+        "count": 4
+      },
+      {
+        "id": "obj_113_3",
+        "type": "explore",
+        "target": "location_91",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0114",
+    "title": "Quest 114: The Adventure",
+    "title_kr": "퀘스트 114: 모험",
+    "title_ar": "مهمة 114: المغامرة",
+    "description": "Detailed description for quest 114 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 15,
+    "rewards": {
+      "xp": 5750,
+      "gold": 1150,
+      "items": [
+        "item_0342"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_114_1",
+        "type": "kill",
+        "target": "enemy_28",
+        "count": 5
+      },
+      {
+        "id": "obj_114_2",
+        "type": "collect",
+        "target": "item_0070",
+        "count": 5
+      },
+      {
+        "id": "obj_114_3",
+        "type": "explore",
+        "target": "location_98",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0115",
+    "title": "Quest 115: The Adventure",
+    "title_kr": "퀘스트 115: 모험",
+    "title_ar": "مهمة 115: المغامرة",
+    "description": "Detailed description for quest 115 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 16,
+    "rewards": {
+      "xp": 5800,
+      "gold": 1160,
+      "items": [
+        "item_0345"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_115_1",
+        "type": "kill",
+        "target": "enemy_30",
+        "count": 6
+      },
+      {
+        "id": "obj_115_2",
+        "type": "collect",
+        "target": "item_0075",
+        "count": 1
+      },
+      {
+        "id": "obj_115_3",
+        "type": "explore",
+        "target": "location_5",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0116",
+    "title": "Quest 116: The Adventure",
+    "title_kr": "퀘스트 116: 모험",
+    "title_ar": "مهمة 116: المغامرة",
+    "description": "Detailed description for quest 116 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 17,
+    "rewards": {
+      "xp": 5850,
+      "gold": 1170,
+      "items": [
+        "item_0348"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_116_1",
+        "type": "kill",
+        "target": "enemy_32",
+        "count": 7
+      },
+      {
+        "id": "obj_116_2",
+        "type": "collect",
+        "target": "item_0080",
+        "count": 2
+      },
+      {
+        "id": "obj_116_3",
+        "type": "explore",
+        "target": "location_12",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0117",
+    "title": "Quest 117: The Adventure",
+    "title_kr": "퀘스트 117: 모험",
+    "title_ar": "مهمة 117: المغامرة",
+    "description": "Detailed description for quest 117 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 18,
+    "rewards": {
+      "xp": 5900,
+      "gold": 1180,
+      "items": [
+        "item_0351"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_117_1",
+        "type": "kill",
+        "target": "enemy_34",
+        "count": 8
+      },
+      {
+        "id": "obj_117_2",
+        "type": "collect",
+        "target": "item_0085",
+        "count": 3
+      },
+      {
+        "id": "obj_117_3",
+        "type": "explore",
+        "target": "location_19",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0118",
+    "title": "Quest 118: The Adventure",
+    "title_kr": "퀘스트 118: 모험",
+    "title_ar": "مهمة 118: المغامرة",
+    "description": "Detailed description for quest 118 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 19,
+    "rewards": {
+      "xp": 5950,
+      "gold": 1190,
+      "items": [
+        "item_0354"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_118_1",
+        "type": "kill",
+        "target": "enemy_36",
+        "count": 9
+      },
+      {
+        "id": "obj_118_2",
+        "type": "collect",
+        "target": "item_0090",
+        "count": 4
+      },
+      {
+        "id": "obj_118_3",
+        "type": "explore",
+        "target": "location_26",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0119",
+    "title": "Quest 119: The Adventure",
+    "title_kr": "퀘스트 119: 모험",
+    "title_ar": "مهمة 119: المغامرة",
+    "description": "Detailed description for quest 119 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 20,
+    "rewards": {
+      "xp": 6000,
+      "gold": 1200,
+      "items": [
+        "item_0357"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_119_1",
+        "type": "kill",
+        "target": "enemy_38",
+        "count": 10
+      },
+      {
+        "id": "obj_119_2",
+        "type": "collect",
+        "target": "item_0095",
+        "count": 5
+      },
+      {
+        "id": "obj_119_3",
+        "type": "explore",
+        "target": "location_33",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0120",
+    "title": "Quest 120: The Adventure",
+    "title_kr": "퀘스트 120: 모험",
+    "title_ar": "مهمة 120: المغامرة",
+    "description": "Detailed description for quest 120 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 21,
+    "rewards": {
+      "xp": 6050,
+      "gold": 1210,
+      "items": [
+        "item_0360"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_120_1",
+        "type": "kill",
+        "target": "enemy_40",
+        "count": 1
+      },
+      {
+        "id": "obj_120_2",
+        "type": "collect",
+        "target": "item_0100",
+        "count": 1
+      },
+      {
+        "id": "obj_120_3",
+        "type": "explore",
+        "target": "location_40",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0121",
+    "title": "Quest 121: The Adventure",
+    "title_kr": "퀘스트 121: 모험",
+    "title_ar": "مهمة 121: المغامرة",
+    "description": "Detailed description for quest 121 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 22,
+    "rewards": {
+      "xp": 6100,
+      "gold": 1220,
+      "items": [
+        "item_0363"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_121_1",
+        "type": "kill",
+        "target": "enemy_42",
+        "count": 2
+      },
+      {
+        "id": "obj_121_2",
+        "type": "collect",
+        "target": "item_0105",
+        "count": 2
+      },
+      {
+        "id": "obj_121_3",
+        "type": "explore",
+        "target": "location_47",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0122",
+    "title": "Quest 122: The Adventure",
+    "title_kr": "퀘스트 122: 모험",
+    "title_ar": "مهمة 122: المغامرة",
+    "description": "Detailed description for quest 122 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 23,
+    "rewards": {
+      "xp": 6150,
+      "gold": 1230,
+      "items": [
+        "item_0366"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_122_1",
+        "type": "kill",
+        "target": "enemy_44",
+        "count": 3
+      },
+      {
+        "id": "obj_122_2",
+        "type": "collect",
+        "target": "item_0110",
+        "count": 3
+      },
+      {
+        "id": "obj_122_3",
+        "type": "explore",
+        "target": "location_54",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0123",
+    "title": "Quest 123: The Adventure",
+    "title_kr": "퀘스트 123: 모험",
+    "title_ar": "مهمة 123: المغامرة",
+    "description": "Detailed description for quest 123 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 24,
+    "rewards": {
+      "xp": 6200,
+      "gold": 1240,
+      "items": [
+        "item_0369"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_123_1",
+        "type": "kill",
+        "target": "enemy_46",
+        "count": 4
+      },
+      {
+        "id": "obj_123_2",
+        "type": "collect",
+        "target": "item_0115",
+        "count": 4
+      },
+      {
+        "id": "obj_123_3",
+        "type": "explore",
+        "target": "location_61",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0124",
+    "title": "Quest 124: The Adventure",
+    "title_kr": "퀘스트 124: 모험",
+    "title_ar": "مهمة 124: المغامرة",
+    "description": "Detailed description for quest 124 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 25,
+    "rewards": {
+      "xp": 6250,
+      "gold": 1250,
+      "items": [
+        "item_0372"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_124_1",
+        "type": "kill",
+        "target": "enemy_48",
+        "count": 5
+      },
+      {
+        "id": "obj_124_2",
+        "type": "collect",
+        "target": "item_0120",
+        "count": 5
+      },
+      {
+        "id": "obj_124_3",
+        "type": "explore",
+        "target": "location_68",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0125",
+    "title": "Quest 125: The Adventure",
+    "title_kr": "퀘스트 125: 모험",
+    "title_ar": "مهمة 125: المغامرة",
+    "description": "Detailed description for quest 125 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 26,
+    "rewards": {
+      "xp": 6300,
+      "gold": 1260,
+      "items": [
+        "item_0375"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_125_1",
+        "type": "kill",
+        "target": "enemy_0",
+        "count": 6
+      },
+      {
+        "id": "obj_125_2",
+        "type": "collect",
+        "target": "item_0125",
+        "count": 1
+      },
+      {
+        "id": "obj_125_3",
+        "type": "explore",
+        "target": "location_75",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0126",
+    "title": "Quest 126: The Adventure",
+    "title_kr": "퀘스트 126: 모험",
+    "title_ar": "مهمة 126: المغامرة",
+    "description": "Detailed description for quest 126 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 27,
+    "rewards": {
+      "xp": 6350,
+      "gold": 1270,
+      "items": [
+        "item_0378"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_126_1",
+        "type": "kill",
+        "target": "enemy_2",
+        "count": 7
+      },
+      {
+        "id": "obj_126_2",
+        "type": "collect",
+        "target": "item_0130",
+        "count": 2
+      },
+      {
+        "id": "obj_126_3",
+        "type": "explore",
+        "target": "location_82",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0127",
+    "title": "Quest 127: The Adventure",
+    "title_kr": "퀘스트 127: 모험",
+    "title_ar": "مهمة 127: المغامرة",
+    "description": "Detailed description for quest 127 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 28,
+    "rewards": {
+      "xp": 6400,
+      "gold": 1280,
+      "items": [
+        "item_0381"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_127_1",
+        "type": "kill",
+        "target": "enemy_4",
+        "count": 8
+      },
+      {
+        "id": "obj_127_2",
+        "type": "collect",
+        "target": "item_0135",
+        "count": 3
+      },
+      {
+        "id": "obj_127_3",
+        "type": "explore",
+        "target": "location_89",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0128",
+    "title": "Quest 128: The Adventure",
+    "title_kr": "퀘스트 128: 모험",
+    "title_ar": "مهمة 128: المغامرة",
+    "description": "Detailed description for quest 128 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 29,
+    "rewards": {
+      "xp": 6450,
+      "gold": 1290,
+      "items": [
+        "item_0384"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_128_1",
+        "type": "kill",
+        "target": "enemy_6",
+        "count": 9
+      },
+      {
+        "id": "obj_128_2",
+        "type": "collect",
+        "target": "item_0140",
+        "count": 4
+      },
+      {
+        "id": "obj_128_3",
+        "type": "explore",
+        "target": "location_96",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0129",
+    "title": "Quest 129: The Adventure",
+    "title_kr": "퀘스트 129: 모험",
+    "title_ar": "مهمة 129: المغامرة",
+    "description": "Detailed description for quest 129 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 30,
+    "rewards": {
+      "xp": 6500,
+      "gold": 1300,
+      "items": [
+        "item_0387"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_129_1",
+        "type": "kill",
+        "target": "enemy_8",
+        "count": 10
+      },
+      {
+        "id": "obj_129_2",
+        "type": "collect",
+        "target": "item_0145",
+        "count": 5
+      },
+      {
+        "id": "obj_129_3",
+        "type": "explore",
+        "target": "location_3",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0130",
+    "title": "Quest 130: The Adventure",
+    "title_kr": "퀘스트 130: 모험",
+    "title_ar": "مهمة 130: المغامرة",
+    "description": "Detailed description for quest 130 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 31,
+    "rewards": {
+      "xp": 6550,
+      "gold": 1310,
+      "items": [
+        "item_0390"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_130_1",
+        "type": "kill",
+        "target": "enemy_10",
+        "count": 1
+      },
+      {
+        "id": "obj_130_2",
+        "type": "collect",
+        "target": "item_0150",
+        "count": 1
+      },
+      {
+        "id": "obj_130_3",
+        "type": "explore",
+        "target": "location_10",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0131",
+    "title": "Quest 131: The Adventure",
+    "title_kr": "퀘스트 131: 모험",
+    "title_ar": "مهمة 131: المغامرة",
+    "description": "Detailed description for quest 131 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 32,
+    "rewards": {
+      "xp": 6600,
+      "gold": 1320,
+      "items": [
+        "item_0393"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_131_1",
+        "type": "kill",
+        "target": "enemy_12",
+        "count": 2
+      },
+      {
+        "id": "obj_131_2",
+        "type": "collect",
+        "target": "item_0155",
+        "count": 2
+      },
+      {
+        "id": "obj_131_3",
+        "type": "explore",
+        "target": "location_17",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0132",
+    "title": "Quest 132: The Adventure",
+    "title_kr": "퀘스트 132: 모험",
+    "title_ar": "مهمة 132: المغامرة",
+    "description": "Detailed description for quest 132 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 33,
+    "rewards": {
+      "xp": 6650,
+      "gold": 1330,
+      "items": [
+        "item_0396"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_132_1",
+        "type": "kill",
+        "target": "enemy_14",
+        "count": 3
+      },
+      {
+        "id": "obj_132_2",
+        "type": "collect",
+        "target": "item_0160",
+        "count": 3
+      },
+      {
+        "id": "obj_132_3",
+        "type": "explore",
+        "target": "location_24",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0133",
+    "title": "Quest 133: The Adventure",
+    "title_kr": "퀘스트 133: 모험",
+    "title_ar": "مهمة 133: المغامرة",
+    "description": "Detailed description for quest 133 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 34,
+    "rewards": {
+      "xp": 6700,
+      "gold": 1340,
+      "items": [
+        "item_0399"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_133_1",
+        "type": "kill",
+        "target": "enemy_16",
+        "count": 4
+      },
+      {
+        "id": "obj_133_2",
+        "type": "collect",
+        "target": "item_0165",
+        "count": 4
+      },
+      {
+        "id": "obj_133_3",
+        "type": "explore",
+        "target": "location_31",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0134",
+    "title": "Quest 134: The Adventure",
+    "title_kr": "퀘스트 134: 모험",
+    "title_ar": "مهمة 134: المغامرة",
+    "description": "Detailed description for quest 134 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 35,
+    "rewards": {
+      "xp": 6750,
+      "gold": 1350,
+      "items": [
+        "item_0402"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_134_1",
+        "type": "kill",
+        "target": "enemy_18",
+        "count": 5
+      },
+      {
+        "id": "obj_134_2",
+        "type": "collect",
+        "target": "item_0170",
+        "count": 5
+      },
+      {
+        "id": "obj_134_3",
+        "type": "explore",
+        "target": "location_38",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0135",
+    "title": "Quest 135: The Adventure",
+    "title_kr": "퀘스트 135: 모험",
+    "title_ar": "مهمة 135: المغامرة",
+    "description": "Detailed description for quest 135 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 36,
+    "rewards": {
+      "xp": 6800,
+      "gold": 1360,
+      "items": [
+        "item_0405"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_135_1",
+        "type": "kill",
+        "target": "enemy_20",
+        "count": 6
+      },
+      {
+        "id": "obj_135_2",
+        "type": "collect",
+        "target": "item_0175",
+        "count": 1
+      },
+      {
+        "id": "obj_135_3",
+        "type": "explore",
+        "target": "location_45",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0136",
+    "title": "Quest 136: The Adventure",
+    "title_kr": "퀘스트 136: 모험",
+    "title_ar": "مهمة 136: المغامرة",
+    "description": "Detailed description for quest 136 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 37,
+    "rewards": {
+      "xp": 6850,
+      "gold": 1370,
+      "items": [
+        "item_0408"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_136_1",
+        "type": "kill",
+        "target": "enemy_22",
+        "count": 7
+      },
+      {
+        "id": "obj_136_2",
+        "type": "collect",
+        "target": "item_0180",
+        "count": 2
+      },
+      {
+        "id": "obj_136_3",
+        "type": "explore",
+        "target": "location_52",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0137",
+    "title": "Quest 137: The Adventure",
+    "title_kr": "퀘스트 137: 모험",
+    "title_ar": "مهمة 137: المغامرة",
+    "description": "Detailed description for quest 137 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 38,
+    "rewards": {
+      "xp": 6900,
+      "gold": 1380,
+      "items": [
+        "item_0411"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_137_1",
+        "type": "kill",
+        "target": "enemy_24",
+        "count": 8
+      },
+      {
+        "id": "obj_137_2",
+        "type": "collect",
+        "target": "item_0185",
+        "count": 3
+      },
+      {
+        "id": "obj_137_3",
+        "type": "explore",
+        "target": "location_59",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0138",
+    "title": "Quest 138: The Adventure",
+    "title_kr": "퀘스트 138: 모험",
+    "title_ar": "مهمة 138: المغامرة",
+    "description": "Detailed description for quest 138 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 39,
+    "rewards": {
+      "xp": 6950,
+      "gold": 1390,
+      "items": [
+        "item_0414"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_138_1",
+        "type": "kill",
+        "target": "enemy_26",
+        "count": 9
+      },
+      {
+        "id": "obj_138_2",
+        "type": "collect",
+        "target": "item_0190",
+        "count": 4
+      },
+      {
+        "id": "obj_138_3",
+        "type": "explore",
+        "target": "location_66",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0139",
+    "title": "Quest 139: The Adventure",
+    "title_kr": "퀘스트 139: 모험",
+    "title_ar": "مهمة 139: المغامرة",
+    "description": "Detailed description for quest 139 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 40,
+    "rewards": {
+      "xp": 7000,
+      "gold": 1400,
+      "items": [
+        "item_0417"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_139_1",
+        "type": "kill",
+        "target": "enemy_28",
+        "count": 10
+      },
+      {
+        "id": "obj_139_2",
+        "type": "collect",
+        "target": "item_0195",
+        "count": 5
+      },
+      {
+        "id": "obj_139_3",
+        "type": "explore",
+        "target": "location_73",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0140",
+    "title": "Quest 140: The Adventure",
+    "title_kr": "퀘스트 140: 모험",
+    "title_ar": "مهمة 140: المغامرة",
+    "description": "Detailed description for quest 140 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 41,
+    "rewards": {
+      "xp": 7050,
+      "gold": 1410,
+      "items": [
+        "item_0420"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_140_1",
+        "type": "kill",
+        "target": "enemy_30",
+        "count": 1
+      },
+      {
+        "id": "obj_140_2",
+        "type": "collect",
+        "target": "item_0200",
+        "count": 1
+      },
+      {
+        "id": "obj_140_3",
+        "type": "explore",
+        "target": "location_80",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0141",
+    "title": "Quest 141: The Adventure",
+    "title_kr": "퀘스트 141: 모험",
+    "title_ar": "مهمة 141: المغامرة",
+    "description": "Detailed description for quest 141 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 42,
+    "rewards": {
+      "xp": 7100,
+      "gold": 1420,
+      "items": [
+        "item_0423"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_141_1",
+        "type": "kill",
+        "target": "enemy_32",
+        "count": 2
+      },
+      {
+        "id": "obj_141_2",
+        "type": "collect",
+        "target": "item_0205",
+        "count": 2
+      },
+      {
+        "id": "obj_141_3",
+        "type": "explore",
+        "target": "location_87",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0142",
+    "title": "Quest 142: The Adventure",
+    "title_kr": "퀘스트 142: 모험",
+    "title_ar": "مهمة 142: المغامرة",
+    "description": "Detailed description for quest 142 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 43,
+    "rewards": {
+      "xp": 7150,
+      "gold": 1430,
+      "items": [
+        "item_0426"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_142_1",
+        "type": "kill",
+        "target": "enemy_34",
+        "count": 3
+      },
+      {
+        "id": "obj_142_2",
+        "type": "collect",
+        "target": "item_0210",
+        "count": 3
+      },
+      {
+        "id": "obj_142_3",
+        "type": "explore",
+        "target": "location_94",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0143",
+    "title": "Quest 143: The Adventure",
+    "title_kr": "퀘스트 143: 모험",
+    "title_ar": "مهمة 143: المغامرة",
+    "description": "Detailed description for quest 143 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 44,
+    "rewards": {
+      "xp": 7200,
+      "gold": 1440,
+      "items": [
+        "item_0429"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_143_1",
+        "type": "kill",
+        "target": "enemy_36",
+        "count": 4
+      },
+      {
+        "id": "obj_143_2",
+        "type": "collect",
+        "target": "item_0215",
+        "count": 4
+      },
+      {
+        "id": "obj_143_3",
+        "type": "explore",
+        "target": "location_1",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0144",
+    "title": "Quest 144: The Adventure",
+    "title_kr": "퀘스트 144: 모험",
+    "title_ar": "مهمة 144: المغامرة",
+    "description": "Detailed description for quest 144 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 45,
+    "rewards": {
+      "xp": 7250,
+      "gold": 1450,
+      "items": [
+        "item_0432"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_144_1",
+        "type": "kill",
+        "target": "enemy_38",
+        "count": 5
+      },
+      {
+        "id": "obj_144_2",
+        "type": "collect",
+        "target": "item_0220",
+        "count": 5
+      },
+      {
+        "id": "obj_144_3",
+        "type": "explore",
+        "target": "location_8",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0145",
+    "title": "Quest 145: The Adventure",
+    "title_kr": "퀘스트 145: 모험",
+    "title_ar": "مهمة 145: المغامرة",
+    "description": "Detailed description for quest 145 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 46,
+    "rewards": {
+      "xp": 7300,
+      "gold": 1460,
+      "items": [
+        "item_0435"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_145_1",
+        "type": "kill",
+        "target": "enemy_40",
+        "count": 6
+      },
+      {
+        "id": "obj_145_2",
+        "type": "collect",
+        "target": "item_0225",
+        "count": 1
+      },
+      {
+        "id": "obj_145_3",
+        "type": "explore",
+        "target": "location_15",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0146",
+    "title": "Quest 146: The Adventure",
+    "title_kr": "퀘스트 146: 모험",
+    "title_ar": "مهمة 146: المغامرة",
+    "description": "Detailed description for quest 146 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 47,
+    "rewards": {
+      "xp": 7350,
+      "gold": 1470,
+      "items": [
+        "item_0438"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_146_1",
+        "type": "kill",
+        "target": "enemy_42",
+        "count": 7
+      },
+      {
+        "id": "obj_146_2",
+        "type": "collect",
+        "target": "item_0230",
+        "count": 2
+      },
+      {
+        "id": "obj_146_3",
+        "type": "explore",
+        "target": "location_22",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0147",
+    "title": "Quest 147: The Adventure",
+    "title_kr": "퀘스트 147: 모험",
+    "title_ar": "مهمة 147: المغامرة",
+    "description": "Detailed description for quest 147 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 48,
+    "rewards": {
+      "xp": 7400,
+      "gold": 1480,
+      "items": [
+        "item_0441"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_147_1",
+        "type": "kill",
+        "target": "enemy_44",
+        "count": 8
+      },
+      {
+        "id": "obj_147_2",
+        "type": "collect",
+        "target": "item_0235",
+        "count": 3
+      },
+      {
+        "id": "obj_147_3",
+        "type": "explore",
+        "target": "location_29",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0148",
+    "title": "Quest 148: The Adventure",
+    "title_kr": "퀘스트 148: 모험",
+    "title_ar": "مهمة 148: المغامرة",
+    "description": "Detailed description for quest 148 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 49,
+    "rewards": {
+      "xp": 7450,
+      "gold": 1490,
+      "items": [
+        "item_0444"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_148_1",
+        "type": "kill",
+        "target": "enemy_46",
+        "count": 9
+      },
+      {
+        "id": "obj_148_2",
+        "type": "collect",
+        "target": "item_0240",
+        "count": 4
+      },
+      {
+        "id": "obj_148_3",
+        "type": "explore",
+        "target": "location_36",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0149",
+    "title": "Quest 149: The Adventure",
+    "title_kr": "퀘스트 149: 모험",
+    "title_ar": "مهمة 149: المغامرة",
+    "description": "Detailed description for quest 149 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 50,
+    "rewards": {
+      "xp": 7500,
+      "gold": 1500,
+      "items": [
+        "item_0447"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_149_1",
+        "type": "kill",
+        "target": "enemy_48",
+        "count": 10
+      },
+      {
+        "id": "obj_149_2",
+        "type": "collect",
+        "target": "item_0245",
+        "count": 5
+      },
+      {
+        "id": "obj_149_3",
+        "type": "explore",
+        "target": "location_43",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0150",
+    "title": "Quest 150: The Adventure",
+    "title_kr": "퀘스트 150: 모험",
+    "title_ar": "مهمة 150: المغامرة",
+    "description": "Detailed description for quest 150 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 1,
+    "rewards": {
+      "xp": 7550,
+      "gold": 1510,
+      "items": [
+        "item_0450"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_150_1",
+        "type": "kill",
+        "target": "enemy_0",
+        "count": 1
+      },
+      {
+        "id": "obj_150_2",
+        "type": "collect",
+        "target": "item_0250",
+        "count": 1
+      },
+      {
+        "id": "obj_150_3",
+        "type": "explore",
+        "target": "location_50",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0151",
+    "title": "Quest 151: The Adventure",
+    "title_kr": "퀘스트 151: 모험",
+    "title_ar": "مهمة 151: المغامرة",
+    "description": "Detailed description for quest 151 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 2,
+    "rewards": {
+      "xp": 7600,
+      "gold": 1520,
+      "items": [
+        "item_0453"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_151_1",
+        "type": "kill",
+        "target": "enemy_2",
+        "count": 2
+      },
+      {
+        "id": "obj_151_2",
+        "type": "collect",
+        "target": "item_0255",
+        "count": 2
+      },
+      {
+        "id": "obj_151_3",
+        "type": "explore",
+        "target": "location_57",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0152",
+    "title": "Quest 152: The Adventure",
+    "title_kr": "퀘스트 152: 모험",
+    "title_ar": "مهمة 152: المغامرة",
+    "description": "Detailed description for quest 152 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 3,
+    "rewards": {
+      "xp": 7650,
+      "gold": 1530,
+      "items": [
+        "item_0456"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_152_1",
+        "type": "kill",
+        "target": "enemy_4",
+        "count": 3
+      },
+      {
+        "id": "obj_152_2",
+        "type": "collect",
+        "target": "item_0260",
+        "count": 3
+      },
+      {
+        "id": "obj_152_3",
+        "type": "explore",
+        "target": "location_64",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0153",
+    "title": "Quest 153: The Adventure",
+    "title_kr": "퀘스트 153: 모험",
+    "title_ar": "مهمة 153: المغامرة",
+    "description": "Detailed description for quest 153 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 4,
+    "rewards": {
+      "xp": 7700,
+      "gold": 1540,
+      "items": [
+        "item_0459"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_153_1",
+        "type": "kill",
+        "target": "enemy_6",
+        "count": 4
+      },
+      {
+        "id": "obj_153_2",
+        "type": "collect",
+        "target": "item_0265",
+        "count": 4
+      },
+      {
+        "id": "obj_153_3",
+        "type": "explore",
+        "target": "location_71",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0154",
+    "title": "Quest 154: The Adventure",
+    "title_kr": "퀘스트 154: 모험",
+    "title_ar": "مهمة 154: المغامرة",
+    "description": "Detailed description for quest 154 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 5,
+    "rewards": {
+      "xp": 7750,
+      "gold": 1550,
+      "items": [
+        "item_0462"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_154_1",
+        "type": "kill",
+        "target": "enemy_8",
+        "count": 5
+      },
+      {
+        "id": "obj_154_2",
+        "type": "collect",
+        "target": "item_0270",
+        "count": 5
+      },
+      {
+        "id": "obj_154_3",
+        "type": "explore",
+        "target": "location_78",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0155",
+    "title": "Quest 155: The Adventure",
+    "title_kr": "퀘스트 155: 모험",
+    "title_ar": "مهمة 155: المغامرة",
+    "description": "Detailed description for quest 155 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 6,
+    "rewards": {
+      "xp": 7800,
+      "gold": 1560,
+      "items": [
+        "item_0465"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_155_1",
+        "type": "kill",
+        "target": "enemy_10",
+        "count": 6
+      },
+      {
+        "id": "obj_155_2",
+        "type": "collect",
+        "target": "item_0275",
+        "count": 1
+      },
+      {
+        "id": "obj_155_3",
+        "type": "explore",
+        "target": "location_85",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0156",
+    "title": "Quest 156: The Adventure",
+    "title_kr": "퀘스트 156: 모험",
+    "title_ar": "مهمة 156: المغامرة",
+    "description": "Detailed description for quest 156 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 7,
+    "rewards": {
+      "xp": 7850,
+      "gold": 1570,
+      "items": [
+        "item_0468"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_156_1",
+        "type": "kill",
+        "target": "enemy_12",
+        "count": 7
+      },
+      {
+        "id": "obj_156_2",
+        "type": "collect",
+        "target": "item_0280",
+        "count": 2
+      },
+      {
+        "id": "obj_156_3",
+        "type": "explore",
+        "target": "location_92",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0157",
+    "title": "Quest 157: The Adventure",
+    "title_kr": "퀘스트 157: 모험",
+    "title_ar": "مهمة 157: المغامرة",
+    "description": "Detailed description for quest 157 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 8,
+    "rewards": {
+      "xp": 7900,
+      "gold": 1580,
+      "items": [
+        "item_0471"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_157_1",
+        "type": "kill",
+        "target": "enemy_14",
+        "count": 8
+      },
+      {
+        "id": "obj_157_2",
+        "type": "collect",
+        "target": "item_0285",
+        "count": 3
+      },
+      {
+        "id": "obj_157_3",
+        "type": "explore",
+        "target": "location_99",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0158",
+    "title": "Quest 158: The Adventure",
+    "title_kr": "퀘스트 158: 모험",
+    "title_ar": "مهمة 158: المغامرة",
+    "description": "Detailed description for quest 158 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 9,
+    "rewards": {
+      "xp": 7950,
+      "gold": 1590,
+      "items": [
+        "item_0474"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_158_1",
+        "type": "kill",
+        "target": "enemy_16",
+        "count": 9
+      },
+      {
+        "id": "obj_158_2",
+        "type": "collect",
+        "target": "item_0290",
+        "count": 4
+      },
+      {
+        "id": "obj_158_3",
+        "type": "explore",
+        "target": "location_6",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0159",
+    "title": "Quest 159: The Adventure",
+    "title_kr": "퀘스트 159: 모험",
+    "title_ar": "مهمة 159: المغامرة",
+    "description": "Detailed description for quest 159 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 10,
+    "rewards": {
+      "xp": 8000,
+      "gold": 1600,
+      "items": [
+        "item_0477"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_159_1",
+        "type": "kill",
+        "target": "enemy_18",
+        "count": 10
+      },
+      {
+        "id": "obj_159_2",
+        "type": "collect",
+        "target": "item_0295",
+        "count": 5
+      },
+      {
+        "id": "obj_159_3",
+        "type": "explore",
+        "target": "location_13",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0160",
+    "title": "Quest 160: The Adventure",
+    "title_kr": "퀘스트 160: 모험",
+    "title_ar": "مهمة 160: المغامرة",
+    "description": "Detailed description for quest 160 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 11,
+    "rewards": {
+      "xp": 8050,
+      "gold": 1610,
+      "items": [
+        "item_0480"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_160_1",
+        "type": "kill",
+        "target": "enemy_20",
+        "count": 1
+      },
+      {
+        "id": "obj_160_2",
+        "type": "collect",
+        "target": "item_0300",
+        "count": 1
+      },
+      {
+        "id": "obj_160_3",
+        "type": "explore",
+        "target": "location_20",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0161",
+    "title": "Quest 161: The Adventure",
+    "title_kr": "퀘스트 161: 모험",
+    "title_ar": "مهمة 161: المغامرة",
+    "description": "Detailed description for quest 161 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 12,
+    "rewards": {
+      "xp": 8100,
+      "gold": 1620,
+      "items": [
+        "item_0483"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_161_1",
+        "type": "kill",
+        "target": "enemy_22",
+        "count": 2
+      },
+      {
+        "id": "obj_161_2",
+        "type": "collect",
+        "target": "item_0305",
+        "count": 2
+      },
+      {
+        "id": "obj_161_3",
+        "type": "explore",
+        "target": "location_27",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0162",
+    "title": "Quest 162: The Adventure",
+    "title_kr": "퀘스트 162: 모험",
+    "title_ar": "مهمة 162: المغامرة",
+    "description": "Detailed description for quest 162 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 13,
+    "rewards": {
+      "xp": 8150,
+      "gold": 1630,
+      "items": [
+        "item_0486"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_162_1",
+        "type": "kill",
+        "target": "enemy_24",
+        "count": 3
+      },
+      {
+        "id": "obj_162_2",
+        "type": "collect",
+        "target": "item_0310",
+        "count": 3
+      },
+      {
+        "id": "obj_162_3",
+        "type": "explore",
+        "target": "location_34",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0163",
+    "title": "Quest 163: The Adventure",
+    "title_kr": "퀘스트 163: 모험",
+    "title_ar": "مهمة 163: المغامرة",
+    "description": "Detailed description for quest 163 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 14,
+    "rewards": {
+      "xp": 8200,
+      "gold": 1640,
+      "items": [
+        "item_0489"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_163_1",
+        "type": "kill",
+        "target": "enemy_26",
+        "count": 4
+      },
+      {
+        "id": "obj_163_2",
+        "type": "collect",
+        "target": "item_0315",
+        "count": 4
+      },
+      {
+        "id": "obj_163_3",
+        "type": "explore",
+        "target": "location_41",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0164",
+    "title": "Quest 164: The Adventure",
+    "title_kr": "퀘스트 164: 모험",
+    "title_ar": "مهمة 164: المغامرة",
+    "description": "Detailed description for quest 164 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 15,
+    "rewards": {
+      "xp": 8250,
+      "gold": 1650,
+      "items": [
+        "item_0492"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_164_1",
+        "type": "kill",
+        "target": "enemy_28",
+        "count": 5
+      },
+      {
+        "id": "obj_164_2",
+        "type": "collect",
+        "target": "item_0320",
+        "count": 5
+      },
+      {
+        "id": "obj_164_3",
+        "type": "explore",
+        "target": "location_48",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0165",
+    "title": "Quest 165: The Adventure",
+    "title_kr": "퀘스트 165: 모험",
+    "title_ar": "مهمة 165: المغامرة",
+    "description": "Detailed description for quest 165 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 16,
+    "rewards": {
+      "xp": 8300,
+      "gold": 1660,
+      "items": [
+        "item_0495"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_165_1",
+        "type": "kill",
+        "target": "enemy_30",
+        "count": 6
+      },
+      {
+        "id": "obj_165_2",
+        "type": "collect",
+        "target": "item_0325",
+        "count": 1
+      },
+      {
+        "id": "obj_165_3",
+        "type": "explore",
+        "target": "location_55",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0166",
+    "title": "Quest 166: The Adventure",
+    "title_kr": "퀘스트 166: 모험",
+    "title_ar": "مهمة 166: المغامرة",
+    "description": "Detailed description for quest 166 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 17,
+    "rewards": {
+      "xp": 8350,
+      "gold": 1670,
+      "items": [
+        "item_0498"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_166_1",
+        "type": "kill",
+        "target": "enemy_32",
+        "count": 7
+      },
+      {
+        "id": "obj_166_2",
+        "type": "collect",
+        "target": "item_0330",
+        "count": 2
+      },
+      {
+        "id": "obj_166_3",
+        "type": "explore",
+        "target": "location_62",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0167",
+    "title": "Quest 167: The Adventure",
+    "title_kr": "퀘스트 167: 모험",
+    "title_ar": "مهمة 167: المغامرة",
+    "description": "Detailed description for quest 167 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 18,
+    "rewards": {
+      "xp": 8400,
+      "gold": 1680,
+      "items": [
+        "item_0001"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_167_1",
+        "type": "kill",
+        "target": "enemy_34",
+        "count": 8
+      },
+      {
+        "id": "obj_167_2",
+        "type": "collect",
+        "target": "item_0335",
+        "count": 3
+      },
+      {
+        "id": "obj_167_3",
+        "type": "explore",
+        "target": "location_69",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0168",
+    "title": "Quest 168: The Adventure",
+    "title_kr": "퀘스트 168: 모험",
+    "title_ar": "مهمة 168: المغامرة",
+    "description": "Detailed description for quest 168 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 19,
+    "rewards": {
+      "xp": 8450,
+      "gold": 1690,
+      "items": [
+        "item_0004"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_168_1",
+        "type": "kill",
+        "target": "enemy_36",
+        "count": 9
+      },
+      {
+        "id": "obj_168_2",
+        "type": "collect",
+        "target": "item_0340",
+        "count": 4
+      },
+      {
+        "id": "obj_168_3",
+        "type": "explore",
+        "target": "location_76",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0169",
+    "title": "Quest 169: The Adventure",
+    "title_kr": "퀘스트 169: 모험",
+    "title_ar": "مهمة 169: المغامرة",
+    "description": "Detailed description for quest 169 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 20,
+    "rewards": {
+      "xp": 8500,
+      "gold": 1700,
+      "items": [
+        "item_0007"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_169_1",
+        "type": "kill",
+        "target": "enemy_38",
+        "count": 10
+      },
+      {
+        "id": "obj_169_2",
+        "type": "collect",
+        "target": "item_0345",
+        "count": 5
+      },
+      {
+        "id": "obj_169_3",
+        "type": "explore",
+        "target": "location_83",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0170",
+    "title": "Quest 170: The Adventure",
+    "title_kr": "퀘스트 170: 모험",
+    "title_ar": "مهمة 170: المغامرة",
+    "description": "Detailed description for quest 170 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 21,
+    "rewards": {
+      "xp": 8550,
+      "gold": 1710,
+      "items": [
+        "item_0010"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_170_1",
+        "type": "kill",
+        "target": "enemy_40",
+        "count": 1
+      },
+      {
+        "id": "obj_170_2",
+        "type": "collect",
+        "target": "item_0350",
+        "count": 1
+      },
+      {
+        "id": "obj_170_3",
+        "type": "explore",
+        "target": "location_90",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0171",
+    "title": "Quest 171: The Adventure",
+    "title_kr": "퀘스트 171: 모험",
+    "title_ar": "مهمة 171: المغامرة",
+    "description": "Detailed description for quest 171 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 22,
+    "rewards": {
+      "xp": 8600,
+      "gold": 1720,
+      "items": [
+        "item_0013"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_171_1",
+        "type": "kill",
+        "target": "enemy_42",
+        "count": 2
+      },
+      {
+        "id": "obj_171_2",
+        "type": "collect",
+        "target": "item_0355",
+        "count": 2
+      },
+      {
+        "id": "obj_171_3",
+        "type": "explore",
+        "target": "location_97",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0172",
+    "title": "Quest 172: The Adventure",
+    "title_kr": "퀘스트 172: 모험",
+    "title_ar": "مهمة 172: المغامرة",
+    "description": "Detailed description for quest 172 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 23,
+    "rewards": {
+      "xp": 8650,
+      "gold": 1730,
+      "items": [
+        "item_0016"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_172_1",
+        "type": "kill",
+        "target": "enemy_44",
+        "count": 3
+      },
+      {
+        "id": "obj_172_2",
+        "type": "collect",
+        "target": "item_0360",
+        "count": 3
+      },
+      {
+        "id": "obj_172_3",
+        "type": "explore",
+        "target": "location_4",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0173",
+    "title": "Quest 173: The Adventure",
+    "title_kr": "퀘스트 173: 모험",
+    "title_ar": "مهمة 173: المغامرة",
+    "description": "Detailed description for quest 173 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 24,
+    "rewards": {
+      "xp": 8700,
+      "gold": 1740,
+      "items": [
+        "item_0019"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_173_1",
+        "type": "kill",
+        "target": "enemy_46",
+        "count": 4
+      },
+      {
+        "id": "obj_173_2",
+        "type": "collect",
+        "target": "item_0365",
+        "count": 4
+      },
+      {
+        "id": "obj_173_3",
+        "type": "explore",
+        "target": "location_11",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0174",
+    "title": "Quest 174: The Adventure",
+    "title_kr": "퀘스트 174: 모험",
+    "title_ar": "مهمة 174: المغامرة",
+    "description": "Detailed description for quest 174 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 25,
+    "rewards": {
+      "xp": 8750,
+      "gold": 1750,
+      "items": [
+        "item_0022"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_174_1",
+        "type": "kill",
+        "target": "enemy_48",
+        "count": 5
+      },
+      {
+        "id": "obj_174_2",
+        "type": "collect",
+        "target": "item_0370",
+        "count": 5
+      },
+      {
+        "id": "obj_174_3",
+        "type": "explore",
+        "target": "location_18",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0175",
+    "title": "Quest 175: The Adventure",
+    "title_kr": "퀘스트 175: 모험",
+    "title_ar": "مهمة 175: المغامرة",
+    "description": "Detailed description for quest 175 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 26,
+    "rewards": {
+      "xp": 8800,
+      "gold": 1760,
+      "items": [
+        "item_0025"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_175_1",
+        "type": "kill",
+        "target": "enemy_0",
+        "count": 6
+      },
+      {
+        "id": "obj_175_2",
+        "type": "collect",
+        "target": "item_0375",
+        "count": 1
+      },
+      {
+        "id": "obj_175_3",
+        "type": "explore",
+        "target": "location_25",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0176",
+    "title": "Quest 176: The Adventure",
+    "title_kr": "퀘스트 176: 모험",
+    "title_ar": "مهمة 176: المغامرة",
+    "description": "Detailed description for quest 176 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 27,
+    "rewards": {
+      "xp": 8850,
+      "gold": 1770,
+      "items": [
+        "item_0028"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_176_1",
+        "type": "kill",
+        "target": "enemy_2",
+        "count": 7
+      },
+      {
+        "id": "obj_176_2",
+        "type": "collect",
+        "target": "item_0380",
+        "count": 2
+      },
+      {
+        "id": "obj_176_3",
+        "type": "explore",
+        "target": "location_32",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0177",
+    "title": "Quest 177: The Adventure",
+    "title_kr": "퀘스트 177: 모험",
+    "title_ar": "مهمة 177: المغامرة",
+    "description": "Detailed description for quest 177 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 28,
+    "rewards": {
+      "xp": 8900,
+      "gold": 1780,
+      "items": [
+        "item_0031"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_177_1",
+        "type": "kill",
+        "target": "enemy_4",
+        "count": 8
+      },
+      {
+        "id": "obj_177_2",
+        "type": "collect",
+        "target": "item_0385",
+        "count": 3
+      },
+      {
+        "id": "obj_177_3",
+        "type": "explore",
+        "target": "location_39",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0178",
+    "title": "Quest 178: The Adventure",
+    "title_kr": "퀘스트 178: 모험",
+    "title_ar": "مهمة 178: المغامرة",
+    "description": "Detailed description for quest 178 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 29,
+    "rewards": {
+      "xp": 8950,
+      "gold": 1790,
+      "items": [
+        "item_0034"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_178_1",
+        "type": "kill",
+        "target": "enemy_6",
+        "count": 9
+      },
+      {
+        "id": "obj_178_2",
+        "type": "collect",
+        "target": "item_0390",
+        "count": 4
+      },
+      {
+        "id": "obj_178_3",
+        "type": "explore",
+        "target": "location_46",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0179",
+    "title": "Quest 179: The Adventure",
+    "title_kr": "퀘스트 179: 모험",
+    "title_ar": "مهمة 179: المغامرة",
+    "description": "Detailed description for quest 179 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 30,
+    "rewards": {
+      "xp": 9000,
+      "gold": 1800,
+      "items": [
+        "item_0037"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_179_1",
+        "type": "kill",
+        "target": "enemy_8",
+        "count": 10
+      },
+      {
+        "id": "obj_179_2",
+        "type": "collect",
+        "target": "item_0395",
+        "count": 5
+      },
+      {
+        "id": "obj_179_3",
+        "type": "explore",
+        "target": "location_53",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0180",
+    "title": "Quest 180: The Adventure",
+    "title_kr": "퀘스트 180: 모험",
+    "title_ar": "مهمة 180: المغامرة",
+    "description": "Detailed description for quest 180 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 31,
+    "rewards": {
+      "xp": 9050,
+      "gold": 1810,
+      "items": [
+        "item_0040"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_180_1",
+        "type": "kill",
+        "target": "enemy_10",
+        "count": 1
+      },
+      {
+        "id": "obj_180_2",
+        "type": "collect",
+        "target": "item_0400",
+        "count": 1
+      },
+      {
+        "id": "obj_180_3",
+        "type": "explore",
+        "target": "location_60",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0181",
+    "title": "Quest 181: The Adventure",
+    "title_kr": "퀘스트 181: 모험",
+    "title_ar": "مهمة 181: المغامرة",
+    "description": "Detailed description for quest 181 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 32,
+    "rewards": {
+      "xp": 9100,
+      "gold": 1820,
+      "items": [
+        "item_0043"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_181_1",
+        "type": "kill",
+        "target": "enemy_12",
+        "count": 2
+      },
+      {
+        "id": "obj_181_2",
+        "type": "collect",
+        "target": "item_0405",
+        "count": 2
+      },
+      {
+        "id": "obj_181_3",
+        "type": "explore",
+        "target": "location_67",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0182",
+    "title": "Quest 182: The Adventure",
+    "title_kr": "퀘스트 182: 모험",
+    "title_ar": "مهمة 182: المغامرة",
+    "description": "Detailed description for quest 182 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 33,
+    "rewards": {
+      "xp": 9150,
+      "gold": 1830,
+      "items": [
+        "item_0046"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_182_1",
+        "type": "kill",
+        "target": "enemy_14",
+        "count": 3
+      },
+      {
+        "id": "obj_182_2",
+        "type": "collect",
+        "target": "item_0410",
+        "count": 3
+      },
+      {
+        "id": "obj_182_3",
+        "type": "explore",
+        "target": "location_74",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0183",
+    "title": "Quest 183: The Adventure",
+    "title_kr": "퀘스트 183: 모험",
+    "title_ar": "مهمة 183: المغامرة",
+    "description": "Detailed description for quest 183 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 34,
+    "rewards": {
+      "xp": 9200,
+      "gold": 1840,
+      "items": [
+        "item_0049"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_183_1",
+        "type": "kill",
+        "target": "enemy_16",
+        "count": 4
+      },
+      {
+        "id": "obj_183_2",
+        "type": "collect",
+        "target": "item_0415",
+        "count": 4
+      },
+      {
+        "id": "obj_183_3",
+        "type": "explore",
+        "target": "location_81",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0184",
+    "title": "Quest 184: The Adventure",
+    "title_kr": "퀘스트 184: 모험",
+    "title_ar": "مهمة 184: المغامرة",
+    "description": "Detailed description for quest 184 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 35,
+    "rewards": {
+      "xp": 9250,
+      "gold": 1850,
+      "items": [
+        "item_0052"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_184_1",
+        "type": "kill",
+        "target": "enemy_18",
+        "count": 5
+      },
+      {
+        "id": "obj_184_2",
+        "type": "collect",
+        "target": "item_0420",
+        "count": 5
+      },
+      {
+        "id": "obj_184_3",
+        "type": "explore",
+        "target": "location_88",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0185",
+    "title": "Quest 185: The Adventure",
+    "title_kr": "퀘스트 185: 모험",
+    "title_ar": "مهمة 185: المغامرة",
+    "description": "Detailed description for quest 185 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 36,
+    "rewards": {
+      "xp": 9300,
+      "gold": 1860,
+      "items": [
+        "item_0055"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_185_1",
+        "type": "kill",
+        "target": "enemy_20",
+        "count": 6
+      },
+      {
+        "id": "obj_185_2",
+        "type": "collect",
+        "target": "item_0425",
+        "count": 1
+      },
+      {
+        "id": "obj_185_3",
+        "type": "explore",
+        "target": "location_95",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0186",
+    "title": "Quest 186: The Adventure",
+    "title_kr": "퀘스트 186: 모험",
+    "title_ar": "مهمة 186: المغامرة",
+    "description": "Detailed description for quest 186 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 37,
+    "rewards": {
+      "xp": 9350,
+      "gold": 1870,
+      "items": [
+        "item_0058"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_186_1",
+        "type": "kill",
+        "target": "enemy_22",
+        "count": 7
+      },
+      {
+        "id": "obj_186_2",
+        "type": "collect",
+        "target": "item_0430",
+        "count": 2
+      },
+      {
+        "id": "obj_186_3",
+        "type": "explore",
+        "target": "location_2",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0187",
+    "title": "Quest 187: The Adventure",
+    "title_kr": "퀘스트 187: 모험",
+    "title_ar": "مهمة 187: المغامرة",
+    "description": "Detailed description for quest 187 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 38,
+    "rewards": {
+      "xp": 9400,
+      "gold": 1880,
+      "items": [
+        "item_0061"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_187_1",
+        "type": "kill",
+        "target": "enemy_24",
+        "count": 8
+      },
+      {
+        "id": "obj_187_2",
+        "type": "collect",
+        "target": "item_0435",
+        "count": 3
+      },
+      {
+        "id": "obj_187_3",
+        "type": "explore",
+        "target": "location_9",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0188",
+    "title": "Quest 188: The Adventure",
+    "title_kr": "퀘스트 188: 모험",
+    "title_ar": "مهمة 188: المغامرة",
+    "description": "Detailed description for quest 188 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 39,
+    "rewards": {
+      "xp": 9450,
+      "gold": 1890,
+      "items": [
+        "item_0064"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_188_1",
+        "type": "kill",
+        "target": "enemy_26",
+        "count": 9
+      },
+      {
+        "id": "obj_188_2",
+        "type": "collect",
+        "target": "item_0440",
+        "count": 4
+      },
+      {
+        "id": "obj_188_3",
+        "type": "explore",
+        "target": "location_16",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0189",
+    "title": "Quest 189: The Adventure",
+    "title_kr": "퀘스트 189: 모험",
+    "title_ar": "مهمة 189: المغامرة",
+    "description": "Detailed description for quest 189 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 40,
+    "rewards": {
+      "xp": 9500,
+      "gold": 1900,
+      "items": [
+        "item_0067"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_189_1",
+        "type": "kill",
+        "target": "enemy_28",
+        "count": 10
+      },
+      {
+        "id": "obj_189_2",
+        "type": "collect",
+        "target": "item_0445",
+        "count": 5
+      },
+      {
+        "id": "obj_189_3",
+        "type": "explore",
+        "target": "location_23",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0190",
+    "title": "Quest 190: The Adventure",
+    "title_kr": "퀘스트 190: 모험",
+    "title_ar": "مهمة 190: المغامرة",
+    "description": "Detailed description for quest 190 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 41,
+    "rewards": {
+      "xp": 9550,
+      "gold": 1910,
+      "items": [
+        "item_0070"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_190_1",
+        "type": "kill",
+        "target": "enemy_30",
+        "count": 1
+      },
+      {
+        "id": "obj_190_2",
+        "type": "collect",
+        "target": "item_0450",
+        "count": 1
+      },
+      {
+        "id": "obj_190_3",
+        "type": "explore",
+        "target": "location_30",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0191",
+    "title": "Quest 191: The Adventure",
+    "title_kr": "퀘스트 191: 모험",
+    "title_ar": "مهمة 191: المغامرة",
+    "description": "Detailed description for quest 191 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 42,
+    "rewards": {
+      "xp": 9600,
+      "gold": 1920,
+      "items": [
+        "item_0073"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_191_1",
+        "type": "kill",
+        "target": "enemy_32",
+        "count": 2
+      },
+      {
+        "id": "obj_191_2",
+        "type": "collect",
+        "target": "item_0455",
+        "count": 2
+      },
+      {
+        "id": "obj_191_3",
+        "type": "explore",
+        "target": "location_37",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0192",
+    "title": "Quest 192: The Adventure",
+    "title_kr": "퀘스트 192: 모험",
+    "title_ar": "مهمة 192: المغامرة",
+    "description": "Detailed description for quest 192 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 43,
+    "rewards": {
+      "xp": 9650,
+      "gold": 1930,
+      "items": [
+        "item_0076"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_192_1",
+        "type": "kill",
+        "target": "enemy_34",
+        "count": 3
+      },
+      {
+        "id": "obj_192_2",
+        "type": "collect",
+        "target": "item_0460",
+        "count": 3
+      },
+      {
+        "id": "obj_192_3",
+        "type": "explore",
+        "target": "location_44",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0193",
+    "title": "Quest 193: The Adventure",
+    "title_kr": "퀘스트 193: 모험",
+    "title_ar": "مهمة 193: المغامرة",
+    "description": "Detailed description for quest 193 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 44,
+    "rewards": {
+      "xp": 9700,
+      "gold": 1940,
+      "items": [
+        "item_0079"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_193_1",
+        "type": "kill",
+        "target": "enemy_36",
+        "count": 4
+      },
+      {
+        "id": "obj_193_2",
+        "type": "collect",
+        "target": "item_0465",
+        "count": 4
+      },
+      {
+        "id": "obj_193_3",
+        "type": "explore",
+        "target": "location_51",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0194",
+    "title": "Quest 194: The Adventure",
+    "title_kr": "퀘스트 194: 모험",
+    "title_ar": "مهمة 194: المغامرة",
+    "description": "Detailed description for quest 194 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 45,
+    "rewards": {
+      "xp": 9750,
+      "gold": 1950,
+      "items": [
+        "item_0082"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_194_1",
+        "type": "kill",
+        "target": "enemy_38",
+        "count": 5
+      },
+      {
+        "id": "obj_194_2",
+        "type": "collect",
+        "target": "item_0470",
+        "count": 5
+      },
+      {
+        "id": "obj_194_3",
+        "type": "explore",
+        "target": "location_58",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0195",
+    "title": "Quest 195: The Adventure",
+    "title_kr": "퀘스트 195: 모험",
+    "title_ar": "مهمة 195: المغامرة",
+    "description": "Detailed description for quest 195 with multiple objectives and branching paths.",
+    "type": "main",
+    "level_req": 46,
+    "rewards": {
+      "xp": 9800,
+      "gold": 1960,
+      "items": [
+        "item_0085"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_195_1",
+        "type": "kill",
+        "target": "enemy_40",
+        "count": 6
+      },
+      {
+        "id": "obj_195_2",
+        "type": "collect",
+        "target": "item_0475",
+        "count": 1
+      },
+      {
+        "id": "obj_195_3",
+        "type": "explore",
+        "target": "location_65",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0196",
+    "title": "Quest 196: The Adventure",
+    "title_kr": "퀘스트 196: 모험",
+    "title_ar": "مهمة 196: المغامرة",
+    "description": "Detailed description for quest 196 with multiple objectives and branching paths.",
+    "type": "side",
+    "level_req": 47,
+    "rewards": {
+      "xp": 9850,
+      "gold": 1970,
+      "items": [
+        "item_0088"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_196_1",
+        "type": "kill",
+        "target": "enemy_42",
+        "count": 7
+      },
+      {
+        "id": "obj_196_2",
+        "type": "collect",
+        "target": "item_0480",
+        "count": 2
+      },
+      {
+        "id": "obj_196_3",
+        "type": "explore",
+        "target": "location_72",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0197",
+    "title": "Quest 197: The Adventure",
+    "title_kr": "퀘스트 197: 모험",
+    "title_ar": "مهمة 197: المغامرة",
+    "description": "Detailed description for quest 197 with multiple objectives and branching paths.",
+    "type": "daily",
+    "level_req": 48,
+    "rewards": {
+      "xp": 9900,
+      "gold": 1980,
+      "items": [
+        "item_0091"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_197_1",
+        "type": "kill",
+        "target": "enemy_44",
+        "count": 8
+      },
+      {
+        "id": "obj_197_2",
+        "type": "collect",
+        "target": "item_0485",
+        "count": 3
+      },
+      {
+        "id": "obj_197_3",
+        "type": "explore",
+        "target": "location_79",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0198",
+    "title": "Quest 198: The Adventure",
+    "title_kr": "퀘스트 198: 모험",
+    "title_ar": "مهمة 198: المغامرة",
+    "description": "Detailed description for quest 198 with multiple objectives and branching paths.",
+    "type": "weekly",
+    "level_req": 49,
+    "rewards": {
+      "xp": 9950,
+      "gold": 1990,
+      "items": [
+        "item_0094"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_198_1",
+        "type": "kill",
+        "target": "enemy_46",
+        "count": 9
+      },
+      {
+        "id": "obj_198_2",
+        "type": "collect",
+        "target": "item_0490",
+        "count": 4
+      },
+      {
+        "id": "obj_198_3",
+        "type": "explore",
+        "target": "location_86",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_0199",
+    "title": "Quest 199: The Adventure",
+    "title_kr": "퀘스트 199: 모험",
+    "title_ar": "مهمة 199: المغامرة",
+    "description": "Detailed description for quest 199 with multiple objectives and branching paths.",
+    "type": "event",
+    "level_req": 50,
+    "rewards": {
+      "xp": 10000,
+      "gold": 2000,
+      "items": [
+        "item_0097"
+      ]
+    },
+    "objectives": [
+      {
+        "id": "obj_199_1",
+        "type": "kill",
+        "target": "enemy_48",
+        "count": 10
+      },
+      {
+        "id": "obj_199_2",
+        "type": "collect",
+        "target": "item_0495",
+        "count": 5
+      },
+      {
+        "id": "obj_199_3",
+        "type": "explore",
+        "target": "location_93",
+        "count": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,7502 @@
+[
+  {
+    "id": "item_0000",
+    "name": "Item 0",
+    "name_kr": "아이템 0",
+    "name_ar": "عنصر 0",
+    "category": "weapon",
+    "rarity": "common",
+    "value": 10,
+    "weight": 1,
+    "description": "Description for item 0",
+    "effects": {
+      "stat": "stat_0",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0001",
+    "name": "Item 1",
+    "name_kr": "아이템 1",
+    "name_ar": "عنصر 1",
+    "category": "armor",
+    "rarity": "uncommon",
+    "value": 20,
+    "weight": 2,
+    "description": "Description for item 1",
+    "effects": {
+      "stat": "stat_1",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0002",
+    "name": "Item 2",
+    "name_kr": "아이템 2",
+    "name_ar": "عنصر 2",
+    "category": "accessory",
+    "rarity": "rare",
+    "value": 30,
+    "weight": 3,
+    "description": "Description for item 2",
+    "effects": {
+      "stat": "stat_2",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0003",
+    "name": "Item 3",
+    "name_kr": "아이템 3",
+    "name_ar": "عنصر 3",
+    "category": "consumable",
+    "rarity": "epic",
+    "value": 40,
+    "weight": 4,
+    "description": "Description for item 3",
+    "effects": {
+      "stat": "stat_3",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0004",
+    "name": "Item 4",
+    "name_kr": "아이템 4",
+    "name_ar": "عنصر 4",
+    "category": "material",
+    "rarity": "legendary",
+    "value": 50,
+    "weight": 5,
+    "description": "Description for item 4",
+    "effects": {
+      "stat": "stat_4",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0005",
+    "name": "Item 5",
+    "name_kr": "아이템 5",
+    "name_ar": "عنصر 5",
+    "category": "quest",
+    "rarity": "common",
+    "value": 60,
+    "weight": 6,
+    "description": "Description for item 5",
+    "effects": {
+      "stat": "stat_5",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0006",
+    "name": "Item 6",
+    "name_kr": "아이템 6",
+    "name_ar": "عنصر 6",
+    "category": "weapon",
+    "rarity": "uncommon",
+    "value": 70,
+    "weight": 7,
+    "description": "Description for item 6",
+    "effects": {
+      "stat": "stat_0",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0007",
+    "name": "Item 7",
+    "name_kr": "아이템 7",
+    "name_ar": "عنصر 7",
+    "category": "armor",
+    "rarity": "rare",
+    "value": 80,
+    "weight": 8,
+    "description": "Description for item 7",
+    "effects": {
+      "stat": "stat_1",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0008",
+    "name": "Item 8",
+    "name_kr": "아이템 8",
+    "name_ar": "عنصر 8",
+    "category": "accessory",
+    "rarity": "epic",
+    "value": 90,
+    "weight": 9,
+    "description": "Description for item 8",
+    "effects": {
+      "stat": "stat_2",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0009",
+    "name": "Item 9",
+    "name_kr": "아이템 9",
+    "name_ar": "عنصر 9",
+    "category": "consumable",
+    "rarity": "legendary",
+    "value": 100,
+    "weight": 10,
+    "description": "Description for item 9",
+    "effects": {
+      "stat": "stat_3",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0010",
+    "name": "Item 10",
+    "name_kr": "아이템 10",
+    "name_ar": "عنصر 10",
+    "category": "material",
+    "rarity": "common",
+    "value": 110,
+    "weight": 11,
+    "description": "Description for item 10",
+    "effects": {
+      "stat": "stat_4",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0011",
+    "name": "Item 11",
+    "name_kr": "아이템 11",
+    "name_ar": "عنصر 11",
+    "category": "quest",
+    "rarity": "uncommon",
+    "value": 120,
+    "weight": 12,
+    "description": "Description for item 11",
+    "effects": {
+      "stat": "stat_5",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0012",
+    "name": "Item 12",
+    "name_kr": "아이템 12",
+    "name_ar": "عنصر 12",
+    "category": "weapon",
+    "rarity": "rare",
+    "value": 130,
+    "weight": 13,
+    "description": "Description for item 12",
+    "effects": {
+      "stat": "stat_0",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0013",
+    "name": "Item 13",
+    "name_kr": "아이템 13",
+    "name_ar": "عنصر 13",
+    "category": "armor",
+    "rarity": "epic",
+    "value": 140,
+    "weight": 14,
+    "description": "Description for item 13",
+    "effects": {
+      "stat": "stat_1",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0014",
+    "name": "Item 14",
+    "name_kr": "아이템 14",
+    "name_ar": "عنصر 14",
+    "category": "accessory",
+    "rarity": "legendary",
+    "value": 150,
+    "weight": 15,
+    "description": "Description for item 14",
+    "effects": {
+      "stat": "stat_2",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0015",
+    "name": "Item 15",
+    "name_kr": "아이템 15",
+    "name_ar": "عنصر 15",
+    "category": "consumable",
+    "rarity": "common",
+    "value": 160,
+    "weight": 16,
+    "description": "Description for item 15",
+    "effects": {
+      "stat": "stat_3",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0016",
+    "name": "Item 16",
+    "name_kr": "아이템 16",
+    "name_ar": "عنصر 16",
+    "category": "material",
+    "rarity": "uncommon",
+    "value": 170,
+    "weight": 17,
+    "description": "Description for item 16",
+    "effects": {
+      "stat": "stat_4",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0017",
+    "name": "Item 17",
+    "name_kr": "아이템 17",
+    "name_ar": "عنصر 17",
+    "category": "quest",
+    "rarity": "rare",
+    "value": 180,
+    "weight": 18,
+    "description": "Description for item 17",
+    "effects": {
+      "stat": "stat_5",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0018",
+    "name": "Item 18",
+    "name_kr": "아이템 18",
+    "name_ar": "عنصر 18",
+    "category": "weapon",
+    "rarity": "epic",
+    "value": 190,
+    "weight": 19,
+    "description": "Description for item 18",
+    "effects": {
+      "stat": "stat_0",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0019",
+    "name": "Item 19",
+    "name_kr": "아이템 19",
+    "name_ar": "عنصر 19",
+    "category": "armor",
+    "rarity": "legendary",
+    "value": 200,
+    "weight": 20,
+    "description": "Description for item 19",
+    "effects": {
+      "stat": "stat_1",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0020",
+    "name": "Item 20",
+    "name_kr": "아이템 20",
+    "name_ar": "عنصر 20",
+    "category": "accessory",
+    "rarity": "common",
+    "value": 210,
+    "weight": 21,
+    "description": "Description for item 20",
+    "effects": {
+      "stat": "stat_2",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0021",
+    "name": "Item 21",
+    "name_kr": "아이템 21",
+    "name_ar": "عنصر 21",
+    "category": "consumable",
+    "rarity": "uncommon",
+    "value": 220,
+    "weight": 22,
+    "description": "Description for item 21",
+    "effects": {
+      "stat": "stat_3",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0022",
+    "name": "Item 22",
+    "name_kr": "아이템 22",
+    "name_ar": "عنصر 22",
+    "category": "material",
+    "rarity": "rare",
+    "value": 230,
+    "weight": 23,
+    "description": "Description for item 22",
+    "effects": {
+      "stat": "stat_4",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0023",
+    "name": "Item 23",
+    "name_kr": "아이템 23",
+    "name_ar": "عنصر 23",
+    "category": "quest",
+    "rarity": "epic",
+    "value": 240,
+    "weight": 24,
+    "description": "Description for item 23",
+    "effects": {
+      "stat": "stat_5",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0024",
+    "name": "Item 24",
+    "name_kr": "아이템 24",
+    "name_ar": "عنصر 24",
+    "category": "weapon",
+    "rarity": "legendary",
+    "value": 250,
+    "weight": 25,
+    "description": "Description for item 24",
+    "effects": {
+      "stat": "stat_0",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0025",
+    "name": "Item 25",
+    "name_kr": "아이템 25",
+    "name_ar": "عنصر 25",
+    "category": "armor",
+    "rarity": "common",
+    "value": 260,
+    "weight": 26,
+    "description": "Description for item 25",
+    "effects": {
+      "stat": "stat_1",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0026",
+    "name": "Item 26",
+    "name_kr": "아이템 26",
+    "name_ar": "عنصر 26",
+    "category": "accessory",
+    "rarity": "uncommon",
+    "value": 270,
+    "weight": 27,
+    "description": "Description for item 26",
+    "effects": {
+      "stat": "stat_2",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0027",
+    "name": "Item 27",
+    "name_kr": "아이템 27",
+    "name_ar": "عنصر 27",
+    "category": "consumable",
+    "rarity": "rare",
+    "value": 280,
+    "weight": 28,
+    "description": "Description for item 27",
+    "effects": {
+      "stat": "stat_3",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0028",
+    "name": "Item 28",
+    "name_kr": "아이템 28",
+    "name_ar": "عنصر 28",
+    "category": "material",
+    "rarity": "epic",
+    "value": 290,
+    "weight": 29,
+    "description": "Description for item 28",
+    "effects": {
+      "stat": "stat_4",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0029",
+    "name": "Item 29",
+    "name_kr": "아이템 29",
+    "name_ar": "عنصر 29",
+    "category": "quest",
+    "rarity": "legendary",
+    "value": 300,
+    "weight": 30,
+    "description": "Description for item 29",
+    "effects": {
+      "stat": "stat_5",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0030",
+    "name": "Item 30",
+    "name_kr": "아이템 30",
+    "name_ar": "عنصر 30",
+    "category": "weapon",
+    "rarity": "common",
+    "value": 310,
+    "weight": 31,
+    "description": "Description for item 30",
+    "effects": {
+      "stat": "stat_0",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0031",
+    "name": "Item 31",
+    "name_kr": "아이템 31",
+    "name_ar": "عنصر 31",
+    "category": "armor",
+    "rarity": "uncommon",
+    "value": 320,
+    "weight": 32,
+    "description": "Description for item 31",
+    "effects": {
+      "stat": "stat_1",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0032",
+    "name": "Item 32",
+    "name_kr": "아이템 32",
+    "name_ar": "عنصر 32",
+    "category": "accessory",
+    "rarity": "rare",
+    "value": 330,
+    "weight": 33,
+    "description": "Description for item 32",
+    "effects": {
+      "stat": "stat_2",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0033",
+    "name": "Item 33",
+    "name_kr": "아이템 33",
+    "name_ar": "عنصر 33",
+    "category": "consumable",
+    "rarity": "epic",
+    "value": 340,
+    "weight": 34,
+    "description": "Description for item 33",
+    "effects": {
+      "stat": "stat_3",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0034",
+    "name": "Item 34",
+    "name_kr": "아이템 34",
+    "name_ar": "عنصر 34",
+    "category": "material",
+    "rarity": "legendary",
+    "value": 350,
+    "weight": 35,
+    "description": "Description for item 34",
+    "effects": {
+      "stat": "stat_4",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0035",
+    "name": "Item 35",
+    "name_kr": "아이템 35",
+    "name_ar": "عنصر 35",
+    "category": "quest",
+    "rarity": "common",
+    "value": 360,
+    "weight": 36,
+    "description": "Description for item 35",
+    "effects": {
+      "stat": "stat_5",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0036",
+    "name": "Item 36",
+    "name_kr": "아이템 36",
+    "name_ar": "عنصر 36",
+    "category": "weapon",
+    "rarity": "uncommon",
+    "value": 370,
+    "weight": 37,
+    "description": "Description for item 36",
+    "effects": {
+      "stat": "stat_0",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0037",
+    "name": "Item 37",
+    "name_kr": "아이템 37",
+    "name_ar": "عنصر 37",
+    "category": "armor",
+    "rarity": "rare",
+    "value": 380,
+    "weight": 38,
+    "description": "Description for item 37",
+    "effects": {
+      "stat": "stat_1",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0038",
+    "name": "Item 38",
+    "name_kr": "아이템 38",
+    "name_ar": "عنصر 38",
+    "category": "accessory",
+    "rarity": "epic",
+    "value": 390,
+    "weight": 39,
+    "description": "Description for item 38",
+    "effects": {
+      "stat": "stat_2",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0039",
+    "name": "Item 39",
+    "name_kr": "아이템 39",
+    "name_ar": "عنصر 39",
+    "category": "consumable",
+    "rarity": "legendary",
+    "value": 400,
+    "weight": 40,
+    "description": "Description for item 39",
+    "effects": {
+      "stat": "stat_3",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0040",
+    "name": "Item 40",
+    "name_kr": "아이템 40",
+    "name_ar": "عنصر 40",
+    "category": "material",
+    "rarity": "common",
+    "value": 410,
+    "weight": 41,
+    "description": "Description for item 40",
+    "effects": {
+      "stat": "stat_4",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0041",
+    "name": "Item 41",
+    "name_kr": "아이템 41",
+    "name_ar": "عنصر 41",
+    "category": "quest",
+    "rarity": "uncommon",
+    "value": 420,
+    "weight": 42,
+    "description": "Description for item 41",
+    "effects": {
+      "stat": "stat_5",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0042",
+    "name": "Item 42",
+    "name_kr": "아이템 42",
+    "name_ar": "عنصر 42",
+    "category": "weapon",
+    "rarity": "rare",
+    "value": 430,
+    "weight": 43,
+    "description": "Description for item 42",
+    "effects": {
+      "stat": "stat_0",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0043",
+    "name": "Item 43",
+    "name_kr": "아이템 43",
+    "name_ar": "عنصر 43",
+    "category": "armor",
+    "rarity": "epic",
+    "value": 440,
+    "weight": 44,
+    "description": "Description for item 43",
+    "effects": {
+      "stat": "stat_1",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0044",
+    "name": "Item 44",
+    "name_kr": "아이템 44",
+    "name_ar": "عنصر 44",
+    "category": "accessory",
+    "rarity": "legendary",
+    "value": 450,
+    "weight": 45,
+    "description": "Description for item 44",
+    "effects": {
+      "stat": "stat_2",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0045",
+    "name": "Item 45",
+    "name_kr": "아이템 45",
+    "name_ar": "عنصر 45",
+    "category": "consumable",
+    "rarity": "common",
+    "value": 460,
+    "weight": 46,
+    "description": "Description for item 45",
+    "effects": {
+      "stat": "stat_3",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0046",
+    "name": "Item 46",
+    "name_kr": "아이템 46",
+    "name_ar": "عنصر 46",
+    "category": "material",
+    "rarity": "uncommon",
+    "value": 470,
+    "weight": 47,
+    "description": "Description for item 46",
+    "effects": {
+      "stat": "stat_4",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0047",
+    "name": "Item 47",
+    "name_kr": "아이템 47",
+    "name_ar": "عنصر 47",
+    "category": "quest",
+    "rarity": "rare",
+    "value": 480,
+    "weight": 48,
+    "description": "Description for item 47",
+    "effects": {
+      "stat": "stat_5",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0048",
+    "name": "Item 48",
+    "name_kr": "아이템 48",
+    "name_ar": "عنصر 48",
+    "category": "weapon",
+    "rarity": "epic",
+    "value": 490,
+    "weight": 49,
+    "description": "Description for item 48",
+    "effects": {
+      "stat": "stat_0",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0049",
+    "name": "Item 49",
+    "name_kr": "아이템 49",
+    "name_ar": "عنصر 49",
+    "category": "armor",
+    "rarity": "legendary",
+    "value": 500,
+    "weight": 50,
+    "description": "Description for item 49",
+    "effects": {
+      "stat": "stat_1",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0050",
+    "name": "Item 50",
+    "name_kr": "아이템 50",
+    "name_ar": "عنصر 50",
+    "category": "accessory",
+    "rarity": "common",
+    "value": 510,
+    "weight": 1,
+    "description": "Description for item 50",
+    "effects": {
+      "stat": "stat_2",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0051",
+    "name": "Item 51",
+    "name_kr": "아이템 51",
+    "name_ar": "عنصر 51",
+    "category": "consumable",
+    "rarity": "uncommon",
+    "value": 520,
+    "weight": 2,
+    "description": "Description for item 51",
+    "effects": {
+      "stat": "stat_3",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0052",
+    "name": "Item 52",
+    "name_kr": "아이템 52",
+    "name_ar": "عنصر 52",
+    "category": "material",
+    "rarity": "rare",
+    "value": 530,
+    "weight": 3,
+    "description": "Description for item 52",
+    "effects": {
+      "stat": "stat_4",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0053",
+    "name": "Item 53",
+    "name_kr": "아이템 53",
+    "name_ar": "عنصر 53",
+    "category": "quest",
+    "rarity": "epic",
+    "value": 540,
+    "weight": 4,
+    "description": "Description for item 53",
+    "effects": {
+      "stat": "stat_5",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0054",
+    "name": "Item 54",
+    "name_kr": "아이템 54",
+    "name_ar": "عنصر 54",
+    "category": "weapon",
+    "rarity": "legendary",
+    "value": 550,
+    "weight": 5,
+    "description": "Description for item 54",
+    "effects": {
+      "stat": "stat_0",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0055",
+    "name": "Item 55",
+    "name_kr": "아이템 55",
+    "name_ar": "عنصر 55",
+    "category": "armor",
+    "rarity": "common",
+    "value": 560,
+    "weight": 6,
+    "description": "Description for item 55",
+    "effects": {
+      "stat": "stat_1",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0056",
+    "name": "Item 56",
+    "name_kr": "아이템 56",
+    "name_ar": "عنصر 56",
+    "category": "accessory",
+    "rarity": "uncommon",
+    "value": 570,
+    "weight": 7,
+    "description": "Description for item 56",
+    "effects": {
+      "stat": "stat_2",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0057",
+    "name": "Item 57",
+    "name_kr": "아이템 57",
+    "name_ar": "عنصر 57",
+    "category": "consumable",
+    "rarity": "rare",
+    "value": 580,
+    "weight": 8,
+    "description": "Description for item 57",
+    "effects": {
+      "stat": "stat_3",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0058",
+    "name": "Item 58",
+    "name_kr": "아이템 58",
+    "name_ar": "عنصر 58",
+    "category": "material",
+    "rarity": "epic",
+    "value": 590,
+    "weight": 9,
+    "description": "Description for item 58",
+    "effects": {
+      "stat": "stat_4",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0059",
+    "name": "Item 59",
+    "name_kr": "아이템 59",
+    "name_ar": "عنصر 59",
+    "category": "quest",
+    "rarity": "legendary",
+    "value": 600,
+    "weight": 10,
+    "description": "Description for item 59",
+    "effects": {
+      "stat": "stat_5",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0060",
+    "name": "Item 60",
+    "name_kr": "아이템 60",
+    "name_ar": "عنصر 60",
+    "category": "weapon",
+    "rarity": "common",
+    "value": 610,
+    "weight": 11,
+    "description": "Description for item 60",
+    "effects": {
+      "stat": "stat_0",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0061",
+    "name": "Item 61",
+    "name_kr": "아이템 61",
+    "name_ar": "عنصر 61",
+    "category": "armor",
+    "rarity": "uncommon",
+    "value": 620,
+    "weight": 12,
+    "description": "Description for item 61",
+    "effects": {
+      "stat": "stat_1",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0062",
+    "name": "Item 62",
+    "name_kr": "아이템 62",
+    "name_ar": "عنصر 62",
+    "category": "accessory",
+    "rarity": "rare",
+    "value": 630,
+    "weight": 13,
+    "description": "Description for item 62",
+    "effects": {
+      "stat": "stat_2",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0063",
+    "name": "Item 63",
+    "name_kr": "아이템 63",
+    "name_ar": "عنصر 63",
+    "category": "consumable",
+    "rarity": "epic",
+    "value": 640,
+    "weight": 14,
+    "description": "Description for item 63",
+    "effects": {
+      "stat": "stat_3",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0064",
+    "name": "Item 64",
+    "name_kr": "아이템 64",
+    "name_ar": "عنصر 64",
+    "category": "material",
+    "rarity": "legendary",
+    "value": 650,
+    "weight": 15,
+    "description": "Description for item 64",
+    "effects": {
+      "stat": "stat_4",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0065",
+    "name": "Item 65",
+    "name_kr": "아이템 65",
+    "name_ar": "عنصر 65",
+    "category": "quest",
+    "rarity": "common",
+    "value": 660,
+    "weight": 16,
+    "description": "Description for item 65",
+    "effects": {
+      "stat": "stat_5",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0066",
+    "name": "Item 66",
+    "name_kr": "아이템 66",
+    "name_ar": "عنصر 66",
+    "category": "weapon",
+    "rarity": "uncommon",
+    "value": 670,
+    "weight": 17,
+    "description": "Description for item 66",
+    "effects": {
+      "stat": "stat_0",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0067",
+    "name": "Item 67",
+    "name_kr": "아이템 67",
+    "name_ar": "عنصر 67",
+    "category": "armor",
+    "rarity": "rare",
+    "value": 680,
+    "weight": 18,
+    "description": "Description for item 67",
+    "effects": {
+      "stat": "stat_1",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0068",
+    "name": "Item 68",
+    "name_kr": "아이템 68",
+    "name_ar": "عنصر 68",
+    "category": "accessory",
+    "rarity": "epic",
+    "value": 690,
+    "weight": 19,
+    "description": "Description for item 68",
+    "effects": {
+      "stat": "stat_2",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0069",
+    "name": "Item 69",
+    "name_kr": "아이템 69",
+    "name_ar": "عنصر 69",
+    "category": "consumable",
+    "rarity": "legendary",
+    "value": 700,
+    "weight": 20,
+    "description": "Description for item 69",
+    "effects": {
+      "stat": "stat_3",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0070",
+    "name": "Item 70",
+    "name_kr": "아이템 70",
+    "name_ar": "عنصر 70",
+    "category": "material",
+    "rarity": "common",
+    "value": 710,
+    "weight": 21,
+    "description": "Description for item 70",
+    "effects": {
+      "stat": "stat_4",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0071",
+    "name": "Item 71",
+    "name_kr": "아이템 71",
+    "name_ar": "عنصر 71",
+    "category": "quest",
+    "rarity": "uncommon",
+    "value": 720,
+    "weight": 22,
+    "description": "Description for item 71",
+    "effects": {
+      "stat": "stat_5",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0072",
+    "name": "Item 72",
+    "name_kr": "아이템 72",
+    "name_ar": "عنصر 72",
+    "category": "weapon",
+    "rarity": "rare",
+    "value": 730,
+    "weight": 23,
+    "description": "Description for item 72",
+    "effects": {
+      "stat": "stat_0",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0073",
+    "name": "Item 73",
+    "name_kr": "아이템 73",
+    "name_ar": "عنصر 73",
+    "category": "armor",
+    "rarity": "epic",
+    "value": 740,
+    "weight": 24,
+    "description": "Description for item 73",
+    "effects": {
+      "stat": "stat_1",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0074",
+    "name": "Item 74",
+    "name_kr": "아이템 74",
+    "name_ar": "عنصر 74",
+    "category": "accessory",
+    "rarity": "legendary",
+    "value": 750,
+    "weight": 25,
+    "description": "Description for item 74",
+    "effects": {
+      "stat": "stat_2",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0075",
+    "name": "Item 75",
+    "name_kr": "아이템 75",
+    "name_ar": "عنصر 75",
+    "category": "consumable",
+    "rarity": "common",
+    "value": 760,
+    "weight": 26,
+    "description": "Description for item 75",
+    "effects": {
+      "stat": "stat_3",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0076",
+    "name": "Item 76",
+    "name_kr": "아이템 76",
+    "name_ar": "عنصر 76",
+    "category": "material",
+    "rarity": "uncommon",
+    "value": 770,
+    "weight": 27,
+    "description": "Description for item 76",
+    "effects": {
+      "stat": "stat_4",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0077",
+    "name": "Item 77",
+    "name_kr": "아이템 77",
+    "name_ar": "عنصر 77",
+    "category": "quest",
+    "rarity": "rare",
+    "value": 780,
+    "weight": 28,
+    "description": "Description for item 77",
+    "effects": {
+      "stat": "stat_5",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0078",
+    "name": "Item 78",
+    "name_kr": "아이템 78",
+    "name_ar": "عنصر 78",
+    "category": "weapon",
+    "rarity": "epic",
+    "value": 790,
+    "weight": 29,
+    "description": "Description for item 78",
+    "effects": {
+      "stat": "stat_0",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0079",
+    "name": "Item 79",
+    "name_kr": "아이템 79",
+    "name_ar": "عنصر 79",
+    "category": "armor",
+    "rarity": "legendary",
+    "value": 800,
+    "weight": 30,
+    "description": "Description for item 79",
+    "effects": {
+      "stat": "stat_1",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0080",
+    "name": "Item 80",
+    "name_kr": "아이템 80",
+    "name_ar": "عنصر 80",
+    "category": "accessory",
+    "rarity": "common",
+    "value": 810,
+    "weight": 31,
+    "description": "Description for item 80",
+    "effects": {
+      "stat": "stat_2",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0081",
+    "name": "Item 81",
+    "name_kr": "아이템 81",
+    "name_ar": "عنصر 81",
+    "category": "consumable",
+    "rarity": "uncommon",
+    "value": 820,
+    "weight": 32,
+    "description": "Description for item 81",
+    "effects": {
+      "stat": "stat_3",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0082",
+    "name": "Item 82",
+    "name_kr": "아이템 82",
+    "name_ar": "عنصر 82",
+    "category": "material",
+    "rarity": "rare",
+    "value": 830,
+    "weight": 33,
+    "description": "Description for item 82",
+    "effects": {
+      "stat": "stat_4",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0083",
+    "name": "Item 83",
+    "name_kr": "아이템 83",
+    "name_ar": "عنصر 83",
+    "category": "quest",
+    "rarity": "epic",
+    "value": 840,
+    "weight": 34,
+    "description": "Description for item 83",
+    "effects": {
+      "stat": "stat_5",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0084",
+    "name": "Item 84",
+    "name_kr": "아이템 84",
+    "name_ar": "عنصر 84",
+    "category": "weapon",
+    "rarity": "legendary",
+    "value": 850,
+    "weight": 35,
+    "description": "Description for item 84",
+    "effects": {
+      "stat": "stat_0",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0085",
+    "name": "Item 85",
+    "name_kr": "아이템 85",
+    "name_ar": "عنصر 85",
+    "category": "armor",
+    "rarity": "common",
+    "value": 860,
+    "weight": 36,
+    "description": "Description for item 85",
+    "effects": {
+      "stat": "stat_1",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0086",
+    "name": "Item 86",
+    "name_kr": "아이템 86",
+    "name_ar": "عنصر 86",
+    "category": "accessory",
+    "rarity": "uncommon",
+    "value": 870,
+    "weight": 37,
+    "description": "Description for item 86",
+    "effects": {
+      "stat": "stat_2",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0087",
+    "name": "Item 87",
+    "name_kr": "아이템 87",
+    "name_ar": "عنصر 87",
+    "category": "consumable",
+    "rarity": "rare",
+    "value": 880,
+    "weight": 38,
+    "description": "Description for item 87",
+    "effects": {
+      "stat": "stat_3",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0088",
+    "name": "Item 88",
+    "name_kr": "아이템 88",
+    "name_ar": "عنصر 88",
+    "category": "material",
+    "rarity": "epic",
+    "value": 890,
+    "weight": 39,
+    "description": "Description for item 88",
+    "effects": {
+      "stat": "stat_4",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0089",
+    "name": "Item 89",
+    "name_kr": "아이템 89",
+    "name_ar": "عنصر 89",
+    "category": "quest",
+    "rarity": "legendary",
+    "value": 900,
+    "weight": 40,
+    "description": "Description for item 89",
+    "effects": {
+      "stat": "stat_5",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0090",
+    "name": "Item 90",
+    "name_kr": "아이템 90",
+    "name_ar": "عنصر 90",
+    "category": "weapon",
+    "rarity": "common",
+    "value": 910,
+    "weight": 41,
+    "description": "Description for item 90",
+    "effects": {
+      "stat": "stat_0",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0091",
+    "name": "Item 91",
+    "name_kr": "아이템 91",
+    "name_ar": "عنصر 91",
+    "category": "armor",
+    "rarity": "uncommon",
+    "value": 920,
+    "weight": 42,
+    "description": "Description for item 91",
+    "effects": {
+      "stat": "stat_1",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0092",
+    "name": "Item 92",
+    "name_kr": "아이템 92",
+    "name_ar": "عنصر 92",
+    "category": "accessory",
+    "rarity": "rare",
+    "value": 930,
+    "weight": 43,
+    "description": "Description for item 92",
+    "effects": {
+      "stat": "stat_2",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0093",
+    "name": "Item 93",
+    "name_kr": "아이템 93",
+    "name_ar": "عنصر 93",
+    "category": "consumable",
+    "rarity": "epic",
+    "value": 940,
+    "weight": 44,
+    "description": "Description for item 93",
+    "effects": {
+      "stat": "stat_3",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0094",
+    "name": "Item 94",
+    "name_kr": "아이템 94",
+    "name_ar": "عنصر 94",
+    "category": "material",
+    "rarity": "legendary",
+    "value": 950,
+    "weight": 45,
+    "description": "Description for item 94",
+    "effects": {
+      "stat": "stat_4",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0095",
+    "name": "Item 95",
+    "name_kr": "아이템 95",
+    "name_ar": "عنصر 95",
+    "category": "quest",
+    "rarity": "common",
+    "value": 960,
+    "weight": 46,
+    "description": "Description for item 95",
+    "effects": {
+      "stat": "stat_5",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0096",
+    "name": "Item 96",
+    "name_kr": "아이템 96",
+    "name_ar": "عنصر 96",
+    "category": "weapon",
+    "rarity": "uncommon",
+    "value": 970,
+    "weight": 47,
+    "description": "Description for item 96",
+    "effects": {
+      "stat": "stat_0",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0097",
+    "name": "Item 97",
+    "name_kr": "아이템 97",
+    "name_ar": "عنصر 97",
+    "category": "armor",
+    "rarity": "rare",
+    "value": 980,
+    "weight": 48,
+    "description": "Description for item 97",
+    "effects": {
+      "stat": "stat_1",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0098",
+    "name": "Item 98",
+    "name_kr": "아이템 98",
+    "name_ar": "عنصر 98",
+    "category": "accessory",
+    "rarity": "epic",
+    "value": 990,
+    "weight": 49,
+    "description": "Description for item 98",
+    "effects": {
+      "stat": "stat_2",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0099",
+    "name": "Item 99",
+    "name_kr": "아이템 99",
+    "name_ar": "عنصر 99",
+    "category": "consumable",
+    "rarity": "legendary",
+    "value": 1000,
+    "weight": 50,
+    "description": "Description for item 99",
+    "effects": {
+      "stat": "stat_3",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0100",
+    "name": "Item 100",
+    "name_kr": "아이템 100",
+    "name_ar": "عنصر 100",
+    "category": "material",
+    "rarity": "common",
+    "value": 1010,
+    "weight": 1,
+    "description": "Description for item 100",
+    "effects": {
+      "stat": "stat_4",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0101",
+    "name": "Item 101",
+    "name_kr": "아이템 101",
+    "name_ar": "عنصر 101",
+    "category": "quest",
+    "rarity": "uncommon",
+    "value": 1020,
+    "weight": 2,
+    "description": "Description for item 101",
+    "effects": {
+      "stat": "stat_5",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0102",
+    "name": "Item 102",
+    "name_kr": "아이템 102",
+    "name_ar": "عنصر 102",
+    "category": "weapon",
+    "rarity": "rare",
+    "value": 1030,
+    "weight": 3,
+    "description": "Description for item 102",
+    "effects": {
+      "stat": "stat_0",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0103",
+    "name": "Item 103",
+    "name_kr": "아이템 103",
+    "name_ar": "عنصر 103",
+    "category": "armor",
+    "rarity": "epic",
+    "value": 1040,
+    "weight": 4,
+    "description": "Description for item 103",
+    "effects": {
+      "stat": "stat_1",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0104",
+    "name": "Item 104",
+    "name_kr": "아이템 104",
+    "name_ar": "عنصر 104",
+    "category": "accessory",
+    "rarity": "legendary",
+    "value": 1050,
+    "weight": 5,
+    "description": "Description for item 104",
+    "effects": {
+      "stat": "stat_2",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0105",
+    "name": "Item 105",
+    "name_kr": "아이템 105",
+    "name_ar": "عنصر 105",
+    "category": "consumable",
+    "rarity": "common",
+    "value": 1060,
+    "weight": 6,
+    "description": "Description for item 105",
+    "effects": {
+      "stat": "stat_3",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0106",
+    "name": "Item 106",
+    "name_kr": "아이템 106",
+    "name_ar": "عنصر 106",
+    "category": "material",
+    "rarity": "uncommon",
+    "value": 1070,
+    "weight": 7,
+    "description": "Description for item 106",
+    "effects": {
+      "stat": "stat_4",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0107",
+    "name": "Item 107",
+    "name_kr": "아이템 107",
+    "name_ar": "عنصر 107",
+    "category": "quest",
+    "rarity": "rare",
+    "value": 1080,
+    "weight": 8,
+    "description": "Description for item 107",
+    "effects": {
+      "stat": "stat_5",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0108",
+    "name": "Item 108",
+    "name_kr": "아이템 108",
+    "name_ar": "عنصر 108",
+    "category": "weapon",
+    "rarity": "epic",
+    "value": 1090,
+    "weight": 9,
+    "description": "Description for item 108",
+    "effects": {
+      "stat": "stat_0",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0109",
+    "name": "Item 109",
+    "name_kr": "아이템 109",
+    "name_ar": "عنصر 109",
+    "category": "armor",
+    "rarity": "legendary",
+    "value": 1100,
+    "weight": 10,
+    "description": "Description for item 109",
+    "effects": {
+      "stat": "stat_1",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0110",
+    "name": "Item 110",
+    "name_kr": "아이템 110",
+    "name_ar": "عنصر 110",
+    "category": "accessory",
+    "rarity": "common",
+    "value": 1110,
+    "weight": 11,
+    "description": "Description for item 110",
+    "effects": {
+      "stat": "stat_2",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0111",
+    "name": "Item 111",
+    "name_kr": "아이템 111",
+    "name_ar": "عنصر 111",
+    "category": "consumable",
+    "rarity": "uncommon",
+    "value": 1120,
+    "weight": 12,
+    "description": "Description for item 111",
+    "effects": {
+      "stat": "stat_3",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0112",
+    "name": "Item 112",
+    "name_kr": "아이템 112",
+    "name_ar": "عنصر 112",
+    "category": "material",
+    "rarity": "rare",
+    "value": 1130,
+    "weight": 13,
+    "description": "Description for item 112",
+    "effects": {
+      "stat": "stat_4",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0113",
+    "name": "Item 113",
+    "name_kr": "아이템 113",
+    "name_ar": "عنصر 113",
+    "category": "quest",
+    "rarity": "epic",
+    "value": 1140,
+    "weight": 14,
+    "description": "Description for item 113",
+    "effects": {
+      "stat": "stat_5",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0114",
+    "name": "Item 114",
+    "name_kr": "아이템 114",
+    "name_ar": "عنصر 114",
+    "category": "weapon",
+    "rarity": "legendary",
+    "value": 1150,
+    "weight": 15,
+    "description": "Description for item 114",
+    "effects": {
+      "stat": "stat_0",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0115",
+    "name": "Item 115",
+    "name_kr": "아이템 115",
+    "name_ar": "عنصر 115",
+    "category": "armor",
+    "rarity": "common",
+    "value": 1160,
+    "weight": 16,
+    "description": "Description for item 115",
+    "effects": {
+      "stat": "stat_1",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0116",
+    "name": "Item 116",
+    "name_kr": "아이템 116",
+    "name_ar": "عنصر 116",
+    "category": "accessory",
+    "rarity": "uncommon",
+    "value": 1170,
+    "weight": 17,
+    "description": "Description for item 116",
+    "effects": {
+      "stat": "stat_2",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0117",
+    "name": "Item 117",
+    "name_kr": "아이템 117",
+    "name_ar": "عنصر 117",
+    "category": "consumable",
+    "rarity": "rare",
+    "value": 1180,
+    "weight": 18,
+    "description": "Description for item 117",
+    "effects": {
+      "stat": "stat_3",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0118",
+    "name": "Item 118",
+    "name_kr": "아이템 118",
+    "name_ar": "عنصر 118",
+    "category": "material",
+    "rarity": "epic",
+    "value": 1190,
+    "weight": 19,
+    "description": "Description for item 118",
+    "effects": {
+      "stat": "stat_4",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0119",
+    "name": "Item 119",
+    "name_kr": "아이템 119",
+    "name_ar": "عنصر 119",
+    "category": "quest",
+    "rarity": "legendary",
+    "value": 1200,
+    "weight": 20,
+    "description": "Description for item 119",
+    "effects": {
+      "stat": "stat_5",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0120",
+    "name": "Item 120",
+    "name_kr": "아이템 120",
+    "name_ar": "عنصر 120",
+    "category": "weapon",
+    "rarity": "common",
+    "value": 1210,
+    "weight": 21,
+    "description": "Description for item 120",
+    "effects": {
+      "stat": "stat_0",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0121",
+    "name": "Item 121",
+    "name_kr": "아이템 121",
+    "name_ar": "عنصر 121",
+    "category": "armor",
+    "rarity": "uncommon",
+    "value": 1220,
+    "weight": 22,
+    "description": "Description for item 121",
+    "effects": {
+      "stat": "stat_1",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0122",
+    "name": "Item 122",
+    "name_kr": "아이템 122",
+    "name_ar": "عنصر 122",
+    "category": "accessory",
+    "rarity": "rare",
+    "value": 1230,
+    "weight": 23,
+    "description": "Description for item 122",
+    "effects": {
+      "stat": "stat_2",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0123",
+    "name": "Item 123",
+    "name_kr": "아이템 123",
+    "name_ar": "عنصر 123",
+    "category": "consumable",
+    "rarity": "epic",
+    "value": 1240,
+    "weight": 24,
+    "description": "Description for item 123",
+    "effects": {
+      "stat": "stat_3",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0124",
+    "name": "Item 124",
+    "name_kr": "아이템 124",
+    "name_ar": "عنصر 124",
+    "category": "material",
+    "rarity": "legendary",
+    "value": 1250,
+    "weight": 25,
+    "description": "Description for item 124",
+    "effects": {
+      "stat": "stat_4",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0125",
+    "name": "Item 125",
+    "name_kr": "아이템 125",
+    "name_ar": "عنصر 125",
+    "category": "quest",
+    "rarity": "common",
+    "value": 1260,
+    "weight": 26,
+    "description": "Description for item 125",
+    "effects": {
+      "stat": "stat_5",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0126",
+    "name": "Item 126",
+    "name_kr": "아이템 126",
+    "name_ar": "عنصر 126",
+    "category": "weapon",
+    "rarity": "uncommon",
+    "value": 1270,
+    "weight": 27,
+    "description": "Description for item 126",
+    "effects": {
+      "stat": "stat_0",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0127",
+    "name": "Item 127",
+    "name_kr": "아이템 127",
+    "name_ar": "عنصر 127",
+    "category": "armor",
+    "rarity": "rare",
+    "value": 1280,
+    "weight": 28,
+    "description": "Description for item 127",
+    "effects": {
+      "stat": "stat_1",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0128",
+    "name": "Item 128",
+    "name_kr": "아이템 128",
+    "name_ar": "عنصر 128",
+    "category": "accessory",
+    "rarity": "epic",
+    "value": 1290,
+    "weight": 29,
+    "description": "Description for item 128",
+    "effects": {
+      "stat": "stat_2",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0129",
+    "name": "Item 129",
+    "name_kr": "아이템 129",
+    "name_ar": "عنصر 129",
+    "category": "consumable",
+    "rarity": "legendary",
+    "value": 1300,
+    "weight": 30,
+    "description": "Description for item 129",
+    "effects": {
+      "stat": "stat_3",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0130",
+    "name": "Item 130",
+    "name_kr": "아이템 130",
+    "name_ar": "عنصر 130",
+    "category": "material",
+    "rarity": "common",
+    "value": 1310,
+    "weight": 31,
+    "description": "Description for item 130",
+    "effects": {
+      "stat": "stat_4",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0131",
+    "name": "Item 131",
+    "name_kr": "아이템 131",
+    "name_ar": "عنصر 131",
+    "category": "quest",
+    "rarity": "uncommon",
+    "value": 1320,
+    "weight": 32,
+    "description": "Description for item 131",
+    "effects": {
+      "stat": "stat_5",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0132",
+    "name": "Item 132",
+    "name_kr": "아이템 132",
+    "name_ar": "عنصر 132",
+    "category": "weapon",
+    "rarity": "rare",
+    "value": 1330,
+    "weight": 33,
+    "description": "Description for item 132",
+    "effects": {
+      "stat": "stat_0",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0133",
+    "name": "Item 133",
+    "name_kr": "아이템 133",
+    "name_ar": "عنصر 133",
+    "category": "armor",
+    "rarity": "epic",
+    "value": 1340,
+    "weight": 34,
+    "description": "Description for item 133",
+    "effects": {
+      "stat": "stat_1",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0134",
+    "name": "Item 134",
+    "name_kr": "아이템 134",
+    "name_ar": "عنصر 134",
+    "category": "accessory",
+    "rarity": "legendary",
+    "value": 1350,
+    "weight": 35,
+    "description": "Description for item 134",
+    "effects": {
+      "stat": "stat_2",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0135",
+    "name": "Item 135",
+    "name_kr": "아이템 135",
+    "name_ar": "عنصر 135",
+    "category": "consumable",
+    "rarity": "common",
+    "value": 1360,
+    "weight": 36,
+    "description": "Description for item 135",
+    "effects": {
+      "stat": "stat_3",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0136",
+    "name": "Item 136",
+    "name_kr": "아이템 136",
+    "name_ar": "عنصر 136",
+    "category": "material",
+    "rarity": "uncommon",
+    "value": 1370,
+    "weight": 37,
+    "description": "Description for item 136",
+    "effects": {
+      "stat": "stat_4",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0137",
+    "name": "Item 137",
+    "name_kr": "아이템 137",
+    "name_ar": "عنصر 137",
+    "category": "quest",
+    "rarity": "rare",
+    "value": 1380,
+    "weight": 38,
+    "description": "Description for item 137",
+    "effects": {
+      "stat": "stat_5",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0138",
+    "name": "Item 138",
+    "name_kr": "아이템 138",
+    "name_ar": "عنصر 138",
+    "category": "weapon",
+    "rarity": "epic",
+    "value": 1390,
+    "weight": 39,
+    "description": "Description for item 138",
+    "effects": {
+      "stat": "stat_0",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0139",
+    "name": "Item 139",
+    "name_kr": "아이템 139",
+    "name_ar": "عنصر 139",
+    "category": "armor",
+    "rarity": "legendary",
+    "value": 1400,
+    "weight": 40,
+    "description": "Description for item 139",
+    "effects": {
+      "stat": "stat_1",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0140",
+    "name": "Item 140",
+    "name_kr": "아이템 140",
+    "name_ar": "عنصر 140",
+    "category": "accessory",
+    "rarity": "common",
+    "value": 1410,
+    "weight": 41,
+    "description": "Description for item 140",
+    "effects": {
+      "stat": "stat_2",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0141",
+    "name": "Item 141",
+    "name_kr": "아이템 141",
+    "name_ar": "عنصر 141",
+    "category": "consumable",
+    "rarity": "uncommon",
+    "value": 1420,
+    "weight": 42,
+    "description": "Description for item 141",
+    "effects": {
+      "stat": "stat_3",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0142",
+    "name": "Item 142",
+    "name_kr": "아이템 142",
+    "name_ar": "عنصر 142",
+    "category": "material",
+    "rarity": "rare",
+    "value": 1430,
+    "weight": 43,
+    "description": "Description for item 142",
+    "effects": {
+      "stat": "stat_4",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0143",
+    "name": "Item 143",
+    "name_kr": "아이템 143",
+    "name_ar": "عنصر 143",
+    "category": "quest",
+    "rarity": "epic",
+    "value": 1440,
+    "weight": 44,
+    "description": "Description for item 143",
+    "effects": {
+      "stat": "stat_5",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0144",
+    "name": "Item 144",
+    "name_kr": "아이템 144",
+    "name_ar": "عنصر 144",
+    "category": "weapon",
+    "rarity": "legendary",
+    "value": 1450,
+    "weight": 45,
+    "description": "Description for item 144",
+    "effects": {
+      "stat": "stat_0",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0145",
+    "name": "Item 145",
+    "name_kr": "아이템 145",
+    "name_ar": "عنصر 145",
+    "category": "armor",
+    "rarity": "common",
+    "value": 1460,
+    "weight": 46,
+    "description": "Description for item 145",
+    "effects": {
+      "stat": "stat_1",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0146",
+    "name": "Item 146",
+    "name_kr": "아이템 146",
+    "name_ar": "عنصر 146",
+    "category": "accessory",
+    "rarity": "uncommon",
+    "value": 1470,
+    "weight": 47,
+    "description": "Description for item 146",
+    "effects": {
+      "stat": "stat_2",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0147",
+    "name": "Item 147",
+    "name_kr": "아이템 147",
+    "name_ar": "عنصر 147",
+    "category": "consumable",
+    "rarity": "rare",
+    "value": 1480,
+    "weight": 48,
+    "description": "Description for item 147",
+    "effects": {
+      "stat": "stat_3",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0148",
+    "name": "Item 148",
+    "name_kr": "아이템 148",
+    "name_ar": "عنصر 148",
+    "category": "material",
+    "rarity": "epic",
+    "value": 1490,
+    "weight": 49,
+    "description": "Description for item 148",
+    "effects": {
+      "stat": "stat_4",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0149",
+    "name": "Item 149",
+    "name_kr": "아이템 149",
+    "name_ar": "عنصر 149",
+    "category": "quest",
+    "rarity": "legendary",
+    "value": 1500,
+    "weight": 50,
+    "description": "Description for item 149",
+    "effects": {
+      "stat": "stat_5",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0150",
+    "name": "Item 150",
+    "name_kr": "아이템 150",
+    "name_ar": "عنصر 150",
+    "category": "weapon",
+    "rarity": "common",
+    "value": 1510,
+    "weight": 1,
+    "description": "Description for item 150",
+    "effects": {
+      "stat": "stat_0",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0151",
+    "name": "Item 151",
+    "name_kr": "아이템 151",
+    "name_ar": "عنصر 151",
+    "category": "armor",
+    "rarity": "uncommon",
+    "value": 1520,
+    "weight": 2,
+    "description": "Description for item 151",
+    "effects": {
+      "stat": "stat_1",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0152",
+    "name": "Item 152",
+    "name_kr": "아이템 152",
+    "name_ar": "عنصر 152",
+    "category": "accessory",
+    "rarity": "rare",
+    "value": 1530,
+    "weight": 3,
+    "description": "Description for item 152",
+    "effects": {
+      "stat": "stat_2",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0153",
+    "name": "Item 153",
+    "name_kr": "아이템 153",
+    "name_ar": "عنصر 153",
+    "category": "consumable",
+    "rarity": "epic",
+    "value": 1540,
+    "weight": 4,
+    "description": "Description for item 153",
+    "effects": {
+      "stat": "stat_3",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0154",
+    "name": "Item 154",
+    "name_kr": "아이템 154",
+    "name_ar": "عنصر 154",
+    "category": "material",
+    "rarity": "legendary",
+    "value": 1550,
+    "weight": 5,
+    "description": "Description for item 154",
+    "effects": {
+      "stat": "stat_4",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0155",
+    "name": "Item 155",
+    "name_kr": "아이템 155",
+    "name_ar": "عنصر 155",
+    "category": "quest",
+    "rarity": "common",
+    "value": 1560,
+    "weight": 6,
+    "description": "Description for item 155",
+    "effects": {
+      "stat": "stat_5",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0156",
+    "name": "Item 156",
+    "name_kr": "아이템 156",
+    "name_ar": "عنصر 156",
+    "category": "weapon",
+    "rarity": "uncommon",
+    "value": 1570,
+    "weight": 7,
+    "description": "Description for item 156",
+    "effects": {
+      "stat": "stat_0",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0157",
+    "name": "Item 157",
+    "name_kr": "아이템 157",
+    "name_ar": "عنصر 157",
+    "category": "armor",
+    "rarity": "rare",
+    "value": 1580,
+    "weight": 8,
+    "description": "Description for item 157",
+    "effects": {
+      "stat": "stat_1",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0158",
+    "name": "Item 158",
+    "name_kr": "아이템 158",
+    "name_ar": "عنصر 158",
+    "category": "accessory",
+    "rarity": "epic",
+    "value": 1590,
+    "weight": 9,
+    "description": "Description for item 158",
+    "effects": {
+      "stat": "stat_2",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0159",
+    "name": "Item 159",
+    "name_kr": "아이템 159",
+    "name_ar": "عنصر 159",
+    "category": "consumable",
+    "rarity": "legendary",
+    "value": 1600,
+    "weight": 10,
+    "description": "Description for item 159",
+    "effects": {
+      "stat": "stat_3",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0160",
+    "name": "Item 160",
+    "name_kr": "아이템 160",
+    "name_ar": "عنصر 160",
+    "category": "material",
+    "rarity": "common",
+    "value": 1610,
+    "weight": 11,
+    "description": "Description for item 160",
+    "effects": {
+      "stat": "stat_4",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0161",
+    "name": "Item 161",
+    "name_kr": "아이템 161",
+    "name_ar": "عنصر 161",
+    "category": "quest",
+    "rarity": "uncommon",
+    "value": 1620,
+    "weight": 12,
+    "description": "Description for item 161",
+    "effects": {
+      "stat": "stat_5",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0162",
+    "name": "Item 162",
+    "name_kr": "아이템 162",
+    "name_ar": "عنصر 162",
+    "category": "weapon",
+    "rarity": "rare",
+    "value": 1630,
+    "weight": 13,
+    "description": "Description for item 162",
+    "effects": {
+      "stat": "stat_0",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0163",
+    "name": "Item 163",
+    "name_kr": "아이템 163",
+    "name_ar": "عنصر 163",
+    "category": "armor",
+    "rarity": "epic",
+    "value": 1640,
+    "weight": 14,
+    "description": "Description for item 163",
+    "effects": {
+      "stat": "stat_1",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0164",
+    "name": "Item 164",
+    "name_kr": "아이템 164",
+    "name_ar": "عنصر 164",
+    "category": "accessory",
+    "rarity": "legendary",
+    "value": 1650,
+    "weight": 15,
+    "description": "Description for item 164",
+    "effects": {
+      "stat": "stat_2",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0165",
+    "name": "Item 165",
+    "name_kr": "아이템 165",
+    "name_ar": "عنصر 165",
+    "category": "consumable",
+    "rarity": "common",
+    "value": 1660,
+    "weight": 16,
+    "description": "Description for item 165",
+    "effects": {
+      "stat": "stat_3",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0166",
+    "name": "Item 166",
+    "name_kr": "아이템 166",
+    "name_ar": "عنصر 166",
+    "category": "material",
+    "rarity": "uncommon",
+    "value": 1670,
+    "weight": 17,
+    "description": "Description for item 166",
+    "effects": {
+      "stat": "stat_4",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0167",
+    "name": "Item 167",
+    "name_kr": "아이템 167",
+    "name_ar": "عنصر 167",
+    "category": "quest",
+    "rarity": "rare",
+    "value": 1680,
+    "weight": 18,
+    "description": "Description for item 167",
+    "effects": {
+      "stat": "stat_5",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0168",
+    "name": "Item 168",
+    "name_kr": "아이템 168",
+    "name_ar": "عنصر 168",
+    "category": "weapon",
+    "rarity": "epic",
+    "value": 1690,
+    "weight": 19,
+    "description": "Description for item 168",
+    "effects": {
+      "stat": "stat_0",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0169",
+    "name": "Item 169",
+    "name_kr": "아이템 169",
+    "name_ar": "عنصر 169",
+    "category": "armor",
+    "rarity": "legendary",
+    "value": 1700,
+    "weight": 20,
+    "description": "Description for item 169",
+    "effects": {
+      "stat": "stat_1",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0170",
+    "name": "Item 170",
+    "name_kr": "아이템 170",
+    "name_ar": "عنصر 170",
+    "category": "accessory",
+    "rarity": "common",
+    "value": 1710,
+    "weight": 21,
+    "description": "Description for item 170",
+    "effects": {
+      "stat": "stat_2",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0171",
+    "name": "Item 171",
+    "name_kr": "아이템 171",
+    "name_ar": "عنصر 171",
+    "category": "consumable",
+    "rarity": "uncommon",
+    "value": 1720,
+    "weight": 22,
+    "description": "Description for item 171",
+    "effects": {
+      "stat": "stat_3",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0172",
+    "name": "Item 172",
+    "name_kr": "아이템 172",
+    "name_ar": "عنصر 172",
+    "category": "material",
+    "rarity": "rare",
+    "value": 1730,
+    "weight": 23,
+    "description": "Description for item 172",
+    "effects": {
+      "stat": "stat_4",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0173",
+    "name": "Item 173",
+    "name_kr": "아이템 173",
+    "name_ar": "عنصر 173",
+    "category": "quest",
+    "rarity": "epic",
+    "value": 1740,
+    "weight": 24,
+    "description": "Description for item 173",
+    "effects": {
+      "stat": "stat_5",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0174",
+    "name": "Item 174",
+    "name_kr": "아이템 174",
+    "name_ar": "عنصر 174",
+    "category": "weapon",
+    "rarity": "legendary",
+    "value": 1750,
+    "weight": 25,
+    "description": "Description for item 174",
+    "effects": {
+      "stat": "stat_0",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0175",
+    "name": "Item 175",
+    "name_kr": "아이템 175",
+    "name_ar": "عنصر 175",
+    "category": "armor",
+    "rarity": "common",
+    "value": 1760,
+    "weight": 26,
+    "description": "Description for item 175",
+    "effects": {
+      "stat": "stat_1",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0176",
+    "name": "Item 176",
+    "name_kr": "아이템 176",
+    "name_ar": "عنصر 176",
+    "category": "accessory",
+    "rarity": "uncommon",
+    "value": 1770,
+    "weight": 27,
+    "description": "Description for item 176",
+    "effects": {
+      "stat": "stat_2",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0177",
+    "name": "Item 177",
+    "name_kr": "아이템 177",
+    "name_ar": "عنصر 177",
+    "category": "consumable",
+    "rarity": "rare",
+    "value": 1780,
+    "weight": 28,
+    "description": "Description for item 177",
+    "effects": {
+      "stat": "stat_3",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0178",
+    "name": "Item 178",
+    "name_kr": "아이템 178",
+    "name_ar": "عنصر 178",
+    "category": "material",
+    "rarity": "epic",
+    "value": 1790,
+    "weight": 29,
+    "description": "Description for item 178",
+    "effects": {
+      "stat": "stat_4",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0179",
+    "name": "Item 179",
+    "name_kr": "아이템 179",
+    "name_ar": "عنصر 179",
+    "category": "quest",
+    "rarity": "legendary",
+    "value": 1800,
+    "weight": 30,
+    "description": "Description for item 179",
+    "effects": {
+      "stat": "stat_5",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0180",
+    "name": "Item 180",
+    "name_kr": "아이템 180",
+    "name_ar": "عنصر 180",
+    "category": "weapon",
+    "rarity": "common",
+    "value": 1810,
+    "weight": 31,
+    "description": "Description for item 180",
+    "effects": {
+      "stat": "stat_0",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0181",
+    "name": "Item 181",
+    "name_kr": "아이템 181",
+    "name_ar": "عنصر 181",
+    "category": "armor",
+    "rarity": "uncommon",
+    "value": 1820,
+    "weight": 32,
+    "description": "Description for item 181",
+    "effects": {
+      "stat": "stat_1",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0182",
+    "name": "Item 182",
+    "name_kr": "아이템 182",
+    "name_ar": "عنصر 182",
+    "category": "accessory",
+    "rarity": "rare",
+    "value": 1830,
+    "weight": 33,
+    "description": "Description for item 182",
+    "effects": {
+      "stat": "stat_2",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0183",
+    "name": "Item 183",
+    "name_kr": "아이템 183",
+    "name_ar": "عنصر 183",
+    "category": "consumable",
+    "rarity": "epic",
+    "value": 1840,
+    "weight": 34,
+    "description": "Description for item 183",
+    "effects": {
+      "stat": "stat_3",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0184",
+    "name": "Item 184",
+    "name_kr": "아이템 184",
+    "name_ar": "عنصر 184",
+    "category": "material",
+    "rarity": "legendary",
+    "value": 1850,
+    "weight": 35,
+    "description": "Description for item 184",
+    "effects": {
+      "stat": "stat_4",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0185",
+    "name": "Item 185",
+    "name_kr": "아이템 185",
+    "name_ar": "عنصر 185",
+    "category": "quest",
+    "rarity": "common",
+    "value": 1860,
+    "weight": 36,
+    "description": "Description for item 185",
+    "effects": {
+      "stat": "stat_5",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0186",
+    "name": "Item 186",
+    "name_kr": "아이템 186",
+    "name_ar": "عنصر 186",
+    "category": "weapon",
+    "rarity": "uncommon",
+    "value": 1870,
+    "weight": 37,
+    "description": "Description for item 186",
+    "effects": {
+      "stat": "stat_0",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0187",
+    "name": "Item 187",
+    "name_kr": "아이템 187",
+    "name_ar": "عنصر 187",
+    "category": "armor",
+    "rarity": "rare",
+    "value": 1880,
+    "weight": 38,
+    "description": "Description for item 187",
+    "effects": {
+      "stat": "stat_1",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0188",
+    "name": "Item 188",
+    "name_kr": "아이템 188",
+    "name_ar": "عنصر 188",
+    "category": "accessory",
+    "rarity": "epic",
+    "value": 1890,
+    "weight": 39,
+    "description": "Description for item 188",
+    "effects": {
+      "stat": "stat_2",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0189",
+    "name": "Item 189",
+    "name_kr": "아이템 189",
+    "name_ar": "عنصر 189",
+    "category": "consumable",
+    "rarity": "legendary",
+    "value": 1900,
+    "weight": 40,
+    "description": "Description for item 189",
+    "effects": {
+      "stat": "stat_3",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0190",
+    "name": "Item 190",
+    "name_kr": "아이템 190",
+    "name_ar": "عنصر 190",
+    "category": "material",
+    "rarity": "common",
+    "value": 1910,
+    "weight": 41,
+    "description": "Description for item 190",
+    "effects": {
+      "stat": "stat_4",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0191",
+    "name": "Item 191",
+    "name_kr": "아이템 191",
+    "name_ar": "عنصر 191",
+    "category": "quest",
+    "rarity": "uncommon",
+    "value": 1920,
+    "weight": 42,
+    "description": "Description for item 191",
+    "effects": {
+      "stat": "stat_5",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0192",
+    "name": "Item 192",
+    "name_kr": "아이템 192",
+    "name_ar": "عنصر 192",
+    "category": "weapon",
+    "rarity": "rare",
+    "value": 1930,
+    "weight": 43,
+    "description": "Description for item 192",
+    "effects": {
+      "stat": "stat_0",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0193",
+    "name": "Item 193",
+    "name_kr": "아이템 193",
+    "name_ar": "عنصر 193",
+    "category": "armor",
+    "rarity": "epic",
+    "value": 1940,
+    "weight": 44,
+    "description": "Description for item 193",
+    "effects": {
+      "stat": "stat_1",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0194",
+    "name": "Item 194",
+    "name_kr": "아이템 194",
+    "name_ar": "عنصر 194",
+    "category": "accessory",
+    "rarity": "legendary",
+    "value": 1950,
+    "weight": 45,
+    "description": "Description for item 194",
+    "effects": {
+      "stat": "stat_2",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0195",
+    "name": "Item 195",
+    "name_kr": "아이템 195",
+    "name_ar": "عنصر 195",
+    "category": "consumable",
+    "rarity": "common",
+    "value": 1960,
+    "weight": 46,
+    "description": "Description for item 195",
+    "effects": {
+      "stat": "stat_3",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0196",
+    "name": "Item 196",
+    "name_kr": "아이템 196",
+    "name_ar": "عنصر 196",
+    "category": "material",
+    "rarity": "uncommon",
+    "value": 1970,
+    "weight": 47,
+    "description": "Description for item 196",
+    "effects": {
+      "stat": "stat_4",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0197",
+    "name": "Item 197",
+    "name_kr": "아이템 197",
+    "name_ar": "عنصر 197",
+    "category": "quest",
+    "rarity": "rare",
+    "value": 1980,
+    "weight": 48,
+    "description": "Description for item 197",
+    "effects": {
+      "stat": "stat_5",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0198",
+    "name": "Item 198",
+    "name_kr": "아이템 198",
+    "name_ar": "عنصر 198",
+    "category": "weapon",
+    "rarity": "epic",
+    "value": 1990,
+    "weight": 49,
+    "description": "Description for item 198",
+    "effects": {
+      "stat": "stat_0",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0199",
+    "name": "Item 199",
+    "name_kr": "아이템 199",
+    "name_ar": "عنصر 199",
+    "category": "armor",
+    "rarity": "legendary",
+    "value": 2000,
+    "weight": 50,
+    "description": "Description for item 199",
+    "effects": {
+      "stat": "stat_1",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0200",
+    "name": "Item 200",
+    "name_kr": "아이템 200",
+    "name_ar": "عنصر 200",
+    "category": "accessory",
+    "rarity": "common",
+    "value": 2010,
+    "weight": 1,
+    "description": "Description for item 200",
+    "effects": {
+      "stat": "stat_2",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0201",
+    "name": "Item 201",
+    "name_kr": "아이템 201",
+    "name_ar": "عنصر 201",
+    "category": "consumable",
+    "rarity": "uncommon",
+    "value": 2020,
+    "weight": 2,
+    "description": "Description for item 201",
+    "effects": {
+      "stat": "stat_3",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0202",
+    "name": "Item 202",
+    "name_kr": "아이템 202",
+    "name_ar": "عنصر 202",
+    "category": "material",
+    "rarity": "rare",
+    "value": 2030,
+    "weight": 3,
+    "description": "Description for item 202",
+    "effects": {
+      "stat": "stat_4",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0203",
+    "name": "Item 203",
+    "name_kr": "아이템 203",
+    "name_ar": "عنصر 203",
+    "category": "quest",
+    "rarity": "epic",
+    "value": 2040,
+    "weight": 4,
+    "description": "Description for item 203",
+    "effects": {
+      "stat": "stat_5",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0204",
+    "name": "Item 204",
+    "name_kr": "아이템 204",
+    "name_ar": "عنصر 204",
+    "category": "weapon",
+    "rarity": "legendary",
+    "value": 2050,
+    "weight": 5,
+    "description": "Description for item 204",
+    "effects": {
+      "stat": "stat_0",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0205",
+    "name": "Item 205",
+    "name_kr": "아이템 205",
+    "name_ar": "عنصر 205",
+    "category": "armor",
+    "rarity": "common",
+    "value": 2060,
+    "weight": 6,
+    "description": "Description for item 205",
+    "effects": {
+      "stat": "stat_1",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0206",
+    "name": "Item 206",
+    "name_kr": "아이템 206",
+    "name_ar": "عنصر 206",
+    "category": "accessory",
+    "rarity": "uncommon",
+    "value": 2070,
+    "weight": 7,
+    "description": "Description for item 206",
+    "effects": {
+      "stat": "stat_2",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0207",
+    "name": "Item 207",
+    "name_kr": "아이템 207",
+    "name_ar": "عنصر 207",
+    "category": "consumable",
+    "rarity": "rare",
+    "value": 2080,
+    "weight": 8,
+    "description": "Description for item 207",
+    "effects": {
+      "stat": "stat_3",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0208",
+    "name": "Item 208",
+    "name_kr": "아이템 208",
+    "name_ar": "عنصر 208",
+    "category": "material",
+    "rarity": "epic",
+    "value": 2090,
+    "weight": 9,
+    "description": "Description for item 208",
+    "effects": {
+      "stat": "stat_4",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0209",
+    "name": "Item 209",
+    "name_kr": "아이템 209",
+    "name_ar": "عنصر 209",
+    "category": "quest",
+    "rarity": "legendary",
+    "value": 2100,
+    "weight": 10,
+    "description": "Description for item 209",
+    "effects": {
+      "stat": "stat_5",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0210",
+    "name": "Item 210",
+    "name_kr": "아이템 210",
+    "name_ar": "عنصر 210",
+    "category": "weapon",
+    "rarity": "common",
+    "value": 2110,
+    "weight": 11,
+    "description": "Description for item 210",
+    "effects": {
+      "stat": "stat_0",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0211",
+    "name": "Item 211",
+    "name_kr": "아이템 211",
+    "name_ar": "عنصر 211",
+    "category": "armor",
+    "rarity": "uncommon",
+    "value": 2120,
+    "weight": 12,
+    "description": "Description for item 211",
+    "effects": {
+      "stat": "stat_1",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0212",
+    "name": "Item 212",
+    "name_kr": "아이템 212",
+    "name_ar": "عنصر 212",
+    "category": "accessory",
+    "rarity": "rare",
+    "value": 2130,
+    "weight": 13,
+    "description": "Description for item 212",
+    "effects": {
+      "stat": "stat_2",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0213",
+    "name": "Item 213",
+    "name_kr": "아이템 213",
+    "name_ar": "عنصر 213",
+    "category": "consumable",
+    "rarity": "epic",
+    "value": 2140,
+    "weight": 14,
+    "description": "Description for item 213",
+    "effects": {
+      "stat": "stat_3",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0214",
+    "name": "Item 214",
+    "name_kr": "아이템 214",
+    "name_ar": "عنصر 214",
+    "category": "material",
+    "rarity": "legendary",
+    "value": 2150,
+    "weight": 15,
+    "description": "Description for item 214",
+    "effects": {
+      "stat": "stat_4",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0215",
+    "name": "Item 215",
+    "name_kr": "아이템 215",
+    "name_ar": "عنصر 215",
+    "category": "quest",
+    "rarity": "common",
+    "value": 2160,
+    "weight": 16,
+    "description": "Description for item 215",
+    "effects": {
+      "stat": "stat_5",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0216",
+    "name": "Item 216",
+    "name_kr": "아이템 216",
+    "name_ar": "عنصر 216",
+    "category": "weapon",
+    "rarity": "uncommon",
+    "value": 2170,
+    "weight": 17,
+    "description": "Description for item 216",
+    "effects": {
+      "stat": "stat_0",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0217",
+    "name": "Item 217",
+    "name_kr": "아이템 217",
+    "name_ar": "عنصر 217",
+    "category": "armor",
+    "rarity": "rare",
+    "value": 2180,
+    "weight": 18,
+    "description": "Description for item 217",
+    "effects": {
+      "stat": "stat_1",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0218",
+    "name": "Item 218",
+    "name_kr": "아이템 218",
+    "name_ar": "عنصر 218",
+    "category": "accessory",
+    "rarity": "epic",
+    "value": 2190,
+    "weight": 19,
+    "description": "Description for item 218",
+    "effects": {
+      "stat": "stat_2",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0219",
+    "name": "Item 219",
+    "name_kr": "아이템 219",
+    "name_ar": "عنصر 219",
+    "category": "consumable",
+    "rarity": "legendary",
+    "value": 2200,
+    "weight": 20,
+    "description": "Description for item 219",
+    "effects": {
+      "stat": "stat_3",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0220",
+    "name": "Item 220",
+    "name_kr": "아이템 220",
+    "name_ar": "عنصر 220",
+    "category": "material",
+    "rarity": "common",
+    "value": 2210,
+    "weight": 21,
+    "description": "Description for item 220",
+    "effects": {
+      "stat": "stat_4",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0221",
+    "name": "Item 221",
+    "name_kr": "아이템 221",
+    "name_ar": "عنصر 221",
+    "category": "quest",
+    "rarity": "uncommon",
+    "value": 2220,
+    "weight": 22,
+    "description": "Description for item 221",
+    "effects": {
+      "stat": "stat_5",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0222",
+    "name": "Item 222",
+    "name_kr": "아이템 222",
+    "name_ar": "عنصر 222",
+    "category": "weapon",
+    "rarity": "rare",
+    "value": 2230,
+    "weight": 23,
+    "description": "Description for item 222",
+    "effects": {
+      "stat": "stat_0",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0223",
+    "name": "Item 223",
+    "name_kr": "아이템 223",
+    "name_ar": "عنصر 223",
+    "category": "armor",
+    "rarity": "epic",
+    "value": 2240,
+    "weight": 24,
+    "description": "Description for item 223",
+    "effects": {
+      "stat": "stat_1",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0224",
+    "name": "Item 224",
+    "name_kr": "아이템 224",
+    "name_ar": "عنصر 224",
+    "category": "accessory",
+    "rarity": "legendary",
+    "value": 2250,
+    "weight": 25,
+    "description": "Description for item 224",
+    "effects": {
+      "stat": "stat_2",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0225",
+    "name": "Item 225",
+    "name_kr": "아이템 225",
+    "name_ar": "عنصر 225",
+    "category": "consumable",
+    "rarity": "common",
+    "value": 2260,
+    "weight": 26,
+    "description": "Description for item 225",
+    "effects": {
+      "stat": "stat_3",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0226",
+    "name": "Item 226",
+    "name_kr": "아이템 226",
+    "name_ar": "عنصر 226",
+    "category": "material",
+    "rarity": "uncommon",
+    "value": 2270,
+    "weight": 27,
+    "description": "Description for item 226",
+    "effects": {
+      "stat": "stat_4",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0227",
+    "name": "Item 227",
+    "name_kr": "아이템 227",
+    "name_ar": "عنصر 227",
+    "category": "quest",
+    "rarity": "rare",
+    "value": 2280,
+    "weight": 28,
+    "description": "Description for item 227",
+    "effects": {
+      "stat": "stat_5",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0228",
+    "name": "Item 228",
+    "name_kr": "아이템 228",
+    "name_ar": "عنصر 228",
+    "category": "weapon",
+    "rarity": "epic",
+    "value": 2290,
+    "weight": 29,
+    "description": "Description for item 228",
+    "effects": {
+      "stat": "stat_0",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0229",
+    "name": "Item 229",
+    "name_kr": "아이템 229",
+    "name_ar": "عنصر 229",
+    "category": "armor",
+    "rarity": "legendary",
+    "value": 2300,
+    "weight": 30,
+    "description": "Description for item 229",
+    "effects": {
+      "stat": "stat_1",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0230",
+    "name": "Item 230",
+    "name_kr": "아이템 230",
+    "name_ar": "عنصر 230",
+    "category": "accessory",
+    "rarity": "common",
+    "value": 2310,
+    "weight": 31,
+    "description": "Description for item 230",
+    "effects": {
+      "stat": "stat_2",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0231",
+    "name": "Item 231",
+    "name_kr": "아이템 231",
+    "name_ar": "عنصر 231",
+    "category": "consumable",
+    "rarity": "uncommon",
+    "value": 2320,
+    "weight": 32,
+    "description": "Description for item 231",
+    "effects": {
+      "stat": "stat_3",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0232",
+    "name": "Item 232",
+    "name_kr": "아이템 232",
+    "name_ar": "عنصر 232",
+    "category": "material",
+    "rarity": "rare",
+    "value": 2330,
+    "weight": 33,
+    "description": "Description for item 232",
+    "effects": {
+      "stat": "stat_4",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0233",
+    "name": "Item 233",
+    "name_kr": "아이템 233",
+    "name_ar": "عنصر 233",
+    "category": "quest",
+    "rarity": "epic",
+    "value": 2340,
+    "weight": 34,
+    "description": "Description for item 233",
+    "effects": {
+      "stat": "stat_5",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0234",
+    "name": "Item 234",
+    "name_kr": "아이템 234",
+    "name_ar": "عنصر 234",
+    "category": "weapon",
+    "rarity": "legendary",
+    "value": 2350,
+    "weight": 35,
+    "description": "Description for item 234",
+    "effects": {
+      "stat": "stat_0",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0235",
+    "name": "Item 235",
+    "name_kr": "아이템 235",
+    "name_ar": "عنصر 235",
+    "category": "armor",
+    "rarity": "common",
+    "value": 2360,
+    "weight": 36,
+    "description": "Description for item 235",
+    "effects": {
+      "stat": "stat_1",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0236",
+    "name": "Item 236",
+    "name_kr": "아이템 236",
+    "name_ar": "عنصر 236",
+    "category": "accessory",
+    "rarity": "uncommon",
+    "value": 2370,
+    "weight": 37,
+    "description": "Description for item 236",
+    "effects": {
+      "stat": "stat_2",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0237",
+    "name": "Item 237",
+    "name_kr": "아이템 237",
+    "name_ar": "عنصر 237",
+    "category": "consumable",
+    "rarity": "rare",
+    "value": 2380,
+    "weight": 38,
+    "description": "Description for item 237",
+    "effects": {
+      "stat": "stat_3",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0238",
+    "name": "Item 238",
+    "name_kr": "아이템 238",
+    "name_ar": "عنصر 238",
+    "category": "material",
+    "rarity": "epic",
+    "value": 2390,
+    "weight": 39,
+    "description": "Description for item 238",
+    "effects": {
+      "stat": "stat_4",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0239",
+    "name": "Item 239",
+    "name_kr": "아이템 239",
+    "name_ar": "عنصر 239",
+    "category": "quest",
+    "rarity": "legendary",
+    "value": 2400,
+    "weight": 40,
+    "description": "Description for item 239",
+    "effects": {
+      "stat": "stat_5",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0240",
+    "name": "Item 240",
+    "name_kr": "아이템 240",
+    "name_ar": "عنصر 240",
+    "category": "weapon",
+    "rarity": "common",
+    "value": 2410,
+    "weight": 41,
+    "description": "Description for item 240",
+    "effects": {
+      "stat": "stat_0",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0241",
+    "name": "Item 241",
+    "name_kr": "아이템 241",
+    "name_ar": "عنصر 241",
+    "category": "armor",
+    "rarity": "uncommon",
+    "value": 2420,
+    "weight": 42,
+    "description": "Description for item 241",
+    "effects": {
+      "stat": "stat_1",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0242",
+    "name": "Item 242",
+    "name_kr": "아이템 242",
+    "name_ar": "عنصر 242",
+    "category": "accessory",
+    "rarity": "rare",
+    "value": 2430,
+    "weight": 43,
+    "description": "Description for item 242",
+    "effects": {
+      "stat": "stat_2",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0243",
+    "name": "Item 243",
+    "name_kr": "아이템 243",
+    "name_ar": "عنصر 243",
+    "category": "consumable",
+    "rarity": "epic",
+    "value": 2440,
+    "weight": 44,
+    "description": "Description for item 243",
+    "effects": {
+      "stat": "stat_3",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0244",
+    "name": "Item 244",
+    "name_kr": "아이템 244",
+    "name_ar": "عنصر 244",
+    "category": "material",
+    "rarity": "legendary",
+    "value": 2450,
+    "weight": 45,
+    "description": "Description for item 244",
+    "effects": {
+      "stat": "stat_4",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0245",
+    "name": "Item 245",
+    "name_kr": "아이템 245",
+    "name_ar": "عنصر 245",
+    "category": "quest",
+    "rarity": "common",
+    "value": 2460,
+    "weight": 46,
+    "description": "Description for item 245",
+    "effects": {
+      "stat": "stat_5",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0246",
+    "name": "Item 246",
+    "name_kr": "아이템 246",
+    "name_ar": "عنصر 246",
+    "category": "weapon",
+    "rarity": "uncommon",
+    "value": 2470,
+    "weight": 47,
+    "description": "Description for item 246",
+    "effects": {
+      "stat": "stat_0",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0247",
+    "name": "Item 247",
+    "name_kr": "아이템 247",
+    "name_ar": "عنصر 247",
+    "category": "armor",
+    "rarity": "rare",
+    "value": 2480,
+    "weight": 48,
+    "description": "Description for item 247",
+    "effects": {
+      "stat": "stat_1",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0248",
+    "name": "Item 248",
+    "name_kr": "아이템 248",
+    "name_ar": "عنصر 248",
+    "category": "accessory",
+    "rarity": "epic",
+    "value": 2490,
+    "weight": 49,
+    "description": "Description for item 248",
+    "effects": {
+      "stat": "stat_2",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0249",
+    "name": "Item 249",
+    "name_kr": "아이템 249",
+    "name_ar": "عنصر 249",
+    "category": "consumable",
+    "rarity": "legendary",
+    "value": 2500,
+    "weight": 50,
+    "description": "Description for item 249",
+    "effects": {
+      "stat": "stat_3",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0250",
+    "name": "Item 250",
+    "name_kr": "아이템 250",
+    "name_ar": "عنصر 250",
+    "category": "material",
+    "rarity": "common",
+    "value": 2510,
+    "weight": 1,
+    "description": "Description for item 250",
+    "effects": {
+      "stat": "stat_4",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0251",
+    "name": "Item 251",
+    "name_kr": "아이템 251",
+    "name_ar": "عنصر 251",
+    "category": "quest",
+    "rarity": "uncommon",
+    "value": 2520,
+    "weight": 2,
+    "description": "Description for item 251",
+    "effects": {
+      "stat": "stat_5",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0252",
+    "name": "Item 252",
+    "name_kr": "아이템 252",
+    "name_ar": "عنصر 252",
+    "category": "weapon",
+    "rarity": "rare",
+    "value": 2530,
+    "weight": 3,
+    "description": "Description for item 252",
+    "effects": {
+      "stat": "stat_0",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0253",
+    "name": "Item 253",
+    "name_kr": "아이템 253",
+    "name_ar": "عنصر 253",
+    "category": "armor",
+    "rarity": "epic",
+    "value": 2540,
+    "weight": 4,
+    "description": "Description for item 253",
+    "effects": {
+      "stat": "stat_1",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0254",
+    "name": "Item 254",
+    "name_kr": "아이템 254",
+    "name_ar": "عنصر 254",
+    "category": "accessory",
+    "rarity": "legendary",
+    "value": 2550,
+    "weight": 5,
+    "description": "Description for item 254",
+    "effects": {
+      "stat": "stat_2",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0255",
+    "name": "Item 255",
+    "name_kr": "아이템 255",
+    "name_ar": "عنصر 255",
+    "category": "consumable",
+    "rarity": "common",
+    "value": 2560,
+    "weight": 6,
+    "description": "Description for item 255",
+    "effects": {
+      "stat": "stat_3",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0256",
+    "name": "Item 256",
+    "name_kr": "아이템 256",
+    "name_ar": "عنصر 256",
+    "category": "material",
+    "rarity": "uncommon",
+    "value": 2570,
+    "weight": 7,
+    "description": "Description for item 256",
+    "effects": {
+      "stat": "stat_4",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0257",
+    "name": "Item 257",
+    "name_kr": "아이템 257",
+    "name_ar": "عنصر 257",
+    "category": "quest",
+    "rarity": "rare",
+    "value": 2580,
+    "weight": 8,
+    "description": "Description for item 257",
+    "effects": {
+      "stat": "stat_5",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0258",
+    "name": "Item 258",
+    "name_kr": "아이템 258",
+    "name_ar": "عنصر 258",
+    "category": "weapon",
+    "rarity": "epic",
+    "value": 2590,
+    "weight": 9,
+    "description": "Description for item 258",
+    "effects": {
+      "stat": "stat_0",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0259",
+    "name": "Item 259",
+    "name_kr": "아이템 259",
+    "name_ar": "عنصر 259",
+    "category": "armor",
+    "rarity": "legendary",
+    "value": 2600,
+    "weight": 10,
+    "description": "Description for item 259",
+    "effects": {
+      "stat": "stat_1",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0260",
+    "name": "Item 260",
+    "name_kr": "아이템 260",
+    "name_ar": "عنصر 260",
+    "category": "accessory",
+    "rarity": "common",
+    "value": 2610,
+    "weight": 11,
+    "description": "Description for item 260",
+    "effects": {
+      "stat": "stat_2",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0261",
+    "name": "Item 261",
+    "name_kr": "아이템 261",
+    "name_ar": "عنصر 261",
+    "category": "consumable",
+    "rarity": "uncommon",
+    "value": 2620,
+    "weight": 12,
+    "description": "Description for item 261",
+    "effects": {
+      "stat": "stat_3",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0262",
+    "name": "Item 262",
+    "name_kr": "아이템 262",
+    "name_ar": "عنصر 262",
+    "category": "material",
+    "rarity": "rare",
+    "value": 2630,
+    "weight": 13,
+    "description": "Description for item 262",
+    "effects": {
+      "stat": "stat_4",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0263",
+    "name": "Item 263",
+    "name_kr": "아이템 263",
+    "name_ar": "عنصر 263",
+    "category": "quest",
+    "rarity": "epic",
+    "value": 2640,
+    "weight": 14,
+    "description": "Description for item 263",
+    "effects": {
+      "stat": "stat_5",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0264",
+    "name": "Item 264",
+    "name_kr": "아이템 264",
+    "name_ar": "عنصر 264",
+    "category": "weapon",
+    "rarity": "legendary",
+    "value": 2650,
+    "weight": 15,
+    "description": "Description for item 264",
+    "effects": {
+      "stat": "stat_0",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0265",
+    "name": "Item 265",
+    "name_kr": "아이템 265",
+    "name_ar": "عنصر 265",
+    "category": "armor",
+    "rarity": "common",
+    "value": 2660,
+    "weight": 16,
+    "description": "Description for item 265",
+    "effects": {
+      "stat": "stat_1",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0266",
+    "name": "Item 266",
+    "name_kr": "아이템 266",
+    "name_ar": "عنصر 266",
+    "category": "accessory",
+    "rarity": "uncommon",
+    "value": 2670,
+    "weight": 17,
+    "description": "Description for item 266",
+    "effects": {
+      "stat": "stat_2",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0267",
+    "name": "Item 267",
+    "name_kr": "아이템 267",
+    "name_ar": "عنصر 267",
+    "category": "consumable",
+    "rarity": "rare",
+    "value": 2680,
+    "weight": 18,
+    "description": "Description for item 267",
+    "effects": {
+      "stat": "stat_3",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0268",
+    "name": "Item 268",
+    "name_kr": "아이템 268",
+    "name_ar": "عنصر 268",
+    "category": "material",
+    "rarity": "epic",
+    "value": 2690,
+    "weight": 19,
+    "description": "Description for item 268",
+    "effects": {
+      "stat": "stat_4",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0269",
+    "name": "Item 269",
+    "name_kr": "아이템 269",
+    "name_ar": "عنصر 269",
+    "category": "quest",
+    "rarity": "legendary",
+    "value": 2700,
+    "weight": 20,
+    "description": "Description for item 269",
+    "effects": {
+      "stat": "stat_5",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0270",
+    "name": "Item 270",
+    "name_kr": "아이템 270",
+    "name_ar": "عنصر 270",
+    "category": "weapon",
+    "rarity": "common",
+    "value": 2710,
+    "weight": 21,
+    "description": "Description for item 270",
+    "effects": {
+      "stat": "stat_0",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0271",
+    "name": "Item 271",
+    "name_kr": "아이템 271",
+    "name_ar": "عنصر 271",
+    "category": "armor",
+    "rarity": "uncommon",
+    "value": 2720,
+    "weight": 22,
+    "description": "Description for item 271",
+    "effects": {
+      "stat": "stat_1",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0272",
+    "name": "Item 272",
+    "name_kr": "아이템 272",
+    "name_ar": "عنصر 272",
+    "category": "accessory",
+    "rarity": "rare",
+    "value": 2730,
+    "weight": 23,
+    "description": "Description for item 272",
+    "effects": {
+      "stat": "stat_2",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0273",
+    "name": "Item 273",
+    "name_kr": "아이템 273",
+    "name_ar": "عنصر 273",
+    "category": "consumable",
+    "rarity": "epic",
+    "value": 2740,
+    "weight": 24,
+    "description": "Description for item 273",
+    "effects": {
+      "stat": "stat_3",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0274",
+    "name": "Item 274",
+    "name_kr": "아이템 274",
+    "name_ar": "عنصر 274",
+    "category": "material",
+    "rarity": "legendary",
+    "value": 2750,
+    "weight": 25,
+    "description": "Description for item 274",
+    "effects": {
+      "stat": "stat_4",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0275",
+    "name": "Item 275",
+    "name_kr": "아이템 275",
+    "name_ar": "عنصر 275",
+    "category": "quest",
+    "rarity": "common",
+    "value": 2760,
+    "weight": 26,
+    "description": "Description for item 275",
+    "effects": {
+      "stat": "stat_5",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0276",
+    "name": "Item 276",
+    "name_kr": "아이템 276",
+    "name_ar": "عنصر 276",
+    "category": "weapon",
+    "rarity": "uncommon",
+    "value": 2770,
+    "weight": 27,
+    "description": "Description for item 276",
+    "effects": {
+      "stat": "stat_0",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0277",
+    "name": "Item 277",
+    "name_kr": "아이템 277",
+    "name_ar": "عنصر 277",
+    "category": "armor",
+    "rarity": "rare",
+    "value": 2780,
+    "weight": 28,
+    "description": "Description for item 277",
+    "effects": {
+      "stat": "stat_1",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0278",
+    "name": "Item 278",
+    "name_kr": "아이템 278",
+    "name_ar": "عنصر 278",
+    "category": "accessory",
+    "rarity": "epic",
+    "value": 2790,
+    "weight": 29,
+    "description": "Description for item 278",
+    "effects": {
+      "stat": "stat_2",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0279",
+    "name": "Item 279",
+    "name_kr": "아이템 279",
+    "name_ar": "عنصر 279",
+    "category": "consumable",
+    "rarity": "legendary",
+    "value": 2800,
+    "weight": 30,
+    "description": "Description for item 279",
+    "effects": {
+      "stat": "stat_3",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0280",
+    "name": "Item 280",
+    "name_kr": "아이템 280",
+    "name_ar": "عنصر 280",
+    "category": "material",
+    "rarity": "common",
+    "value": 2810,
+    "weight": 31,
+    "description": "Description for item 280",
+    "effects": {
+      "stat": "stat_4",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0281",
+    "name": "Item 281",
+    "name_kr": "아이템 281",
+    "name_ar": "عنصر 281",
+    "category": "quest",
+    "rarity": "uncommon",
+    "value": 2820,
+    "weight": 32,
+    "description": "Description for item 281",
+    "effects": {
+      "stat": "stat_5",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0282",
+    "name": "Item 282",
+    "name_kr": "아이템 282",
+    "name_ar": "عنصر 282",
+    "category": "weapon",
+    "rarity": "rare",
+    "value": 2830,
+    "weight": 33,
+    "description": "Description for item 282",
+    "effects": {
+      "stat": "stat_0",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0283",
+    "name": "Item 283",
+    "name_kr": "아이템 283",
+    "name_ar": "عنصر 283",
+    "category": "armor",
+    "rarity": "epic",
+    "value": 2840,
+    "weight": 34,
+    "description": "Description for item 283",
+    "effects": {
+      "stat": "stat_1",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0284",
+    "name": "Item 284",
+    "name_kr": "아이템 284",
+    "name_ar": "عنصر 284",
+    "category": "accessory",
+    "rarity": "legendary",
+    "value": 2850,
+    "weight": 35,
+    "description": "Description for item 284",
+    "effects": {
+      "stat": "stat_2",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0285",
+    "name": "Item 285",
+    "name_kr": "아이템 285",
+    "name_ar": "عنصر 285",
+    "category": "consumable",
+    "rarity": "common",
+    "value": 2860,
+    "weight": 36,
+    "description": "Description for item 285",
+    "effects": {
+      "stat": "stat_3",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0286",
+    "name": "Item 286",
+    "name_kr": "아이템 286",
+    "name_ar": "عنصر 286",
+    "category": "material",
+    "rarity": "uncommon",
+    "value": 2870,
+    "weight": 37,
+    "description": "Description for item 286",
+    "effects": {
+      "stat": "stat_4",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0287",
+    "name": "Item 287",
+    "name_kr": "아이템 287",
+    "name_ar": "عنصر 287",
+    "category": "quest",
+    "rarity": "rare",
+    "value": 2880,
+    "weight": 38,
+    "description": "Description for item 287",
+    "effects": {
+      "stat": "stat_5",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0288",
+    "name": "Item 288",
+    "name_kr": "아이템 288",
+    "name_ar": "عنصر 288",
+    "category": "weapon",
+    "rarity": "epic",
+    "value": 2890,
+    "weight": 39,
+    "description": "Description for item 288",
+    "effects": {
+      "stat": "stat_0",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0289",
+    "name": "Item 289",
+    "name_kr": "아이템 289",
+    "name_ar": "عنصر 289",
+    "category": "armor",
+    "rarity": "legendary",
+    "value": 2900,
+    "weight": 40,
+    "description": "Description for item 289",
+    "effects": {
+      "stat": "stat_1",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0290",
+    "name": "Item 290",
+    "name_kr": "아이템 290",
+    "name_ar": "عنصر 290",
+    "category": "accessory",
+    "rarity": "common",
+    "value": 2910,
+    "weight": 41,
+    "description": "Description for item 290",
+    "effects": {
+      "stat": "stat_2",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0291",
+    "name": "Item 291",
+    "name_kr": "아이템 291",
+    "name_ar": "عنصر 291",
+    "category": "consumable",
+    "rarity": "uncommon",
+    "value": 2920,
+    "weight": 42,
+    "description": "Description for item 291",
+    "effects": {
+      "stat": "stat_3",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0292",
+    "name": "Item 292",
+    "name_kr": "아이템 292",
+    "name_ar": "عنصر 292",
+    "category": "material",
+    "rarity": "rare",
+    "value": 2930,
+    "weight": 43,
+    "description": "Description for item 292",
+    "effects": {
+      "stat": "stat_4",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0293",
+    "name": "Item 293",
+    "name_kr": "아이템 293",
+    "name_ar": "عنصر 293",
+    "category": "quest",
+    "rarity": "epic",
+    "value": 2940,
+    "weight": 44,
+    "description": "Description for item 293",
+    "effects": {
+      "stat": "stat_5",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0294",
+    "name": "Item 294",
+    "name_kr": "아이템 294",
+    "name_ar": "عنصر 294",
+    "category": "weapon",
+    "rarity": "legendary",
+    "value": 2950,
+    "weight": 45,
+    "description": "Description for item 294",
+    "effects": {
+      "stat": "stat_0",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0295",
+    "name": "Item 295",
+    "name_kr": "아이템 295",
+    "name_ar": "عنصر 295",
+    "category": "armor",
+    "rarity": "common",
+    "value": 2960,
+    "weight": 46,
+    "description": "Description for item 295",
+    "effects": {
+      "stat": "stat_1",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0296",
+    "name": "Item 296",
+    "name_kr": "아이템 296",
+    "name_ar": "عنصر 296",
+    "category": "accessory",
+    "rarity": "uncommon",
+    "value": 2970,
+    "weight": 47,
+    "description": "Description for item 296",
+    "effects": {
+      "stat": "stat_2",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0297",
+    "name": "Item 297",
+    "name_kr": "아이템 297",
+    "name_ar": "عنصر 297",
+    "category": "consumable",
+    "rarity": "rare",
+    "value": 2980,
+    "weight": 48,
+    "description": "Description for item 297",
+    "effects": {
+      "stat": "stat_3",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0298",
+    "name": "Item 298",
+    "name_kr": "아이템 298",
+    "name_ar": "عنصر 298",
+    "category": "material",
+    "rarity": "epic",
+    "value": 2990,
+    "weight": 49,
+    "description": "Description for item 298",
+    "effects": {
+      "stat": "stat_4",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0299",
+    "name": "Item 299",
+    "name_kr": "아이템 299",
+    "name_ar": "عنصر 299",
+    "category": "quest",
+    "rarity": "legendary",
+    "value": 3000,
+    "weight": 50,
+    "description": "Description for item 299",
+    "effects": {
+      "stat": "stat_5",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0300",
+    "name": "Item 300",
+    "name_kr": "아이템 300",
+    "name_ar": "عنصر 300",
+    "category": "weapon",
+    "rarity": "common",
+    "value": 3010,
+    "weight": 1,
+    "description": "Description for item 300",
+    "effects": {
+      "stat": "stat_0",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0301",
+    "name": "Item 301",
+    "name_kr": "아이템 301",
+    "name_ar": "عنصر 301",
+    "category": "armor",
+    "rarity": "uncommon",
+    "value": 3020,
+    "weight": 2,
+    "description": "Description for item 301",
+    "effects": {
+      "stat": "stat_1",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0302",
+    "name": "Item 302",
+    "name_kr": "아이템 302",
+    "name_ar": "عنصر 302",
+    "category": "accessory",
+    "rarity": "rare",
+    "value": 3030,
+    "weight": 3,
+    "description": "Description for item 302",
+    "effects": {
+      "stat": "stat_2",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0303",
+    "name": "Item 303",
+    "name_kr": "아이템 303",
+    "name_ar": "عنصر 303",
+    "category": "consumable",
+    "rarity": "epic",
+    "value": 3040,
+    "weight": 4,
+    "description": "Description for item 303",
+    "effects": {
+      "stat": "stat_3",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0304",
+    "name": "Item 304",
+    "name_kr": "아이템 304",
+    "name_ar": "عنصر 304",
+    "category": "material",
+    "rarity": "legendary",
+    "value": 3050,
+    "weight": 5,
+    "description": "Description for item 304",
+    "effects": {
+      "stat": "stat_4",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0305",
+    "name": "Item 305",
+    "name_kr": "아이템 305",
+    "name_ar": "عنصر 305",
+    "category": "quest",
+    "rarity": "common",
+    "value": 3060,
+    "weight": 6,
+    "description": "Description for item 305",
+    "effects": {
+      "stat": "stat_5",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0306",
+    "name": "Item 306",
+    "name_kr": "아이템 306",
+    "name_ar": "عنصر 306",
+    "category": "weapon",
+    "rarity": "uncommon",
+    "value": 3070,
+    "weight": 7,
+    "description": "Description for item 306",
+    "effects": {
+      "stat": "stat_0",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0307",
+    "name": "Item 307",
+    "name_kr": "아이템 307",
+    "name_ar": "عنصر 307",
+    "category": "armor",
+    "rarity": "rare",
+    "value": 3080,
+    "weight": 8,
+    "description": "Description for item 307",
+    "effects": {
+      "stat": "stat_1",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0308",
+    "name": "Item 308",
+    "name_kr": "아이템 308",
+    "name_ar": "عنصر 308",
+    "category": "accessory",
+    "rarity": "epic",
+    "value": 3090,
+    "weight": 9,
+    "description": "Description for item 308",
+    "effects": {
+      "stat": "stat_2",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0309",
+    "name": "Item 309",
+    "name_kr": "아이템 309",
+    "name_ar": "عنصر 309",
+    "category": "consumable",
+    "rarity": "legendary",
+    "value": 3100,
+    "weight": 10,
+    "description": "Description for item 309",
+    "effects": {
+      "stat": "stat_3",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0310",
+    "name": "Item 310",
+    "name_kr": "아이템 310",
+    "name_ar": "عنصر 310",
+    "category": "material",
+    "rarity": "common",
+    "value": 3110,
+    "weight": 11,
+    "description": "Description for item 310",
+    "effects": {
+      "stat": "stat_4",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0311",
+    "name": "Item 311",
+    "name_kr": "아이템 311",
+    "name_ar": "عنصر 311",
+    "category": "quest",
+    "rarity": "uncommon",
+    "value": 3120,
+    "weight": 12,
+    "description": "Description for item 311",
+    "effects": {
+      "stat": "stat_5",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0312",
+    "name": "Item 312",
+    "name_kr": "아이템 312",
+    "name_ar": "عنصر 312",
+    "category": "weapon",
+    "rarity": "rare",
+    "value": 3130,
+    "weight": 13,
+    "description": "Description for item 312",
+    "effects": {
+      "stat": "stat_0",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0313",
+    "name": "Item 313",
+    "name_kr": "아이템 313",
+    "name_ar": "عنصر 313",
+    "category": "armor",
+    "rarity": "epic",
+    "value": 3140,
+    "weight": 14,
+    "description": "Description for item 313",
+    "effects": {
+      "stat": "stat_1",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0314",
+    "name": "Item 314",
+    "name_kr": "아이템 314",
+    "name_ar": "عنصر 314",
+    "category": "accessory",
+    "rarity": "legendary",
+    "value": 3150,
+    "weight": 15,
+    "description": "Description for item 314",
+    "effects": {
+      "stat": "stat_2",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0315",
+    "name": "Item 315",
+    "name_kr": "아이템 315",
+    "name_ar": "عنصر 315",
+    "category": "consumable",
+    "rarity": "common",
+    "value": 3160,
+    "weight": 16,
+    "description": "Description for item 315",
+    "effects": {
+      "stat": "stat_3",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0316",
+    "name": "Item 316",
+    "name_kr": "아이템 316",
+    "name_ar": "عنصر 316",
+    "category": "material",
+    "rarity": "uncommon",
+    "value": 3170,
+    "weight": 17,
+    "description": "Description for item 316",
+    "effects": {
+      "stat": "stat_4",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0317",
+    "name": "Item 317",
+    "name_kr": "아이템 317",
+    "name_ar": "عنصر 317",
+    "category": "quest",
+    "rarity": "rare",
+    "value": 3180,
+    "weight": 18,
+    "description": "Description for item 317",
+    "effects": {
+      "stat": "stat_5",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0318",
+    "name": "Item 318",
+    "name_kr": "아이템 318",
+    "name_ar": "عنصر 318",
+    "category": "weapon",
+    "rarity": "epic",
+    "value": 3190,
+    "weight": 19,
+    "description": "Description for item 318",
+    "effects": {
+      "stat": "stat_0",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0319",
+    "name": "Item 319",
+    "name_kr": "아이템 319",
+    "name_ar": "عنصر 319",
+    "category": "armor",
+    "rarity": "legendary",
+    "value": 3200,
+    "weight": 20,
+    "description": "Description for item 319",
+    "effects": {
+      "stat": "stat_1",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0320",
+    "name": "Item 320",
+    "name_kr": "아이템 320",
+    "name_ar": "عنصر 320",
+    "category": "accessory",
+    "rarity": "common",
+    "value": 3210,
+    "weight": 21,
+    "description": "Description for item 320",
+    "effects": {
+      "stat": "stat_2",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0321",
+    "name": "Item 321",
+    "name_kr": "아이템 321",
+    "name_ar": "عنصر 321",
+    "category": "consumable",
+    "rarity": "uncommon",
+    "value": 3220,
+    "weight": 22,
+    "description": "Description for item 321",
+    "effects": {
+      "stat": "stat_3",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0322",
+    "name": "Item 322",
+    "name_kr": "아이템 322",
+    "name_ar": "عنصر 322",
+    "category": "material",
+    "rarity": "rare",
+    "value": 3230,
+    "weight": 23,
+    "description": "Description for item 322",
+    "effects": {
+      "stat": "stat_4",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0323",
+    "name": "Item 323",
+    "name_kr": "아이템 323",
+    "name_ar": "عنصر 323",
+    "category": "quest",
+    "rarity": "epic",
+    "value": 3240,
+    "weight": 24,
+    "description": "Description for item 323",
+    "effects": {
+      "stat": "stat_5",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0324",
+    "name": "Item 324",
+    "name_kr": "아이템 324",
+    "name_ar": "عنصر 324",
+    "category": "weapon",
+    "rarity": "legendary",
+    "value": 3250,
+    "weight": 25,
+    "description": "Description for item 324",
+    "effects": {
+      "stat": "stat_0",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0325",
+    "name": "Item 325",
+    "name_kr": "아이템 325",
+    "name_ar": "عنصر 325",
+    "category": "armor",
+    "rarity": "common",
+    "value": 3260,
+    "weight": 26,
+    "description": "Description for item 325",
+    "effects": {
+      "stat": "stat_1",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0326",
+    "name": "Item 326",
+    "name_kr": "아이템 326",
+    "name_ar": "عنصر 326",
+    "category": "accessory",
+    "rarity": "uncommon",
+    "value": 3270,
+    "weight": 27,
+    "description": "Description for item 326",
+    "effects": {
+      "stat": "stat_2",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0327",
+    "name": "Item 327",
+    "name_kr": "아이템 327",
+    "name_ar": "عنصر 327",
+    "category": "consumable",
+    "rarity": "rare",
+    "value": 3280,
+    "weight": 28,
+    "description": "Description for item 327",
+    "effects": {
+      "stat": "stat_3",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0328",
+    "name": "Item 328",
+    "name_kr": "아이템 328",
+    "name_ar": "عنصر 328",
+    "category": "material",
+    "rarity": "epic",
+    "value": 3290,
+    "weight": 29,
+    "description": "Description for item 328",
+    "effects": {
+      "stat": "stat_4",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0329",
+    "name": "Item 329",
+    "name_kr": "아이템 329",
+    "name_ar": "عنصر 329",
+    "category": "quest",
+    "rarity": "legendary",
+    "value": 3300,
+    "weight": 30,
+    "description": "Description for item 329",
+    "effects": {
+      "stat": "stat_5",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0330",
+    "name": "Item 330",
+    "name_kr": "아이템 330",
+    "name_ar": "عنصر 330",
+    "category": "weapon",
+    "rarity": "common",
+    "value": 3310,
+    "weight": 31,
+    "description": "Description for item 330",
+    "effects": {
+      "stat": "stat_0",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0331",
+    "name": "Item 331",
+    "name_kr": "아이템 331",
+    "name_ar": "عنصر 331",
+    "category": "armor",
+    "rarity": "uncommon",
+    "value": 3320,
+    "weight": 32,
+    "description": "Description for item 331",
+    "effects": {
+      "stat": "stat_1",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0332",
+    "name": "Item 332",
+    "name_kr": "아이템 332",
+    "name_ar": "عنصر 332",
+    "category": "accessory",
+    "rarity": "rare",
+    "value": 3330,
+    "weight": 33,
+    "description": "Description for item 332",
+    "effects": {
+      "stat": "stat_2",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0333",
+    "name": "Item 333",
+    "name_kr": "아이템 333",
+    "name_ar": "عنصر 333",
+    "category": "consumable",
+    "rarity": "epic",
+    "value": 3340,
+    "weight": 34,
+    "description": "Description for item 333",
+    "effects": {
+      "stat": "stat_3",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0334",
+    "name": "Item 334",
+    "name_kr": "아이템 334",
+    "name_ar": "عنصر 334",
+    "category": "material",
+    "rarity": "legendary",
+    "value": 3350,
+    "weight": 35,
+    "description": "Description for item 334",
+    "effects": {
+      "stat": "stat_4",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0335",
+    "name": "Item 335",
+    "name_kr": "아이템 335",
+    "name_ar": "عنصر 335",
+    "category": "quest",
+    "rarity": "common",
+    "value": 3360,
+    "weight": 36,
+    "description": "Description for item 335",
+    "effects": {
+      "stat": "stat_5",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0336",
+    "name": "Item 336",
+    "name_kr": "아이템 336",
+    "name_ar": "عنصر 336",
+    "category": "weapon",
+    "rarity": "uncommon",
+    "value": 3370,
+    "weight": 37,
+    "description": "Description for item 336",
+    "effects": {
+      "stat": "stat_0",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0337",
+    "name": "Item 337",
+    "name_kr": "아이템 337",
+    "name_ar": "عنصر 337",
+    "category": "armor",
+    "rarity": "rare",
+    "value": 3380,
+    "weight": 38,
+    "description": "Description for item 337",
+    "effects": {
+      "stat": "stat_1",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0338",
+    "name": "Item 338",
+    "name_kr": "아이템 338",
+    "name_ar": "عنصر 338",
+    "category": "accessory",
+    "rarity": "epic",
+    "value": 3390,
+    "weight": 39,
+    "description": "Description for item 338",
+    "effects": {
+      "stat": "stat_2",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0339",
+    "name": "Item 339",
+    "name_kr": "아이템 339",
+    "name_ar": "عنصر 339",
+    "category": "consumable",
+    "rarity": "legendary",
+    "value": 3400,
+    "weight": 40,
+    "description": "Description for item 339",
+    "effects": {
+      "stat": "stat_3",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0340",
+    "name": "Item 340",
+    "name_kr": "아이템 340",
+    "name_ar": "عنصر 340",
+    "category": "material",
+    "rarity": "common",
+    "value": 3410,
+    "weight": 41,
+    "description": "Description for item 340",
+    "effects": {
+      "stat": "stat_4",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0341",
+    "name": "Item 341",
+    "name_kr": "아이템 341",
+    "name_ar": "عنصر 341",
+    "category": "quest",
+    "rarity": "uncommon",
+    "value": 3420,
+    "weight": 42,
+    "description": "Description for item 341",
+    "effects": {
+      "stat": "stat_5",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0342",
+    "name": "Item 342",
+    "name_kr": "아이템 342",
+    "name_ar": "عنصر 342",
+    "category": "weapon",
+    "rarity": "rare",
+    "value": 3430,
+    "weight": 43,
+    "description": "Description for item 342",
+    "effects": {
+      "stat": "stat_0",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0343",
+    "name": "Item 343",
+    "name_kr": "아이템 343",
+    "name_ar": "عنصر 343",
+    "category": "armor",
+    "rarity": "epic",
+    "value": 3440,
+    "weight": 44,
+    "description": "Description for item 343",
+    "effects": {
+      "stat": "stat_1",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0344",
+    "name": "Item 344",
+    "name_kr": "아이템 344",
+    "name_ar": "عنصر 344",
+    "category": "accessory",
+    "rarity": "legendary",
+    "value": 3450,
+    "weight": 45,
+    "description": "Description for item 344",
+    "effects": {
+      "stat": "stat_2",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0345",
+    "name": "Item 345",
+    "name_kr": "아이템 345",
+    "name_ar": "عنصر 345",
+    "category": "consumable",
+    "rarity": "common",
+    "value": 3460,
+    "weight": 46,
+    "description": "Description for item 345",
+    "effects": {
+      "stat": "stat_3",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0346",
+    "name": "Item 346",
+    "name_kr": "아이템 346",
+    "name_ar": "عنصر 346",
+    "category": "material",
+    "rarity": "uncommon",
+    "value": 3470,
+    "weight": 47,
+    "description": "Description for item 346",
+    "effects": {
+      "stat": "stat_4",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0347",
+    "name": "Item 347",
+    "name_kr": "아이템 347",
+    "name_ar": "عنصر 347",
+    "category": "quest",
+    "rarity": "rare",
+    "value": 3480,
+    "weight": 48,
+    "description": "Description for item 347",
+    "effects": {
+      "stat": "stat_5",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0348",
+    "name": "Item 348",
+    "name_kr": "아이템 348",
+    "name_ar": "عنصر 348",
+    "category": "weapon",
+    "rarity": "epic",
+    "value": 3490,
+    "weight": 49,
+    "description": "Description for item 348",
+    "effects": {
+      "stat": "stat_0",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0349",
+    "name": "Item 349",
+    "name_kr": "아이템 349",
+    "name_ar": "عنصر 349",
+    "category": "armor",
+    "rarity": "legendary",
+    "value": 3500,
+    "weight": 50,
+    "description": "Description for item 349",
+    "effects": {
+      "stat": "stat_1",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0350",
+    "name": "Item 350",
+    "name_kr": "아이템 350",
+    "name_ar": "عنصر 350",
+    "category": "accessory",
+    "rarity": "common",
+    "value": 3510,
+    "weight": 1,
+    "description": "Description for item 350",
+    "effects": {
+      "stat": "stat_2",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0351",
+    "name": "Item 351",
+    "name_kr": "아이템 351",
+    "name_ar": "عنصر 351",
+    "category": "consumable",
+    "rarity": "uncommon",
+    "value": 3520,
+    "weight": 2,
+    "description": "Description for item 351",
+    "effects": {
+      "stat": "stat_3",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0352",
+    "name": "Item 352",
+    "name_kr": "아이템 352",
+    "name_ar": "عنصر 352",
+    "category": "material",
+    "rarity": "rare",
+    "value": 3530,
+    "weight": 3,
+    "description": "Description for item 352",
+    "effects": {
+      "stat": "stat_4",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0353",
+    "name": "Item 353",
+    "name_kr": "아이템 353",
+    "name_ar": "عنصر 353",
+    "category": "quest",
+    "rarity": "epic",
+    "value": 3540,
+    "weight": 4,
+    "description": "Description for item 353",
+    "effects": {
+      "stat": "stat_5",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0354",
+    "name": "Item 354",
+    "name_kr": "아이템 354",
+    "name_ar": "عنصر 354",
+    "category": "weapon",
+    "rarity": "legendary",
+    "value": 3550,
+    "weight": 5,
+    "description": "Description for item 354",
+    "effects": {
+      "stat": "stat_0",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0355",
+    "name": "Item 355",
+    "name_kr": "아이템 355",
+    "name_ar": "عنصر 355",
+    "category": "armor",
+    "rarity": "common",
+    "value": 3560,
+    "weight": 6,
+    "description": "Description for item 355",
+    "effects": {
+      "stat": "stat_1",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0356",
+    "name": "Item 356",
+    "name_kr": "아이템 356",
+    "name_ar": "عنصر 356",
+    "category": "accessory",
+    "rarity": "uncommon",
+    "value": 3570,
+    "weight": 7,
+    "description": "Description for item 356",
+    "effects": {
+      "stat": "stat_2",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0357",
+    "name": "Item 357",
+    "name_kr": "아이템 357",
+    "name_ar": "عنصر 357",
+    "category": "consumable",
+    "rarity": "rare",
+    "value": 3580,
+    "weight": 8,
+    "description": "Description for item 357",
+    "effects": {
+      "stat": "stat_3",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0358",
+    "name": "Item 358",
+    "name_kr": "아이템 358",
+    "name_ar": "عنصر 358",
+    "category": "material",
+    "rarity": "epic",
+    "value": 3590,
+    "weight": 9,
+    "description": "Description for item 358",
+    "effects": {
+      "stat": "stat_4",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0359",
+    "name": "Item 359",
+    "name_kr": "아이템 359",
+    "name_ar": "عنصر 359",
+    "category": "quest",
+    "rarity": "legendary",
+    "value": 3600,
+    "weight": 10,
+    "description": "Description for item 359",
+    "effects": {
+      "stat": "stat_5",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0360",
+    "name": "Item 360",
+    "name_kr": "아이템 360",
+    "name_ar": "عنصر 360",
+    "category": "weapon",
+    "rarity": "common",
+    "value": 3610,
+    "weight": 11,
+    "description": "Description for item 360",
+    "effects": {
+      "stat": "stat_0",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0361",
+    "name": "Item 361",
+    "name_kr": "아이템 361",
+    "name_ar": "عنصر 361",
+    "category": "armor",
+    "rarity": "uncommon",
+    "value": 3620,
+    "weight": 12,
+    "description": "Description for item 361",
+    "effects": {
+      "stat": "stat_1",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0362",
+    "name": "Item 362",
+    "name_kr": "아이템 362",
+    "name_ar": "عنصر 362",
+    "category": "accessory",
+    "rarity": "rare",
+    "value": 3630,
+    "weight": 13,
+    "description": "Description for item 362",
+    "effects": {
+      "stat": "stat_2",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0363",
+    "name": "Item 363",
+    "name_kr": "아이템 363",
+    "name_ar": "عنصر 363",
+    "category": "consumable",
+    "rarity": "epic",
+    "value": 3640,
+    "weight": 14,
+    "description": "Description for item 363",
+    "effects": {
+      "stat": "stat_3",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0364",
+    "name": "Item 364",
+    "name_kr": "아이템 364",
+    "name_ar": "عنصر 364",
+    "category": "material",
+    "rarity": "legendary",
+    "value": 3650,
+    "weight": 15,
+    "description": "Description for item 364",
+    "effects": {
+      "stat": "stat_4",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0365",
+    "name": "Item 365",
+    "name_kr": "아이템 365",
+    "name_ar": "عنصر 365",
+    "category": "quest",
+    "rarity": "common",
+    "value": 3660,
+    "weight": 16,
+    "description": "Description for item 365",
+    "effects": {
+      "stat": "stat_5",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0366",
+    "name": "Item 366",
+    "name_kr": "아이템 366",
+    "name_ar": "عنصر 366",
+    "category": "weapon",
+    "rarity": "uncommon",
+    "value": 3670,
+    "weight": 17,
+    "description": "Description for item 366",
+    "effects": {
+      "stat": "stat_0",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0367",
+    "name": "Item 367",
+    "name_kr": "아이템 367",
+    "name_ar": "عنصر 367",
+    "category": "armor",
+    "rarity": "rare",
+    "value": 3680,
+    "weight": 18,
+    "description": "Description for item 367",
+    "effects": {
+      "stat": "stat_1",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0368",
+    "name": "Item 368",
+    "name_kr": "아이템 368",
+    "name_ar": "عنصر 368",
+    "category": "accessory",
+    "rarity": "epic",
+    "value": 3690,
+    "weight": 19,
+    "description": "Description for item 368",
+    "effects": {
+      "stat": "stat_2",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0369",
+    "name": "Item 369",
+    "name_kr": "아이템 369",
+    "name_ar": "عنصر 369",
+    "category": "consumable",
+    "rarity": "legendary",
+    "value": 3700,
+    "weight": 20,
+    "description": "Description for item 369",
+    "effects": {
+      "stat": "stat_3",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0370",
+    "name": "Item 370",
+    "name_kr": "아이템 370",
+    "name_ar": "عنصر 370",
+    "category": "material",
+    "rarity": "common",
+    "value": 3710,
+    "weight": 21,
+    "description": "Description for item 370",
+    "effects": {
+      "stat": "stat_4",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0371",
+    "name": "Item 371",
+    "name_kr": "아이템 371",
+    "name_ar": "عنصر 371",
+    "category": "quest",
+    "rarity": "uncommon",
+    "value": 3720,
+    "weight": 22,
+    "description": "Description for item 371",
+    "effects": {
+      "stat": "stat_5",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0372",
+    "name": "Item 372",
+    "name_kr": "아이템 372",
+    "name_ar": "عنصر 372",
+    "category": "weapon",
+    "rarity": "rare",
+    "value": 3730,
+    "weight": 23,
+    "description": "Description for item 372",
+    "effects": {
+      "stat": "stat_0",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0373",
+    "name": "Item 373",
+    "name_kr": "아이템 373",
+    "name_ar": "عنصر 373",
+    "category": "armor",
+    "rarity": "epic",
+    "value": 3740,
+    "weight": 24,
+    "description": "Description for item 373",
+    "effects": {
+      "stat": "stat_1",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0374",
+    "name": "Item 374",
+    "name_kr": "아이템 374",
+    "name_ar": "عنصر 374",
+    "category": "accessory",
+    "rarity": "legendary",
+    "value": 3750,
+    "weight": 25,
+    "description": "Description for item 374",
+    "effects": {
+      "stat": "stat_2",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0375",
+    "name": "Item 375",
+    "name_kr": "아이템 375",
+    "name_ar": "عنصر 375",
+    "category": "consumable",
+    "rarity": "common",
+    "value": 3760,
+    "weight": 26,
+    "description": "Description for item 375",
+    "effects": {
+      "stat": "stat_3",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0376",
+    "name": "Item 376",
+    "name_kr": "아이템 376",
+    "name_ar": "عنصر 376",
+    "category": "material",
+    "rarity": "uncommon",
+    "value": 3770,
+    "weight": 27,
+    "description": "Description for item 376",
+    "effects": {
+      "stat": "stat_4",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0377",
+    "name": "Item 377",
+    "name_kr": "아이템 377",
+    "name_ar": "عنصر 377",
+    "category": "quest",
+    "rarity": "rare",
+    "value": 3780,
+    "weight": 28,
+    "description": "Description for item 377",
+    "effects": {
+      "stat": "stat_5",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0378",
+    "name": "Item 378",
+    "name_kr": "아이템 378",
+    "name_ar": "عنصر 378",
+    "category": "weapon",
+    "rarity": "epic",
+    "value": 3790,
+    "weight": 29,
+    "description": "Description for item 378",
+    "effects": {
+      "stat": "stat_0",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0379",
+    "name": "Item 379",
+    "name_kr": "아이템 379",
+    "name_ar": "عنصر 379",
+    "category": "armor",
+    "rarity": "legendary",
+    "value": 3800,
+    "weight": 30,
+    "description": "Description for item 379",
+    "effects": {
+      "stat": "stat_1",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0380",
+    "name": "Item 380",
+    "name_kr": "아이템 380",
+    "name_ar": "عنصر 380",
+    "category": "accessory",
+    "rarity": "common",
+    "value": 3810,
+    "weight": 31,
+    "description": "Description for item 380",
+    "effects": {
+      "stat": "stat_2",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0381",
+    "name": "Item 381",
+    "name_kr": "아이템 381",
+    "name_ar": "عنصر 381",
+    "category": "consumable",
+    "rarity": "uncommon",
+    "value": 3820,
+    "weight": 32,
+    "description": "Description for item 381",
+    "effects": {
+      "stat": "stat_3",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0382",
+    "name": "Item 382",
+    "name_kr": "아이템 382",
+    "name_ar": "عنصر 382",
+    "category": "material",
+    "rarity": "rare",
+    "value": 3830,
+    "weight": 33,
+    "description": "Description for item 382",
+    "effects": {
+      "stat": "stat_4",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0383",
+    "name": "Item 383",
+    "name_kr": "아이템 383",
+    "name_ar": "عنصر 383",
+    "category": "quest",
+    "rarity": "epic",
+    "value": 3840,
+    "weight": 34,
+    "description": "Description for item 383",
+    "effects": {
+      "stat": "stat_5",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0384",
+    "name": "Item 384",
+    "name_kr": "아이템 384",
+    "name_ar": "عنصر 384",
+    "category": "weapon",
+    "rarity": "legendary",
+    "value": 3850,
+    "weight": 35,
+    "description": "Description for item 384",
+    "effects": {
+      "stat": "stat_0",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0385",
+    "name": "Item 385",
+    "name_kr": "아이템 385",
+    "name_ar": "عنصر 385",
+    "category": "armor",
+    "rarity": "common",
+    "value": 3860,
+    "weight": 36,
+    "description": "Description for item 385",
+    "effects": {
+      "stat": "stat_1",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0386",
+    "name": "Item 386",
+    "name_kr": "아이템 386",
+    "name_ar": "عنصر 386",
+    "category": "accessory",
+    "rarity": "uncommon",
+    "value": 3870,
+    "weight": 37,
+    "description": "Description for item 386",
+    "effects": {
+      "stat": "stat_2",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0387",
+    "name": "Item 387",
+    "name_kr": "아이템 387",
+    "name_ar": "عنصر 387",
+    "category": "consumable",
+    "rarity": "rare",
+    "value": 3880,
+    "weight": 38,
+    "description": "Description for item 387",
+    "effects": {
+      "stat": "stat_3",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0388",
+    "name": "Item 388",
+    "name_kr": "아이템 388",
+    "name_ar": "عنصر 388",
+    "category": "material",
+    "rarity": "epic",
+    "value": 3890,
+    "weight": 39,
+    "description": "Description for item 388",
+    "effects": {
+      "stat": "stat_4",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0389",
+    "name": "Item 389",
+    "name_kr": "아이템 389",
+    "name_ar": "عنصر 389",
+    "category": "quest",
+    "rarity": "legendary",
+    "value": 3900,
+    "weight": 40,
+    "description": "Description for item 389",
+    "effects": {
+      "stat": "stat_5",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0390",
+    "name": "Item 390",
+    "name_kr": "아이템 390",
+    "name_ar": "عنصر 390",
+    "category": "weapon",
+    "rarity": "common",
+    "value": 3910,
+    "weight": 41,
+    "description": "Description for item 390",
+    "effects": {
+      "stat": "stat_0",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0391",
+    "name": "Item 391",
+    "name_kr": "아이템 391",
+    "name_ar": "عنصر 391",
+    "category": "armor",
+    "rarity": "uncommon",
+    "value": 3920,
+    "weight": 42,
+    "description": "Description for item 391",
+    "effects": {
+      "stat": "stat_1",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0392",
+    "name": "Item 392",
+    "name_kr": "아이템 392",
+    "name_ar": "عنصر 392",
+    "category": "accessory",
+    "rarity": "rare",
+    "value": 3930,
+    "weight": 43,
+    "description": "Description for item 392",
+    "effects": {
+      "stat": "stat_2",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0393",
+    "name": "Item 393",
+    "name_kr": "아이템 393",
+    "name_ar": "عنصر 393",
+    "category": "consumable",
+    "rarity": "epic",
+    "value": 3940,
+    "weight": 44,
+    "description": "Description for item 393",
+    "effects": {
+      "stat": "stat_3",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0394",
+    "name": "Item 394",
+    "name_kr": "아이템 394",
+    "name_ar": "عنصر 394",
+    "category": "material",
+    "rarity": "legendary",
+    "value": 3950,
+    "weight": 45,
+    "description": "Description for item 394",
+    "effects": {
+      "stat": "stat_4",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0395",
+    "name": "Item 395",
+    "name_kr": "아이템 395",
+    "name_ar": "عنصر 395",
+    "category": "quest",
+    "rarity": "common",
+    "value": 3960,
+    "weight": 46,
+    "description": "Description for item 395",
+    "effects": {
+      "stat": "stat_5",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0396",
+    "name": "Item 396",
+    "name_kr": "아이템 396",
+    "name_ar": "عنصر 396",
+    "category": "weapon",
+    "rarity": "uncommon",
+    "value": 3970,
+    "weight": 47,
+    "description": "Description for item 396",
+    "effects": {
+      "stat": "stat_0",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0397",
+    "name": "Item 397",
+    "name_kr": "아이템 397",
+    "name_ar": "عنصر 397",
+    "category": "armor",
+    "rarity": "rare",
+    "value": 3980,
+    "weight": 48,
+    "description": "Description for item 397",
+    "effects": {
+      "stat": "stat_1",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0398",
+    "name": "Item 398",
+    "name_kr": "아이템 398",
+    "name_ar": "عنصر 398",
+    "category": "accessory",
+    "rarity": "epic",
+    "value": 3990,
+    "weight": 49,
+    "description": "Description for item 398",
+    "effects": {
+      "stat": "stat_2",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0399",
+    "name": "Item 399",
+    "name_kr": "아이템 399",
+    "name_ar": "عنصر 399",
+    "category": "consumable",
+    "rarity": "legendary",
+    "value": 4000,
+    "weight": 50,
+    "description": "Description for item 399",
+    "effects": {
+      "stat": "stat_3",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0400",
+    "name": "Item 400",
+    "name_kr": "아이템 400",
+    "name_ar": "عنصر 400",
+    "category": "material",
+    "rarity": "common",
+    "value": 4010,
+    "weight": 1,
+    "description": "Description for item 400",
+    "effects": {
+      "stat": "stat_4",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0401",
+    "name": "Item 401",
+    "name_kr": "아이템 401",
+    "name_ar": "عنصر 401",
+    "category": "quest",
+    "rarity": "uncommon",
+    "value": 4020,
+    "weight": 2,
+    "description": "Description for item 401",
+    "effects": {
+      "stat": "stat_5",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0402",
+    "name": "Item 402",
+    "name_kr": "아이템 402",
+    "name_ar": "عنصر 402",
+    "category": "weapon",
+    "rarity": "rare",
+    "value": 4030,
+    "weight": 3,
+    "description": "Description for item 402",
+    "effects": {
+      "stat": "stat_0",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0403",
+    "name": "Item 403",
+    "name_kr": "아이템 403",
+    "name_ar": "عنصر 403",
+    "category": "armor",
+    "rarity": "epic",
+    "value": 4040,
+    "weight": 4,
+    "description": "Description for item 403",
+    "effects": {
+      "stat": "stat_1",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0404",
+    "name": "Item 404",
+    "name_kr": "아이템 404",
+    "name_ar": "عنصر 404",
+    "category": "accessory",
+    "rarity": "legendary",
+    "value": 4050,
+    "weight": 5,
+    "description": "Description for item 404",
+    "effects": {
+      "stat": "stat_2",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0405",
+    "name": "Item 405",
+    "name_kr": "아이템 405",
+    "name_ar": "عنصر 405",
+    "category": "consumable",
+    "rarity": "common",
+    "value": 4060,
+    "weight": 6,
+    "description": "Description for item 405",
+    "effects": {
+      "stat": "stat_3",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0406",
+    "name": "Item 406",
+    "name_kr": "아이템 406",
+    "name_ar": "عنصر 406",
+    "category": "material",
+    "rarity": "uncommon",
+    "value": 4070,
+    "weight": 7,
+    "description": "Description for item 406",
+    "effects": {
+      "stat": "stat_4",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0407",
+    "name": "Item 407",
+    "name_kr": "아이템 407",
+    "name_ar": "عنصر 407",
+    "category": "quest",
+    "rarity": "rare",
+    "value": 4080,
+    "weight": 8,
+    "description": "Description for item 407",
+    "effects": {
+      "stat": "stat_5",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0408",
+    "name": "Item 408",
+    "name_kr": "아이템 408",
+    "name_ar": "عنصر 408",
+    "category": "weapon",
+    "rarity": "epic",
+    "value": 4090,
+    "weight": 9,
+    "description": "Description for item 408",
+    "effects": {
+      "stat": "stat_0",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0409",
+    "name": "Item 409",
+    "name_kr": "아이템 409",
+    "name_ar": "عنصر 409",
+    "category": "armor",
+    "rarity": "legendary",
+    "value": 4100,
+    "weight": 10,
+    "description": "Description for item 409",
+    "effects": {
+      "stat": "stat_1",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0410",
+    "name": "Item 410",
+    "name_kr": "아이템 410",
+    "name_ar": "عنصر 410",
+    "category": "accessory",
+    "rarity": "common",
+    "value": 4110,
+    "weight": 11,
+    "description": "Description for item 410",
+    "effects": {
+      "stat": "stat_2",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0411",
+    "name": "Item 411",
+    "name_kr": "아이템 411",
+    "name_ar": "عنصر 411",
+    "category": "consumable",
+    "rarity": "uncommon",
+    "value": 4120,
+    "weight": 12,
+    "description": "Description for item 411",
+    "effects": {
+      "stat": "stat_3",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0412",
+    "name": "Item 412",
+    "name_kr": "아이템 412",
+    "name_ar": "عنصر 412",
+    "category": "material",
+    "rarity": "rare",
+    "value": 4130,
+    "weight": 13,
+    "description": "Description for item 412",
+    "effects": {
+      "stat": "stat_4",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0413",
+    "name": "Item 413",
+    "name_kr": "아이템 413",
+    "name_ar": "عنصر 413",
+    "category": "quest",
+    "rarity": "epic",
+    "value": 4140,
+    "weight": 14,
+    "description": "Description for item 413",
+    "effects": {
+      "stat": "stat_5",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0414",
+    "name": "Item 414",
+    "name_kr": "아이템 414",
+    "name_ar": "عنصر 414",
+    "category": "weapon",
+    "rarity": "legendary",
+    "value": 4150,
+    "weight": 15,
+    "description": "Description for item 414",
+    "effects": {
+      "stat": "stat_0",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0415",
+    "name": "Item 415",
+    "name_kr": "아이템 415",
+    "name_ar": "عنصر 415",
+    "category": "armor",
+    "rarity": "common",
+    "value": 4160,
+    "weight": 16,
+    "description": "Description for item 415",
+    "effects": {
+      "stat": "stat_1",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0416",
+    "name": "Item 416",
+    "name_kr": "아이템 416",
+    "name_ar": "عنصر 416",
+    "category": "accessory",
+    "rarity": "uncommon",
+    "value": 4170,
+    "weight": 17,
+    "description": "Description for item 416",
+    "effects": {
+      "stat": "stat_2",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0417",
+    "name": "Item 417",
+    "name_kr": "아이템 417",
+    "name_ar": "عنصر 417",
+    "category": "consumable",
+    "rarity": "rare",
+    "value": 4180,
+    "weight": 18,
+    "description": "Description for item 417",
+    "effects": {
+      "stat": "stat_3",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0418",
+    "name": "Item 418",
+    "name_kr": "아이템 418",
+    "name_ar": "عنصر 418",
+    "category": "material",
+    "rarity": "epic",
+    "value": 4190,
+    "weight": 19,
+    "description": "Description for item 418",
+    "effects": {
+      "stat": "stat_4",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0419",
+    "name": "Item 419",
+    "name_kr": "아이템 419",
+    "name_ar": "عنصر 419",
+    "category": "quest",
+    "rarity": "legendary",
+    "value": 4200,
+    "weight": 20,
+    "description": "Description for item 419",
+    "effects": {
+      "stat": "stat_5",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0420",
+    "name": "Item 420",
+    "name_kr": "아이템 420",
+    "name_ar": "عنصر 420",
+    "category": "weapon",
+    "rarity": "common",
+    "value": 4210,
+    "weight": 21,
+    "description": "Description for item 420",
+    "effects": {
+      "stat": "stat_0",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0421",
+    "name": "Item 421",
+    "name_kr": "아이템 421",
+    "name_ar": "عنصر 421",
+    "category": "armor",
+    "rarity": "uncommon",
+    "value": 4220,
+    "weight": 22,
+    "description": "Description for item 421",
+    "effects": {
+      "stat": "stat_1",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0422",
+    "name": "Item 422",
+    "name_kr": "아이템 422",
+    "name_ar": "عنصر 422",
+    "category": "accessory",
+    "rarity": "rare",
+    "value": 4230,
+    "weight": 23,
+    "description": "Description for item 422",
+    "effects": {
+      "stat": "stat_2",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0423",
+    "name": "Item 423",
+    "name_kr": "아이템 423",
+    "name_ar": "عنصر 423",
+    "category": "consumable",
+    "rarity": "epic",
+    "value": 4240,
+    "weight": 24,
+    "description": "Description for item 423",
+    "effects": {
+      "stat": "stat_3",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0424",
+    "name": "Item 424",
+    "name_kr": "아이템 424",
+    "name_ar": "عنصر 424",
+    "category": "material",
+    "rarity": "legendary",
+    "value": 4250,
+    "weight": 25,
+    "description": "Description for item 424",
+    "effects": {
+      "stat": "stat_4",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0425",
+    "name": "Item 425",
+    "name_kr": "아이템 425",
+    "name_ar": "عنصر 425",
+    "category": "quest",
+    "rarity": "common",
+    "value": 4260,
+    "weight": 26,
+    "description": "Description for item 425",
+    "effects": {
+      "stat": "stat_5",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0426",
+    "name": "Item 426",
+    "name_kr": "아이템 426",
+    "name_ar": "عنصر 426",
+    "category": "weapon",
+    "rarity": "uncommon",
+    "value": 4270,
+    "weight": 27,
+    "description": "Description for item 426",
+    "effects": {
+      "stat": "stat_0",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0427",
+    "name": "Item 427",
+    "name_kr": "아이템 427",
+    "name_ar": "عنصر 427",
+    "category": "armor",
+    "rarity": "rare",
+    "value": 4280,
+    "weight": 28,
+    "description": "Description for item 427",
+    "effects": {
+      "stat": "stat_1",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0428",
+    "name": "Item 428",
+    "name_kr": "아이템 428",
+    "name_ar": "عنصر 428",
+    "category": "accessory",
+    "rarity": "epic",
+    "value": 4290,
+    "weight": 29,
+    "description": "Description for item 428",
+    "effects": {
+      "stat": "stat_2",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0429",
+    "name": "Item 429",
+    "name_kr": "아이템 429",
+    "name_ar": "عنصر 429",
+    "category": "consumable",
+    "rarity": "legendary",
+    "value": 4300,
+    "weight": 30,
+    "description": "Description for item 429",
+    "effects": {
+      "stat": "stat_3",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0430",
+    "name": "Item 430",
+    "name_kr": "아이템 430",
+    "name_ar": "عنصر 430",
+    "category": "material",
+    "rarity": "common",
+    "value": 4310,
+    "weight": 31,
+    "description": "Description for item 430",
+    "effects": {
+      "stat": "stat_4",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0431",
+    "name": "Item 431",
+    "name_kr": "아이템 431",
+    "name_ar": "عنصر 431",
+    "category": "quest",
+    "rarity": "uncommon",
+    "value": 4320,
+    "weight": 32,
+    "description": "Description for item 431",
+    "effects": {
+      "stat": "stat_5",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0432",
+    "name": "Item 432",
+    "name_kr": "아이템 432",
+    "name_ar": "عنصر 432",
+    "category": "weapon",
+    "rarity": "rare",
+    "value": 4330,
+    "weight": 33,
+    "description": "Description for item 432",
+    "effects": {
+      "stat": "stat_0",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0433",
+    "name": "Item 433",
+    "name_kr": "아이템 433",
+    "name_ar": "عنصر 433",
+    "category": "armor",
+    "rarity": "epic",
+    "value": 4340,
+    "weight": 34,
+    "description": "Description for item 433",
+    "effects": {
+      "stat": "stat_1",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0434",
+    "name": "Item 434",
+    "name_kr": "아이템 434",
+    "name_ar": "عنصر 434",
+    "category": "accessory",
+    "rarity": "legendary",
+    "value": 4350,
+    "weight": 35,
+    "description": "Description for item 434",
+    "effects": {
+      "stat": "stat_2",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0435",
+    "name": "Item 435",
+    "name_kr": "아이템 435",
+    "name_ar": "عنصر 435",
+    "category": "consumable",
+    "rarity": "common",
+    "value": 4360,
+    "weight": 36,
+    "description": "Description for item 435",
+    "effects": {
+      "stat": "stat_3",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0436",
+    "name": "Item 436",
+    "name_kr": "아이템 436",
+    "name_ar": "عنصر 436",
+    "category": "material",
+    "rarity": "uncommon",
+    "value": 4370,
+    "weight": 37,
+    "description": "Description for item 436",
+    "effects": {
+      "stat": "stat_4",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0437",
+    "name": "Item 437",
+    "name_kr": "아이템 437",
+    "name_ar": "عنصر 437",
+    "category": "quest",
+    "rarity": "rare",
+    "value": 4380,
+    "weight": 38,
+    "description": "Description for item 437",
+    "effects": {
+      "stat": "stat_5",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0438",
+    "name": "Item 438",
+    "name_kr": "아이템 438",
+    "name_ar": "عنصر 438",
+    "category": "weapon",
+    "rarity": "epic",
+    "value": 4390,
+    "weight": 39,
+    "description": "Description for item 438",
+    "effects": {
+      "stat": "stat_0",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0439",
+    "name": "Item 439",
+    "name_kr": "아이템 439",
+    "name_ar": "عنصر 439",
+    "category": "armor",
+    "rarity": "legendary",
+    "value": 4400,
+    "weight": 40,
+    "description": "Description for item 439",
+    "effects": {
+      "stat": "stat_1",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0440",
+    "name": "Item 440",
+    "name_kr": "아이템 440",
+    "name_ar": "عنصر 440",
+    "category": "accessory",
+    "rarity": "common",
+    "value": 4410,
+    "weight": 41,
+    "description": "Description for item 440",
+    "effects": {
+      "stat": "stat_2",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0441",
+    "name": "Item 441",
+    "name_kr": "아이템 441",
+    "name_ar": "عنصر 441",
+    "category": "consumable",
+    "rarity": "uncommon",
+    "value": 4420,
+    "weight": 42,
+    "description": "Description for item 441",
+    "effects": {
+      "stat": "stat_3",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0442",
+    "name": "Item 442",
+    "name_kr": "아이템 442",
+    "name_ar": "عنصر 442",
+    "category": "material",
+    "rarity": "rare",
+    "value": 4430,
+    "weight": 43,
+    "description": "Description for item 442",
+    "effects": {
+      "stat": "stat_4",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0443",
+    "name": "Item 443",
+    "name_kr": "아이템 443",
+    "name_ar": "عنصر 443",
+    "category": "quest",
+    "rarity": "epic",
+    "value": 4440,
+    "weight": 44,
+    "description": "Description for item 443",
+    "effects": {
+      "stat": "stat_5",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0444",
+    "name": "Item 444",
+    "name_kr": "아이템 444",
+    "name_ar": "عنصر 444",
+    "category": "weapon",
+    "rarity": "legendary",
+    "value": 4450,
+    "weight": 45,
+    "description": "Description for item 444",
+    "effects": {
+      "stat": "stat_0",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0445",
+    "name": "Item 445",
+    "name_kr": "아이템 445",
+    "name_ar": "عنصر 445",
+    "category": "armor",
+    "rarity": "common",
+    "value": 4460,
+    "weight": 46,
+    "description": "Description for item 445",
+    "effects": {
+      "stat": "stat_1",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0446",
+    "name": "Item 446",
+    "name_kr": "아이템 446",
+    "name_ar": "عنصر 446",
+    "category": "accessory",
+    "rarity": "uncommon",
+    "value": 4470,
+    "weight": 47,
+    "description": "Description for item 446",
+    "effects": {
+      "stat": "stat_2",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0447",
+    "name": "Item 447",
+    "name_kr": "아이템 447",
+    "name_ar": "عنصر 447",
+    "category": "consumable",
+    "rarity": "rare",
+    "value": 4480,
+    "weight": 48,
+    "description": "Description for item 447",
+    "effects": {
+      "stat": "stat_3",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0448",
+    "name": "Item 448",
+    "name_kr": "아이템 448",
+    "name_ar": "عنصر 448",
+    "category": "material",
+    "rarity": "epic",
+    "value": 4490,
+    "weight": 49,
+    "description": "Description for item 448",
+    "effects": {
+      "stat": "stat_4",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0449",
+    "name": "Item 449",
+    "name_kr": "아이템 449",
+    "name_ar": "عنصر 449",
+    "category": "quest",
+    "rarity": "legendary",
+    "value": 4500,
+    "weight": 50,
+    "description": "Description for item 449",
+    "effects": {
+      "stat": "stat_5",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0450",
+    "name": "Item 450",
+    "name_kr": "아이템 450",
+    "name_ar": "عنصر 450",
+    "category": "weapon",
+    "rarity": "common",
+    "value": 4510,
+    "weight": 1,
+    "description": "Description for item 450",
+    "effects": {
+      "stat": "stat_0",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0451",
+    "name": "Item 451",
+    "name_kr": "아이템 451",
+    "name_ar": "عنصر 451",
+    "category": "armor",
+    "rarity": "uncommon",
+    "value": 4520,
+    "weight": 2,
+    "description": "Description for item 451",
+    "effects": {
+      "stat": "stat_1",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0452",
+    "name": "Item 452",
+    "name_kr": "아이템 452",
+    "name_ar": "عنصر 452",
+    "category": "accessory",
+    "rarity": "rare",
+    "value": 4530,
+    "weight": 3,
+    "description": "Description for item 452",
+    "effects": {
+      "stat": "stat_2",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0453",
+    "name": "Item 453",
+    "name_kr": "아이템 453",
+    "name_ar": "عنصر 453",
+    "category": "consumable",
+    "rarity": "epic",
+    "value": 4540,
+    "weight": 4,
+    "description": "Description for item 453",
+    "effects": {
+      "stat": "stat_3",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0454",
+    "name": "Item 454",
+    "name_kr": "아이템 454",
+    "name_ar": "عنصر 454",
+    "category": "material",
+    "rarity": "legendary",
+    "value": 4550,
+    "weight": 5,
+    "description": "Description for item 454",
+    "effects": {
+      "stat": "stat_4",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0455",
+    "name": "Item 455",
+    "name_kr": "아이템 455",
+    "name_ar": "عنصر 455",
+    "category": "quest",
+    "rarity": "common",
+    "value": 4560,
+    "weight": 6,
+    "description": "Description for item 455",
+    "effects": {
+      "stat": "stat_5",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0456",
+    "name": "Item 456",
+    "name_kr": "아이템 456",
+    "name_ar": "عنصر 456",
+    "category": "weapon",
+    "rarity": "uncommon",
+    "value": 4570,
+    "weight": 7,
+    "description": "Description for item 456",
+    "effects": {
+      "stat": "stat_0",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0457",
+    "name": "Item 457",
+    "name_kr": "아이템 457",
+    "name_ar": "عنصر 457",
+    "category": "armor",
+    "rarity": "rare",
+    "value": 4580,
+    "weight": 8,
+    "description": "Description for item 457",
+    "effects": {
+      "stat": "stat_1",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0458",
+    "name": "Item 458",
+    "name_kr": "아이템 458",
+    "name_ar": "عنصر 458",
+    "category": "accessory",
+    "rarity": "epic",
+    "value": 4590,
+    "weight": 9,
+    "description": "Description for item 458",
+    "effects": {
+      "stat": "stat_2",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0459",
+    "name": "Item 459",
+    "name_kr": "아이템 459",
+    "name_ar": "عنصر 459",
+    "category": "consumable",
+    "rarity": "legendary",
+    "value": 4600,
+    "weight": 10,
+    "description": "Description for item 459",
+    "effects": {
+      "stat": "stat_3",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0460",
+    "name": "Item 460",
+    "name_kr": "아이템 460",
+    "name_ar": "عنصر 460",
+    "category": "material",
+    "rarity": "common",
+    "value": 4610,
+    "weight": 11,
+    "description": "Description for item 460",
+    "effects": {
+      "stat": "stat_4",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0461",
+    "name": "Item 461",
+    "name_kr": "아이템 461",
+    "name_ar": "عنصر 461",
+    "category": "quest",
+    "rarity": "uncommon",
+    "value": 4620,
+    "weight": 12,
+    "description": "Description for item 461",
+    "effects": {
+      "stat": "stat_5",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0462",
+    "name": "Item 462",
+    "name_kr": "아이템 462",
+    "name_ar": "عنصر 462",
+    "category": "weapon",
+    "rarity": "rare",
+    "value": 4630,
+    "weight": 13,
+    "description": "Description for item 462",
+    "effects": {
+      "stat": "stat_0",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0463",
+    "name": "Item 463",
+    "name_kr": "아이템 463",
+    "name_ar": "عنصر 463",
+    "category": "armor",
+    "rarity": "epic",
+    "value": 4640,
+    "weight": 14,
+    "description": "Description for item 463",
+    "effects": {
+      "stat": "stat_1",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0464",
+    "name": "Item 464",
+    "name_kr": "아이템 464",
+    "name_ar": "عنصر 464",
+    "category": "accessory",
+    "rarity": "legendary",
+    "value": 4650,
+    "weight": 15,
+    "description": "Description for item 464",
+    "effects": {
+      "stat": "stat_2",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0465",
+    "name": "Item 465",
+    "name_kr": "아이템 465",
+    "name_ar": "عنصر 465",
+    "category": "consumable",
+    "rarity": "common",
+    "value": 4660,
+    "weight": 16,
+    "description": "Description for item 465",
+    "effects": {
+      "stat": "stat_3",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0466",
+    "name": "Item 466",
+    "name_kr": "아이템 466",
+    "name_ar": "عنصر 466",
+    "category": "material",
+    "rarity": "uncommon",
+    "value": 4670,
+    "weight": 17,
+    "description": "Description for item 466",
+    "effects": {
+      "stat": "stat_4",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0467",
+    "name": "Item 467",
+    "name_kr": "아이템 467",
+    "name_ar": "عنصر 467",
+    "category": "quest",
+    "rarity": "rare",
+    "value": 4680,
+    "weight": 18,
+    "description": "Description for item 467",
+    "effects": {
+      "stat": "stat_5",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0468",
+    "name": "Item 468",
+    "name_kr": "아이템 468",
+    "name_ar": "عنصر 468",
+    "category": "weapon",
+    "rarity": "epic",
+    "value": 4690,
+    "weight": 19,
+    "description": "Description for item 468",
+    "effects": {
+      "stat": "stat_0",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0469",
+    "name": "Item 469",
+    "name_kr": "아이템 469",
+    "name_ar": "عنصر 469",
+    "category": "armor",
+    "rarity": "legendary",
+    "value": 4700,
+    "weight": 20,
+    "description": "Description for item 469",
+    "effects": {
+      "stat": "stat_1",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0470",
+    "name": "Item 470",
+    "name_kr": "아이템 470",
+    "name_ar": "عنصر 470",
+    "category": "accessory",
+    "rarity": "common",
+    "value": 4710,
+    "weight": 21,
+    "description": "Description for item 470",
+    "effects": {
+      "stat": "stat_2",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0471",
+    "name": "Item 471",
+    "name_kr": "아이템 471",
+    "name_ar": "عنصر 471",
+    "category": "consumable",
+    "rarity": "uncommon",
+    "value": 4720,
+    "weight": 22,
+    "description": "Description for item 471",
+    "effects": {
+      "stat": "stat_3",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0472",
+    "name": "Item 472",
+    "name_kr": "아이템 472",
+    "name_ar": "عنصر 472",
+    "category": "material",
+    "rarity": "rare",
+    "value": 4730,
+    "weight": 23,
+    "description": "Description for item 472",
+    "effects": {
+      "stat": "stat_4",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0473",
+    "name": "Item 473",
+    "name_kr": "아이템 473",
+    "name_ar": "عنصر 473",
+    "category": "quest",
+    "rarity": "epic",
+    "value": 4740,
+    "weight": 24,
+    "description": "Description for item 473",
+    "effects": {
+      "stat": "stat_5",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0474",
+    "name": "Item 474",
+    "name_kr": "아이템 474",
+    "name_ar": "عنصر 474",
+    "category": "weapon",
+    "rarity": "legendary",
+    "value": 4750,
+    "weight": 25,
+    "description": "Description for item 474",
+    "effects": {
+      "stat": "stat_0",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0475",
+    "name": "Item 475",
+    "name_kr": "아이템 475",
+    "name_ar": "عنصر 475",
+    "category": "armor",
+    "rarity": "common",
+    "value": 4760,
+    "weight": 26,
+    "description": "Description for item 475",
+    "effects": {
+      "stat": "stat_1",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0476",
+    "name": "Item 476",
+    "name_kr": "아이템 476",
+    "name_ar": "عنصر 476",
+    "category": "accessory",
+    "rarity": "uncommon",
+    "value": 4770,
+    "weight": 27,
+    "description": "Description for item 476",
+    "effects": {
+      "stat": "stat_2",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0477",
+    "name": "Item 477",
+    "name_kr": "아이템 477",
+    "name_ar": "عنصر 477",
+    "category": "consumable",
+    "rarity": "rare",
+    "value": 4780,
+    "weight": 28,
+    "description": "Description for item 477",
+    "effects": {
+      "stat": "stat_3",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0478",
+    "name": "Item 478",
+    "name_kr": "아이템 478",
+    "name_ar": "عنصر 478",
+    "category": "material",
+    "rarity": "epic",
+    "value": 4790,
+    "weight": 29,
+    "description": "Description for item 478",
+    "effects": {
+      "stat": "stat_4",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0479",
+    "name": "Item 479",
+    "name_kr": "아이템 479",
+    "name_ar": "عنصر 479",
+    "category": "quest",
+    "rarity": "legendary",
+    "value": 4800,
+    "weight": 30,
+    "description": "Description for item 479",
+    "effects": {
+      "stat": "stat_5",
+      "value": 20
+    }
+  },
+  {
+    "id": "item_0480",
+    "name": "Item 480",
+    "name_kr": "아이템 480",
+    "name_ar": "عنصر 480",
+    "category": "weapon",
+    "rarity": "common",
+    "value": 4810,
+    "weight": 31,
+    "description": "Description for item 480",
+    "effects": {
+      "stat": "stat_0",
+      "value": 1
+    }
+  },
+  {
+    "id": "item_0481",
+    "name": "Item 481",
+    "name_kr": "아이템 481",
+    "name_ar": "عنصر 481",
+    "category": "armor",
+    "rarity": "uncommon",
+    "value": 4820,
+    "weight": 32,
+    "description": "Description for item 481",
+    "effects": {
+      "stat": "stat_1",
+      "value": 2
+    }
+  },
+  {
+    "id": "item_0482",
+    "name": "Item 482",
+    "name_kr": "아이템 482",
+    "name_ar": "عنصر 482",
+    "category": "accessory",
+    "rarity": "rare",
+    "value": 4830,
+    "weight": 33,
+    "description": "Description for item 482",
+    "effects": {
+      "stat": "stat_2",
+      "value": 3
+    }
+  },
+  {
+    "id": "item_0483",
+    "name": "Item 483",
+    "name_kr": "아이템 483",
+    "name_ar": "عنصر 483",
+    "category": "consumable",
+    "rarity": "epic",
+    "value": 4840,
+    "weight": 34,
+    "description": "Description for item 483",
+    "effects": {
+      "stat": "stat_3",
+      "value": 4
+    }
+  },
+  {
+    "id": "item_0484",
+    "name": "Item 484",
+    "name_kr": "아이템 484",
+    "name_ar": "عنصر 484",
+    "category": "material",
+    "rarity": "legendary",
+    "value": 4850,
+    "weight": 35,
+    "description": "Description for item 484",
+    "effects": {
+      "stat": "stat_4",
+      "value": 5
+    }
+  },
+  {
+    "id": "item_0485",
+    "name": "Item 485",
+    "name_kr": "아이템 485",
+    "name_ar": "عنصر 485",
+    "category": "quest",
+    "rarity": "common",
+    "value": 4860,
+    "weight": 36,
+    "description": "Description for item 485",
+    "effects": {
+      "stat": "stat_5",
+      "value": 6
+    }
+  },
+  {
+    "id": "item_0486",
+    "name": "Item 486",
+    "name_kr": "아이템 486",
+    "name_ar": "عنصر 486",
+    "category": "weapon",
+    "rarity": "uncommon",
+    "value": 4870,
+    "weight": 37,
+    "description": "Description for item 486",
+    "effects": {
+      "stat": "stat_0",
+      "value": 7
+    }
+  },
+  {
+    "id": "item_0487",
+    "name": "Item 487",
+    "name_kr": "아이템 487",
+    "name_ar": "عنصر 487",
+    "category": "armor",
+    "rarity": "rare",
+    "value": 4880,
+    "weight": 38,
+    "description": "Description for item 487",
+    "effects": {
+      "stat": "stat_1",
+      "value": 8
+    }
+  },
+  {
+    "id": "item_0488",
+    "name": "Item 488",
+    "name_kr": "아이템 488",
+    "name_ar": "عنصر 488",
+    "category": "accessory",
+    "rarity": "epic",
+    "value": 4890,
+    "weight": 39,
+    "description": "Description for item 488",
+    "effects": {
+      "stat": "stat_2",
+      "value": 9
+    }
+  },
+  {
+    "id": "item_0489",
+    "name": "Item 489",
+    "name_kr": "아이템 489",
+    "name_ar": "عنصر 489",
+    "category": "consumable",
+    "rarity": "legendary",
+    "value": 4900,
+    "weight": 40,
+    "description": "Description for item 489",
+    "effects": {
+      "stat": "stat_3",
+      "value": 10
+    }
+  },
+  {
+    "id": "item_0490",
+    "name": "Item 490",
+    "name_kr": "아이템 490",
+    "name_ar": "عنصر 490",
+    "category": "material",
+    "rarity": "common",
+    "value": 4910,
+    "weight": 41,
+    "description": "Description for item 490",
+    "effects": {
+      "stat": "stat_4",
+      "value": 11
+    }
+  },
+  {
+    "id": "item_0491",
+    "name": "Item 491",
+    "name_kr": "아이템 491",
+    "name_ar": "عنصر 491",
+    "category": "quest",
+    "rarity": "uncommon",
+    "value": 4920,
+    "weight": 42,
+    "description": "Description for item 491",
+    "effects": {
+      "stat": "stat_5",
+      "value": 12
+    }
+  },
+  {
+    "id": "item_0492",
+    "name": "Item 492",
+    "name_kr": "아이템 492",
+    "name_ar": "عنصر 492",
+    "category": "weapon",
+    "rarity": "rare",
+    "value": 4930,
+    "weight": 43,
+    "description": "Description for item 492",
+    "effects": {
+      "stat": "stat_0",
+      "value": 13
+    }
+  },
+  {
+    "id": "item_0493",
+    "name": "Item 493",
+    "name_kr": "아이템 493",
+    "name_ar": "عنصر 493",
+    "category": "armor",
+    "rarity": "epic",
+    "value": 4940,
+    "weight": 44,
+    "description": "Description for item 493",
+    "effects": {
+      "stat": "stat_1",
+      "value": 14
+    }
+  },
+  {
+    "id": "item_0494",
+    "name": "Item 494",
+    "name_kr": "아이템 494",
+    "name_ar": "عنصر 494",
+    "category": "accessory",
+    "rarity": "legendary",
+    "value": 4950,
+    "weight": 45,
+    "description": "Description for item 494",
+    "effects": {
+      "stat": "stat_2",
+      "value": 15
+    }
+  },
+  {
+    "id": "item_0495",
+    "name": "Item 495",
+    "name_kr": "아이템 495",
+    "name_ar": "عنصر 495",
+    "category": "consumable",
+    "rarity": "common",
+    "value": 4960,
+    "weight": 46,
+    "description": "Description for item 495",
+    "effects": {
+      "stat": "stat_3",
+      "value": 16
+    }
+  },
+  {
+    "id": "item_0496",
+    "name": "Item 496",
+    "name_kr": "아이템 496",
+    "name_ar": "عنصر 496",
+    "category": "material",
+    "rarity": "uncommon",
+    "value": 4970,
+    "weight": 47,
+    "description": "Description for item 496",
+    "effects": {
+      "stat": "stat_4",
+      "value": 17
+    }
+  },
+  {
+    "id": "item_0497",
+    "name": "Item 497",
+    "name_kr": "아이템 497",
+    "name_ar": "عنصر 497",
+    "category": "quest",
+    "rarity": "rare",
+    "value": 4980,
+    "weight": 48,
+    "description": "Description for item 497",
+    "effects": {
+      "stat": "stat_5",
+      "value": 18
+    }
+  },
+  {
+    "id": "item_0498",
+    "name": "Item 498",
+    "name_kr": "아이템 498",
+    "name_ar": "عنصر 498",
+    "category": "weapon",
+    "rarity": "epic",
+    "value": 4990,
+    "weight": 49,
+    "description": "Description for item 498",
+    "effects": {
+      "stat": "stat_0",
+      "value": 19
+    }
+  },
+  {
+    "id": "item_0499",
+    "name": "Item 499",
+    "name_kr": "아이템 499",
+    "name_ar": "عنصر 499",
+    "category": "armor",
+    "rarity": "legendary",
+    "value": 5000,
+    "weight": 50,
+    "description": "Description for item 499",
+    "effects": {
+      "stat": "stat_1",
+      "value": 20
+    }
+  }
+]

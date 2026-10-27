@@ -1,0 +1,5102 @@
+[
+  {
+    "id": "npc_0000",
+    "name": "NPC 0",
+    "name_kr": "NPC 0",
+    "name_ar": "شخصية 0",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": "Take a look at my wares."
+    },
+    "personality": {
+      "friendliness": 1,
+      "honesty": 1,
+      "bravery": 1
+    }
+  },
+  {
+    "id": "npc_0001",
+    "name": "NPC 1",
+    "name_kr": "NPC 1",
+    "name_ar": "شخصية 1",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 2,
+      "honesty": 2,
+      "bravery": 2
+    }
+  },
+  {
+    "id": "npc_0002",
+    "name": "NPC 2",
+    "name_kr": "NPC 2",
+    "name_ar": "شخصية 2",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 3,
+      "honesty": 3,
+      "bravery": 3
+    }
+  },
+  {
+    "id": "npc_0003",
+    "name": "NPC 3",
+    "name_kr": "NPC 3",
+    "name_ar": "شخصية 3",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 4,
+      "honesty": 4,
+      "bravery": 4
+    }
+  },
+  {
+    "id": "npc_0004",
+    "name": "NPC 4",
+    "name_kr": "NPC 4",
+    "name_ar": "شخصية 4",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 5,
+      "honesty": 5,
+      "bravery": 5
+    }
+  },
+  {
+    "id": "npc_0005",
+    "name": "NPC 5",
+    "name_kr": "NPC 5",
+    "name_ar": "شخصية 5",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 6,
+      "honesty": 6,
+      "bravery": 6
+    }
+  },
+  {
+    "id": "npc_0006",
+    "name": "NPC 6",
+    "name_kr": "NPC 6",
+    "name_ar": "شخصية 6",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 7,
+      "honesty": 7,
+      "bravery": 7
+    }
+  },
+  {
+    "id": "npc_0007",
+    "name": "NPC 7",
+    "name_kr": "NPC 7",
+    "name_ar": "شخصية 7",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": "Special prices for you."
+    },
+    "personality": {
+      "friendliness": 8,
+      "honesty": 8,
+      "bravery": 8
+    }
+  },
+  {
+    "id": "npc_0008",
+    "name": "NPC 8",
+    "name_kr": "NPC 8",
+    "name_ar": "شخصية 8",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 9,
+      "honesty": 9,
+      "bravery": 9
+    }
+  },
+  {
+    "id": "npc_0009",
+    "name": "NPC 9",
+    "name_kr": "NPC 9",
+    "name_ar": "شخصية 9",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 10,
+      "honesty": 10,
+      "bravery": 10
+    }
+  },
+  {
+    "id": "npc_0010",
+    "name": "NPC 10",
+    "name_kr": "NPC 10",
+    "name_ar": "شخصية 10",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 11,
+      "honesty": 11,
+      "bravery": 11
+    }
+  },
+  {
+    "id": "npc_0011",
+    "name": "NPC 11",
+    "name_kr": "NPC 11",
+    "name_ar": "شخصية 11",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 12,
+      "honesty": 12,
+      "bravery": 12
+    }
+  },
+  {
+    "id": "npc_0012",
+    "name": "NPC 12",
+    "name_kr": "NPC 12",
+    "name_ar": "شخصية 12",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 13,
+      "honesty": 13,
+      "bravery": 13
+    }
+  },
+  {
+    "id": "npc_0013",
+    "name": "NPC 13",
+    "name_kr": "NPC 13",
+    "name_ar": "شخصية 13",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 14,
+      "honesty": 14,
+      "bravery": 14
+    }
+  },
+  {
+    "id": "npc_0014",
+    "name": "NPC 14",
+    "name_kr": "NPC 14",
+    "name_ar": "شخصية 14",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": "Quality goods, fair prices."
+    },
+    "personality": {
+      "friendliness": 15,
+      "honesty": 15,
+      "bravery": 15
+    }
+  },
+  {
+    "id": "npc_0015",
+    "name": "NPC 15",
+    "name_kr": "NPC 15",
+    "name_ar": "شخصية 15",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 16,
+      "honesty": 16,
+      "bravery": 16
+    }
+  },
+  {
+    "id": "npc_0016",
+    "name": "NPC 16",
+    "name_kr": "NPC 16",
+    "name_ar": "شخصية 16",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 17,
+      "honesty": 17,
+      "bravery": 17
+    }
+  },
+  {
+    "id": "npc_0017",
+    "name": "NPC 17",
+    "name_kr": "NPC 17",
+    "name_ar": "شخصية 17",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 18,
+      "honesty": 18,
+      "bravery": 18
+    }
+  },
+  {
+    "id": "npc_0018",
+    "name": "NPC 18",
+    "name_kr": "NPC 18",
+    "name_ar": "شخصية 18",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 19,
+      "honesty": 19,
+      "bravery": 19
+    }
+  },
+  {
+    "id": "npc_0019",
+    "name": "NPC 19",
+    "name_kr": "NPC 19",
+    "name_ar": "شخصية 19",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 20,
+      "honesty": 20,
+      "bravery": 20
+    }
+  },
+  {
+    "id": "npc_0020",
+    "name": "NPC 20",
+    "name_kr": "NPC 20",
+    "name_ar": "شخصية 20",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 21,
+      "honesty": 21,
+      "bravery": 21
+    }
+  },
+  {
+    "id": "npc_0021",
+    "name": "NPC 21",
+    "name_kr": "NPC 21",
+    "name_ar": "شخصية 21",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": "Take a look at my wares."
+    },
+    "personality": {
+      "friendliness": 22,
+      "honesty": 22,
+      "bravery": 22
+    }
+  },
+  {
+    "id": "npc_0022",
+    "name": "NPC 22",
+    "name_kr": "NPC 22",
+    "name_ar": "شخصية 22",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 23,
+      "honesty": 23,
+      "bravery": 23
+    }
+  },
+  {
+    "id": "npc_0023",
+    "name": "NPC 23",
+    "name_kr": "NPC 23",
+    "name_ar": "شخصية 23",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 24,
+      "honesty": 24,
+      "bravery": 24
+    }
+  },
+  {
+    "id": "npc_0024",
+    "name": "NPC 24",
+    "name_kr": "NPC 24",
+    "name_ar": "شخصية 24",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 25,
+      "honesty": 25,
+      "bravery": 25
+    }
+  },
+  {
+    "id": "npc_0025",
+    "name": "NPC 25",
+    "name_kr": "NPC 25",
+    "name_ar": "شخصية 25",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 26,
+      "honesty": 26,
+      "bravery": 26
+    }
+  },
+  {
+    "id": "npc_0026",
+    "name": "NPC 26",
+    "name_kr": "NPC 26",
+    "name_ar": "شخصية 26",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 27,
+      "honesty": 27,
+      "bravery": 27
+    }
+  },
+  {
+    "id": "npc_0027",
+    "name": "NPC 27",
+    "name_kr": "NPC 27",
+    "name_ar": "شخصية 27",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 28,
+      "honesty": 28,
+      "bravery": 28
+    }
+  },
+  {
+    "id": "npc_0028",
+    "name": "NPC 28",
+    "name_kr": "NPC 28",
+    "name_ar": "شخصية 28",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": "Special prices for you."
+    },
+    "personality": {
+      "friendliness": 29,
+      "honesty": 29,
+      "bravery": 29
+    }
+  },
+  {
+    "id": "npc_0029",
+    "name": "NPC 29",
+    "name_kr": "NPC 29",
+    "name_ar": "شخصية 29",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 30,
+      "honesty": 30,
+      "bravery": 30
+    }
+  },
+  {
+    "id": "npc_0030",
+    "name": "NPC 30",
+    "name_kr": "NPC 30",
+    "name_ar": "شخصية 30",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 31,
+      "honesty": 31,
+      "bravery": 31
+    }
+  },
+  {
+    "id": "npc_0031",
+    "name": "NPC 31",
+    "name_kr": "NPC 31",
+    "name_ar": "شخصية 31",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 32,
+      "honesty": 32,
+      "bravery": 32
+    }
+  },
+  {
+    "id": "npc_0032",
+    "name": "NPC 32",
+    "name_kr": "NPC 32",
+    "name_ar": "شخصية 32",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 33,
+      "honesty": 33,
+      "bravery": 33
+    }
+  },
+  {
+    "id": "npc_0033",
+    "name": "NPC 33",
+    "name_kr": "NPC 33",
+    "name_ar": "شخصية 33",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 34,
+      "honesty": 34,
+      "bravery": 34
+    }
+  },
+  {
+    "id": "npc_0034",
+    "name": "NPC 34",
+    "name_kr": "NPC 34",
+    "name_ar": "شخصية 34",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 35,
+      "honesty": 35,
+      "bravery": 35
+    }
+  },
+  {
+    "id": "npc_0035",
+    "name": "NPC 35",
+    "name_kr": "NPC 35",
+    "name_ar": "شخصية 35",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": "Quality goods, fair prices."
+    },
+    "personality": {
+      "friendliness": 36,
+      "honesty": 36,
+      "bravery": 36
+    }
+  },
+  {
+    "id": "npc_0036",
+    "name": "NPC 36",
+    "name_kr": "NPC 36",
+    "name_ar": "شخصية 36",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 37,
+      "honesty": 37,
+      "bravery": 37
+    }
+  },
+  {
+    "id": "npc_0037",
+    "name": "NPC 37",
+    "name_kr": "NPC 37",
+    "name_ar": "شخصية 37",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 38,
+      "honesty": 38,
+      "bravery": 38
+    }
+  },
+  {
+    "id": "npc_0038",
+    "name": "NPC 38",
+    "name_kr": "NPC 38",
+    "name_ar": "شخصية 38",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 39,
+      "honesty": 39,
+      "bravery": 39
+    }
+  },
+  {
+    "id": "npc_0039",
+    "name": "NPC 39",
+    "name_kr": "NPC 39",
+    "name_ar": "شخصية 39",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 40,
+      "honesty": 40,
+      "bravery": 40
+    }
+  },
+  {
+    "id": "npc_0040",
+    "name": "NPC 40",
+    "name_kr": "NPC 40",
+    "name_ar": "شخصية 40",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 41,
+      "honesty": 41,
+      "bravery": 41
+    }
+  },
+  {
+    "id": "npc_0041",
+    "name": "NPC 41",
+    "name_kr": "NPC 41",
+    "name_ar": "شخصية 41",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 42,
+      "honesty": 42,
+      "bravery": 42
+    }
+  },
+  {
+    "id": "npc_0042",
+    "name": "NPC 42",
+    "name_kr": "NPC 42",
+    "name_ar": "شخصية 42",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": "Take a look at my wares."
+    },
+    "personality": {
+      "friendliness": 43,
+      "honesty": 43,
+      "bravery": 43
+    }
+  },
+  {
+    "id": "npc_0043",
+    "name": "NPC 43",
+    "name_kr": "NPC 43",
+    "name_ar": "شخصية 43",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 44,
+      "honesty": 44,
+      "bravery": 44
+    }
+  },
+  {
+    "id": "npc_0044",
+    "name": "NPC 44",
+    "name_kr": "NPC 44",
+    "name_ar": "شخصية 44",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 45,
+      "honesty": 45,
+      "bravery": 45
+    }
+  },
+  {
+    "id": "npc_0045",
+    "name": "NPC 45",
+    "name_kr": "NPC 45",
+    "name_ar": "شخصية 45",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 46,
+      "honesty": 46,
+      "bravery": 46
+    }
+  },
+  {
+    "id": "npc_0046",
+    "name": "NPC 46",
+    "name_kr": "NPC 46",
+    "name_ar": "شخصية 46",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 47,
+      "honesty": 47,
+      "bravery": 47
+    }
+  },
+  {
+    "id": "npc_0047",
+    "name": "NPC 47",
+    "name_kr": "NPC 47",
+    "name_ar": "شخصية 47",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 48,
+      "honesty": 48,
+      "bravery": 48
+    }
+  },
+  {
+    "id": "npc_0048",
+    "name": "NPC 48",
+    "name_kr": "NPC 48",
+    "name_ar": "شخصية 48",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 49,
+      "honesty": 49,
+      "bravery": 49
+    }
+  },
+  {
+    "id": "npc_0049",
+    "name": "NPC 49",
+    "name_kr": "NPC 49",
+    "name_ar": "شخصية 49",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": "Special prices for you."
+    },
+    "personality": {
+      "friendliness": 50,
+      "honesty": 50,
+      "bravery": 50
+    }
+  },
+  {
+    "id": "npc_0050",
+    "name": "NPC 50",
+    "name_kr": "NPC 50",
+    "name_ar": "شخصية 50",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 51,
+      "honesty": 51,
+      "bravery": 51
+    }
+  },
+  {
+    "id": "npc_0051",
+    "name": "NPC 51",
+    "name_kr": "NPC 51",
+    "name_ar": "شخصية 51",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 52,
+      "honesty": 52,
+      "bravery": 52
+    }
+  },
+  {
+    "id": "npc_0052",
+    "name": "NPC 52",
+    "name_kr": "NPC 52",
+    "name_ar": "شخصية 52",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 53,
+      "honesty": 53,
+      "bravery": 53
+    }
+  },
+  {
+    "id": "npc_0053",
+    "name": "NPC 53",
+    "name_kr": "NPC 53",
+    "name_ar": "شخصية 53",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 54,
+      "honesty": 54,
+      "bravery": 54
+    }
+  },
+  {
+    "id": "npc_0054",
+    "name": "NPC 54",
+    "name_kr": "NPC 54",
+    "name_ar": "شخصية 54",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 55,
+      "honesty": 55,
+      "bravery": 55
+    }
+  },
+  {
+    "id": "npc_0055",
+    "name": "NPC 55",
+    "name_kr": "NPC 55",
+    "name_ar": "شخصية 55",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 56,
+      "honesty": 56,
+      "bravery": 56
+    }
+  },
+  {
+    "id": "npc_0056",
+    "name": "NPC 56",
+    "name_kr": "NPC 56",
+    "name_ar": "شخصية 56",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": "Quality goods, fair prices."
+    },
+    "personality": {
+      "friendliness": 57,
+      "honesty": 57,
+      "bravery": 57
+    }
+  },
+  {
+    "id": "npc_0057",
+    "name": "NPC 57",
+    "name_kr": "NPC 57",
+    "name_ar": "شخصية 57",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 58,
+      "honesty": 58,
+      "bravery": 58
+    }
+  },
+  {
+    "id": "npc_0058",
+    "name": "NPC 58",
+    "name_kr": "NPC 58",
+    "name_ar": "شخصية 58",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 59,
+      "honesty": 59,
+      "bravery": 59
+    }
+  },
+  {
+    "id": "npc_0059",
+    "name": "NPC 59",
+    "name_kr": "NPC 59",
+    "name_ar": "شخصية 59",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 60,
+      "honesty": 60,
+      "bravery": 60
+    }
+  },
+  {
+    "id": "npc_0060",
+    "name": "NPC 60",
+    "name_kr": "NPC 60",
+    "name_ar": "شخصية 60",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 61,
+      "honesty": 61,
+      "bravery": 61
+    }
+  },
+  {
+    "id": "npc_0061",
+    "name": "NPC 61",
+    "name_kr": "NPC 61",
+    "name_ar": "شخصية 61",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 62,
+      "honesty": 62,
+      "bravery": 62
+    }
+  },
+  {
+    "id": "npc_0062",
+    "name": "NPC 62",
+    "name_kr": "NPC 62",
+    "name_ar": "شخصية 62",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 63,
+      "honesty": 63,
+      "bravery": 63
+    }
+  },
+  {
+    "id": "npc_0063",
+    "name": "NPC 63",
+    "name_kr": "NPC 63",
+    "name_ar": "شخصية 63",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": "Take a look at my wares."
+    },
+    "personality": {
+      "friendliness": 64,
+      "honesty": 64,
+      "bravery": 64
+    }
+  },
+  {
+    "id": "npc_0064",
+    "name": "NPC 64",
+    "name_kr": "NPC 64",
+    "name_ar": "شخصية 64",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 65,
+      "honesty": 65,
+      "bravery": 65
+    }
+  },
+  {
+    "id": "npc_0065",
+    "name": "NPC 65",
+    "name_kr": "NPC 65",
+    "name_ar": "شخصية 65",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 66,
+      "honesty": 66,
+      "bravery": 66
+    }
+  },
+  {
+    "id": "npc_0066",
+    "name": "NPC 66",
+    "name_kr": "NPC 66",
+    "name_ar": "شخصية 66",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 67,
+      "honesty": 67,
+      "bravery": 67
+    }
+  },
+  {
+    "id": "npc_0067",
+    "name": "NPC 67",
+    "name_kr": "NPC 67",
+    "name_ar": "شخصية 67",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 68,
+      "honesty": 68,
+      "bravery": 68
+    }
+  },
+  {
+    "id": "npc_0068",
+    "name": "NPC 68",
+    "name_kr": "NPC 68",
+    "name_ar": "شخصية 68",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 69,
+      "honesty": 69,
+      "bravery": 69
+    }
+  },
+  {
+    "id": "npc_0069",
+    "name": "NPC 69",
+    "name_kr": "NPC 69",
+    "name_ar": "شخصية 69",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 70,
+      "honesty": 70,
+      "bravery": 70
+    }
+  },
+  {
+    "id": "npc_0070",
+    "name": "NPC 70",
+    "name_kr": "NPC 70",
+    "name_ar": "شخصية 70",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": "Special prices for you."
+    },
+    "personality": {
+      "friendliness": 71,
+      "honesty": 71,
+      "bravery": 71
+    }
+  },
+  {
+    "id": "npc_0071",
+    "name": "NPC 71",
+    "name_kr": "NPC 71",
+    "name_ar": "شخصية 71",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 72,
+      "honesty": 72,
+      "bravery": 72
+    }
+  },
+  {
+    "id": "npc_0072",
+    "name": "NPC 72",
+    "name_kr": "NPC 72",
+    "name_ar": "شخصية 72",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 73,
+      "honesty": 73,
+      "bravery": 73
+    }
+  },
+  {
+    "id": "npc_0073",
+    "name": "NPC 73",
+    "name_kr": "NPC 73",
+    "name_ar": "شخصية 73",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 74,
+      "honesty": 74,
+      "bravery": 74
+    }
+  },
+  {
+    "id": "npc_0074",
+    "name": "NPC 74",
+    "name_kr": "NPC 74",
+    "name_ar": "شخصية 74",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 75,
+      "honesty": 75,
+      "bravery": 75
+    }
+  },
+  {
+    "id": "npc_0075",
+    "name": "NPC 75",
+    "name_kr": "NPC 75",
+    "name_ar": "شخصية 75",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 76,
+      "honesty": 76,
+      "bravery": 76
+    }
+  },
+  {
+    "id": "npc_0076",
+    "name": "NPC 76",
+    "name_kr": "NPC 76",
+    "name_ar": "شخصية 76",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 77,
+      "honesty": 77,
+      "bravery": 77
+    }
+  },
+  {
+    "id": "npc_0077",
+    "name": "NPC 77",
+    "name_kr": "NPC 77",
+    "name_ar": "شخصية 77",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": "Quality goods, fair prices."
+    },
+    "personality": {
+      "friendliness": 78,
+      "honesty": 78,
+      "bravery": 78
+    }
+  },
+  {
+    "id": "npc_0078",
+    "name": "NPC 78",
+    "name_kr": "NPC 78",
+    "name_ar": "شخصية 78",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 79,
+      "honesty": 79,
+      "bravery": 79
+    }
+  },
+  {
+    "id": "npc_0079",
+    "name": "NPC 79",
+    "name_kr": "NPC 79",
+    "name_ar": "شخصية 79",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 80,
+      "honesty": 80,
+      "bravery": 80
+    }
+  },
+  {
+    "id": "npc_0080",
+    "name": "NPC 80",
+    "name_kr": "NPC 80",
+    "name_ar": "شخصية 80",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 81,
+      "honesty": 81,
+      "bravery": 81
+    }
+  },
+  {
+    "id": "npc_0081",
+    "name": "NPC 81",
+    "name_kr": "NPC 81",
+    "name_ar": "شخصية 81",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 82,
+      "honesty": 82,
+      "bravery": 82
+    }
+  },
+  {
+    "id": "npc_0082",
+    "name": "NPC 82",
+    "name_kr": "NPC 82",
+    "name_ar": "شخصية 82",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 83,
+      "honesty": 83,
+      "bravery": 83
+    }
+  },
+  {
+    "id": "npc_0083",
+    "name": "NPC 83",
+    "name_kr": "NPC 83",
+    "name_ar": "شخصية 83",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 84,
+      "honesty": 84,
+      "bravery": 84
+    }
+  },
+  {
+    "id": "npc_0084",
+    "name": "NPC 84",
+    "name_kr": "NPC 84",
+    "name_ar": "شخصية 84",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": "Take a look at my wares."
+    },
+    "personality": {
+      "friendliness": 85,
+      "honesty": 85,
+      "bravery": 85
+    }
+  },
+  {
+    "id": "npc_0085",
+    "name": "NPC 85",
+    "name_kr": "NPC 85",
+    "name_ar": "شخصية 85",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 86,
+      "honesty": 86,
+      "bravery": 86
+    }
+  },
+  {
+    "id": "npc_0086",
+    "name": "NPC 86",
+    "name_kr": "NPC 86",
+    "name_ar": "شخصية 86",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 87,
+      "honesty": 87,
+      "bravery": 87
+    }
+  },
+  {
+    "id": "npc_0087",
+    "name": "NPC 87",
+    "name_kr": "NPC 87",
+    "name_ar": "شخصية 87",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 88,
+      "honesty": 88,
+      "bravery": 88
+    }
+  },
+  {
+    "id": "npc_0088",
+    "name": "NPC 88",
+    "name_kr": "NPC 88",
+    "name_ar": "شخصية 88",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 89,
+      "honesty": 89,
+      "bravery": 89
+    }
+  },
+  {
+    "id": "npc_0089",
+    "name": "NPC 89",
+    "name_kr": "NPC 89",
+    "name_ar": "شخصية 89",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 90,
+      "honesty": 90,
+      "bravery": 90
+    }
+  },
+  {
+    "id": "npc_0090",
+    "name": "NPC 90",
+    "name_kr": "NPC 90",
+    "name_ar": "شخصية 90",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 91,
+      "honesty": 91,
+      "bravery": 91
+    }
+  },
+  {
+    "id": "npc_0091",
+    "name": "NPC 91",
+    "name_kr": "NPC 91",
+    "name_ar": "شخصية 91",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": "Special prices for you."
+    },
+    "personality": {
+      "friendliness": 92,
+      "honesty": 92,
+      "bravery": 92
+    }
+  },
+  {
+    "id": "npc_0092",
+    "name": "NPC 92",
+    "name_kr": "NPC 92",
+    "name_ar": "شخصية 92",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 93,
+      "honesty": 93,
+      "bravery": 93
+    }
+  },
+  {
+    "id": "npc_0093",
+    "name": "NPC 93",
+    "name_kr": "NPC 93",
+    "name_ar": "شخصية 93",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 94,
+      "honesty": 94,
+      "bravery": 94
+    }
+  },
+  {
+    "id": "npc_0094",
+    "name": "NPC 94",
+    "name_kr": "NPC 94",
+    "name_ar": "شخصية 94",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 95,
+      "honesty": 95,
+      "bravery": 95
+    }
+  },
+  {
+    "id": "npc_0095",
+    "name": "NPC 95",
+    "name_kr": "NPC 95",
+    "name_ar": "شخصية 95",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 96,
+      "honesty": 96,
+      "bravery": 96
+    }
+  },
+  {
+    "id": "npc_0096",
+    "name": "NPC 96",
+    "name_kr": "NPC 96",
+    "name_ar": "شخصية 96",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 97,
+      "honesty": 97,
+      "bravery": 97
+    }
+  },
+  {
+    "id": "npc_0097",
+    "name": "NPC 97",
+    "name_kr": "NPC 97",
+    "name_ar": "شخصية 97",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 98,
+      "honesty": 98,
+      "bravery": 98
+    }
+  },
+  {
+    "id": "npc_0098",
+    "name": "NPC 98",
+    "name_kr": "NPC 98",
+    "name_ar": "شخصية 98",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": "Quality goods, fair prices."
+    },
+    "personality": {
+      "friendliness": 99,
+      "honesty": 99,
+      "bravery": 99
+    }
+  },
+  {
+    "id": "npc_0099",
+    "name": "NPC 99",
+    "name_kr": "NPC 99",
+    "name_ar": "شخصية 99",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 100,
+      "honesty": 100,
+      "bravery": 100
+    }
+  },
+  {
+    "id": "npc_0100",
+    "name": "NPC 100",
+    "name_kr": "NPC 100",
+    "name_ar": "شخصية 100",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 1,
+      "honesty": 1,
+      "bravery": 1
+    }
+  },
+  {
+    "id": "npc_0101",
+    "name": "NPC 101",
+    "name_kr": "NPC 101",
+    "name_ar": "شخصية 101",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 2,
+      "honesty": 2,
+      "bravery": 2
+    }
+  },
+  {
+    "id": "npc_0102",
+    "name": "NPC 102",
+    "name_kr": "NPC 102",
+    "name_ar": "شخصية 102",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 3,
+      "honesty": 3,
+      "bravery": 3
+    }
+  },
+  {
+    "id": "npc_0103",
+    "name": "NPC 103",
+    "name_kr": "NPC 103",
+    "name_ar": "شخصية 103",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 4,
+      "honesty": 4,
+      "bravery": 4
+    }
+  },
+  {
+    "id": "npc_0104",
+    "name": "NPC 104",
+    "name_kr": "NPC 104",
+    "name_ar": "شخصية 104",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 5,
+      "honesty": 5,
+      "bravery": 5
+    }
+  },
+  {
+    "id": "npc_0105",
+    "name": "NPC 105",
+    "name_kr": "NPC 105",
+    "name_ar": "شخصية 105",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": "Take a look at my wares."
+    },
+    "personality": {
+      "friendliness": 6,
+      "honesty": 6,
+      "bravery": 6
+    }
+  },
+  {
+    "id": "npc_0106",
+    "name": "NPC 106",
+    "name_kr": "NPC 106",
+    "name_ar": "شخصية 106",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 7,
+      "honesty": 7,
+      "bravery": 7
+    }
+  },
+  {
+    "id": "npc_0107",
+    "name": "NPC 107",
+    "name_kr": "NPC 107",
+    "name_ar": "شخصية 107",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 8,
+      "honesty": 8,
+      "bravery": 8
+    }
+  },
+  {
+    "id": "npc_0108",
+    "name": "NPC 108",
+    "name_kr": "NPC 108",
+    "name_ar": "شخصية 108",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 9,
+      "honesty": 9,
+      "bravery": 9
+    }
+  },
+  {
+    "id": "npc_0109",
+    "name": "NPC 109",
+    "name_kr": "NPC 109",
+    "name_ar": "شخصية 109",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 10,
+      "honesty": 10,
+      "bravery": 10
+    }
+  },
+  {
+    "id": "npc_0110",
+    "name": "NPC 110",
+    "name_kr": "NPC 110",
+    "name_ar": "شخصية 110",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 11,
+      "honesty": 11,
+      "bravery": 11
+    }
+  },
+  {
+    "id": "npc_0111",
+    "name": "NPC 111",
+    "name_kr": "NPC 111",
+    "name_ar": "شخصية 111",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 12,
+      "honesty": 12,
+      "bravery": 12
+    }
+  },
+  {
+    "id": "npc_0112",
+    "name": "NPC 112",
+    "name_kr": "NPC 112",
+    "name_ar": "شخصية 112",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": "Special prices for you."
+    },
+    "personality": {
+      "friendliness": 13,
+      "honesty": 13,
+      "bravery": 13
+    }
+  },
+  {
+    "id": "npc_0113",
+    "name": "NPC 113",
+    "name_kr": "NPC 113",
+    "name_ar": "شخصية 113",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 14,
+      "honesty": 14,
+      "bravery": 14
+    }
+  },
+  {
+    "id": "npc_0114",
+    "name": "NPC 114",
+    "name_kr": "NPC 114",
+    "name_ar": "شخصية 114",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 15,
+      "honesty": 15,
+      "bravery": 15
+    }
+  },
+  {
+    "id": "npc_0115",
+    "name": "NPC 115",
+    "name_kr": "NPC 115",
+    "name_ar": "شخصية 115",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 16,
+      "honesty": 16,
+      "bravery": 16
+    }
+  },
+  {
+    "id": "npc_0116",
+    "name": "NPC 116",
+    "name_kr": "NPC 116",
+    "name_ar": "شخصية 116",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 17,
+      "honesty": 17,
+      "bravery": 17
+    }
+  },
+  {
+    "id": "npc_0117",
+    "name": "NPC 117",
+    "name_kr": "NPC 117",
+    "name_ar": "شخصية 117",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 18,
+      "honesty": 18,
+      "bravery": 18
+    }
+  },
+  {
+    "id": "npc_0118",
+    "name": "NPC 118",
+    "name_kr": "NPC 118",
+    "name_ar": "شخصية 118",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 19,
+      "honesty": 19,
+      "bravery": 19
+    }
+  },
+  {
+    "id": "npc_0119",
+    "name": "NPC 119",
+    "name_kr": "NPC 119",
+    "name_ar": "شخصية 119",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": "Quality goods, fair prices."
+    },
+    "personality": {
+      "friendliness": 20,
+      "honesty": 20,
+      "bravery": 20
+    }
+  },
+  {
+    "id": "npc_0120",
+    "name": "NPC 120",
+    "name_kr": "NPC 120",
+    "name_ar": "شخصية 120",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 21,
+      "honesty": 21,
+      "bravery": 21
+    }
+  },
+  {
+    "id": "npc_0121",
+    "name": "NPC 121",
+    "name_kr": "NPC 121",
+    "name_ar": "شخصية 121",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 22,
+      "honesty": 22,
+      "bravery": 22
+    }
+  },
+  {
+    "id": "npc_0122",
+    "name": "NPC 122",
+    "name_kr": "NPC 122",
+    "name_ar": "شخصية 122",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 23,
+      "honesty": 23,
+      "bravery": 23
+    }
+  },
+  {
+    "id": "npc_0123",
+    "name": "NPC 123",
+    "name_kr": "NPC 123",
+    "name_ar": "شخصية 123",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 24,
+      "honesty": 24,
+      "bravery": 24
+    }
+  },
+  {
+    "id": "npc_0124",
+    "name": "NPC 124",
+    "name_kr": "NPC 124",
+    "name_ar": "شخصية 124",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 25,
+      "honesty": 25,
+      "bravery": 25
+    }
+  },
+  {
+    "id": "npc_0125",
+    "name": "NPC 125",
+    "name_kr": "NPC 125",
+    "name_ar": "شخصية 125",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 26,
+      "honesty": 26,
+      "bravery": 26
+    }
+  },
+  {
+    "id": "npc_0126",
+    "name": "NPC 126",
+    "name_kr": "NPC 126",
+    "name_ar": "شخصية 126",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": "Take a look at my wares."
+    },
+    "personality": {
+      "friendliness": 27,
+      "honesty": 27,
+      "bravery": 27
+    }
+  },
+  {
+    "id": "npc_0127",
+    "name": "NPC 127",
+    "name_kr": "NPC 127",
+    "name_ar": "شخصية 127",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 28,
+      "honesty": 28,
+      "bravery": 28
+    }
+  },
+  {
+    "id": "npc_0128",
+    "name": "NPC 128",
+    "name_kr": "NPC 128",
+    "name_ar": "شخصية 128",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 29,
+      "honesty": 29,
+      "bravery": 29
+    }
+  },
+  {
+    "id": "npc_0129",
+    "name": "NPC 129",
+    "name_kr": "NPC 129",
+    "name_ar": "شخصية 129",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 30,
+      "honesty": 30,
+      "bravery": 30
+    }
+  },
+  {
+    "id": "npc_0130",
+    "name": "NPC 130",
+    "name_kr": "NPC 130",
+    "name_ar": "شخصية 130",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 31,
+      "honesty": 31,
+      "bravery": 31
+    }
+  },
+  {
+    "id": "npc_0131",
+    "name": "NPC 131",
+    "name_kr": "NPC 131",
+    "name_ar": "شخصية 131",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 32,
+      "honesty": 32,
+      "bravery": 32
+    }
+  },
+  {
+    "id": "npc_0132",
+    "name": "NPC 132",
+    "name_kr": "NPC 132",
+    "name_ar": "شخصية 132",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 33,
+      "honesty": 33,
+      "bravery": 33
+    }
+  },
+  {
+    "id": "npc_0133",
+    "name": "NPC 133",
+    "name_kr": "NPC 133",
+    "name_ar": "شخصية 133",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": "Special prices for you."
+    },
+    "personality": {
+      "friendliness": 34,
+      "honesty": 34,
+      "bravery": 34
+    }
+  },
+  {
+    "id": "npc_0134",
+    "name": "NPC 134",
+    "name_kr": "NPC 134",
+    "name_ar": "شخصية 134",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 35,
+      "honesty": 35,
+      "bravery": 35
+    }
+  },
+  {
+    "id": "npc_0135",
+    "name": "NPC 135",
+    "name_kr": "NPC 135",
+    "name_ar": "شخصية 135",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 36,
+      "honesty": 36,
+      "bravery": 36
+    }
+  },
+  {
+    "id": "npc_0136",
+    "name": "NPC 136",
+    "name_kr": "NPC 136",
+    "name_ar": "شخصية 136",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 37,
+      "honesty": 37,
+      "bravery": 37
+    }
+  },
+  {
+    "id": "npc_0137",
+    "name": "NPC 137",
+    "name_kr": "NPC 137",
+    "name_ar": "شخصية 137",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 38,
+      "honesty": 38,
+      "bravery": 38
+    }
+  },
+  {
+    "id": "npc_0138",
+    "name": "NPC 138",
+    "name_kr": "NPC 138",
+    "name_ar": "شخصية 138",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 39,
+      "honesty": 39,
+      "bravery": 39
+    }
+  },
+  {
+    "id": "npc_0139",
+    "name": "NPC 139",
+    "name_kr": "NPC 139",
+    "name_ar": "شخصية 139",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 40,
+      "honesty": 40,
+      "bravery": 40
+    }
+  },
+  {
+    "id": "npc_0140",
+    "name": "NPC 140",
+    "name_kr": "NPC 140",
+    "name_ar": "شخصية 140",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": "Quality goods, fair prices."
+    },
+    "personality": {
+      "friendliness": 41,
+      "honesty": 41,
+      "bravery": 41
+    }
+  },
+  {
+    "id": "npc_0141",
+    "name": "NPC 141",
+    "name_kr": "NPC 141",
+    "name_ar": "شخصية 141",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 42,
+      "honesty": 42,
+      "bravery": 42
+    }
+  },
+  {
+    "id": "npc_0142",
+    "name": "NPC 142",
+    "name_kr": "NPC 142",
+    "name_ar": "شخصية 142",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 43,
+      "honesty": 43,
+      "bravery": 43
+    }
+  },
+  {
+    "id": "npc_0143",
+    "name": "NPC 143",
+    "name_kr": "NPC 143",
+    "name_ar": "شخصية 143",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 44,
+      "honesty": 44,
+      "bravery": 44
+    }
+  },
+  {
+    "id": "npc_0144",
+    "name": "NPC 144",
+    "name_kr": "NPC 144",
+    "name_ar": "شخصية 144",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 45,
+      "honesty": 45,
+      "bravery": 45
+    }
+  },
+  {
+    "id": "npc_0145",
+    "name": "NPC 145",
+    "name_kr": "NPC 145",
+    "name_ar": "شخصية 145",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 46,
+      "honesty": 46,
+      "bravery": 46
+    }
+  },
+  {
+    "id": "npc_0146",
+    "name": "NPC 146",
+    "name_kr": "NPC 146",
+    "name_ar": "شخصية 146",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 47,
+      "honesty": 47,
+      "bravery": 47
+    }
+  },
+  {
+    "id": "npc_0147",
+    "name": "NPC 147",
+    "name_kr": "NPC 147",
+    "name_ar": "شخصية 147",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": "Take a look at my wares."
+    },
+    "personality": {
+      "friendliness": 48,
+      "honesty": 48,
+      "bravery": 48
+    }
+  },
+  {
+    "id": "npc_0148",
+    "name": "NPC 148",
+    "name_kr": "NPC 148",
+    "name_ar": "شخصية 148",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 49,
+      "honesty": 49,
+      "bravery": 49
+    }
+  },
+  {
+    "id": "npc_0149",
+    "name": "NPC 149",
+    "name_kr": "NPC 149",
+    "name_ar": "شخصية 149",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 50,
+      "honesty": 50,
+      "bravery": 50
+    }
+  },
+  {
+    "id": "npc_0150",
+    "name": "NPC 150",
+    "name_kr": "NPC 150",
+    "name_ar": "شخصية 150",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 51,
+      "honesty": 51,
+      "bravery": 51
+    }
+  },
+  {
+    "id": "npc_0151",
+    "name": "NPC 151",
+    "name_kr": "NPC 151",
+    "name_ar": "شخصية 151",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 52,
+      "honesty": 52,
+      "bravery": 52
+    }
+  },
+  {
+    "id": "npc_0152",
+    "name": "NPC 152",
+    "name_kr": "NPC 152",
+    "name_ar": "شخصية 152",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 53,
+      "honesty": 53,
+      "bravery": 53
+    }
+  },
+  {
+    "id": "npc_0153",
+    "name": "NPC 153",
+    "name_kr": "NPC 153",
+    "name_ar": "شخصية 153",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 54,
+      "honesty": 54,
+      "bravery": 54
+    }
+  },
+  {
+    "id": "npc_0154",
+    "name": "NPC 154",
+    "name_kr": "NPC 154",
+    "name_ar": "شخصية 154",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": "Special prices for you."
+    },
+    "personality": {
+      "friendliness": 55,
+      "honesty": 55,
+      "bravery": 55
+    }
+  },
+  {
+    "id": "npc_0155",
+    "name": "NPC 155",
+    "name_kr": "NPC 155",
+    "name_ar": "شخصية 155",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 56,
+      "honesty": 56,
+      "bravery": 56
+    }
+  },
+  {
+    "id": "npc_0156",
+    "name": "NPC 156",
+    "name_kr": "NPC 156",
+    "name_ar": "شخصية 156",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 57,
+      "honesty": 57,
+      "bravery": 57
+    }
+  },
+  {
+    "id": "npc_0157",
+    "name": "NPC 157",
+    "name_kr": "NPC 157",
+    "name_ar": "شخصية 157",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 58,
+      "honesty": 58,
+      "bravery": 58
+    }
+  },
+  {
+    "id": "npc_0158",
+    "name": "NPC 158",
+    "name_kr": "NPC 158",
+    "name_ar": "شخصية 158",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 59,
+      "honesty": 59,
+      "bravery": 59
+    }
+  },
+  {
+    "id": "npc_0159",
+    "name": "NPC 159",
+    "name_kr": "NPC 159",
+    "name_ar": "شخصية 159",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 60,
+      "honesty": 60,
+      "bravery": 60
+    }
+  },
+  {
+    "id": "npc_0160",
+    "name": "NPC 160",
+    "name_kr": "NPC 160",
+    "name_ar": "شخصية 160",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 61,
+      "honesty": 61,
+      "bravery": 61
+    }
+  },
+  {
+    "id": "npc_0161",
+    "name": "NPC 161",
+    "name_kr": "NPC 161",
+    "name_ar": "شخصية 161",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": "Quality goods, fair prices."
+    },
+    "personality": {
+      "friendliness": 62,
+      "honesty": 62,
+      "bravery": 62
+    }
+  },
+  {
+    "id": "npc_0162",
+    "name": "NPC 162",
+    "name_kr": "NPC 162",
+    "name_ar": "شخصية 162",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 63,
+      "honesty": 63,
+      "bravery": 63
+    }
+  },
+  {
+    "id": "npc_0163",
+    "name": "NPC 163",
+    "name_kr": "NPC 163",
+    "name_ar": "شخصية 163",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 64,
+      "honesty": 64,
+      "bravery": 64
+    }
+  },
+  {
+    "id": "npc_0164",
+    "name": "NPC 164",
+    "name_kr": "NPC 164",
+    "name_ar": "شخصية 164",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 65,
+      "honesty": 65,
+      "bravery": 65
+    }
+  },
+  {
+    "id": "npc_0165",
+    "name": "NPC 165",
+    "name_kr": "NPC 165",
+    "name_ar": "شخصية 165",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 66,
+      "honesty": 66,
+      "bravery": 66
+    }
+  },
+  {
+    "id": "npc_0166",
+    "name": "NPC 166",
+    "name_kr": "NPC 166",
+    "name_ar": "شخصية 166",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 67,
+      "honesty": 67,
+      "bravery": 67
+    }
+  },
+  {
+    "id": "npc_0167",
+    "name": "NPC 167",
+    "name_kr": "NPC 167",
+    "name_ar": "شخصية 167",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 68,
+      "honesty": 68,
+      "bravery": 68
+    }
+  },
+  {
+    "id": "npc_0168",
+    "name": "NPC 168",
+    "name_kr": "NPC 168",
+    "name_ar": "شخصية 168",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": "Take a look at my wares."
+    },
+    "personality": {
+      "friendliness": 69,
+      "honesty": 69,
+      "bravery": 69
+    }
+  },
+  {
+    "id": "npc_0169",
+    "name": "NPC 169",
+    "name_kr": "NPC 169",
+    "name_ar": "شخصية 169",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 70,
+      "honesty": 70,
+      "bravery": 70
+    }
+  },
+  {
+    "id": "npc_0170",
+    "name": "NPC 170",
+    "name_kr": "NPC 170",
+    "name_ar": "شخصية 170",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 71,
+      "honesty": 71,
+      "bravery": 71
+    }
+  },
+  {
+    "id": "npc_0171",
+    "name": "NPC 171",
+    "name_kr": "NPC 171",
+    "name_ar": "شخصية 171",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 72,
+      "honesty": 72,
+      "bravery": 72
+    }
+  },
+  {
+    "id": "npc_0172",
+    "name": "NPC 172",
+    "name_kr": "NPC 172",
+    "name_ar": "شخصية 172",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 73,
+      "honesty": 73,
+      "bravery": 73
+    }
+  },
+  {
+    "id": "npc_0173",
+    "name": "NPC 173",
+    "name_kr": "NPC 173",
+    "name_ar": "شخصية 173",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 74,
+      "honesty": 74,
+      "bravery": 74
+    }
+  },
+  {
+    "id": "npc_0174",
+    "name": "NPC 174",
+    "name_kr": "NPC 174",
+    "name_ar": "شخصية 174",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 75,
+      "honesty": 75,
+      "bravery": 75
+    }
+  },
+  {
+    "id": "npc_0175",
+    "name": "NPC 175",
+    "name_kr": "NPC 175",
+    "name_ar": "شخصية 175",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": "Special prices for you."
+    },
+    "personality": {
+      "friendliness": 76,
+      "honesty": 76,
+      "bravery": 76
+    }
+  },
+  {
+    "id": "npc_0176",
+    "name": "NPC 176",
+    "name_kr": "NPC 176",
+    "name_ar": "شخصية 176",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 77,
+      "honesty": 77,
+      "bravery": 77
+    }
+  },
+  {
+    "id": "npc_0177",
+    "name": "NPC 177",
+    "name_kr": "NPC 177",
+    "name_ar": "شخصية 177",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 78,
+      "honesty": 78,
+      "bravery": 78
+    }
+  },
+  {
+    "id": "npc_0178",
+    "name": "NPC 178",
+    "name_kr": "NPC 178",
+    "name_ar": "شخصية 178",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 79,
+      "honesty": 79,
+      "bravery": 79
+    }
+  },
+  {
+    "id": "npc_0179",
+    "name": "NPC 179",
+    "name_kr": "NPC 179",
+    "name_ar": "شخصية 179",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 80,
+      "honesty": 80,
+      "bravery": 80
+    }
+  },
+  {
+    "id": "npc_0180",
+    "name": "NPC 180",
+    "name_kr": "NPC 180",
+    "name_ar": "شخصية 180",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 81,
+      "honesty": 81,
+      "bravery": 81
+    }
+  },
+  {
+    "id": "npc_0181",
+    "name": "NPC 181",
+    "name_kr": "NPC 181",
+    "name_ar": "شخصية 181",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 82,
+      "honesty": 82,
+      "bravery": 82
+    }
+  },
+  {
+    "id": "npc_0182",
+    "name": "NPC 182",
+    "name_kr": "NPC 182",
+    "name_ar": "شخصية 182",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": "Quality goods, fair prices."
+    },
+    "personality": {
+      "friendliness": 83,
+      "honesty": 83,
+      "bravery": 83
+    }
+  },
+  {
+    "id": "npc_0183",
+    "name": "NPC 183",
+    "name_kr": "NPC 183",
+    "name_ar": "شخصية 183",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 84,
+      "honesty": 84,
+      "bravery": 84
+    }
+  },
+  {
+    "id": "npc_0184",
+    "name": "NPC 184",
+    "name_kr": "NPC 184",
+    "name_ar": "شخصية 184",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 85,
+      "honesty": 85,
+      "bravery": 85
+    }
+  },
+  {
+    "id": "npc_0185",
+    "name": "NPC 185",
+    "name_kr": "NPC 185",
+    "name_ar": "شخصية 185",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 86,
+      "honesty": 86,
+      "bravery": 86
+    }
+  },
+  {
+    "id": "npc_0186",
+    "name": "NPC 186",
+    "name_kr": "NPC 186",
+    "name_ar": "شخصية 186",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 87,
+      "honesty": 87,
+      "bravery": 87
+    }
+  },
+  {
+    "id": "npc_0187",
+    "name": "NPC 187",
+    "name_kr": "NPC 187",
+    "name_ar": "شخصية 187",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 88,
+      "honesty": 88,
+      "bravery": 88
+    }
+  },
+  {
+    "id": "npc_0188",
+    "name": "NPC 188",
+    "name_kr": "NPC 188",
+    "name_ar": "شخصية 188",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 89,
+      "honesty": 89,
+      "bravery": 89
+    }
+  },
+  {
+    "id": "npc_0189",
+    "name": "NPC 189",
+    "name_kr": "NPC 189",
+    "name_ar": "شخصية 189",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": "Take a look at my wares."
+    },
+    "personality": {
+      "friendliness": 90,
+      "honesty": 90,
+      "bravery": 90
+    }
+  },
+  {
+    "id": "npc_0190",
+    "name": "NPC 190",
+    "name_kr": "NPC 190",
+    "name_ar": "شخصية 190",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 91,
+      "honesty": 91,
+      "bravery": 91
+    }
+  },
+  {
+    "id": "npc_0191",
+    "name": "NPC 191",
+    "name_kr": "NPC 191",
+    "name_ar": "شخصية 191",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 92,
+      "honesty": 92,
+      "bravery": 92
+    }
+  },
+  {
+    "id": "npc_0192",
+    "name": "NPC 192",
+    "name_kr": "NPC 192",
+    "name_ar": "شخصية 192",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 93,
+      "honesty": 93,
+      "bravery": 93
+    }
+  },
+  {
+    "id": "npc_0193",
+    "name": "NPC 193",
+    "name_kr": "NPC 193",
+    "name_ar": "شخصية 193",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 94,
+      "honesty": 94,
+      "bravery": 94
+    }
+  },
+  {
+    "id": "npc_0194",
+    "name": "NPC 194",
+    "name_kr": "NPC 194",
+    "name_ar": "شخصية 194",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 95,
+      "honesty": 95,
+      "bravery": 95
+    }
+  },
+  {
+    "id": "npc_0195",
+    "name": "NPC 195",
+    "name_kr": "NPC 195",
+    "name_ar": "شخصية 195",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 96,
+      "honesty": 96,
+      "bravery": 96
+    }
+  },
+  {
+    "id": "npc_0196",
+    "name": "NPC 196",
+    "name_kr": "NPC 196",
+    "name_ar": "شخصية 196",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": "Special prices for you."
+    },
+    "personality": {
+      "friendliness": 97,
+      "honesty": 97,
+      "bravery": 97
+    }
+  },
+  {
+    "id": "npc_0197",
+    "name": "NPC 197",
+    "name_kr": "NPC 197",
+    "name_ar": "شخصية 197",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 98,
+      "honesty": 98,
+      "bravery": 98
+    }
+  },
+  {
+    "id": "npc_0198",
+    "name": "NPC 198",
+    "name_kr": "NPC 198",
+    "name_ar": "شخصية 198",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 99,
+      "honesty": 99,
+      "bravery": 99
+    }
+  },
+  {
+    "id": "npc_0199",
+    "name": "NPC 199",
+    "name_kr": "NPC 199",
+    "name_ar": "شخصية 199",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 100,
+      "honesty": 100,
+      "bravery": 100
+    }
+  },
+  {
+    "id": "npc_0200",
+    "name": "NPC 200",
+    "name_kr": "NPC 200",
+    "name_ar": "شخصية 200",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 1,
+      "honesty": 1,
+      "bravery": 1
+    }
+  },
+  {
+    "id": "npc_0201",
+    "name": "NPC 201",
+    "name_kr": "NPC 201",
+    "name_ar": "شخصية 201",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 2,
+      "honesty": 2,
+      "bravery": 2
+    }
+  },
+  {
+    "id": "npc_0202",
+    "name": "NPC 202",
+    "name_kr": "NPC 202",
+    "name_ar": "شخصية 202",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 3,
+      "honesty": 3,
+      "bravery": 3
+    }
+  },
+  {
+    "id": "npc_0203",
+    "name": "NPC 203",
+    "name_kr": "NPC 203",
+    "name_ar": "شخصية 203",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": "Quality goods, fair prices."
+    },
+    "personality": {
+      "friendliness": 4,
+      "honesty": 4,
+      "bravery": 4
+    }
+  },
+  {
+    "id": "npc_0204",
+    "name": "NPC 204",
+    "name_kr": "NPC 204",
+    "name_ar": "شخصية 204",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 5,
+      "honesty": 5,
+      "bravery": 5
+    }
+  },
+  {
+    "id": "npc_0205",
+    "name": "NPC 205",
+    "name_kr": "NPC 205",
+    "name_ar": "شخصية 205",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 6,
+      "honesty": 6,
+      "bravery": 6
+    }
+  },
+  {
+    "id": "npc_0206",
+    "name": "NPC 206",
+    "name_kr": "NPC 206",
+    "name_ar": "شخصية 206",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 7,
+      "honesty": 7,
+      "bravery": 7
+    }
+  },
+  {
+    "id": "npc_0207",
+    "name": "NPC 207",
+    "name_kr": "NPC 207",
+    "name_ar": "شخصية 207",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 8,
+      "honesty": 8,
+      "bravery": 8
+    }
+  },
+  {
+    "id": "npc_0208",
+    "name": "NPC 208",
+    "name_kr": "NPC 208",
+    "name_ar": "شخصية 208",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 9,
+      "honesty": 9,
+      "bravery": 9
+    }
+  },
+  {
+    "id": "npc_0209",
+    "name": "NPC 209",
+    "name_kr": "NPC 209",
+    "name_ar": "شخصية 209",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 10,
+      "honesty": 10,
+      "bravery": 10
+    }
+  },
+  {
+    "id": "npc_0210",
+    "name": "NPC 210",
+    "name_kr": "NPC 210",
+    "name_ar": "شخصية 210",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": "Take a look at my wares."
+    },
+    "personality": {
+      "friendliness": 11,
+      "honesty": 11,
+      "bravery": 11
+    }
+  },
+  {
+    "id": "npc_0211",
+    "name": "NPC 211",
+    "name_kr": "NPC 211",
+    "name_ar": "شخصية 211",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 12,
+      "honesty": 12,
+      "bravery": 12
+    }
+  },
+  {
+    "id": "npc_0212",
+    "name": "NPC 212",
+    "name_kr": "NPC 212",
+    "name_ar": "شخصية 212",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 13,
+      "honesty": 13,
+      "bravery": 13
+    }
+  },
+  {
+    "id": "npc_0213",
+    "name": "NPC 213",
+    "name_kr": "NPC 213",
+    "name_ar": "شخصية 213",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 14,
+      "honesty": 14,
+      "bravery": 14
+    }
+  },
+  {
+    "id": "npc_0214",
+    "name": "NPC 214",
+    "name_kr": "NPC 214",
+    "name_ar": "شخصية 214",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 15,
+      "honesty": 15,
+      "bravery": 15
+    }
+  },
+  {
+    "id": "npc_0215",
+    "name": "NPC 215",
+    "name_kr": "NPC 215",
+    "name_ar": "شخصية 215",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 16,
+      "honesty": 16,
+      "bravery": 16
+    }
+  },
+  {
+    "id": "npc_0216",
+    "name": "NPC 216",
+    "name_kr": "NPC 216",
+    "name_ar": "شخصية 216",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 17,
+      "honesty": 17,
+      "bravery": 17
+    }
+  },
+  {
+    "id": "npc_0217",
+    "name": "NPC 217",
+    "name_kr": "NPC 217",
+    "name_ar": "شخصية 217",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": "Special prices for you."
+    },
+    "personality": {
+      "friendliness": 18,
+      "honesty": 18,
+      "bravery": 18
+    }
+  },
+  {
+    "id": "npc_0218",
+    "name": "NPC 218",
+    "name_kr": "NPC 218",
+    "name_ar": "شخصية 218",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 19,
+      "honesty": 19,
+      "bravery": 19
+    }
+  },
+  {
+    "id": "npc_0219",
+    "name": "NPC 219",
+    "name_kr": "NPC 219",
+    "name_ar": "شخصية 219",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 20,
+      "honesty": 20,
+      "bravery": 20
+    }
+  },
+  {
+    "id": "npc_0220",
+    "name": "NPC 220",
+    "name_kr": "NPC 220",
+    "name_ar": "شخصية 220",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 21,
+      "honesty": 21,
+      "bravery": 21
+    }
+  },
+  {
+    "id": "npc_0221",
+    "name": "NPC 221",
+    "name_kr": "NPC 221",
+    "name_ar": "شخصية 221",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 22,
+      "honesty": 22,
+      "bravery": 22
+    }
+  },
+  {
+    "id": "npc_0222",
+    "name": "NPC 222",
+    "name_kr": "NPC 222",
+    "name_ar": "شخصية 222",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 23,
+      "honesty": 23,
+      "bravery": 23
+    }
+  },
+  {
+    "id": "npc_0223",
+    "name": "NPC 223",
+    "name_kr": "NPC 223",
+    "name_ar": "شخصية 223",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 24,
+      "honesty": 24,
+      "bravery": 24
+    }
+  },
+  {
+    "id": "npc_0224",
+    "name": "NPC 224",
+    "name_kr": "NPC 224",
+    "name_ar": "شخصية 224",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": "Quality goods, fair prices."
+    },
+    "personality": {
+      "friendliness": 25,
+      "honesty": 25,
+      "bravery": 25
+    }
+  },
+  {
+    "id": "npc_0225",
+    "name": "NPC 225",
+    "name_kr": "NPC 225",
+    "name_ar": "شخصية 225",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 26,
+      "honesty": 26,
+      "bravery": 26
+    }
+  },
+  {
+    "id": "npc_0226",
+    "name": "NPC 226",
+    "name_kr": "NPC 226",
+    "name_ar": "شخصية 226",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 27,
+      "honesty": 27,
+      "bravery": 27
+    }
+  },
+  {
+    "id": "npc_0227",
+    "name": "NPC 227",
+    "name_kr": "NPC 227",
+    "name_ar": "شخصية 227",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 28,
+      "honesty": 28,
+      "bravery": 28
+    }
+  },
+  {
+    "id": "npc_0228",
+    "name": "NPC 228",
+    "name_kr": "NPC 228",
+    "name_ar": "شخصية 228",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 29,
+      "honesty": 29,
+      "bravery": 29
+    }
+  },
+  {
+    "id": "npc_0229",
+    "name": "NPC 229",
+    "name_kr": "NPC 229",
+    "name_ar": "شخصية 229",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 30,
+      "honesty": 30,
+      "bravery": 30
+    }
+  },
+  {
+    "id": "npc_0230",
+    "name": "NPC 230",
+    "name_kr": "NPC 230",
+    "name_ar": "شخصية 230",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 31,
+      "honesty": 31,
+      "bravery": 31
+    }
+  },
+  {
+    "id": "npc_0231",
+    "name": "NPC 231",
+    "name_kr": "NPC 231",
+    "name_ar": "شخصية 231",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": "Take a look at my wares."
+    },
+    "personality": {
+      "friendliness": 32,
+      "honesty": 32,
+      "bravery": 32
+    }
+  },
+  {
+    "id": "npc_0232",
+    "name": "NPC 232",
+    "name_kr": "NPC 232",
+    "name_ar": "شخصية 232",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 33,
+      "honesty": 33,
+      "bravery": 33
+    }
+  },
+  {
+    "id": "npc_0233",
+    "name": "NPC 233",
+    "name_kr": "NPC 233",
+    "name_ar": "شخصية 233",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 34,
+      "honesty": 34,
+      "bravery": 34
+    }
+  },
+  {
+    "id": "npc_0234",
+    "name": "NPC 234",
+    "name_kr": "NPC 234",
+    "name_ar": "شخصية 234",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 35,
+      "honesty": 35,
+      "bravery": 35
+    }
+  },
+  {
+    "id": "npc_0235",
+    "name": "NPC 235",
+    "name_kr": "NPC 235",
+    "name_ar": "شخصية 235",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 36,
+      "honesty": 36,
+      "bravery": 36
+    }
+  },
+  {
+    "id": "npc_0236",
+    "name": "NPC 236",
+    "name_kr": "NPC 236",
+    "name_ar": "شخصية 236",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 37,
+      "honesty": 37,
+      "bravery": 37
+    }
+  },
+  {
+    "id": "npc_0237",
+    "name": "NPC 237",
+    "name_kr": "NPC 237",
+    "name_ar": "شخصية 237",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 38,
+      "honesty": 38,
+      "bravery": 38
+    }
+  },
+  {
+    "id": "npc_0238",
+    "name": "NPC 238",
+    "name_kr": "NPC 238",
+    "name_ar": "شخصية 238",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": "Special prices for you."
+    },
+    "personality": {
+      "friendliness": 39,
+      "honesty": 39,
+      "bravery": 39
+    }
+  },
+  {
+    "id": "npc_0239",
+    "name": "NPC 239",
+    "name_kr": "NPC 239",
+    "name_ar": "شخصية 239",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 40,
+      "honesty": 40,
+      "bravery": 40
+    }
+  },
+  {
+    "id": "npc_0240",
+    "name": "NPC 240",
+    "name_kr": "NPC 240",
+    "name_ar": "شخصية 240",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 41,
+      "honesty": 41,
+      "bravery": 41
+    }
+  },
+  {
+    "id": "npc_0241",
+    "name": "NPC 241",
+    "name_kr": "NPC 241",
+    "name_ar": "شخصية 241",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 42,
+      "honesty": 42,
+      "bravery": 42
+    }
+  },
+  {
+    "id": "npc_0242",
+    "name": "NPC 242",
+    "name_kr": "NPC 242",
+    "name_ar": "شخصية 242",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 43,
+      "honesty": 43,
+      "bravery": 43
+    }
+  },
+  {
+    "id": "npc_0243",
+    "name": "NPC 243",
+    "name_kr": "NPC 243",
+    "name_ar": "شخصية 243",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 44,
+      "honesty": 44,
+      "bravery": 44
+    }
+  },
+  {
+    "id": "npc_0244",
+    "name": "NPC 244",
+    "name_kr": "NPC 244",
+    "name_ar": "شخصية 244",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 45,
+      "honesty": 45,
+      "bravery": 45
+    }
+  },
+  {
+    "id": "npc_0245",
+    "name": "NPC 245",
+    "name_kr": "NPC 245",
+    "name_ar": "شخصية 245",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": "Quality goods, fair prices."
+    },
+    "personality": {
+      "friendliness": 46,
+      "honesty": 46,
+      "bravery": 46
+    }
+  },
+  {
+    "id": "npc_0246",
+    "name": "NPC 246",
+    "name_kr": "NPC 246",
+    "name_ar": "شخصية 246",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 47,
+      "honesty": 47,
+      "bravery": 47
+    }
+  },
+  {
+    "id": "npc_0247",
+    "name": "NPC 247",
+    "name_kr": "NPC 247",
+    "name_ar": "شخصية 247",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 48,
+      "honesty": 48,
+      "bravery": 48
+    }
+  },
+  {
+    "id": "npc_0248",
+    "name": "NPC 248",
+    "name_kr": "NPC 248",
+    "name_ar": "شخصية 248",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 49,
+      "honesty": 49,
+      "bravery": 49
+    }
+  },
+  {
+    "id": "npc_0249",
+    "name": "NPC 249",
+    "name_kr": "NPC 249",
+    "name_ar": "شخصية 249",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 50,
+      "honesty": 50,
+      "bravery": 50
+    }
+  },
+  {
+    "id": "npc_0250",
+    "name": "NPC 250",
+    "name_kr": "NPC 250",
+    "name_ar": "شخصية 250",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 51,
+      "honesty": 51,
+      "bravery": 51
+    }
+  },
+  {
+    "id": "npc_0251",
+    "name": "NPC 251",
+    "name_kr": "NPC 251",
+    "name_ar": "شخصية 251",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 52,
+      "honesty": 52,
+      "bravery": 52
+    }
+  },
+  {
+    "id": "npc_0252",
+    "name": "NPC 252",
+    "name_kr": "NPC 252",
+    "name_ar": "شخصية 252",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": "Take a look at my wares."
+    },
+    "personality": {
+      "friendliness": 53,
+      "honesty": 53,
+      "bravery": 53
+    }
+  },
+  {
+    "id": "npc_0253",
+    "name": "NPC 253",
+    "name_kr": "NPC 253",
+    "name_ar": "شخصية 253",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 54,
+      "honesty": 54,
+      "bravery": 54
+    }
+  },
+  {
+    "id": "npc_0254",
+    "name": "NPC 254",
+    "name_kr": "NPC 254",
+    "name_ar": "شخصية 254",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 55,
+      "honesty": 55,
+      "bravery": 55
+    }
+  },
+  {
+    "id": "npc_0255",
+    "name": "NPC 255",
+    "name_kr": "NPC 255",
+    "name_ar": "شخصية 255",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 56,
+      "honesty": 56,
+      "bravery": 56
+    }
+  },
+  {
+    "id": "npc_0256",
+    "name": "NPC 256",
+    "name_kr": "NPC 256",
+    "name_ar": "شخصية 256",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 57,
+      "honesty": 57,
+      "bravery": 57
+    }
+  },
+  {
+    "id": "npc_0257",
+    "name": "NPC 257",
+    "name_kr": "NPC 257",
+    "name_ar": "شخصية 257",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 58,
+      "honesty": 58,
+      "bravery": 58
+    }
+  },
+  {
+    "id": "npc_0258",
+    "name": "NPC 258",
+    "name_kr": "NPC 258",
+    "name_ar": "شخصية 258",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 59,
+      "honesty": 59,
+      "bravery": 59
+    }
+  },
+  {
+    "id": "npc_0259",
+    "name": "NPC 259",
+    "name_kr": "NPC 259",
+    "name_ar": "شخصية 259",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": "Special prices for you."
+    },
+    "personality": {
+      "friendliness": 60,
+      "honesty": 60,
+      "bravery": 60
+    }
+  },
+  {
+    "id": "npc_0260",
+    "name": "NPC 260",
+    "name_kr": "NPC 260",
+    "name_ar": "شخصية 260",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 61,
+      "honesty": 61,
+      "bravery": 61
+    }
+  },
+  {
+    "id": "npc_0261",
+    "name": "NPC 261",
+    "name_kr": "NPC 261",
+    "name_ar": "شخصية 261",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 62,
+      "honesty": 62,
+      "bravery": 62
+    }
+  },
+  {
+    "id": "npc_0262",
+    "name": "NPC 262",
+    "name_kr": "NPC 262",
+    "name_ar": "شخصية 262",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 63,
+      "honesty": 63,
+      "bravery": 63
+    }
+  },
+  {
+    "id": "npc_0263",
+    "name": "NPC 263",
+    "name_kr": "NPC 263",
+    "name_ar": "شخصية 263",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 64,
+      "honesty": 64,
+      "bravery": 64
+    }
+  },
+  {
+    "id": "npc_0264",
+    "name": "NPC 264",
+    "name_kr": "NPC 264",
+    "name_ar": "شخصية 264",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 65,
+      "honesty": 65,
+      "bravery": 65
+    }
+  },
+  {
+    "id": "npc_0265",
+    "name": "NPC 265",
+    "name_kr": "NPC 265",
+    "name_ar": "شخصية 265",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 66,
+      "honesty": 66,
+      "bravery": 66
+    }
+  },
+  {
+    "id": "npc_0266",
+    "name": "NPC 266",
+    "name_kr": "NPC 266",
+    "name_ar": "شخصية 266",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": "Quality goods, fair prices."
+    },
+    "personality": {
+      "friendliness": 67,
+      "honesty": 67,
+      "bravery": 67
+    }
+  },
+  {
+    "id": "npc_0267",
+    "name": "NPC 267",
+    "name_kr": "NPC 267",
+    "name_ar": "شخصية 267",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 68,
+      "honesty": 68,
+      "bravery": 68
+    }
+  },
+  {
+    "id": "npc_0268",
+    "name": "NPC 268",
+    "name_kr": "NPC 268",
+    "name_ar": "شخصية 268",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 69,
+      "honesty": 69,
+      "bravery": 69
+    }
+  },
+  {
+    "id": "npc_0269",
+    "name": "NPC 269",
+    "name_kr": "NPC 269",
+    "name_ar": "شخصية 269",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 70,
+      "honesty": 70,
+      "bravery": 70
+    }
+  },
+  {
+    "id": "npc_0270",
+    "name": "NPC 270",
+    "name_kr": "NPC 270",
+    "name_ar": "شخصية 270",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 71,
+      "honesty": 71,
+      "bravery": 71
+    }
+  },
+  {
+    "id": "npc_0271",
+    "name": "NPC 271",
+    "name_kr": "NPC 271",
+    "name_ar": "شخصية 271",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 72,
+      "honesty": 72,
+      "bravery": 72
+    }
+  },
+  {
+    "id": "npc_0272",
+    "name": "NPC 272",
+    "name_kr": "NPC 272",
+    "name_ar": "شخصية 272",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 73,
+      "honesty": 73,
+      "bravery": 73
+    }
+  },
+  {
+    "id": "npc_0273",
+    "name": "NPC 273",
+    "name_kr": "NPC 273",
+    "name_ar": "شخصية 273",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": "Take a look at my wares."
+    },
+    "personality": {
+      "friendliness": 74,
+      "honesty": 74,
+      "bravery": 74
+    }
+  },
+  {
+    "id": "npc_0274",
+    "name": "NPC 274",
+    "name_kr": "NPC 274",
+    "name_ar": "شخصية 274",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 75,
+      "honesty": 75,
+      "bravery": 75
+    }
+  },
+  {
+    "id": "npc_0275",
+    "name": "NPC 275",
+    "name_kr": "NPC 275",
+    "name_ar": "شخصية 275",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 76,
+      "honesty": 76,
+      "bravery": 76
+    }
+  },
+  {
+    "id": "npc_0276",
+    "name": "NPC 276",
+    "name_kr": "NPC 276",
+    "name_ar": "شخصية 276",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 77,
+      "honesty": 77,
+      "bravery": 77
+    }
+  },
+  {
+    "id": "npc_0277",
+    "name": "NPC 277",
+    "name_kr": "NPC 277",
+    "name_ar": "شخصية 277",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 78,
+      "honesty": 78,
+      "bravery": 78
+    }
+  },
+  {
+    "id": "npc_0278",
+    "name": "NPC 278",
+    "name_kr": "NPC 278",
+    "name_ar": "شخصية 278",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 79,
+      "honesty": 79,
+      "bravery": 79
+    }
+  },
+  {
+    "id": "npc_0279",
+    "name": "NPC 279",
+    "name_kr": "NPC 279",
+    "name_ar": "شخصية 279",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 80,
+      "honesty": 80,
+      "bravery": 80
+    }
+  },
+  {
+    "id": "npc_0280",
+    "name": "NPC 280",
+    "name_kr": "NPC 280",
+    "name_ar": "شخصية 280",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": "Special prices for you."
+    },
+    "personality": {
+      "friendliness": 81,
+      "honesty": 81,
+      "bravery": 81
+    }
+  },
+  {
+    "id": "npc_0281",
+    "name": "NPC 281",
+    "name_kr": "NPC 281",
+    "name_ar": "شخصية 281",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 82,
+      "honesty": 82,
+      "bravery": 82
+    }
+  },
+  {
+    "id": "npc_0282",
+    "name": "NPC 282",
+    "name_kr": "NPC 282",
+    "name_ar": "شخصية 282",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 83,
+      "honesty": 83,
+      "bravery": 83
+    }
+  },
+  {
+    "id": "npc_0283",
+    "name": "NPC 283",
+    "name_kr": "NPC 283",
+    "name_ar": "شخصية 283",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 84,
+      "honesty": 84,
+      "bravery": 84
+    }
+  },
+  {
+    "id": "npc_0284",
+    "name": "NPC 284",
+    "name_kr": "NPC 284",
+    "name_ar": "شخصية 284",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 85,
+      "honesty": 85,
+      "bravery": 85
+    }
+  },
+  {
+    "id": "npc_0285",
+    "name": "NPC 285",
+    "name_kr": "NPC 285",
+    "name_ar": "شخصية 285",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 86,
+      "honesty": 86,
+      "bravery": 86
+    }
+  },
+  {
+    "id": "npc_0286",
+    "name": "NPC 286",
+    "name_kr": "NPC 286",
+    "name_ar": "شخصية 286",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 87,
+      "honesty": 87,
+      "bravery": 87
+    }
+  },
+  {
+    "id": "npc_0287",
+    "name": "NPC 287",
+    "name_kr": "NPC 287",
+    "name_ar": "شخصية 287",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": "Quality goods, fair prices."
+    },
+    "personality": {
+      "friendliness": 88,
+      "honesty": 88,
+      "bravery": 88
+    }
+  },
+  {
+    "id": "npc_0288",
+    "name": "NPC 288",
+    "name_kr": "NPC 288",
+    "name_ar": "شخصية 288",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 89,
+      "honesty": 89,
+      "bravery": 89
+    }
+  },
+  {
+    "id": "npc_0289",
+    "name": "NPC 289",
+    "name_kr": "NPC 289",
+    "name_ar": "شخصية 289",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 90,
+      "honesty": 90,
+      "bravery": 90
+    }
+  },
+  {
+    "id": "npc_0290",
+    "name": "NPC 290",
+    "name_kr": "NPC 290",
+    "name_ar": "شخصية 290",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 91,
+      "honesty": 91,
+      "bravery": 91
+    }
+  },
+  {
+    "id": "npc_0291",
+    "name": "NPC 291",
+    "name_kr": "NPC 291",
+    "name_ar": "شخصية 291",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 92,
+      "honesty": 92,
+      "bravery": 92
+    }
+  },
+  {
+    "id": "npc_0292",
+    "name": "NPC 292",
+    "name_kr": "NPC 292",
+    "name_ar": "شخصية 292",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 93,
+      "honesty": 93,
+      "bravery": 93
+    }
+  },
+  {
+    "id": "npc_0293",
+    "name": "NPC 293",
+    "name_kr": "NPC 293",
+    "name_ar": "شخصية 293",
+    "role": "scholar",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 94,
+      "honesty": 94,
+      "bravery": 94
+    }
+  },
+  {
+    "id": "npc_0294",
+    "name": "NPC 294",
+    "name_kr": "NPC 294",
+    "name_ar": "شخصية 294",
+    "role": "merchant",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": "Take a look at my wares."
+    },
+    "personality": {
+      "friendliness": 95,
+      "honesty": 95,
+      "bravery": 95
+    }
+  },
+  {
+    "id": "npc_0295",
+    "name": "NPC 295",
+    "name_kr": "NPC 295",
+    "name_ar": "شخصية 295",
+    "role": "quest_giver",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 96,
+      "honesty": 96,
+      "bravery": 96
+    }
+  },
+  {
+    "id": "npc_0296",
+    "name": "NPC 296",
+    "name_kr": "NPC 296",
+    "name_ar": "شخصية 296",
+    "role": "trainer",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 97,
+      "honesty": 97,
+      "bravery": 97
+    }
+  },
+  {
+    "id": "npc_0297",
+    "name": "NPC 297",
+    "name_kr": "NPC 297",
+    "name_ar": "شخصية 297",
+    "role": "guard",
+    "dialogue": {
+      "greeting": "Hello traveler!",
+      "farewell": "Safe travels!",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 98,
+      "honesty": 98,
+      "bravery": 98
+    }
+  },
+  {
+    "id": "npc_0298",
+    "name": "NPC 298",
+    "name_kr": "NPC 298",
+    "name_ar": "شخصية 298",
+    "role": "villager",
+    "dialogue": {
+      "greeting": "Welcome to our town.",
+      "farewell": "Come back soon.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 99,
+      "honesty": 99,
+      "bravery": 99
+    }
+  },
+  {
+    "id": "npc_0299",
+    "name": "NPC 299",
+    "name_kr": "NPC 299",
+    "name_ar": "شخصية 299",
+    "role": "noble",
+    "dialogue": {
+      "greeting": "Greetings, adventurer.",
+      "farewell": "May the gods protect you.",
+      "shop": null
+    },
+    "personality": {
+      "friendliness": 100,
+      "honesty": 100,
+      "bravery": 100
+    }
+  }
+]

@@ -1,0 +1,144 @@
+{
+  "classes": [
+    {
+      "id": "warrior",
+      "name": "Warrior",
+      "name_kr": "전사",
+      "name_ar": "محارب",
+      "primary_stat": "strength",
+      "skills": [
+        "slash",
+        "block",
+        "charge"
+      ]
+    },
+    {
+      "id": "mage",
+      "name": "Mage",
+      "name_kr": "마법사",
+      "name_ar": "ساحر",
+      "primary_stat": "intelligence",
+      "skills": [
+        "fireball",
+        "ice_shard",
+        "arcane_missile"
+      ]
+    },
+    {
+      "id": "rogue",
+      "name": "Rogue",
+      "name_kr": "도적",
+      "name_ar": "لص",
+      "primary_stat": "dexterity",
+      "skills": [
+        "backstab",
+        "evasion",
+        "poison_blade"
+      ]
+    },
+    {
+      "id": "cleric",
+      "name": "Cleric",
+      "name_kr": "성직자",
+      "name_ar": "كاهن",
+      "primary_stat": "wisdom",
+      "skills": [
+        "heal",
+        "bless",
+        "turn_undead"
+      ]
+    },
+    {
+      "id": "ranger",
+      "name": "Ranger",
+      "name_kr": "레인저",
+      "name_ar": "حارس",
+      "primary_stat": "dexterity",
+      "skills": [
+        "aimed_shot",
+        "trap",
+        "animal_companion"
+      ]
+    },
+    {
+      "id": "paladin",
+      "name": "Paladin",
+      "name_kr": "성기사",
+      "name_ar": "فارس مقدس",
+      "primary_stat": "strength",
+      "skills": [
+        "holy_strike",
+        "divine_shield",
+        "lay_on_hands"
+      ]
+    },
+    {
+      "id": "warlock",
+      "name": "Warlock",
+      "name_kr": "흑마법사",
+      "name_ar": "ساحر مظلم",
+      "primary_stat": "charisma",
+      "skills": [
+        "eldritch_blast",
+        "curse",
+        "demon_pact"
+      ]
+    },
+    {
+      "id": "monk",
+      "name": "Monk",
+      "name_kr": "수도사",
+      "name_ar": "راهب",
+      "primary_stat": "dexterity",
+      "skills": [
+        "flurry",
+        "meditate",
+        "ki_strike"
+      ]
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": "noble",
+      "name": "Noble",
+      "name_kr": "귀족",
+      "name_ar": "نبيل",
+      "bonus": "persuasion"
+    },
+    {
+      "id": "soldier",
+      "name": "Soldier",
+      "name_kr": "병사",
+      "name_ar": "جندي",
+      "bonus": "athletics"
+    },
+    {
+      "id": "scholar",
+      "name": "Scholar",
+      "name_kr": "학자",
+      "name_ar": "عالم",
+      "bonus": "history"
+    },
+    {
+      "id": "criminal",
+      "name": "Criminal",
+      "name_kr": "범죄자",
+      "name_ar": "مجرم",
+      "bonus": "stealth"
+    },
+    {
+      "id": "artisan",
+      "name": "Artisan",
+      "name_kr": "장인",
+      "name_ar": "حرفي",
+      "bonus": "crafting"
+    },
+    {
+      "id": "hermit",
+      "name": "Hermit",
+      "name_kr": "은둔자",
+      "name_ar": "منعزل",
+      "bonus": "insight"
+    }
+  ]
+}

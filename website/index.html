@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seven RPG — Korean-style RPG for Android</title>
+  <meta name="description" content="Seven RPG — A Korean-style RPG with deep character customization, tactical combat, quest systems, party management, and world simulation. Built with FastAPI + Vanilla JS + Capacitor.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      /* Linear-inspired Dark Theme */
+      --bg-marketing: #08090a;
+      --bg-panel: #0f1011;
+      --bg-surface: #191a1b;
+      --bg-elevated: #28282c;
+      --text-primary: #f7f8f8;
+      --text-secondary: #d0d6e0;
+      --text-tertiary: #8a8f98;
+      --text-quaternary: #62666d;
+      --accent-brand: #5e6ad2;
+      --accent-violet: #7170ff;
+      --accent-hover: #828fff;
+      --success-green: #27a644;
+      --success-emerald: #10b981;
+      --border-subtle: rgba(255,255,255,0.05);
+      --border-standard: rgba(255,255,255,0.08);
+      --border-solid: #23252a;
+      --btn-ghost-bg: rgba(255,255,255,0.02);
+      --btn-ghost-border: rgba(255,255,255,0.08);
+      --shadow-elevated: rgba(0,0,0,0.4) 0px 2px 4px;
+      --shadow-focus: rgba(0,0,0,0.1) 0px 4px 12px;
+      --shadow-dialog: rgba(0,0,0,0) 0px 8px 2px, rgba(0,0,0,0.01) 0px 5px 2px, rgba(0,0,0,0.04) 0px 3px 2px, rgba(0,0,0,0.07) 0px 1px 1px, rgba(0,0,0,0.08) 0px 0px 1px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-feature-settings: 'cv01', 'ss03';
+      background: var(--bg-marketing);
+      color: var(--text-primary);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    ::selection { background: var(--accent-violet); color: #fff; }
+
+    a { color: var(--accent-violet); text-decoration: none; }
+    a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+    /* Navigation */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(15,16,17,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .nav-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      height: 56px; max-width: 1200px; margin: 0 auto; padding: 0 24px;
+    }
+
+    .logo {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 510; font-size: 18px; color: var(--text-primary);
+      letter-spacing: -0.18px;
+    }
+
+    .logo svg { width: 28px; height: 28px; color: var(--accent-violet); }
+
+    .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+
+    .nav-links a {
+      font-size: 13px; font-weight: 510; color: var(--text-secondary);
+      letter-spacing: -0.08px; transition: color 0.15s ease;
+    }
+
+    .nav-links a:hover { color: var(--text-primary); text-decoration: none; }
+
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      gap: 8px; font-family: inherit; font-size: 14px; font-weight: 510;
+      border-radius: 6px; border: none; cursor: pointer;
+      transition: all 0.15s ease; text-decoration: none;
+    }
+
+    .btn:focus-visible {
+      outline: none; box-shadow: var(--shadow-focus);
+    }
+
+    .btn-primary {
+      background: var(--accent-brand); color: #fff;
+      padding: 10px 20px;
+    }
+
+    .btn-primary:hover { background: var(--accent-hover); color: #fff; text-decoration: none; }
+
+    .btn-ghost {
+      background: var(--btn-ghost-bg); color: var(--text-secondary);
+      padding: 10px 20px; border: 1px solid var(--btn-ghost-border);
+    }
+
+    .btn-ghost:hover { background: rgba(255,255,255,0.04); color: var(--text-primary); text-decoration: none; }
+
+    .btn-large { padding: 14px 28px; font-size: 15px; }
+
+    /* Hero Section */
+    .hero {
+      padding: 120px 0 100px; text-align: center;
+      background: radial-gradient(ellipse at 50% -20%, rgba(94,106,210,0.15) 0%, transparent 70%), var(--bg-marketing);
+    }
+
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(94,106,210,0.15); color: var(--accent-violet);
+      padding: 6px 14px; border-radius: 9999px; font-size: 12px; font-weight: 510;
+      border: 1px solid rgba(94,106,210,0.3); margin-bottom: 32px;
+    }
+
+    .hero h1 {
+      font-size: clamp(36px, 6vw, 72px); font-weight: 510; line-height: 1.0;
+      letter-spacing: clamp(-0.8px, -0.022em, -1.584px); color: var(--text-primary);
+      margin-bottom: 24px; font-feature-settings: 'cv01', 'ss03';
+    }
+
+    .hero p {
+      font-size: clamp(16px, 2.5vw, 20px); font-weight: 400; line-height: 1.6;
+      color: var(--text-tertiary); max-width: 720px; margin: 0 auto 40px;
+    }
+
+    .hero-actions { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+
+    /* Feature Grid */
+    .features { padding: 100px 0; background: var(--bg-panel); }
+
+    .section-header { text-align: center; margin-bottom: 64px; }
+
+    .section-header h2 {
+      font-size: clamp(28px, 4vw, 48px); font-weight: 510; line-height: 1.0;
+      letter-spacing: clamp(-0.5px, -0.011em, -1.056px); color: var(--text-primary);
+      margin-bottom: 16px; font-feature-settings: 'cv01', 'ss03';
+    }
+
+    .section-header p { font-size: 18px; color: var(--text-tertiary); line-height: 1.6; max-width: 600px; margin: 0 auto; }
+
+    .features-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px;
+    }
+
+    .feature-card {
+      background: rgba(255,255,255,0.02); border: 1px solid var(--border-standard);
+      border-radius: 12px; padding: 32px; transition: all 0.2s ease;
+    }
+
+    .feature-card:hover {
+      background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.12);
+      transform: translateY(-2px); box-shadow: var(--shadow-elevated);
+    }
+
+    .feature-icon {
+      width: 48px; height: 48px; border-radius: 10px;
+      background: rgba(94,106,210,0.15); color: var(--accent-violet);
+      display: flex; align-items: center; justify-content: center; margin-bottom: 20px;
+    }
+
+    .feature-icon svg { width: 24px; height: 24px; }
+
+    .feature-card h3 {
+      font-size: 20px; font-weight: 590; line-height: 1.33;
+      letter-spacing: -0.24px; color: var(--text-primary); margin-bottom: 12px;
+    }
+
+    .feature-card p { font-size: 15px; line-height: 1.6; color: var(--text-tertiary); }
+
+    /* Screenshots/Preview Section */
+    .preview { padding: 100px 0; background: var(--bg-marketing); }
+
+    .preview-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;
+    }
+
+    .preview-card {
+      border-radius: 12px; overflow: hidden; border: 1px solid var(--border-standard);
+      background: var(--bg-surface);
+    }
+
+    .preview-card img { width: 100%; height: 200px; object-fit: cover; border-radius: 12px 12px 0 0; }
+
+    .preview-card-content { padding: 20px; }
+
+    .preview-card h3 { font-size: 18px; font-weight: 590; color: var(--text-primary); margin-bottom: 8px; }
+
+    .preview-card p { font-size: 14px; color: var(--text-tertiary); line-height: 1.5; }
+
+    /* Download Section */
+    .download { padding: 100px 0; background: var(--bg-panel); text-align: center; }
+
+    .download-cards { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; margin-top: 40px; }
+
+    .download-card {
+      background: rgba(255,255,255,0.02); border: 1px solid var(--border-standard);
+      border-radius: 16px; padding: 40px 48px; min-width: 280px;
+      transition: all 0.2s ease;
+    }
+
+    .download-card:hover { background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.12); }
+
+    .download-icon { width: 56px; height: 56px; margin: 0 auto 20px; color: var(--accent-violet); }
+
+    .download-card h3 { font-size: 20px; font-weight: 590; color: var(--text-primary); margin-bottom: 8px; }
+
+    .download-card .version { font-size: 13px; color: var(--text-quaternary); margin-bottom: 20px; font-family: 'JetBrains Mono', monospace; }
+
+    .download-card .size { font-size: 14px; color: var(--text-secondary); margin-bottom: 24px; }
+
+    /* Tech Stack */
+    .tech { padding: 80px 0; background: var(--bg-marketing); }
+
+    .tech-grid {
+      display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin-top: 40px;
+    }
+
+    .tech-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,0.02); border: 1px solid var(--border-standard);
+      padding: 10px 16px; border-radius: 6px; font-size: 13px; font-weight: 510;
+      color: var(--text-secondary); font-family: 'JetBrains Mono', monospace;
+    }
+
+    .tech-badge svg { width: 16px; height: 16px; color: var(--accent-violet); }
+
+    /* Footer */
+    footer {
+      background: var(--bg-panel); border-top: 1px solid var(--border-subtle);
+      padding: 60px 0 40px;
+    }
+
+    .footer-grid {
+      display: grid; grid-template-columns: 2fr repeat(3, 1fr); gap: 48px; margin-bottom: 48px;
+    }
+
+    .footer-brand p { font-size: 15px; color: var(--text-tertiary); line-height: 1.6; max-width: 280px; margin-top: 16px; }
+
+    .footer-column h4 { font-size: 13px; font-weight: 510; color: var(--text-quaternary); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 20px; }
+
+    .footer-column ul { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+
+    .footer-column a { font-size: 14px; color: var(--text-secondary); }
+
+    .footer-bottom {
+      padding-top: 32px; border-top: 1px solid var(--border-subtle);
+      display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;
+    }
+
+    .footer-bottom p { font-size: 13px; color: var(--text-quaternary); }
+
+    .social-links { display: flex; gap: 16px; }
+
+    .social-links a { color: var(--text-quaternary); transition: color 0.15s ease; }
+
+    .social-links a:hover { color: var(--accent-violet); }
+
+    .social-links svg { width: 20px; height: 20px; }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .hero { padding: 80px 0 60px; }
+      .hero-actions { flex-direction: column; align-items: center; }
+      .btn { width: 100%; max-width: 280px; }
+      .features, .preview, .download, .tech { padding: 60px 0; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .footer-brand { grid-column: span 2; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+    }
+
+    @media (max-width: 480px) {
+      .container { padding: 0 16px; }
+      .download-card { padding: 32px 24px; min-width: 100%; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .footer-brand { grid-column: auto; }
+    }
+
+    /* Animations */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero > * { animation: fadeUp 0.6s ease-out forwards; }
+    .hero-badge { animation-delay: 0.1s; opacity: 0; }
+    .hero h1 { animation-delay: 0.2s; opacity: 0; }
+    .hero p { animation-delay: 0.3s; opacity: 0; }
+    .hero-actions { animation-delay: 0.4s; opacity: 0; }
+
+    .feature-card { opacity: 0; animation: fadeUp 0.5s ease-out forwards; }
+    .feature-card:nth-child(1) { animation-delay: 0.1s; }
+    .feature-card:nth-child(2) { animation-delay: 0.2s; }
+    .feature-card:nth-child(3) { animation-delay: 0.3s; }
+    .feature-card:nth-child(4) { animation-delay: 0.4s; }
+    .feature-card:nth-child(5) { animation-delay: 0.5s; }
+    .feature-card:nth-child(6) { animation-delay: 0.6s; }
+
+    /* Reduced Motion */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <a href="#" class="logo" aria-label="Seven RPG Home">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
+          <polyline points="12 2 12 22"></polyline>
+          <polyline points="2 8.5 12 15.5 22 8.5"></polyline>
+        </svg>
+        Seven RPG
+      </a>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#preview">Preview</a></li>
+        <li><a href="#download">Download</a></li>
+        <li><a href="https://github.com/Awfdfhy/seven-ai-RPG-" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+      <a href="#download" class="btn btn-primary">Download APK</a>
+    </div>
+  </nav>
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="container">
+      <span class="hero-badge">v0.1.0 Released — Android APK Available</span>
+      <h1 id="hero-title">Seven RPG</h1>
+      <p>A Korean-style RPG with deep character customization, tactical turn-based combat, dynamic quest systems, party management, and living world simulation. Built for mobile with FastAPI + Vanilla JS + Capacitor.</p>
+      <div class="hero-actions">
+        <a href="#download" class="btn btn-primary btn-large">Download APK (3.1 MB)</a>
+        <a href="https://github.com/Awfdfhy/seven-ai-RPG-/releases/tag/v0.1.0" target="_blank" rel="noopener" class="btn btn-ghost btn-large">View Releases</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="features" aria-labelledby="features-title">
+    <div class="container">
+      <div class="section-header">
+        <h2 id="features-title">Game Systems</h2>
+        <p>Every system is designed to work together, creating emergent gameplay and meaningful choices.</p>
+      </div>
+      <div class="features-grid">
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <h3>Character Customization</h3>
+          <p>Create unique heroes with 8 classes, 6 backgrounds, detailed appearance options, and stat allocation. Every choice affects gameplay.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
+              <line x1="12" y1="22" x2="12" y2="15.5"></line>
+              <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
+            </svg>
+          </div>
+          <h3>Tactical Combat</h3>
+          <p>Turn-based combat with positioning (frontline/backline), abilities with cooldowns, mana management, status effects, and difficulty scaling.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+          </div>
+          <h3>Quest Journal</h3>
+          <p>Dynamic quest chains with branching objectives, multiple reward types, NPC dialogue integration, and world-state persistence.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+          </div>
+          <h3>Party Management</h3>
+          <p>Recruit companions with distinct archetypes (Tank, DPS, Support, Controller), stances, AI behaviors, and relationship systems.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+          </div>
+          <h3>Title & Reputation</h3>
+          <p>Earn titles through achievements that affect NPC reactions, unlock dialogue options, and provide permanent stat bonuses.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+          </div>
+          <h3>Living World Simulation</h3>
+          <p>Day/night cycles, seasonal changes, ecosystem dynamics, weather systems, and NPC schedules that continue while you play.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </div>
+          <h3>Skill Check System</h3>
+          <p>D20-based skill resolution with attribute modifiers, proficiency, advantage/disadvantage, and critical success/failure mechanics.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="3"></circle>
+              <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1"></path>
+            </svg>
+          </div>
+          <h3>Accessibility First</h3>
+          <p>Colorblind modes (4 types), text scaling (4 levels), high contrast, simplified controls, and full keyboard navigation.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+              <path d="M8 21h8M12 17v4"></path>
+            </svg>
+          </div>
+          <h3>Mod Support</h3>
+          <p>Full modding framework with JSON data packs, asset overrides, custom quests, items, and classes. Steam Workshop ready architecture.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="20" x2="18" y2="20"></line>
+              <path d="M14 7a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h2"></path>
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 6.34l1.41 1.41M19.07 19.07l1.41 1.41M6.34 17.66l1.41-1.41M19.07 4.93l1.41-1.41"></path>
+            </svg>
+          </div>
+          <h3>Analytics & Telemetry</h3>
+          <p>Privacy-respecting gameplay analytics, progression tracking, economy monitoring, and session insights for balance tuning.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
+              <line x1="12" y1="22" x2="12" y2="15.5"></line>
+              <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
+              <path d="M12 2l-5 5 5 5"></path>
+            </svg>
+          </div>
+          <h3>Endgame Content</h3>
+          <p>New Game+, raids, challenge modes, special quests, and bounty systems with scaling difficulty and exclusive rewards.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+              <line x1="12" y1="22.08" x2="12" y2="12"></line>
+            </svg>
+          </div>
+          <h3>VR/AR Ready</h3>
+          <p>Capacitor-based architecture with WebXR support for future VR/AR gameplay modes and spatial UI experiments.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="preview" class="preview" aria-labelledby="preview-title">
+    <div class="container">
+      <div class="section-header">
+        <h2 id="preview-title">Screenshots</h2>
+        <p>Terminal-based UI with modern accessibility features and responsive design.</p>
+      </div>
+      <div class="preview-grid">
+        <article class="preview-card">
+          <div style="height: 200px; background: linear-gradient(135deg, #0f1011 0%, #191a1b 100%); display: flex; align-items: center; justify-content: center; color: var(--text-tertiary); font-family: 'JetBrains Mono', monospace; font-size: 13px; border-radius: 12px 12px 0 0;">
+            Character Creation Screen
+          </div>
+          <div class="preview-card-content">
+            <h3>Character Creator</h3>
+            <p>Choose from 8 classes, 6 backgrounds, allocate stats, customize appearance, and pick starting equipment.</p>
+          </div>
+        </article>
+        <article class="preview-card">
+          <div style="height: 200px; background: linear-gradient(135deg, #1a0d0d 0%, #2d1010 100%); display: flex; align-items: center; justify-content: center; color: var(--text-tertiary); font-family: 'JetBrains Mono', monospace; font-size: 13px; border-radius: 12px 12px 0 0;">
+            Tactical Combat Interface
+          </div>
+          <div class="preview-card-content">
+            <h3>Turn-Based Combat</h3>
+            <p>Position units, manage cooldowns, exploit weaknesses, and use environmental effects.</p>
+          </div>
+        </article>
+        <article class="preview-card">
+          <div style="height: 200px; background: linear-gradient(135deg, #0d1a0d 0%, #102d10 100%); display: flex; align-items: center; justify-content: center; color: var(--text-tertiary); font-family: 'JetBrains Mono', monospace; font-size: 13px; border-radius: 12px 12px 0 0;">
+            World Map & Exploration
+          </div>
+          <div class="preview-card-content">
+            <h3>Living World</h3>
+            <p>Travel between regions, discover locations, manage resources, and watch the world evolve.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="download" class="download" aria-labelledby="download-title">
+    <div class="container">
+      <div class="section-header">
+        <h2 id="download-title">Download</h2>
+        <p>Available for Android 7.0+. No ads, no tracking, no internet required for single-player.</p>
+      </div>
+      <div class="download-cards">
+        <article class="download-card">
+          <svg class="download-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <h3>Release APK (Signed)</h3>
+          <div class="version">v0.1.0 · Production Build</div>
+          <div class="size">3.1 MB · ARM64 + ARMv7</div>
+          <a href="https://github.com/Awfdfhy/seven-ai-RPG-/releases/download/v0.1.0/app-release-signed.apk" class="btn btn-primary" download>Download</a>
+        </article>
+        <article class="download-card">
+          <svg class="download-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+            <path d="M8 21h8M12 17v4"></path>
+          </svg>
+          <h3>Debug APK</h3>
+          <div class="version">v0.1.0 · Debug Build</div>
+          <div class="size">4.0 MB · With Logging</div>
+          <a href="https://github.com/Awfdfhy/seven-ai-RPG-/releases/download/v0.1.0/app-debug.apk" class="btn btn-ghost" download>Download</a>
+        </article>
+        <article class="download-card">
+          <svg class="download-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+          <h3>Source Code</h3>
+          <div class="version">v0.1.0 · Complete Source</div>
+          <div class="size">474 KB · ZIP Archive</div>
+          <a href="https://github.com/Awfdfhy/seven-ai-RPG-/releases/download/v0.1.0/seven-rpg-v0.1.0-release.zip" class="btn btn-ghost" download>Download</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="tech" aria-labelledby="tech-title">
+    <div class="container">
+      <div class="section-header">
+        <h2 id="tech-title">Tech Stack</h2>
+        <p>Modern, maintainable, and performant architecture.</p>
+      </div>
+      <div class="tech-grid">
+        <span class="tech-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/></path><path d="M2 12l10 5 10-5"/></path></svg>FastAPI (Python 3.15)</span>
+        <span class="tech-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></path></svg>Vanilla JS (ES Modules)</span>
+        <span class="tech-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></path></svg>Capacitor (Android)</span>
+        <span class="tech-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></path></svg>SQLite + Alembic</span>
+        <span class="tech-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></path></svg>Phaser 3 (Game Engine)</span>
+        <span class="tech-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></path></svg>Galmuri Font (Korean)</span>
+        <span class="tech-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></path></svg>GitHub Actions CI/CD</span>
+        <span class="tech-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></path></svg>Ollama (Offline LLM)</span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo" style="font-size: 20px; margin-bottom: 8px; display: inline-flex;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 28px; height: 28px; color: var(--accent-violet);">
+              <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
+              <polyline points="12 2 12 22"></polyline>
+              <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
+            </svg>
+            Seven RPG
+          </a>
+          <p>A Korean-style RPG built with passion. No microtransactions, no ads, no compromise.</p>
+        </div>
+        <div class="footer-column">
+          <h4>Game</h4>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#preview">Screenshots</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="https://github.com/Awfdfhy/seven-ai-RPG-/wiki" target="_blank" rel="noopener">Wiki</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Development</h4>
+          <ul>
+            <li><a href="https://github.com/Awfdfhy/seven-ai-RPG-" target="_blank" rel="noopener">Source Code</a></li>
+            <li><a href="https://github.com/Awfdfhy/seven-ai-RPG-/issues" target="_blank" rel="noopener">Report Bug</a></li>
+            <li><a href="https://github.com/Awfdfhy/seven-ai-RPG-/discussions" target="_blank" rel="noopener">Discussions</a></li>
+            <li><a href="https://github.com/Awfdfhy/seven-ai-RPG-/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Contribute</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="https://github.com/Awfdfhy/seven-ai-RPG-/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Seven RPG Team. Built with <span style="color: var(--accent-violet);">♥</span> for personal use.</p>
+        <div class="social-links">
+          <a href="https://github.com/Awfdfhy/seven-ai-RPG-" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.305-.536-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,2826 @@
+{
+  "regions": [
+    {
+      "id": "region_0",
+      "name": "Region 0",
+      "name_kr": "지역 0",
+      "name_ar": "منطقة 0",
+      "biome": "forest",
+      "level_range": [
+        1,
+        10
+      ],
+      "locations": [
+        "loc_0_0",
+        "loc_0_1",
+        "loc_0_2",
+        "loc_0_3",
+        "loc_0_4",
+        "loc_0_5",
+        "loc_0_6",
+        "loc_0_7",
+        "loc_0_8",
+        "loc_0_9"
+      ]
+    },
+    {
+      "id": "region_1",
+      "name": "Region 1",
+      "name_kr": "지역 1",
+      "name_ar": "منطقة 1",
+      "biome": "desert",
+      "level_range": [
+        6,
+        15
+      ],
+      "locations": [
+        "loc_1_0",
+        "loc_1_1",
+        "loc_1_2",
+        "loc_1_3",
+        "loc_1_4",
+        "loc_1_5",
+        "loc_1_6",
+        "loc_1_7",
+        "loc_1_8",
+        "loc_1_9"
+      ]
+    },
+    {
+      "id": "region_2",
+      "name": "Region 2",
+      "name_kr": "지역 2",
+      "name_ar": "منطقة 2",
+      "biome": "mountain",
+      "level_range": [
+        11,
+        20
+      ],
+      "locations": [
+        "loc_2_0",
+        "loc_2_1",
+        "loc_2_2",
+        "loc_2_3",
+        "loc_2_4",
+        "loc_2_5",
+        "loc_2_6",
+        "loc_2_7",
+        "loc_2_8",
+        "loc_2_9"
+      ]
+    },
+    {
+      "id": "region_3",
+      "name": "Region 3",
+      "name_kr": "지역 3",
+      "name_ar": "منطقة 3",
+      "biome": "swamp",
+      "level_range": [
+        16,
+        25
+      ],
+      "locations": [
+        "loc_3_0",
+        "loc_3_1",
+        "loc_3_2",
+        "loc_3_3",
+        "loc_3_4",
+        "loc_3_5",
+        "loc_3_6",
+        "loc_3_7",
+        "loc_3_8",
+        "loc_3_9"
+      ]
+    },
+    {
+      "id": "region_4",
+      "name": "Region 4",
+      "name_kr": "지역 4",
+      "name_ar": "منطقة 4",
+      "biome": "plains",
+      "level_range": [
+        21,
+        30
+      ],
+      "locations": [
+        "loc_4_0",
+        "loc_4_1",
+        "loc_4_2",
+        "loc_4_3",
+        "loc_4_4",
+        "loc_4_5",
+        "loc_4_6",
+        "loc_4_7",
+        "loc_4_8",
+        "loc_4_9"
+      ]
+    },
+    {
+      "id": "region_5",
+      "name": "Region 5",
+      "name_kr": "지역 5",
+      "name_ar": "منطقة 5",
+      "biome": "tundra",
+      "level_range": [
+        26,
+        35
+      ],
+      "locations": [
+        "loc_5_0",
+        "loc_5_1",
+        "loc_5_2",
+        "loc_5_3",
+        "loc_5_4",
+        "loc_5_5",
+        "loc_5_6",
+        "loc_5_7",
+        "loc_5_8",
+        "loc_5_9"
+      ]
+    },
+    {
+      "id": "region_6",
+      "name": "Region 6",
+      "name_kr": "지역 6",
+      "name_ar": "منطقة 6",
+      "biome": "jungle",
+      "level_range": [
+        31,
+        40
+      ],
+      "locations": [
+        "loc_6_0",
+        "loc_6_1",
+        "loc_6_2",
+        "loc_6_3",
+        "loc_6_4",
+        "loc_6_5",
+        "loc_6_6",
+        "loc_6_7",
+        "loc_6_8",
+        "loc_6_9"
+      ]
+    },
+    {
+      "id": "region_7",
+      "name": "Region 7",
+      "name_kr": "지역 7",
+      "name_ar": "منطقة 7",
+      "biome": "volcanic",
+      "level_range": [
+        36,
+        45
+      ],
+      "locations": [
+        "loc_7_0",
+        "loc_7_1",
+        "loc_7_2",
+        "loc_7_3",
+        "loc_7_4",
+        "loc_7_5",
+        "loc_7_6",
+        "loc_7_7",
+        "loc_7_8",
+        "loc_7_9"
+      ]
+    },
+    {
+      "id": "region_8",
+      "name": "Region 8",
+      "name_kr": "지역 8",
+      "name_ar": "منطقة 8",
+      "biome": "forest",
+      "level_range": [
+        41,
+        50
+      ],
+      "locations": [
+        "loc_8_0",
+        "loc_8_1",
+        "loc_8_2",
+        "loc_8_3",
+        "loc_8_4",
+        "loc_8_5",
+        "loc_8_6",
+        "loc_8_7",
+        "loc_8_8",
+        "loc_8_9"
+      ]
+    },
+    {
+      "id": "region_9",
+      "name": "Region 9",
+      "name_kr": "지역 9",
+      "name_ar": "منطقة 9",
+      "biome": "desert",
+      "level_range": [
+        46,
+        55
+      ],
+      "locations": [
+        "loc_9_0",
+        "loc_9_1",
+        "loc_9_2",
+        "loc_9_3",
+        "loc_9_4",
+        "loc_9_5",
+        "loc_9_6",
+        "loc_9_7",
+        "loc_9_8",
+        "loc_9_9"
+      ]
+    },
+    {
+      "id": "region_10",
+      "name": "Region 10",
+      "name_kr": "지역 10",
+      "name_ar": "منطقة 10",
+      "biome": "mountain",
+      "level_range": [
+        51,
+        60
+      ],
+      "locations": [
+        "loc_10_0",
+        "loc_10_1",
+        "loc_10_2",
+        "loc_10_3",
+        "loc_10_4",
+        "loc_10_5",
+        "loc_10_6",
+        "loc_10_7",
+        "loc_10_8",
+        "loc_10_9"
+      ]
+    },
+    {
+      "id": "region_11",
+      "name": "Region 11",
+      "name_kr": "지역 11",
+      "name_ar": "منطقة 11",
+      "biome": "swamp",
+      "level_range": [
+        56,
+        65
+      ],
+      "locations": [
+        "loc_11_0",
+        "loc_11_1",
+        "loc_11_2",
+        "loc_11_3",
+        "loc_11_4",
+        "loc_11_5",
+        "loc_11_6",
+        "loc_11_7",
+        "loc_11_8",
+        "loc_11_9"
+      ]
+    },
+    {
+      "id": "region_12",
+      "name": "Region 12",
+      "name_kr": "지역 12",
+      "name_ar": "منطقة 12",
+      "biome": "plains",
+      "level_range": [
+        61,
+        70
+      ],
+      "locations": [
+        "loc_12_0",
+        "loc_12_1",
+        "loc_12_2",
+        "loc_12_3",
+        "loc_12_4",
+        "loc_12_5",
+        "loc_12_6",
+        "loc_12_7",
+        "loc_12_8",
+        "loc_12_9"
+      ]
+    },
+    {
+      "id": "region_13",
+      "name": "Region 13",
+      "name_kr": "지역 13",
+      "name_ar": "منطقة 13",
+      "biome": "tundra",
+      "level_range": [
+        66,
+        75
+      ],
+      "locations": [
+        "loc_13_0",
+        "loc_13_1",
+        "loc_13_2",
+        "loc_13_3",
+        "loc_13_4",
+        "loc_13_5",
+        "loc_13_6",
+        "loc_13_7",
+        "loc_13_8",
+        "loc_13_9"
+      ]
+    },
+    {
+      "id": "region_14",
+      "name": "Region 14",
+      "name_kr": "지역 14",
+      "name_ar": "منطقة 14",
+      "biome": "jungle",
+      "level_range": [
+        71,
+        80
+      ],
+      "locations": [
+        "loc_14_0",
+        "loc_14_1",
+        "loc_14_2",
+        "loc_14_3",
+        "loc_14_4",
+        "loc_14_5",
+        "loc_14_6",
+        "loc_14_7",
+        "loc_14_8",
+        "loc_14_9"
+      ]
+    },
+    {
+      "id": "region_15",
+      "name": "Region 15",
+      "name_kr": "지역 15",
+      "name_ar": "منطقة 15",
+      "biome": "volcanic",
+      "level_range": [
+        76,
+        85
+      ],
+      "locations": [
+        "loc_15_0",
+        "loc_15_1",
+        "loc_15_2",
+        "loc_15_3",
+        "loc_15_4",
+        "loc_15_5",
+        "loc_15_6",
+        "loc_15_7",
+        "loc_15_8",
+        "loc_15_9"
+      ]
+    },
+    {
+      "id": "region_16",
+      "name": "Region 16",
+      "name_kr": "지역 16",
+      "name_ar": "منطقة 16",
+      "biome": "forest",
+      "level_range": [
+        81,
+        90
+      ],
+      "locations": [
+        "loc_16_0",
+        "loc_16_1",
+        "loc_16_2",
+        "loc_16_3",
+        "loc_16_4",
+        "loc_16_5",
+        "loc_16_6",
+        "loc_16_7",
+        "loc_16_8",
+        "loc_16_9"
+      ]
+    },
+    {
+      "id": "region_17",
+      "name": "Region 17",
+      "name_kr": "지역 17",
+      "name_ar": "منطقة 17",
+      "biome": "desert",
+      "level_range": [
+        86,
+        95
+      ],
+      "locations": [
+        "loc_17_0",
+        "loc_17_1",
+        "loc_17_2",
+        "loc_17_3",
+        "loc_17_4",
+        "loc_17_5",
+        "loc_17_6",
+        "loc_17_7",
+        "loc_17_8",
+        "loc_17_9"
+      ]
+    },
+    {
+      "id": "region_18",
+      "name": "Region 18",
+      "name_kr": "지역 18",
+      "name_ar": "منطقة 18",
+      "biome": "mountain",
+      "level_range": [
+        91,
+        100
+      ],
+      "locations": [
+        "loc_18_0",
+        "loc_18_1",
+        "loc_18_2",
+        "loc_18_3",
+        "loc_18_4",
+        "loc_18_5",
+        "loc_18_6",
+        "loc_18_7",
+        "loc_18_8",
+        "loc_18_9"
+      ]
+    },
+    {
+      "id": "region_19",
+      "name": "Region 19",
+      "name_kr": "지역 19",
+      "name_ar": "منطقة 19",
+      "biome": "swamp",
+      "level_range": [
+        96,
+        105
+      ],
+      "locations": [
+        "loc_19_0",
+        "loc_19_1",
+        "loc_19_2",
+        "loc_19_3",
+        "loc_19_4",
+        "loc_19_5",
+        "loc_19_6",
+        "loc_19_7",
+        "loc_19_8",
+        "loc_19_9"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0_0",
+      "name": "Location 0",
+      "name_kr": "위치 0",
+      "name_ar": "موقع 0",
+      "type": "town",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_0_1",
+      "name": "Location 1",
+      "name_kr": "위치 1",
+      "name_ar": "موقع 1",
+      "type": "dungeon",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_0_2",
+      "name": "Location 2",
+      "name_kr": "위치 2",
+      "name_ar": "موقع 2",
+      "type": "ruins",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_0_3",
+      "name": "Location 3",
+      "name_kr": "위치 3",
+      "name_ar": "موقع 3",
+      "type": "cave",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_0_4",
+      "name": "Location 4",
+      "name_kr": "위치 4",
+      "name_ar": "موقع 4",
+      "type": "tower",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_0_5",
+      "name": "Location 5",
+      "name_kr": "위치 5",
+      "name_ar": "موقع 5",
+      "type": "shrine",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_0_6",
+      "name": "Location 6",
+      "name_kr": "위치 6",
+      "name_ar": "موقع 6",
+      "type": "camp",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_0_7",
+      "name": "Location 7",
+      "name_kr": "위치 7",
+      "name_ar": "موقع 7",
+      "type": "landmark",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_0_8",
+      "name": "Location 8",
+      "name_kr": "위치 8",
+      "name_ar": "موقع 8",
+      "type": "town",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_0_9",
+      "name": "Location 9",
+      "name_kr": "위치 9",
+      "name_ar": "موقع 9",
+      "type": "dungeon",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_1_0",
+      "name": "Location 10",
+      "name_kr": "위치 10",
+      "name_ar": "موقع 10",
+      "type": "ruins",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_1_1",
+      "name": "Location 11",
+      "name_kr": "위치 11",
+      "name_ar": "موقع 11",
+      "type": "cave",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_1_2",
+      "name": "Location 12",
+      "name_kr": "위치 12",
+      "name_ar": "موقع 12",
+      "type": "tower",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_1_3",
+      "name": "Location 13",
+      "name_kr": "위치 13",
+      "name_ar": "موقع 13",
+      "type": "shrine",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_1_4",
+      "name": "Location 14",
+      "name_kr": "위치 14",
+      "name_ar": "موقع 14",
+      "type": "camp",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_1_5",
+      "name": "Location 15",
+      "name_kr": "위치 15",
+      "name_ar": "موقع 15",
+      "type": "landmark",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_1_6",
+      "name": "Location 16",
+      "name_kr": "위치 16",
+      "name_ar": "موقع 16",
+      "type": "town",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_1_7",
+      "name": "Location 17",
+      "name_kr": "위치 17",
+      "name_ar": "موقع 17",
+      "type": "dungeon",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_1_8",
+      "name": "Location 18",
+      "name_kr": "위치 18",
+      "name_ar": "موقع 18",
+      "type": "ruins",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_1_9",
+      "name": "Location 19",
+      "name_kr": "위치 19",
+      "name_ar": "موقع 19",
+      "type": "cave",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_2_0",
+      "name": "Location 20",
+      "name_kr": "위치 20",
+      "name_ar": "موقع 20",
+      "type": "tower",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_2_1",
+      "name": "Location 21",
+      "name_kr": "위치 21",
+      "name_ar": "موقع 21",
+      "type": "shrine",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_2_2",
+      "name": "Location 22",
+      "name_kr": "위치 22",
+      "name_ar": "موقع 22",
+      "type": "camp",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_2_3",
+      "name": "Location 23",
+      "name_kr": "위치 23",
+      "name_ar": "موقع 23",
+      "type": "landmark",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_2_4",
+      "name": "Location 24",
+      "name_kr": "위치 24",
+      "name_ar": "موقع 24",
+      "type": "town",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_2_5",
+      "name": "Location 25",
+      "name_kr": "위치 25",
+      "name_ar": "موقع 25",
+      "type": "dungeon",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_2_6",
+      "name": "Location 26",
+      "name_kr": "위치 26",
+      "name_ar": "موقع 26",
+      "type": "ruins",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_2_7",
+      "name": "Location 27",
+      "name_kr": "위치 27",
+      "name_ar": "موقع 27",
+      "type": "cave",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_2_8",
+      "name": "Location 28",
+      "name_kr": "위치 28",
+      "name_ar": "موقع 28",
+      "type": "tower",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_2_9",
+      "name": "Location 29",
+      "name_kr": "위치 29",
+      "name_ar": "موقع 29",
+      "type": "shrine",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_3_0",
+      "name": "Location 30",
+      "name_kr": "위치 30",
+      "name_ar": "موقع 30",
+      "type": "camp",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_3_1",
+      "name": "Location 31",
+      "name_kr": "위치 31",
+      "name_ar": "موقع 31",
+      "type": "landmark",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_3_2",
+      "name": "Location 32",
+      "name_kr": "위치 32",
+      "name_ar": "موقع 32",
+      "type": "town",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_3_3",
+      "name": "Location 33",
+      "name_kr": "위치 33",
+      "name_ar": "موقع 33",
+      "type": "dungeon",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_3_4",
+      "name": "Location 34",
+      "name_kr": "위치 34",
+      "name_ar": "موقع 34",
+      "type": "ruins",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_3_5",
+      "name": "Location 35",
+      "name_kr": "위치 35",
+      "name_ar": "موقع 35",
+      "type": "cave",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_3_6",
+      "name": "Location 36",
+      "name_kr": "위치 36",
+      "name_ar": "موقع 36",
+      "type": "tower",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_3_7",
+      "name": "Location 37",
+      "name_kr": "위치 37",
+      "name_ar": "موقع 37",
+      "type": "shrine",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_3_8",
+      "name": "Location 38",
+      "name_kr": "위치 38",
+      "name_ar": "موقع 38",
+      "type": "camp",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_3_9",
+      "name": "Location 39",
+      "name_kr": "위치 39",
+      "name_ar": "موقع 39",
+      "type": "landmark",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_4_0",
+      "name": "Location 40",
+      "name_kr": "위치 40",
+      "name_ar": "موقع 40",
+      "type": "town",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_4_1",
+      "name": "Location 41",
+      "name_kr": "위치 41",
+      "name_ar": "موقع 41",
+      "type": "dungeon",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_4_2",
+      "name": "Location 42",
+      "name_kr": "위치 42",
+      "name_ar": "موقع 42",
+      "type": "ruins",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_4_3",
+      "name": "Location 43",
+      "name_kr": "위치 43",
+      "name_ar": "موقع 43",
+      "type": "cave",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_4_4",
+      "name": "Location 44",
+      "name_kr": "위치 44",
+      "name_ar": "موقع 44",
+      "type": "tower",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_4_5",
+      "name": "Location 45",
+      "name_kr": "위치 45",
+      "name_ar": "موقع 45",
+      "type": "shrine",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_4_6",
+      "name": "Location 46",
+      "name_kr": "위치 46",
+      "name_ar": "موقع 46",
+      "type": "camp",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_4_7",
+      "name": "Location 47",
+      "name_kr": "위치 47",
+      "name_ar": "موقع 47",
+      "type": "landmark",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_4_8",
+      "name": "Location 48",
+      "name_kr": "위치 48",
+      "name_ar": "موقع 48",
+      "type": "town",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_4_9",
+      "name": "Location 49",
+      "name_kr": "위치 49",
+      "name_ar": "موقع 49",
+      "type": "dungeon",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_5_0",
+      "name": "Location 50",
+      "name_kr": "위치 50",
+      "name_ar": "موقع 50",
+      "type": "ruins",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_5_1",
+      "name": "Location 51",
+      "name_kr": "위치 51",
+      "name_ar": "موقع 51",
+      "type": "cave",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_5_2",
+      "name": "Location 52",
+      "name_kr": "위치 52",
+      "name_ar": "موقع 52",
+      "type": "tower",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_5_3",
+      "name": "Location 53",
+      "name_kr": "위치 53",
+      "name_ar": "موقع 53",
+      "type": "shrine",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_5_4",
+      "name": "Location 54",
+      "name_kr": "위치 54",
+      "name_ar": "موقع 54",
+      "type": "camp",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_5_5",
+      "name": "Location 55",
+      "name_kr": "위치 55",
+      "name_ar": "موقع 55",
+      "type": "landmark",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_5_6",
+      "name": "Location 56",
+      "name_kr": "위치 56",
+      "name_ar": "موقع 56",
+      "type": "town",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_5_7",
+      "name": "Location 57",
+      "name_kr": "위치 57",
+      "name_ar": "موقع 57",
+      "type": "dungeon",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_5_8",
+      "name": "Location 58",
+      "name_kr": "위치 58",
+      "name_ar": "موقع 58",
+      "type": "ruins",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_5_9",
+      "name": "Location 59",
+      "name_kr": "위치 59",
+      "name_ar": "موقع 59",
+      "type": "cave",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_6_0",
+      "name": "Location 60",
+      "name_kr": "위치 60",
+      "name_ar": "موقع 60",
+      "type": "tower",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_6_1",
+      "name": "Location 61",
+      "name_kr": "위치 61",
+      "name_ar": "موقع 61",
+      "type": "shrine",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_6_2",
+      "name": "Location 62",
+      "name_kr": "위치 62",
+      "name_ar": "موقع 62",
+      "type": "camp",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_6_3",
+      "name": "Location 63",
+      "name_kr": "위치 63",
+      "name_ar": "موقع 63",
+      "type": "landmark",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_6_4",
+      "name": "Location 64",
+      "name_kr": "위치 64",
+      "name_ar": "موقع 64",
+      "type": "town",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_6_5",
+      "name": "Location 65",
+      "name_kr": "위치 65",
+      "name_ar": "موقع 65",
+      "type": "dungeon",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_6_6",
+      "name": "Location 66",
+      "name_kr": "위치 66",
+      "name_ar": "موقع 66",
+      "type": "ruins",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_6_7",
+      "name": "Location 67",
+      "name_kr": "위치 67",
+      "name_ar": "موقع 67",
+      "type": "cave",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_6_8",
+      "name": "Location 68",
+      "name_kr": "위치 68",
+      "name_ar": "موقع 68",
+      "type": "tower",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_6_9",
+      "name": "Location 69",
+      "name_kr": "위치 69",
+      "name_ar": "موقع 69",
+      "type": "shrine",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_7_0",
+      "name": "Location 70",
+      "name_kr": "위치 70",
+      "name_ar": "موقع 70",
+      "type": "camp",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_7_1",
+      "name": "Location 71",
+      "name_kr": "위치 71",
+      "name_ar": "موقع 71",
+      "type": "landmark",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_7_2",
+      "name": "Location 72",
+      "name_kr": "위치 72",
+      "name_ar": "موقع 72",
+      "type": "town",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_7_3",
+      "name": "Location 73",
+      "name_kr": "위치 73",
+      "name_ar": "موقع 73",
+      "type": "dungeon",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_7_4",
+      "name": "Location 74",
+      "name_kr": "위치 74",
+      "name_ar": "موقع 74",
+      "type": "ruins",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_7_5",
+      "name": "Location 75",
+      "name_kr": "위치 75",
+      "name_ar": "موقع 75",
+      "type": "cave",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_7_6",
+      "name": "Location 76",
+      "name_kr": "위치 76",
+      "name_ar": "موقع 76",
+      "type": "tower",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_7_7",
+      "name": "Location 77",
+      "name_kr": "위치 77",
+      "name_ar": "موقع 77",
+      "type": "shrine",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_7_8",
+      "name": "Location 78",
+      "name_kr": "위치 78",
+      "name_ar": "موقع 78",
+      "type": "camp",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_7_9",
+      "name": "Location 79",
+      "name_kr": "위치 79",
+      "name_ar": "موقع 79",
+      "type": "landmark",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_8_0",
+      "name": "Location 80",
+      "name_kr": "위치 80",
+      "name_ar": "موقع 80",
+      "type": "town",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_8_1",
+      "name": "Location 81",
+      "name_kr": "위치 81",
+      "name_ar": "موقع 81",
+      "type": "dungeon",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_8_2",
+      "name": "Location 82",
+      "name_kr": "위치 82",
+      "name_ar": "موقع 82",
+      "type": "ruins",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_8_3",
+      "name": "Location 83",
+      "name_kr": "위치 83",
+      "name_ar": "موقع 83",
+      "type": "cave",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_8_4",
+      "name": "Location 84",
+      "name_kr": "위치 84",
+      "name_ar": "موقع 84",
+      "type": "tower",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_8_5",
+      "name": "Location 85",
+      "name_kr": "위치 85",
+      "name_ar": "موقع 85",
+      "type": "shrine",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_8_6",
+      "name": "Location 86",
+      "name_kr": "위치 86",
+      "name_ar": "موقع 86",
+      "type": "camp",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_8_7",
+      "name": "Location 87",
+      "name_kr": "위치 87",
+      "name_ar": "موقع 87",
+      "type": "landmark",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_8_8",
+      "name": "Location 88",
+      "name_kr": "위치 88",
+      "name_ar": "موقع 88",
+      "type": "town",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_8_9",
+      "name": "Location 89",
+      "name_kr": "위치 89",
+      "name_ar": "موقع 89",
+      "type": "dungeon",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_9_0",
+      "name": "Location 90",
+      "name_kr": "위치 90",
+      "name_ar": "موقع 90",
+      "type": "ruins",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_9_1",
+      "name": "Location 91",
+      "name_kr": "위치 91",
+      "name_ar": "موقع 91",
+      "type": "cave",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_9_2",
+      "name": "Location 92",
+      "name_kr": "위치 92",
+      "name_ar": "موقع 92",
+      "type": "tower",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_9_3",
+      "name": "Location 93",
+      "name_kr": "위치 93",
+      "name_ar": "موقع 93",
+      "type": "shrine",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_9_4",
+      "name": "Location 94",
+      "name_kr": "위치 94",
+      "name_ar": "موقع 94",
+      "type": "camp",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_9_5",
+      "name": "Location 95",
+      "name_kr": "위치 95",
+      "name_ar": "موقع 95",
+      "type": "landmark",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_9_6",
+      "name": "Location 96",
+      "name_kr": "위치 96",
+      "name_ar": "موقع 96",
+      "type": "town",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_9_7",
+      "name": "Location 97",
+      "name_kr": "위치 97",
+      "name_ar": "موقع 97",
+      "type": "dungeon",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_9_8",
+      "name": "Location 98",
+      "name_kr": "위치 98",
+      "name_ar": "موقع 98",
+      "type": "ruins",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_9_9",
+      "name": "Location 99",
+      "name_kr": "위치 99",
+      "name_ar": "موقع 99",
+      "type": "cave",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_10_0",
+      "name": "Location 100",
+      "name_kr": "위치 100",
+      "name_ar": "موقع 100",
+      "type": "tower",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_10_1",
+      "name": "Location 101",
+      "name_kr": "위치 101",
+      "name_ar": "موقع 101",
+      "type": "shrine",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_10_2",
+      "name": "Location 102",
+      "name_kr": "위치 102",
+      "name_ar": "موقع 102",
+      "type": "camp",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_10_3",
+      "name": "Location 103",
+      "name_kr": "위치 103",
+      "name_ar": "موقع 103",
+      "type": "landmark",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_10_4",
+      "name": "Location 104",
+      "name_kr": "위치 104",
+      "name_ar": "موقع 104",
+      "type": "town",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_10_5",
+      "name": "Location 105",
+      "name_kr": "위치 105",
+      "name_ar": "موقع 105",
+      "type": "dungeon",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_10_6",
+      "name": "Location 106",
+      "name_kr": "위치 106",
+      "name_ar": "موقع 106",
+      "type": "ruins",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_10_7",
+      "name": "Location 107",
+      "name_kr": "위치 107",
+      "name_ar": "موقع 107",
+      "type": "cave",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_10_8",
+      "name": "Location 108",
+      "name_kr": "위치 108",
+      "name_ar": "موقع 108",
+      "type": "tower",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_10_9",
+      "name": "Location 109",
+      "name_kr": "위치 109",
+      "name_ar": "موقع 109",
+      "type": "shrine",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_11_0",
+      "name": "Location 110",
+      "name_kr": "위치 110",
+      "name_ar": "موقع 110",
+      "type": "camp",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_11_1",
+      "name": "Location 111",
+      "name_kr": "위치 111",
+      "name_ar": "موقع 111",
+      "type": "landmark",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_11_2",
+      "name": "Location 112",
+      "name_kr": "위치 112",
+      "name_ar": "موقع 112",
+      "type": "town",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_11_3",
+      "name": "Location 113",
+      "name_kr": "위치 113",
+      "name_ar": "موقع 113",
+      "type": "dungeon",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_11_4",
+      "name": "Location 114",
+      "name_kr": "위치 114",
+      "name_ar": "موقع 114",
+      "type": "ruins",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_11_5",
+      "name": "Location 115",
+      "name_kr": "위치 115",
+      "name_ar": "موقع 115",
+      "type": "cave",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_11_6",
+      "name": "Location 116",
+      "name_kr": "위치 116",
+      "name_ar": "موقع 116",
+      "type": "tower",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_11_7",
+      "name": "Location 117",
+      "name_kr": "위치 117",
+      "name_ar": "موقع 117",
+      "type": "shrine",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_11_8",
+      "name": "Location 118",
+      "name_kr": "위치 118",
+      "name_ar": "موقع 118",
+      "type": "camp",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_11_9",
+      "name": "Location 119",
+      "name_kr": "위치 119",
+      "name_ar": "موقع 119",
+      "type": "landmark",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_12_0",
+      "name": "Location 120",
+      "name_kr": "위치 120",
+      "name_ar": "موقع 120",
+      "type": "town",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_12_1",
+      "name": "Location 121",
+      "name_kr": "위치 121",
+      "name_ar": "موقع 121",
+      "type": "dungeon",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_12_2",
+      "name": "Location 122",
+      "name_kr": "위치 122",
+      "name_ar": "موقع 122",
+      "type": "ruins",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_12_3",
+      "name": "Location 123",
+      "name_kr": "위치 123",
+      "name_ar": "موقع 123",
+      "type": "cave",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_12_4",
+      "name": "Location 124",
+      "name_kr": "위치 124",
+      "name_ar": "موقع 124",
+      "type": "tower",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_12_5",
+      "name": "Location 125",
+      "name_kr": "위치 125",
+      "name_ar": "موقع 125",
+      "type": "shrine",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_12_6",
+      "name": "Location 126",
+      "name_kr": "위치 126",
+      "name_ar": "موقع 126",
+      "type": "camp",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_12_7",
+      "name": "Location 127",
+      "name_kr": "위치 127",
+      "name_ar": "موقع 127",
+      "type": "landmark",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_12_8",
+      "name": "Location 128",
+      "name_kr": "위치 128",
+      "name_ar": "موقع 128",
+      "type": "town",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_12_9",
+      "name": "Location 129",
+      "name_kr": "위치 129",
+      "name_ar": "موقع 129",
+      "type": "dungeon",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_13_0",
+      "name": "Location 130",
+      "name_kr": "위치 130",
+      "name_ar": "موقع 130",
+      "type": "ruins",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_13_1",
+      "name": "Location 131",
+      "name_kr": "위치 131",
+      "name_ar": "موقع 131",
+      "type": "cave",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_13_2",
+      "name": "Location 132",
+      "name_kr": "위치 132",
+      "name_ar": "موقع 132",
+      "type": "tower",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_13_3",
+      "name": "Location 133",
+      "name_kr": "위치 133",
+      "name_ar": "موقع 133",
+      "type": "shrine",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_13_4",
+      "name": "Location 134",
+      "name_kr": "위치 134",
+      "name_ar": "موقع 134",
+      "type": "camp",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_13_5",
+      "name": "Location 135",
+      "name_kr": "위치 135",
+      "name_ar": "موقع 135",
+      "type": "landmark",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_13_6",
+      "name": "Location 136",
+      "name_kr": "위치 136",
+      "name_ar": "موقع 136",
+      "type": "town",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_13_7",
+      "name": "Location 137",
+      "name_kr": "위치 137",
+      "name_ar": "موقع 137",
+      "type": "dungeon",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_13_8",
+      "name": "Location 138",
+      "name_kr": "위치 138",
+      "name_ar": "موقع 138",
+      "type": "ruins",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_13_9",
+      "name": "Location 139",
+      "name_kr": "위치 139",
+      "name_ar": "موقع 139",
+      "type": "cave",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_14_0",
+      "name": "Location 140",
+      "name_kr": "위치 140",
+      "name_ar": "موقع 140",
+      "type": "tower",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_14_1",
+      "name": "Location 141",
+      "name_kr": "위치 141",
+      "name_ar": "موقع 141",
+      "type": "shrine",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_14_2",
+      "name": "Location 142",
+      "name_kr": "위치 142",
+      "name_ar": "موقع 142",
+      "type": "camp",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_14_3",
+      "name": "Location 143",
+      "name_kr": "위치 143",
+      "name_ar": "موقع 143",
+      "type": "landmark",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_14_4",
+      "name": "Location 144",
+      "name_kr": "위치 144",
+      "name_ar": "موقع 144",
+      "type": "town",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_14_5",
+      "name": "Location 145",
+      "name_kr": "위치 145",
+      "name_ar": "موقع 145",
+      "type": "dungeon",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_14_6",
+      "name": "Location 146",
+      "name_kr": "위치 146",
+      "name_ar": "موقع 146",
+      "type": "ruins",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_14_7",
+      "name": "Location 147",
+      "name_kr": "위치 147",
+      "name_ar": "موقع 147",
+      "type": "cave",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_14_8",
+      "name": "Location 148",
+      "name_kr": "위치 148",
+      "name_ar": "موقع 148",
+      "type": "tower",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_14_9",
+      "name": "Location 149",
+      "name_kr": "위치 149",
+      "name_ar": "موقع 149",
+      "type": "shrine",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_15_0",
+      "name": "Location 150",
+      "name_kr": "위치 150",
+      "name_ar": "موقع 150",
+      "type": "camp",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_15_1",
+      "name": "Location 151",
+      "name_kr": "위치 151",
+      "name_ar": "موقع 151",
+      "type": "landmark",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_15_2",
+      "name": "Location 152",
+      "name_kr": "위치 152",
+      "name_ar": "موقع 152",
+      "type": "town",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_15_3",
+      "name": "Location 153",
+      "name_kr": "위치 153",
+      "name_ar": "موقع 153",
+      "type": "dungeon",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_15_4",
+      "name": "Location 154",
+      "name_kr": "위치 154",
+      "name_ar": "موقع 154",
+      "type": "ruins",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_15_5",
+      "name": "Location 155",
+      "name_kr": "위치 155",
+      "name_ar": "موقع 155",
+      "type": "cave",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_15_6",
+      "name": "Location 156",
+      "name_kr": "위치 156",
+      "name_ar": "موقع 156",
+      "type": "tower",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_15_7",
+      "name": "Location 157",
+      "name_kr": "위치 157",
+      "name_ar": "موقع 157",
+      "type": "shrine",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_15_8",
+      "name": "Location 158",
+      "name_kr": "위치 158",
+      "name_ar": "موقع 158",
+      "type": "camp",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_15_9",
+      "name": "Location 159",
+      "name_kr": "위치 159",
+      "name_ar": "موقع 159",
+      "type": "landmark",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_16_0",
+      "name": "Location 160",
+      "name_kr": "위치 160",
+      "name_ar": "موقع 160",
+      "type": "town",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_16_1",
+      "name": "Location 161",
+      "name_kr": "위치 161",
+      "name_ar": "موقع 161",
+      "type": "dungeon",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_16_2",
+      "name": "Location 162",
+      "name_kr": "위치 162",
+      "name_ar": "موقع 162",
+      "type": "ruins",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_16_3",
+      "name": "Location 163",
+      "name_kr": "위치 163",
+      "name_ar": "موقع 163",
+      "type": "cave",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_16_4",
+      "name": "Location 164",
+      "name_kr": "위치 164",
+      "name_ar": "موقع 164",
+      "type": "tower",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_16_5",
+      "name": "Location 165",
+      "name_kr": "위치 165",
+      "name_ar": "موقع 165",
+      "type": "shrine",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_16_6",
+      "name": "Location 166",
+      "name_kr": "위치 166",
+      "name_ar": "موقع 166",
+      "type": "camp",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_16_7",
+      "name": "Location 167",
+      "name_kr": "위치 167",
+      "name_ar": "موقع 167",
+      "type": "landmark",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_16_8",
+      "name": "Location 168",
+      "name_kr": "위치 168",
+      "name_ar": "موقع 168",
+      "type": "town",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_16_9",
+      "name": "Location 169",
+      "name_kr": "위치 169",
+      "name_ar": "موقع 169",
+      "type": "dungeon",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_17_0",
+      "name": "Location 170",
+      "name_kr": "위치 170",
+      "name_ar": "موقع 170",
+      "type": "ruins",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_17_1",
+      "name": "Location 171",
+      "name_kr": "위치 171",
+      "name_ar": "موقع 171",
+      "type": "cave",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_17_2",
+      "name": "Location 172",
+      "name_kr": "위치 172",
+      "name_ar": "موقع 172",
+      "type": "tower",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_17_3",
+      "name": "Location 173",
+      "name_kr": "위치 173",
+      "name_ar": "موقع 173",
+      "type": "shrine",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_17_4",
+      "name": "Location 174",
+      "name_kr": "위치 174",
+      "name_ar": "موقع 174",
+      "type": "camp",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_17_5",
+      "name": "Location 175",
+      "name_kr": "위치 175",
+      "name_ar": "موقع 175",
+      "type": "landmark",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_17_6",
+      "name": "Location 176",
+      "name_kr": "위치 176",
+      "name_ar": "موقع 176",
+      "type": "town",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_17_7",
+      "name": "Location 177",
+      "name_kr": "위치 177",
+      "name_ar": "موقع 177",
+      "type": "dungeon",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_17_8",
+      "name": "Location 178",
+      "name_kr": "위치 178",
+      "name_ar": "موقع 178",
+      "type": "ruins",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_17_9",
+      "name": "Location 179",
+      "name_kr": "위치 179",
+      "name_ar": "موقع 179",
+      "type": "cave",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_18_0",
+      "name": "Location 180",
+      "name_kr": "위치 180",
+      "name_ar": "موقع 180",
+      "type": "tower",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_18_1",
+      "name": "Location 181",
+      "name_kr": "위치 181",
+      "name_ar": "موقع 181",
+      "type": "shrine",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_18_2",
+      "name": "Location 182",
+      "name_kr": "위치 182",
+      "name_ar": "موقع 182",
+      "type": "camp",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_18_3",
+      "name": "Location 183",
+      "name_kr": "위치 183",
+      "name_ar": "موقع 183",
+      "type": "landmark",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_18_4",
+      "name": "Location 184",
+      "name_kr": "위치 184",
+      "name_ar": "موقع 184",
+      "type": "town",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_18_5",
+      "name": "Location 185",
+      "name_kr": "위치 185",
+      "name_ar": "موقع 185",
+      "type": "dungeon",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_18_6",
+      "name": "Location 186",
+      "name_kr": "위치 186",
+      "name_ar": "موقع 186",
+      "type": "ruins",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_18_7",
+      "name": "Location 187",
+      "name_kr": "위치 187",
+      "name_ar": "موقع 187",
+      "type": "cave",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_18_8",
+      "name": "Location 188",
+      "name_kr": "위치 188",
+      "name_ar": "موقع 188",
+      "type": "tower",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_18_9",
+      "name": "Location 189",
+      "name_kr": "위치 189",
+      "name_ar": "موقع 189",
+      "type": "shrine",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_19_0",
+      "name": "Location 190",
+      "name_kr": "위치 190",
+      "name_ar": "موقع 190",
+      "type": "camp",
+      "danger_level": 1,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_19_1",
+      "name": "Location 191",
+      "name_kr": "위치 191",
+      "name_ar": "موقع 191",
+      "type": "landmark",
+      "danger_level": 2,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_19_2",
+      "name": "Location 192",
+      "name_kr": "위치 192",
+      "name_ar": "موقع 192",
+      "type": "town",
+      "danger_level": 3,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_19_3",
+      "name": "Location 193",
+      "name_kr": "위치 193",
+      "name_ar": "موقع 193",
+      "type": "dungeon",
+      "danger_level": 4,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_19_4",
+      "name": "Location 194",
+      "name_kr": "위치 194",
+      "name_ar": "موقع 194",
+      "type": "ruins",
+      "danger_level": 5,
+      "services": [
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_19_5",
+      "name": "Location 195",
+      "name_kr": "위치 195",
+      "name_ar": "موقع 195",
+      "type": "cave",
+      "danger_level": 6,
+      "services": [
+        "shop",
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_19_6",
+      "name": "Location 196",
+      "name_kr": "위치 196",
+      "name_ar": "موقع 196",
+      "type": "tower",
+      "danger_level": 7,
+      "services": [
+        "inn",
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_19_7",
+      "name": "Location 197",
+      "name_kr": "위치 197",
+      "name_ar": "موقع 197",
+      "type": "shrine",
+      "danger_level": 8,
+      "services": [
+        "quest_giver",
+        "trainer"
+      ]
+    },
+    {
+      "id": "loc_19_8",
+      "name": "Location 198",
+      "name_kr": "위치 198",
+      "name_ar": "موقع 198",
+      "type": "camp",
+      "danger_level": 9,
+      "services": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "loc_19_9",
+      "name": "Location 199",
+      "name_kr": "위치 199",
+      "name_ar": "موقع 199",
+      "type": "landmark",
+      "danger_level": 10,
+      "services": [
+        "trainer"
+      ]
+    }
+  ]
+}

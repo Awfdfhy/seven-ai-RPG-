@@ -1,0 +1,27 @@
+[
+  {
+    "goal": "Create professional website for Seven RPG using Linear/Stripe design systems",
+    "context": "Seven RPG Korean-style RPG v0.1.0. Features: character customization, combat, quests, party, titles, NPC reactions, skill checks, world simulation, accessibility, mod support, analytics, endgame, VR/AR. Use Linear.app dark minimal purple design.",
+    "output_schema": {"type": "object", "properties": {"file_path": {"type": "string"}, "design_system": {"type": "string"}, "sections": {"type": "array", "items": {"type": "string"}}, "responsive": {"type": "boolean"}}, "required": ["file_path", "design_system", "sections"]}
+  },
+  {
+    "goal": "Expand game assets to increase APK from 3MB to 40MB",
+    "context": "Add audio (bgm, sfx), images (sprites, backgrounds, portraits, icons, tiles), data (extended JSON) to android-app/www/assets/. Use free game asset sources. Update capacitor.config.json.",
+    "output_schema": {"type": "object", "properties": {"assets_added": {"type": "array", "items": {"type": "string"}}, "total_size_mb": {"type": "number"}, "asset_categories": {"type": "array", "items": {"type": "string"}}}, "required": ["assets_added", "total_size_mb", "asset_categories"]}
+  },
+  {
+    "goal": "Build expanded Android APK, verify ~40MB, test, sign",
+    "context": "Android project at android-app/android/. Use release.keystore. Gradle assembleRelease. Copy assets to android/app/src/main/assets/public/ before build.",
+    "output_schema": {"type": "object", "properties": {"apk_path": {"type": "string"}, "apk_size_mb": {"type": "number"}, "build_success": {"type": "boolean"}, "tests_passed": {"type": "number"}, "signed": {"type": "boolean"}}, "required": ["apk_path", "apk_size_mb", "build_success", "tests_passed", "signed"]}
+  },
+  {
+    "goal": "Verify automatic model switching fallback providers chain",
+    "context": "Hermes config at C:\Users\seven\AppData\Local\hermes\config.yaml has fallback_providers chain: nous/welcome -> anthropic/claude-opus-4.6 -> google/gemini-2.5-flash -> openai/gpt-4o. Test quota handling.",
+    "output_schema": {"type": "object", "properties": {"config_verified": {"type": "boolean"}, "fallback_chain": {"type": "array", "items": {"type": "string"}}, "quota_test": {"type": "string"}, "auto_switch_working": {"type": "boolean"}}, "required": ["config_verified", "fallback_chain", "quota_test", "auto_switch_working"]}
+  },
+  {
+    "goal": "Create comprehensive integration test suite for complete Seven RPG",
+    "context": "Python tests: 1673 passing. Add Android WebView tests, Capacitor plugins, offline mode. Test all 28+ systems integration.",
+    "output_schema": {"type": "object", "properties": {"test_file": {"type": "string"}, "systems_tested": {"type": "array", "items": {"type": "string"}}, "integration_scenarios": {"type": "number"}, "all_passed": {"type": "boolean"}}, "required": ["test_file", "systems_tested", "integration_scenarios", "all_passed"]}
+  }
+]
