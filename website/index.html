@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Seven RPG — Korean-style RPG for Android</title>
   <meta name="description" content="Seven RPG — A Korean-style RPG with deep character customization, tactical combat, quest systems, party management, and world simulation. Built with FastAPI + Vanilla JS + Capacitor.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>">
+  <meta property="og:title" content="Seven RPG — Korean-style RPG for Android">
+  <meta property="og:description" content="Download Seven RPG v0.1.0 — 46MB of pure adventure. FastAPI backend, Phaser 3 engine, Capacitor Android wrapper.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/Awfdfhy/seven-ai-RPG-/releases/tag/v0.1.0">
+  <meta property="og:image" content="https://opengraph.githubassets.com/1/Awfdfhy/seven-ai-RPG-/releases/tag/v0.1.0">
+  <meta name="twitter:card" content="summary_large_image">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -82,6 +89,39 @@
     }
 
     .nav-links a:hover { color: var(--text-primary); text-decoration: none; }
+
+    .nav-toggle {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      padding: 8px;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    .nav-toggle span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--text-secondary);
+      border-radius: 2px;
+      transition: all 0.2s ease;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: var(--accent-brand);
+      color: white;
+      padding: 8px 16px;
+      z-index: 10000;
+      text-decoration: none;
+      border-radius: 0 0 6px 0;
+    }
+
+    .skip-link:focus { top: 0; }
 
     .btn {
       display: inline-flex; align-items: center; justify-content: center;
@@ -271,6 +311,19 @@
     /* Responsive */
     @media (max-width: 768px) {
       .nav-links { display: none; }
+      .nav-toggle { display: flex; }
+      .nav-links.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 56px;
+        left: 0;
+        right: 0;
+        background: var(--bg-panel);
+        border-bottom: 1px solid var(--border-standard);
+        padding: 16px 24px;
+        gap: 16px;
+      }
       .hero { padding: 80px 0 60px; }
       .hero-actions { flex-direction: column; align-items: center; }
       .btn { width: 100%; max-width: 280px; }
@@ -315,6 +368,7 @@
   </style>
 </head>
 <body>
+  <a href="#main" class="skip-link">Skip to content</a>
   <nav>
     <div class="nav-inner">
       <a href="#" class="logo" aria-label="Seven RPG Home">
@@ -325,6 +379,11 @@
         </svg>
         Seven RPG
       </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <ul class="nav-links">
         <li><a href="#features">Features</a></li>
         <li><a href="#preview">Preview</a></li>
@@ -335,13 +394,13 @@
     </div>
   </nav>
 
-  <section class="hero" aria-labelledby="hero-title">
+  <section id="main" class="hero" aria-labelledby="hero-title">
     <div class="container">
       <span class="hero-badge">v0.1.0 Released — Android APK Available</span>
       <h1 id="hero-title">Seven RPG</h1>
       <p>A Korean-style RPG with deep character customization, tactical turn-based combat, dynamic quest systems, party management, and living world simulation. Built for mobile with FastAPI + Vanilla JS + Capacitor.</p>
       <div class="hero-actions">
-        <a href="#download" class="btn btn-primary btn-large">Download APK (3.1 MB)</a>
+        <a href="#download" class="btn btn-primary btn-large">Download APK (46 MB)</a>
         <a href="https://github.com/Awfdfhy/seven-ai-RPG-/releases/tag/v0.1.0" target="_blank" rel="noopener" class="btn btn-ghost btn-large">View Releases</a>
       </div>
     </div>
@@ -540,7 +599,7 @@
           </svg>
           <h3>Release APK (Signed)</h3>
           <div class="version">v0.1.0 · Production Build</div>
-          <div class="size">3.1 MB · ARM64 + ARMv7</div>
+          <div class="size">46 MB · ARM64 + ARMv7</div>
           <a href="https://github.com/Awfdfhy/seven-ai-RPG-/releases/download/v0.1.0/app-release-signed.apk" class="btn btn-primary" download>Download</a>
         </article>
         <article class="download-card">
@@ -578,7 +637,7 @@
         <span class="tech-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>Capacitor (Android)</span>
         <span class="tech-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg>SQLite + Alembic</span>
         <span class="tech-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>Phaser 3 (Game Engine)</span>
-        <span class="tech-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Galmuri Font (Korean)</span>
+        <span class="tech-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Galmuri-ready (Korean text)</span>
         <span class="tech-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>GitHub Actions CI/CD</span>
         <span class="tech-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>Ollama (Offline LLM)</span>
       </div>
@@ -621,8 +680,8 @@
           <h4>Legal</h4>
           <ul>
             <li><a href="https://github.com/Awfdfhy/seven-ai-RPG-/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
+            <li><a href="https://github.com/Awfdfhy/seven-ai-RPG-/blob/master/LICENSE">License</a></li>
+            <li><a href="https://github.com/Awfdfhy/seven-ai-RPG-">GitHub Repository</a></li>
           </ul>
         </div>
       </div>
@@ -636,5 +695,22 @@
       </div>
     </div>
   </footer>
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    if (toggle && navLinks) {
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', !expanded);
+        navLinks.classList.toggle('open');
+      });
+      navLinks.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          toggle.setAttribute('aria-expanded', 'false');
+          navLinks.classList.remove('open');
+        });
+      });
+    }
+  </script>
 </body>
 </html>
